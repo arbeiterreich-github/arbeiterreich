@@ -1,0 +1,12 @@
+PAR_become_syndie = {
+	if = {
+		limit = {
+			has_guaranteed = URG
+		}
+		diplomatic_relation = {
+			country = URG
+			relation = guarantee
+			active = no
+		}
+	}
+}
