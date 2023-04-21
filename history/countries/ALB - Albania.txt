@@ -39,6 +39,7 @@ set_popularities = {
 	national_populist = 3
 }
 
+
 ### Country Leaders ###
 recruit_character = ALB_enver_hoxha
 recruit_character = ALB_ali_kelmendi

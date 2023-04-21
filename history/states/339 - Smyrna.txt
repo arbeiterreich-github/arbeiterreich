@@ -6,8 +6,8 @@ state = {
 	local_supplies = 8.0
 
 	history = {
-		owner = TUR
-		add_core_of = TUR
+		owner = GRE
+		add_core_of = GRE
 		add_to_array = { state_victory_points = 4112 }
 
 		victory_points = { 4112 15 }

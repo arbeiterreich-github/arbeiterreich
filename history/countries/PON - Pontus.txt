@@ -1,10 +1,8 @@
-﻿capital = 47
-oob = "GRE"
-set_naval_oob = "GRE_naval"
+capital = 355
 set_research_slots = 3
 starting_train_buffer = 1
 
-save_global_event_target_as = original_greece #used in civil war scripts
+save_global_event_target_as = original_pontus
 
 set_technology = {
 	### Infantry ###
@@ -91,24 +89,9 @@ if = {
 	}
 }
 
-set_convoys = 40
-set_stability = 0.35
-set_war_support = 0.2
-
-add_ideas = {
-	GRE_foreign_industry_GER1
-	GRE_foreign_industry_AUS1
-	GRE_memories_of_king
-	GRE_legacy_of_alexander_idea
-}
-
-country_event = { id = gre.1 days = 1 } #Intro event
-country_event = { id = gre.3 days = 85 } #Independence Day
-country_event = { id = gre.24 days = 137 } #Death of Panagis Tsaldaris
-country_event = { id = gre.20 days = 763 random_days = 100 } #Death of Alexandros Papanastasiou
-country_event = { id = gre.21 days = 1553 random_days = 100 } #Kostas Gavrillides steps down
-country_event = { id = gre.19 days = 1855 } #Death of Ioannis Metaxas
-country_event = { id = gre.23 days = 4912 } #Death of Themistoklis Sofoulis
+set_convoys = 98
+set_stability = 0.85
+set_war_support = 0.7
 
 set_politics = {
 	ruling_party = social_liberal
@@ -116,53 +99,6 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
-
-set_popularities = {
-	totalist = 2
-	radical_socialist = 5
-	syndicalist = 0
-	social_democrat = 14
-	social_liberal = 36
-	market_liberal = 10
-	social_conservative = 21
-	authoritarian_democrat = 6
-	paternal_autocrat = 5
-	national_populist = 1
-}
-
-
-create_faction = "Athens Pact"
-if = {
-	limit = {
-		has_dlc_tfv = yes
-	}
-	GRE = {
-		set_autonomy = {
-			target = PON
-			autonomy_state = autonomy_puppet
-		}
-		set_autonomy = {
-			target = ALB
-			autonomy_state = autonomy_puppet
-		}
-	}
-	else = {
-		puppet = PON
-		puppet = ALB
-	}
-}
-
-add_to_faction = GRE
-add_to_faction = ALB
-add_to_faction = PON
-add_to_faction = SER
-add_to_faction = ROM
-add_to_faction = ITA
-add_to_faction = MNT
-add_to_faction = ARM
-add_to_faction = AZR
-
-set_country_flag = { flag = gre_monarchist_sympathies value = 0 }
 
 ### Country Leaders ###
 recruit_character = GRE_athanasios_klaras

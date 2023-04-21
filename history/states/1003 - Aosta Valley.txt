@@ -5,10 +5,8 @@ state = {
 	state_category = one
 
 	history = {
-		owner = SRI
-		add_core_of = SRI
-		add_claim_by = ITA
-		add_claim_by = SRD
+		owner = ITA
+		add_core_of = ITA
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

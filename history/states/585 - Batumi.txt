@@ -5,9 +5,9 @@ state = {
 	state_category = one
 
 	history = {
-		owner = TUR
-		add_core_of = TUR
+		owner = GEO
 		add_core_of = GEO
+		add_claim_by = PON
 		add_to_array = { state_victory_points = 3653 }
 		victory_points = { 3653 2 }
 

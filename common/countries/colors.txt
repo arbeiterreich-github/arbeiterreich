@@ -1019,3 +1019,8 @@ XXA = {
 	color = rgb { 125 125 125 }
 	color_ui = rgb { 125 125 125 }
 }
+
+PON = {
+	color = rgb { 230 115 0 }
+	color_ui = rgb { 230 115 0 }
+}
