@@ -1024,3 +1024,8 @@ PON = {
 	color = rgb { 230 115 0 }
 	color_ui = rgb { 230 115 0 }
 }
+
+ANH = {
+	color = rgb { 0 102 85}
+	color_ui = rgb { 0 102 85 }
+}

@@ -5,9 +5,8 @@ state = {
 	state_category = two
 
 	history = {
-		owner = SAU
-		add_core_of = SAU
-		add_claim_by = EGY
+		owner = PAL
+		add_core_of = PAL
 		add_to_array = { state_victory_points = 1086 }
 		add_to_array = { state_victory_points = 4206 }
 		set_demilitarized_zone = yes

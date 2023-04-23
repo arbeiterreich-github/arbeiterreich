@@ -6,8 +6,8 @@ state = {
 	impassable = yes
 
 	history = {
-		owner = SAU
-		add_core_of = SAU
+		owner = HEJ
+		add_core_of = HEJ
 		add_claim_by = JBS
 
 		buildings = {

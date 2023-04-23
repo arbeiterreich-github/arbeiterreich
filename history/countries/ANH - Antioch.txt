@@ -1,8 +1,8 @@
-capital = 355
+capital = 344
 set_research_slots = 3
 starting_train_buffer = 1
 
-save_global_event_target_as = original_pontus
+save_global_event_target_as = original_antioch
 
 set_technology = {
 	### Infantry ###
@@ -67,7 +67,6 @@ if = {
 ### Air - BBA ###
 if = {
 	limit = { has_dlc_bba = yes }
-	set_air_oob = "GRE_air_bba"
 	set_technology = {
 		### Air ###
 		aa_lmg = 1
@@ -82,7 +81,6 @@ if = {
 ### Air - Non BBA ###
 if = {
 	limit = { has_dlc_bba = no }
-	set_air_oob = "GRE_air_legacy"
 	set_technology = {
 		early_fighter = 1
 		early_bomber = 1
@@ -94,8 +92,8 @@ set_stability = 0.85
 set_war_support = 0.7
 
 set_politics = {
-	ruling_party = social_liberal
+	ruling_party = authoritarian_democrat
 	last_election = "1934.1.26"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }

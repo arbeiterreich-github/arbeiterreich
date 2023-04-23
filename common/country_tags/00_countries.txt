@@ -66,6 +66,7 @@ RHI = "countries/WestEur.txt" #Rhineland
 WAL = "countries/WestEur.txt"
 VNC = "countries/WestEur.txt" #Venice
 PON = "countries/WestEur.txt" #Pontus
+ANH = "countries/WestEur.txt" #Antioch
 
 ### Eastern Europe ###
 BAT = "countries/EastEur.txt"
