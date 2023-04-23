@@ -1,0 +1,15 @@
+name: CWTools Action
+  # You may pin to the exact commit or the version.
+on: [pull_request, push]
+jobs:
+  cwtools_job:
+    runs-on: ubuntu-latest
+    steps:
+     - uses: actions/checkout@v1 # required
+     - uses: cwtools/cwtools-action@v1.1.0
+       with:
+          game: hoi4 
+    # Which languages to check localisation for, space separated, lowercase (eg. "english spanish russian"). Note: May be different from game to game. (Default: english)
+          locLanguages: "english"
+       env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # required, secret is automatically set by github
