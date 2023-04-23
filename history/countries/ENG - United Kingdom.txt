@@ -38,6 +38,19 @@ set_technology = {
 	basic_train = 1
 }
 
+if = {
+	limit = {
+		has_dlc_tfv = yes
+	}
+	set_autonomy = {
+		target = PAL
+		autonomy_state = autonomy_puppet
+	}
+	else = {
+		puppet = PAL
+	}
+}
+
 ### Planes - BBA ###
 if = {
 	limit = { has_dlc_bba = yes }
