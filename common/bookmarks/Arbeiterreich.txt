@@ -1,7 +1,7 @@
 bookmarks = {
 	bookmark = {
-		name = KR_scenario_name
-		desc = KR_scenario_desc
+		name = AR_scenario_name
+		desc = AR_scenario_desc
 		date = 1936.1.1.1
 		picture = GFX_select_date_1936
 		default_country = SHX
@@ -9,35 +9,28 @@ bookmarks = {
 
 		### MAJORS ###
 		USA = {
-			history = USA_KR_gathering_storm_desc
+			history = USA_ARBEITERREICH_DESC
 			ideology = market_liberal
 			ideas = {
-				USA_great_depression
-				USA_political_crisis
+				
 			}
 			focuses = {
-				USA_democracy_triumphs
-				USA_american_caesar
-				USA_pax_americana
+
 			}
 		}
-
-		CAN = {
-			history = CAN_KR_gathering_storm_desc
-			ideology = market_liberal
+		GRE = {
+			history = GRE_ARBEITERREICH_DESC
+			ideology = authoritarian_democrat
 			ideas = {
-				CAN_anglo_french_tensions_2
-				CAN_great_depression_2
+
 			}
 			focuses = {
-				CAN_draft_bill_c7
-				CAN_preparations_for_war
-				CAN_canadian_referendum
+
 			}
 		}
 
 		ENG = {
-			history = ENG_KR_gathering_storm_desc
+			history = ENG_ARBEITERREICH_DESC
 			ideology = syndicalist
 			ideas = {
 				ENG_naval_devotion
@@ -50,20 +43,18 @@ bookmarks = {
 		}
 
 		FRA = {
-			history = FRA_KR_gathering_storm_desc
+			history = FRA_ARBEITERREICH_DESC
 			ideology = syndicalist
 			ideas = {
-				FRA_communard_spirit
+
 			}
 			focuses = {
-				FRA_Host_the_Internationale
-				FRA_War_with_germany
-				FRA_World_revolution
+
 			}
 		}
 
 		GER = {
-			history = GER_KR_gathering_storm_desc
+			history = GER_ARBEITERREICH_DESC
 			ideology = authoritarian_democrat
 			ideas = {
 				GER_victors_of_wwi
@@ -76,8 +67,8 @@ bookmarks = {
 			}
 		}
 
-		AUS = {
-			history = AUS_KR_gathering_storm_desc
+		HEJ = {
+			history = HEJ_ARBEITERREICH_DESC
 			ideology = social_conservative
 			ideas = {
 				AUS_financial_ties_broken
@@ -91,7 +82,7 @@ bookmarks = {
 		}
 
 		RUS = {
-			history = RUS_KR_gathering_storm_desc
+			history = RUS_ARBEITERREICH_DESC
 			ideology = social_liberal
 			ideas = {
 				RUS_political_unrest
@@ -104,7 +95,7 @@ bookmarks = {
 		}
 
 		JAP = {
-			history = JAP_KR_gathering_storm_desc
+			history = JAP_ARBEITERREICH_DESC
 			ideology = social_conservative
 			ideas = {
 				JAP_narrow_rail
@@ -117,7 +108,21 @@ bookmarks = {
 				JAP_ishinha
 			}
 		}
+		
+		ITA = {
+			history = ITA_ARBEITERREICH_DESC
+			ideology = authoritarian_democrat
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
 
+		"---" = {
+			history = OTHER_ARBEITERREICH_DESC
+		}
 		### MINORS ###
 
 	#	ELS = {
