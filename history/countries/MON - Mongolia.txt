@@ -24,7 +24,7 @@ RUS = { give_guarantee = MON }
 add_to_array = { guarantor_array = RUS }
 
 set_politics = {
-	ruling_party = paternal_autocrat
+	ruling_party = authoritarian_democrat
 	last_election = "1888.6.15"
 	election_frequency = 48
 	elections_allowed = no
@@ -43,8 +43,6 @@ set_popularities = {
 	national_populist = 12
 }
 
-country_event = { id = mon.1 days = 2 }
-country_event = { id = mon.103 days = 10 }
 
 add_ideas = {
 	limited_conscription
@@ -54,61 +52,66 @@ add_ideas = {
 	MON_russian_eco_aid
 	MON_jebtsundamba_khutuktu_idea
 }
+create_country_leader = {
+	name = "Ulanhu"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = totalist_subtype
+}
+create_country_leader = {
+	name = "Banzarjavyn Baasanjav"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = syndicalist_subtype
+}
+create_country_leader = {
+	name = "Sukhbaataryn Yanjmaa"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = radical_socialist_subtype
+}
+create_country_leader = {
+	name = "Anandyn Amar"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+}
+create_country_leader = {
+	name = "Altanochir"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+}
+create_country_leader = {
+	name = "Altanochir"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+}
 
-recruit_character = MON_khorloogiin_choibalsan
-recruit_character = MON_peljidiin_genden
-recruit_character = MON_olziin_badrakh
-recruit_character = MON_davizavyn_losol
-recruit_character = MON_anandyn_amar
-recruit_character = MON_dansranbilegiin_dogsom
-recruit_character = MON_jamsrangiin_tseveen
-recruit_character = MON_dambyn_chagdarjav
-recruit_character = MON_unenbayan
-recruit_character = MON_demchugdongrub
-recruit_character = MON_roman_von_ungernsternberg
-recruit_character = MON_7th_changkya_khutukhtu
-recruit_character = MON_jodbajab
-recruit_character = MON_baiyunti
+create_country_leader = {
+	name = "Hu Hanmin"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+}
 
-### Field Marshals ###
-recruit_character = MON_manlaibaatar_damdinsuren
+create_country_leader = {
+	name = "Duan Qirui"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+}
+create_country_leader = {
+	name = "Bogd Khan"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+}
 
-### Corps Commanders ###
-recruit_character = MON_altanochir
-recruit_character = MON_khatanbaatar_magsarjav
-recruit_character = MON_mikhail_tornovsky
-recruit_character = MON_nikolay_kazagrandi
-recruit_character = MON_zhamyangiyn_lhagvasuren
-recruit_character = MON_boris_rezukhin
-recruit_character = MON_urzhin_garmaev
-
-### SiCS ###
-recruit_character = MON_buddhist_council
-recruit_character = MON_yondonwangchug
-recruit_character = MON_touvdentserenchimid
-recruit_character = MON_serengdongrub
-
-activate_advisor = MON_boris_rezukhin_sic
-
-### Advisors ###
-recruit_character = MON_gelegdorjiyn_demid
-recruit_character = MON_ganzhuurzhav
-recruit_character = MON_darijaya
-recruit_character = MON_babadorj
-recruit_character = MON_damdin_sukhbaatar
-recruit_character = MON_gonchigiyn_bumtsend
-recruit_character = MON_balingiyn_tserendorj
-recruit_character = MON_zhamsranzhavyn_galsandash
-recruit_character = MON_sambadondogiyn_tseredorj
-recruit_character = MON_xia_gong
-recruit_character = MON_kamil_gizycki
-recruit_character = MON_ferdynand_ossendowski
-recruit_character = MON_yu_pinqing
-recruit_character = MON_amurlingkui
-recruit_character = MON_ajvaagiyn_danzan
-recruit_character = MON_tseren_ochiryn_dambadorj
-recruit_character = MON_shirnengiyn_ayuush
-recruit_character = MON_dorjjavyn_luvsansharav
-recruit_character = MON_sonombalzhiryn_buyannemeh
-recruit_character = MON_dogsomyn_bodoo
-recruit_character = MON_mongolian_army_council
+create_country_leader = {
+	name = "Roman von Ungern-Sternberg"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = national_populist_subtype
+}

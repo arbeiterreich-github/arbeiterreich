@@ -114,18 +114,6 @@ TRM = { LEC_add_to_legation_council_observer = yes }
 QIE = { LEC_add_to_legation_council_observer = yes }
 FNG = { LEC_add_to_legation_council_observer = yes }
 
-country_event = { id = lec.1 days = 3 }
-country_event = { id = lec.9 days = 11 }
-country_event = { id = lec.107 days = 444 }
-country_event = { id = lecgreengangclash.1 days = 100 }
-country_event = { id = lecbrits.1 days = 250 }
-country_event = { id = lechotung.1 days = 855 }
-country_event = { id = lecfuzhou.1 days = 600 }
-country_event = { id = lec.149 days = 750 }
-country_event = { id = lec.152 days = 1155 }
-country_event = { id = lec.153 days = 2360 }
-country_event = { id = lec.154 days = 1150 }
-
 add_ideas = {
 	LEC_neutrality
 	LEC_volunteer_force
@@ -148,90 +136,70 @@ add_to_array = { LEC_currency_ideas = token:LEC_currency_8 }
 add_to_array = { LEC_currency_ideas = token:LEC_currency_9 }
 
 ### Leaders ###
-recruit_character = LEC_robert_ho_shai_lai
-recruit_character = LEC_nelson_trusler_johnson
-recruit_character = LEC_patrick_hurley
-recruit_character = LEC_norman_lockhart_smith
-recruit_character = LEC_mark_aitchison_young
-recruit_character = LEC_cornell_franklin
-recruit_character = LEC_siegmund_bodenheimer
-recruit_character = LEC_katsuo_okazaki
 
-### Advisors ###
-# SiC #
-recruit_character = LEC_shanghai_municipal_council
-# Chinese #
-recruit_character = LEC_du_yuesheng
-recruit_character = LEC_robert_hotung
-recruit_character = LEC_huang_jinrong
-recruit_character = LEC_zhang_xiaolin
-recruit_character = LEC_liu_hongsheng
-recruit_character = LEC_thomas_tien_ken_sin
-# American #
-recruit_character = LEC_stirling_fessenden
-recruit_character = LEC_john_leighton_stuart
-# British #
-recruit_character = LEC_cecil_clementi
-recruit_character = LEC_vandeleur_molyneux_grayburn
-# German #
-recruit_character = LEC_lothar_eisentrager
-recruit_character = LEC_emil_helfferich
-# Japan #
-recruit_character = LEC_hiraya_amane
-recruit_character = LEC_masahiko_amakasu
 
-activate_advisor = LEC_shanghai_municipal_council_sic
-activate_advisor = LEC_du_yuesheng
-activate_advisor = LEC_zhang_xiaolin
-activate_advisor = LEC_huang_jinrong
-
-### Commanders ###
-#British#
-recruit_character = LEC_francis_wogan_festing
-recruit_character = LEC_edward_barrett
-#German#
-recruit_character = LEC_georg_wetzell
-recruit_character = LEC_walter_stennes
-#Japanese#
-recruit_character = LEC_koreshige_inuzuka
-recruit_character = LEC_michitaro_komatsubara
-#International#
-recruit_character = LEC_william_ewart_fairbairn
-recruit_character = LEC_german_thieme
-recruit_character = LEC_ellis_mark_zacharias
-
-### Admirals ###
-recruit_character = LEC_reginald_yorke_tyrwhitt
-
-### High Command ###
-
-recruit_character = LEC_john_duncan
-recruit_character = LEC_jame_howe_dobson
-recruit_character = LEC_conway_pulford
-recruit_character = LEC_john_marston
-recruit_character = LEC_eric_sykes
-recruit_character = LEC_amleto_vespa
-recruit_character = LEC_morris_cohen
-recruit_character = LEC_international_army_committee
-
-###Dummy KMT Leaders###
 create_country_leader = {
-	name = LEC_pan_hannian
-	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_5.png"
+	name = "Kang Sheng"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
 	expire = "1965.1.1"
 	ideology = totalist_subtype
 }
-
 create_country_leader = {
-	name = LEC_yuan_zhenying
-	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_4.png"
+	name = "Feng Keng"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
 	expire = "1965.1.1"
 	ideology = syndicalist_subtype
 }
-
 create_country_leader = {
-	name = LEC_yun_daiying
+	name = "Lu Xun"
 	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
 	expire = "1965.1.1"
 	ideology = radical_socialist_subtype
 }
+create_country_leader = {
+	name = "T.V. Soong"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+}
+create_country_leader = {
+	name = "T.V. Soong"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+}
+create_country_leader = {
+	name = "T.V. Soong"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+}
+
+create_country_leader = {
+	name = "T.V. Soong"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+}
+
+create_country_leader = {
+	name = "Huang Jinrong"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+}
+create_country_leader = {
+	name = "Du Yuesheng"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+}
+
+create_country_leader = {
+	name = "Gao Zongwu"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = national_populist_subtype
+}
+
+

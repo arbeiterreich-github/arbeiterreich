@@ -36,12 +36,7 @@ if = {
 set_cosmetic_tag = LEP_LEP
 country_lock_all_division_template = yes
 
-QIE = {
-	set_autonomy = {
-		target = ROOT
-		autonomy_state = kr_associated_governorate
-	}
-}
+
 
 diplomatic_relation = { country = GEA relation = non_aggression_pact }
 
@@ -80,60 +75,67 @@ set_variable = {
 	value = 2
 }
 
-country_event = { id = lepcollapse.1 days = 3 } # Sun Chuanfang meets with the governors
-country_event = { id = lep.1 days = 1 }
-
 ### Country Leaders ###
-recruit_character = LEP_board_of_directors
-recruit_character = LEP_sun_chuanfang
-recruit_character = LEP_qi_xieyuan
+create_country_leader = {
+	name = "Chen Qiaonian"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = totalist_subtype
+}
+create_country_leader = {
+	name = "Shi Jianqiao"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = syndicalist_subtype
+}
+create_country_leader = {
+	name = "Zhang Bojun"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = radical_socialist_subtype
+}
+create_country_leader = {
+	name = "Zhang Bojun"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+}
+create_country_leader = {
+	name = "T.V. Soong"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+}
+create_country_leader = {
+	name = "T.V. Soong"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+}
 
-activate_advisor = LEP_qi_xieyuan_sic
+create_country_leader = {
+	name = "T.V. Soong"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+}
 
-### Advisors ###
-recruit_character = LEP_wang_kemin
+create_country_leader = {
+	name = "Sun Chuanfang"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+}
+create_country_leader = {
+	name = "Qi Xieyuan"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+}
 
-recruit_character = LEP_ma_yuren
-recruit_character = LEP_zhang_xinyi
-recruit_character = LEP_zhang_taiyan
-recruit_character = LEP_chen_taoyi
-recruit_character = LEP_ding_wenjiang
-recruit_character = LEP_wei_daofeng
-recruit_character = LEP_pan_guogang
-recruit_character = LEP_tang_erhe
-
-recruit_character = LEP_hermann_kriebel
-recruit_character = LEP_chen_ta_ching
-recruit_character = LEP_chen_cheng
-recruit_character = LEP_huang_wei
-recruit_character = LEP_zhang_dingfan
-recruit_character = LEP_qiu_qingquan
-recruit_character = LEP_qian_zongze
-recruit_character = LEP_chen_jia_shang
-recruit_character = LEP_liu_cuigang
-recruit_character = LEP_chen_zhaoqiang
-recruit_character = LEP_cheng_tienfong
-
-### Generals ###
-recruit_character = LEP_chen_yi
-recruit_character = LEP_zheng_junyan
-recruit_character = LEP_deng_ruzhou
-recruit_character = LEP_zhou_yinren
-recruit_character = LEP_shangguan_yunxiang
-recruit_character = LEP_zhou_fengqi
-recruit_character = LEP_tang_enbo
-recruit_character = LEP_shi_yousan
-recruit_character = LEP_yang_shuzhuang
-recruit_character = ANQ_shen_jingchen
-recruit_character = ANQ_sa_benxin
-
-### Character Setup ###
-LEP_sun_chuanfang = { set_variable = { china_alignment = token:zhili } }
-LEP_qi_xieyuan = { set_variable = { china_alignment = token:zhili } }
-
-# FLAVOR LEP
-country_event = { id = lep.206 days = 1521 } #Chen Xuezhao
-country_event = { id = lep.207 days = 762 } #Ju Peon event
-country_event = { id = lep.208 days = 81 } #Tsen's Theorem
-country_event = { id = lep.209 days = 285 } #Zhou Xuan
-country_event = { id = lep.210 days = 285 } #Dummy Zhou Xuan event
+create_country_leader = {
+	name = "Qi Xieyuan"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = national_populist_subtype
+}

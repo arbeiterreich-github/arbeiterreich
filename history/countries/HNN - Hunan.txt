@@ -23,12 +23,7 @@ if = {
 	set_technology = { early_fighter = 1 }
 }
 
-QIE = { #changed to LEP via on_startup
-	set_autonomy = {
-		target = ROOT
-		autonomy_state = kr_associated_governorate
-	}
-}
+
 
 set_politics = {
 	ruling_party = social_conservative
@@ -59,46 +54,67 @@ china_add_poor_army = yes
 country_event = { id = hnn.0 days = 1 }
 
 ### Country Leaders ###
-recruit_character = HNN_tang_shengzhi
-recruit_character = HNN_zhao_hengti
-recruit_character = HNN_cheng_qian #starts in CHI
 
-### Generals ###
-recruit_character = HNN_tang_shengming
-recruit_character = HNN_he_yaozu
-recruit_character = HNN_peng_dehuai
-recruit_character = HNN_he_jian
-recruit_character = HNN_song_xilian
-recruit_character = HNN_he_long
-recruit_character = HNN_teng_daiyuan
-
-### Advisors ###
-recruit_character = HNN_hu_shuhua
-recruit_character = HNN_luo_shujia
-recruit_character = HNN_zhang_renmin
-recruit_character = HNN_cao_bowen
-recruit_character = HNN_yi_peiji
-recruit_character = HNN_tao_guang
-recruit_character = HNN_zhang_huizan
-recruit_character = HNN_wang_zhi
-recruit_character = HNN_tang_duo
-recruit_character = HNN_liu_zhesheng
-recruit_character = HNN_zhang_zhen
-recruit_character = HNN_tang_xing
-recruit_character = HNN_liao_yaoxiang
-recruit_character = HNN_tan_daoyuan
-recruit_character = HNN_men_bingyue
-recruit_character = HNN_chen_mingren
-
-### Character Setup ###
-HNN_zhao_hengti = {
-	set_variable = { china_alignment = token:federalists }
+create_country_leader = {
+	name = "He Long"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = totalist_subtype
 }
-HNN_tang_shengzhi = {
-	set_variable = { china_alignment = token:federalists }
-	set_character_flag = CHI_original_unit_leader #gets role by event
+create_country_leader = {
+	name = "Liu Shaoqi"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = syndicalist_subtype
 }
-HNN_cheng_qian = {
-	set_variable = { china_alignment = token:left_kuomintang }
-	set_nationality = CHI
+create_country_leader = {
+	name = "Mao Zedong"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = radical_socialist_subtype
+}
+create_country_leader = {
+	name = "Tang Shengzhi"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+}
+create_country_leader = {
+	name = "Cheng Qian"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+}
+create_country_leader = {
+	name = "Cheng Qian"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+}
+
+create_country_leader = {
+	name = "Zhao Hengti"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+}
+
+create_country_leader = {
+	name = "Zhao Hengti"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+}
+create_country_leader = {
+	name = "He Jian"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+}
+
+create_country_leader = {
+	name = "He Jian"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = national_populist_subtype
 }
