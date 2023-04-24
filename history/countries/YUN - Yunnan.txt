@@ -72,74 +72,66 @@ add_ideas = {
 	YUN_AOG_tin_control_over_us
 }
 china_add_poor_army = yes
-
-country_event = { id = yun.1 days = 1 }
-country_event = { id = yun.335 months = 53 }
-
-### Leaders ###
-recruit_character = YUN_wang_fusheng
-recruit_character = YUN_li_xin
-recruit_character = YUN_zhao_xingwu
-recruit_character = YUN_zhu_de
-recruit_character = YUN_zhang_bojun
-recruit_character = YUN_miao_yuntai
-recruit_character = YUN_gong_shou
-recruit_character = YUN_tang_jiyao
-
-### Second in Command ###
-recruit_character = YUN_tang_jiyu
-activate_advisor = YUN_tang_jiyu_sic #starting SiC
-recruit_character = YUN_liu_angong
-recruit_character = YUN_zhang_chong
-
-### Advisers ###
-recruit_character = YUN_sun_du
-recruit_character = YUN_gu_zhenglun
-recruit_character = YUN_li_peitian
-recruit_character = YUN_zhang_weihan
-recruit_character = YUN_tao_hongtao
-recruit_character = YUN_chen_jun
-recruit_character = YUN_naval_council
-recruit_character = YUN_liu_peiquan
-recruit_character = YUN_wang_shuming
-recruit_character = YUN_yan_yucong
-recruit_character = YUN_dai_jitao
-recruit_character = YUN_yang_yongtai
-recruit_character = YUN_zhang_qun
-recruit_character = YUN_lu_chongren
-
-### Important Generals ###
-recruit_character = YUN_long_yun
-recruit_character = YUN_hu_ruoyu
-recruit_character = YUN_zhu_peide
-recruit_character = YUN_lu_han
-
-### Minor Generals ###
-recruit_character = YUN_tang_huaiyuan
-recruit_character = YUN_fan_shisheng
-recruit_character = YUN_yang_jie
-recruit_character = YUN_jin_handing
-recruit_character = YUN_luo_binghui
-recruit_character = YUN_zhang_lingfu
-recruit_character = YUN_zhou_baozhong
-recruit_character = YUN_zeng_zesheng
-recruit_character = YUN_sun_yuanliang
-recruit_character = YUN_he_yingqin
-
-### Character Setup ###
-YUN_tang_jiyao = {
-	set_variable = { china_alignment = token:federalists }
-	set_character_flag = CHI_original_unit_leader
+create_country_leader = {
+	name = "Ren Baige"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = totalist_subtype
 }
-YUN_zhu_peide = {
-	set_variable = { china_alignment = token:right_kuomintang }
-	set_character_flag = CHI_original_unit_leader
+create_country_leader = {
+	name = "Kang Keqing"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = syndicalist_subtype
 }
-YUN_zhu_de = {
-	set_variable = { china_alignment = token:left_kuomintang }
-	set_character_flag = CHI_original_unit_leader
+create_country_leader = {
+	name = "Zhu De"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = radical_socialist_subtype
 }
-YUN_zhang_bojun = {
-	set_variable = { china_alignment = token:left_kuomintang }
-	set_character_flag = CHI_original_unit_leader
+create_country_leader = {
+	name = "Zhang Bojun"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+}
+create_country_leader = {
+	name = "Zhu Peide"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+}
+create_country_leader = {
+	name = "Zhu Peide"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+}
+
+create_country_leader = {
+	name = "Zhu Peide"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+}
+
+create_country_leader = {
+	name = "Tang Jiyao"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+}
+create_country_leader = {
+	name = "Long Yun"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+}
+
+create_country_leader = {
+	name = "Lu Han"
+	picture = "gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
+	expire = "1965.1.1"
+	ideology = national_populist_subtype
 }
