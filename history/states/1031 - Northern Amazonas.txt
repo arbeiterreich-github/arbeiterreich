@@ -8,6 +8,7 @@ state = {
 	history = {
 		owner = BRA
 		add_core_of = BRA
+		add_claim_by = EBR
 
 		buildings = {
 			infrastructure = 1
