@@ -97,7 +97,7 @@ add_to_array = { URG.guarantor_array = BRA }
 give_military_access = URG
 
 set_politics = {
-	ruling_party = social_conservative
+	ruling_party = authoritarian_democrat
 	last_election = "1936.10.1"
 	election_frequency = 48
 	elections_allowed = no
