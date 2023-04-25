@@ -1,47 +1,30 @@
 ﻿characters = { 
-	EBR_pedro_de_alcantara = {
-		name = EBR_pedro_de_alcantara
+	EBR_isabelle = {
+		name = EBR_isabelle
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/EBR/Portrait_EBR_Pedro_de_Alcantara.png"
+				large = "gfx/leaders/EBR/Portrait_EBR_Isabelle.png"
 			}
 		}
 		country_leader = {
-			desc = EBR_pedro_de_alcantara_leader_desc
+			desc = EBR_isabelle_leader_desc
 			ideology = social_liberal_subtype
 		}
 		country_leader = {
-			desc = EBR_pedro_de_alcantara_leader_desc
+			desc = EBR_isabelle_leader_desc
 			ideology = market_liberal_subtype
 		}
 		country_leader = {
-			desc = EBR_pedro_de_alcantara_leader_desc
+			desc = EBR_isabelle_leader_desc
 			ideology = social_conservative_subtype
 		}
 		country_leader = {
-			desc = EBR_pedro_de_alcantara_leader_desc
+			desc = EBR_isabelle_leader_desc
 			ideology = authoritarian_democrat_subtype
 		}
 		country_leader = {
-			desc = EBR_pedro_de_alcantara_leader_desc
+			desc = EBR_isabelle_leader_desc
 			ideology = paternal_autocrat_subtype
-		}
-		country_leader = {
-			desc = EBR_pedro_de_alcantara_leader_desc
-			ideology = national_populist_subtype
-		}
-	}
-	
-	EBR_protogenes_pereira_guimaraes = { 
-		name = EBR_protogenes_pereira_guimaraes 
-		portraits = {
-			civilian = { 
-				large = "gfx/leaders/EBR/Portrait_BRA_Protogenes_Guimaraes.png"
-			}
-		}
-		country_leader = { 
-			desc = EBR_protogenes_pereira_guimaraes_leader_desc
-			ideology = social_democrat_subtype
 		}
 	}
 	
