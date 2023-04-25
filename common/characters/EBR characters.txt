@@ -1,29 +1,29 @@
 ﻿characters = { 
-	EBR_isabelle = {
-		name = EBR_isabelle
+	EBR_Isabelle = {
+		name = EBR_Isabelle
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/EBR/Portrait_EBR_Isabelle.png"
 			}
 		}
 		country_leader = {
-			desc = EBR_isabelle_leader_desc
+			desc = EBR_Isabelle_leader_desc
 			ideology = social_liberal_subtype
 		}
 		country_leader = {
-			desc = EBR_isabelle_leader_desc
+			desc = EBR_Isabelle_leader_desc
 			ideology = market_liberal_subtype
 		}
 		country_leader = {
-			desc = EBR_isabelle_leader_desc
+			desc = EBR_Isabelle_leader_desc
 			ideology = social_conservative_subtype
 		}
 		country_leader = {
-			desc = EBR_isabelle_leader_desc
+			desc = EBR_Isabelle_leader_desc
 			ideology = authoritarian_democrat_subtype
 		}
 		country_leader = {
-			desc = EBR_isabelle_leader_desc
+			desc = EBR_Isabelle_leader_desc
 			ideology = paternal_autocrat_subtype
 		}
 	}

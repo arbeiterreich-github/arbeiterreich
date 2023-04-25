@@ -124,7 +124,7 @@ add_ideas = {
 }
 
 ### Country Leaders ###
-recruit_character = EBR_isabelle
+recruit_character = EBR_Isabelle
 
 ### Second in Command ###
 

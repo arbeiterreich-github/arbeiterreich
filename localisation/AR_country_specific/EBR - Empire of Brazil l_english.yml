@@ -1,0 +1,204 @@
+﻿l_english:
+
+ EBR_focus: "Empire of Brazil Focus Tree"
+
+
+### World Tension ###
+ BRA_revolution_threat: "Revolution in Brazil"
+
+### Ship Name Lists ###
+ NAME_THEME_BRA_SUBMARINE_NUMBERED: "T-Class Submarines"
+ 
+ 
+### Tooltips ###
+
+ EBR_upgrade_effect_tooltip: "§cThis will remove the previous ideas and will allow the path for a new and powerful idea.§!"
+ improved_recon_units_tech_effect: "Enables §H$improved_recon_units_tech$\n$category_recon$§!\n      $STAT_ARMY_BREAKTHROUGH$§G+1§!\n      $STAT_ARMY_RECON$§G+1§!"
+ masterful_blitz_effect: "masterful_blitz_effect: "Enables Tactic: §Y$tactic_masterful_blitz$§!"
+
+
+### Parties ###
+ EBR_social_democrat_party: "ED"
+ EBR_social_democrat_party_long: "Esquerda Democrática\n§gThe labour movement in Brazil is small and incredibly fractured among regional and ideological lines. In an attempt to improve the livelihood of Brazilians, several moderate leaders have spent the past few years attempting to organise a broad, united left front to run for the elections and show the will of the proletariat in a democratic fashion. While the aptly named Democratic Left did have presidential candidates before 1936, those were of middling importance and appeal, and could not even gather support among major unions. It would take a major shake-up in the political landscape of the labour movement as a whole to allow the broad front to gain traction, but if such a feat could be achieved, it could be a credible threat to the predatory crony capitalists who currently hold power in Brazil.§!"
+ EBR_social_conservative_party: "PR"
+ EBR_social_conservative_party_long: "Partido Republicano\n§gThe new political order that arose from the war between the states is one almost entirely moulded by the Republican party and its members, who led the opposition to the federal government on that occasion. While not technically a party (since it's actually more akin to a federation of parties that exist on a state level) the high ranking members of the Republicans have nation-wide notoriety and wield equally immense political power. They have held this power in Brazil for a long time, due to the powerful men that support them. Figures anywhere from industrialists to plantation owners ensure that the voting tends more often than not to be in their favour. While things may yet change, these political elites are anything if not adaptable, and will always be considering ways to regain or maintain their power.§!"
+ EBR_authoritarian_democrat_party: "PM"
+ EBR_authoritarian_democrat_party_long: "Partido Monarquista\n§gTESTE§!"
+ EBR_paternal_autocrat_party: "PR - C"
+ EBR_paternal_autocrat_party_long: "Partido Republicano - Centralista\n§gWhile traditionally decentralised for decades, and even with major armed opposition against any kind of overt centralisation, a new kind of state is often purported to defend and maintain Brazil's sovereignty in the chaotic situation the world, where crisis and recession looms at every corner. Strong and bold leadership, with one man to be father of Brazil's poor and downtrodden; and to act with a firm hand against those who would do Brazil harm.§!"
+ EBR_paternal_autocrat2_party: "PPB"
+ EBR_paternal_autocrat2_party_long: "Partido Popular Brasileiro\n§gWhile traditionally decentralised for decades, and even with major armed opposition against any kind of overt centralisation, a new kind of state is often purported to defend and maintain Brazil's sovereignty in the chaotic situation the world, where crisis and recession looms at every corner. Strong and bold leadership, with one man to be father of Brazil's poor and downtrodden; and to act with a firm hand against those who would do Brazil harm. Such a man has arisen now in Getúlio Vargas, and a new kind of state is about to make its mark in Brazil.§!"
+ EBR_national_populist_party: "AIB"
+ EBR_national_populist_party_long: "Ação Integralista Brasileira\n§gIntegralism is a relatively young ideology in Brazil, imported mostly by Portuguese immigrants after the War of '27. A highly reactionary and nationalistic ideology, its Brazilian form is quite peculiar, for it preaches that the character of the nation is both Catholic and racially diverse, and as such faith and unity are Brazil's strength. It abhors democracy on principle, seeing it as weak, and the Republic as the reason for Brazil's fall from grace. While not openly monarchical at first, few doubt this aspect of their beliefs, considering the constant anti-republican rhetoric spouted by propaganda newspapers. The AIB, by far the most important integralist movement, is actually quite homogenous in nature, with especially large portions of its electorate being of colour, and even some 'revolutionary republicans' among its ranks. Most of its core leadership, influenced by Europe's political events, feel that a restoration of the Empire is the only way to restore Brazil's glory.§!"
+ EBR_social_liberal_party: "PL"
+ EBR_social_liberal_party_long: "Partido Liberal\n§gThe old political order that was dismantled in the war between the states was influenced by many who now are part of the Brazilian Liberal party. Like the more influential and powerful Republicans, the Liberals are closer to a federation of parties that exist at a state level than a proper organisation with a unified vision and set of proposals. The fall of the old party chiefs swayed the balance of power among liberals away from the traditional centres, and thus many of the notables in the party are from South or Northeastern areas of Brazil. In general, they lack the apparatus and personnel the Republicans have used to share their names and their candidates with the common folk, even if they do have many newspapers and intellectuals favouring their party. The ideological heterodoxy of the party is great, and the most common unifying factor is a belief in positivist and classical liberal ideals, but even those concepts are not universal among party members.§!"
+ EBR_market_liberal_party: "PLD"
+ EBR_market_liberal_party_long: "Partido Liberal Democráta\n§gThe most radical sections of the Liberal Party of Brazil are far less relevant in the current day and age, thanks to the already insignificant role of the Liberal party as a whole. Their socially and economically liberal viewpoints put them at odds with most of the common folk of Brazil, who are more focused on immediate solutions and issues than lofty ideals of equality. However, these men will not give up, and the time for Brazil to be a liberal democracy may yet come, where a man's worth is determined by his skill and talent, not station or birth.§!"
+ EBR_radical_socialist_party: "CGT-FAB"
+ EBR_radical_socialist_party_long: "Confederação Geral do Trabalho - Federação Anarquista Brasileira\n§gThe radical left in Brazil is extremely divided over minor nuances in ideology, and few can actually agree on what a Brazil ran by the workers would look like. The Brazilian Anarchist Federation and the Labour Confederation have in many ways attempted to remedy this by reconciling extremely disparate views under the banner of gaining better working conditions right now, rather than seeking utopia later. This simple goal grants it far larger adhesion than rival associations, and it enjoys relatively good membership in large cities like São Paulo and Rio de Janeiro. Said large membership allows strikes to be powerful bargaining tools, and the frequent violent clashes have made the FAB and other socialist organisations associated with disorder and street battles in the public eye.§!"
+ EBR_syndicalist_party: "PSB"
+ EBR_syndicalist_party_long: "Partido Sindicalista Brasileiro\n§gBrazil's cultural and intellectual elites have long held highly francophile views and tastes, and the Revolution after the war certainly brought syndicalism to the forefront of most academic circles in Universities, bars and any other meeting places for these people. In time, press coverage and new literature help spread Syndicalism to several unions in Rio and other cities. Most of these orthodox syndicalists are either high ranking union figures or upper class intellectuals who seek to combat the extreme social inequality plaguing Brazil. The ideology's popularity is restricted, a consequence of its leadership's lack of political clout outside of labour circles. As of the late '30s they are a frequent target from far rightists who see them as foreign agents attempting to subvert the nation to become an atheist nation.§!"
+ EBR_totalist_party: "MMN"
+ EBR_totalist_party_long: "Movimento Maximalista Nacional\n§gMaximalism as a political doctrine in Brazil dates back to the first few meetings of socialists in the country, meetings that were held in Porto Alegre decades before the ED was born. Rejecting lofty ideas of peaceful transition, the movement has explicitly stated their goal of purging Brazil of its slavery-ridden capitalistic past and industrialising it into a better tomorrow, to ensure socialism can exist for future generations of Brazilians. §!"
+
+### Ideas ###
+
+ EBR_tax_breaks: "Tax Breaks"
+ EBR_regulate_stock_idea: "Regulated Stock"
+ EBR_parliament: "Brazilian Parliament"
+ EBR_parliament2: "Expanded Brazilian Government"
+ EBR_cen_gov: "Brazilian Central Government"
+ EBR_imperial_unions_idea: "Federated Unions"
+ EBR_expand_reforms: "Protection of Liberties"
+ EBR_trade_stuff_ITA: "Italo-Brazilian Trade Agreement"
+ EBR_trade_stuff_ITA_desc: "Italy and Brazil have signed multiple trade agreements to boost their trade and cooperation. Despite having agrarian economies, they produce different products that cannot be produced in each other's land. The Agreement of Rome, one such agreement, reduces tariffs on agricultural-based products and establishes a mutual agreement on the exchange of resources, which is likely to benefit both economies.\n\n§BThe Treaty of Rome will be ratified and you will gain 10 Steel and 6 Aluminium for 21 Rubber.§!"
+ 
+ EBR_BM: "Black Monday"
+ EBR_BM2: "Black Monday"
+ EBR_BM3: "Black Monday"
+ EBR_BM4: "Black Monday"
+ 
+ EBR_militia_into_army: "Brazilian Army"
+ EBR_militia_into_army2a: "Brazilian Army"
+ EBR_militia_into_army3a: "Brazilian Army"
+ EBR_militia_into_army4a: "Brazilian Army"
+ EBR_militia_into_army5a: "Brazilian Army"
+ EBR_militia_into_army2b: "Brazilian Army"
+ EBR_militia_into_army3b: "Brazilian Army"
+ EBR_militia_into_army4b: "Brazilian Army"
+ EBR_militia_into_army5b: "Brazilian Army"
+ 
+### Focuses ###
+
+ EBR_industry: "Our Old Economy..."
+ EBR_industry_desc: "The Brazilian industry is poor and badly sustained, to fix this we should invest in the industry to improve our efficiency and hopefully, make Brazil better."
+ EBR_taxes_bre: "Tax Breaks"
+ EBR_taxes_bre_desc: "Tax breaks during certain months will allow the industry to expand while keeping prices low for the population."
+ EBR_fix_BM: "Close Banks Temporarily"
+ EBR_fix_BM_desc: "The banks of Brazil are without funds and closing due to the overload of cash withdrawl from panicked citizens.\nThe solution our economists advise us is to temporarily close the banks to prevent further collapse."
+ EBR_fix_BM2: "Fiscal Reform"
+ EBR_fix_BM2_desc: "The politicians of Brazil enjoy high priviliges while the citizens die in the streets, a fiscal reform is needed if we want to get out of the woes of Black Monday and recover."
+ EBR_fix_BM3: "Outlaw Margin Buying"
+ EBR_fix_BM3_desc: "Some may be wary of government intervention in the market, but we must take a proactive approach to protect our people.\nAs we work to recover from the crisis, let us come together in support of Outlaw Margin Buying and pave the way for a stronger, more stable economy for Brazil."
+ EBR_regulate_stock: "Prevent Another Crisis"
+ EBR_regulate_stock_desc: "The Stock Market is without a doubt, resposible for this crisis. Their speculation and backdoor deals are no much more than criminal activities that slowly kill Brazil. \nTo prevent a crisis on this scale from ever happening again we will establish new regulations on the Stock Market."
+ EBR_help_the_population: "Save the People"
+ EBR_help_the_population_desc: "The people of Brazil are suffering more than anyone should ever suffer, the economic crisis is killing and starving the population and it is our duty to help.\nWe shall send monetary benefits to help our citizens survive during this period of death. We will also provide assistance to small businesses and entrepreneurs, who are the lifeblood of our economy."
+ EBR_help_pop: "Economic Safety Nets"
+ EBR_invest_inf: "Invest in Infraestructure"
+ EBR_invest_inf_desc: "Investing in infraestructure will allow us to create jobs for citizens without jobs and will also allow us to improve life in communities."
+ EBR_invest_inf2: "Create the BACEN"
+ EBR_invest_inf2_desc: "Brazil is now suffering less and less with the woes of Black Monday, now there is only one nail to close the coffin, that nail is the creation of BACEN.\nBACEN or Banco Central do Brasil will be responsible for regulating our financial system and ensuring the stability and safety of our economy.\nIt will have the power to issue currency, regulate interest rates, and oversee financial operations."
+ EBR_the_empire: "The Empire"
+ EBR_the_empire_desc: "Without the Integralists and Republicans in the way we can restore the Empire without their malevolent influences. Brazil now is following a new path, a path of reconstruction of identity, Avé Império!"
+ EBR_the_empire2: "Restore Parliament"
+ EBR_the_empire2_desc: "The Republican Parliament is in many ways similar to the Imperial Parliament with some notable differences.\nThose differences will be fixed in due time and democracy will still endure."
+ EBR_protect_nat: "Protect the Natives"
+ EBR_protect_nat_desc: "The natives many times are killed in illegal mining operations and deforestation, these crimes many times go unpunished.\nWe should reinforce the laws that protect the lands of the natives and the Amazon Rainforest." 
+ EBR_no_racism: "Criminalise Racist Offenses"
+ EBR_no_racism_desc: " Brazil is a diverse nation, and we believe that everyone should be treated with dignity and respect, regardless of their race or ethnicity.\nThat is why we have criminalised racist offences, sending a strong message that discrimination and prejudice have no place in our society."
+ EBR_reforms: "Expand the Reforms"
+ EBR_imperial_unions: "Regulate Unions"
+ EBR_imperial_unions_desc: "As the government of Brazil, we have taken the necessary steps to regulate workers unions to prevent radical elements from gaining undue influence and threatening the stability of our nation. We understand the importance of workers' rights and the need for their representation, but we cannot allow extremist ideologies to take hold and harm the interests of the Brazilian people." 
+ EBR_expand_central_authority: "Expand Central Authority"
+ EBR_expand_central_authority_desc: "Brazil has always been a diverse and complex nation, with many different regions and groups. In order to better unify the country and promote more efficient governance, we have taken steps to centralize our government. This includes consolidating power in the federal government, and streamlining bureaucratic processes."
+ EBR_unity: "Brazilian Unity"
+ EBR_industry2: "Invest in Factories"
+ EBR_industry2_desc: "Brazil has long been known for its dependence on an agrarian economy. While this has brought us success in the past, it also leaves us vulnerable to fluctuations in the global market. To reduce this dependency, we have been investing heavily in the development of factories and manufacturing industries. 
+ EBR_industry3: "Invest in Resource Extraction"
+ EBR_industry3_desc: "As a nation with vast natural resources, Brazil is investing heavily in resource extraction to bolster our economy and provide employment opportunities for our citizens. We recognize the importance of diversifying our economy and reducing our reliance on a single industry. With proper regulation and oversight, we believe that resource extraction can be a valuable asset to our nation's development."
+ EBR_industry4: "Expand Northeastern Infraestructure"
+ EBR_industry5: "Expand Industry in the Northeastern"
+ EBR_armed_forces: "Integrate the State Armies"
+ EBR_armed_forces_desc: "The current state of the military in Brazil is concerning, with 26 independent state militias that lack coordination and efficiency.\nIn response, we have initiated a process to integrate these militias into a centralised command, although it will come at a significant cost."
+ EBR_armed_forces_art: "Bleed by Iron"
+ EBR_armed_forces_art2: "A New Generation"
+ EBR_armed_forces_art3: "Reform the High Command"
+ EBR_armed_forces_art4: "What the Eyes See..."
+ EBR_armed_forces_art5: "...The Heart Feels"
+ EBR_armed_forces_mob: "Bleed by Speed"
+ EBR_armed_forces_mob2: "A New Set of Weapons"
+ EBR_armed_forces_mob3: "Reorganise Our Structure"
+ EBR_armed_forces_mob4: ""
+ EBR_armed_forces_mob5: ""
+ EBR_tank_research: "A Old Machine for a Modern Time"
+ EBR_arti_research: ""
+ EBR_look_south: "Look to the South"
+ EBR_look_pacific: "Look to the World"
+
+### Decisions ###
+ 
+ EBR_join_reichspakt: "Join the Reichspakt" 
+ 
+### Events ###
+
+ ebr.1.t: "Setting Brazilian Politics..."
+ ebr.1.d: "Setting Brazilian Politics..."
+ ebr.1.a: "Okay."
+
+ ebr.2.t: "The Situation."
+ ebr.2.d: "The situation of Brazil is dire. The economy is in shambles due to the Black Monday crash, and our hopes for a peaceful transition of power have been dashed with the election of the Integralists in 1936.\nWe have been waiting for a chance to take action, and with the rebellion of the Republicans in 1938, we see an opportunity to seize control from both the Integralists and the Republicans.\nWhile some monarchists have aligned themselves with the Integralists, we see them as no better than the Republicans in their willingness to sacrifice our country's stability for their own gain. Our ultimate goal is to restore the monarchy, but we recognize that the first step is to establish a stable government that can protect the people and the nation's interests.\nThe road ahead will not be easy, as we are vastly outnumbered and outgunned. However, we believe that our cause is just and that the people of Brazil will rally to our side once they see the true nature of the Integralists and the Republicans.\nWe are prepared to fight for as long as it takes to achieve our goals, and we will not rest until the rightful monarch is restored to the throne and our country is once again a beacon of stability and prosperity in the world."
+ ebr.2.a: "Avante!"
+ 
+ ebr.4.t: "Ratification of the Treaty of Rome."
+ ebr.4.d: "In 1938, Italy and Brazil are in the process of ratifying the Agreement of Rome, a trade agreement that aims to boost their economies through mutual cooperation. Despite both countries having agrarian economies, they produce different products that cannot be produced in each other's land, making the agreement mutually beneficial.\n     The agreement seeks to reduce tariffs on agricultural-based products and establish a mutual agreement on the exchange of resources, which would likely benefit both economies. Additionally, the agreement aims to promote greater cultural and educational exchange between the two nations, further strengthening their relationship.\n     Although the ratification process is still ongoing, the potential benefits of this agreement could lead to a significant improvement in the economic and social conditions of both nations. As such, both countries are committed to working together to ensure the smooth implementation of the Agreement of Rome."
+ ebr.4.a: "Hurah!"
+ 
+ ebr.721.t: "Paraguayan Military Surrenders!"
+ ebr.721.d: "The Military of Paraguay decided to surrender after serious military setbacks. Those were caused by either poor planning or their enemies military might. Once again Brazil marches on Paraguayan land as its own, this time however, they may not leave..."
+ ebr.721.a: "This time they won't come back."
+ 
+ ebr.999.t: "The Integralists are Elected!"
+ ebr.999.d: "The enemy of both Monarchists that follow Pedro of Grão-Para and the Republicans that follow Rondon has now been elected... Brazil is once again being divided each day it passes, only God knows what shall happen to us..."
+ ebr.999.a: "God save us..."
+ 
+### Country Names ###
+ EBR: "Empire of Brazil"
+ EBR_ADJ: "Brazilian"
+ EBR_DEF: "The Empire of Brazil"
+
+ EBR_totalist: "Union of Brazil"
+ EBR_totalist_ADJ: "Brazilian"
+ EBR_totalist_DEF: "the Union of Brazil"
+ EBR_syndicalist: "Union of Brazil"
+ EBR_syndicalist_ADJ: "Brazilian"
+ EBR_syndicalist_DEF: "the Union of Brazil"
+ EBR_radical_socialist: "Union of Brazil"
+ EBR_radical_socialist_ADJ: "Brazilian"
+ EBR_radical_socialist_DEF: "the Union of Brazil"
+
+ EBR_social_democrat: "Empire of Brazil"
+ EBR_social_democrat_ADJ: "Brazilian"
+ EBR_social_democrat_DEF: "The Empire of Brazil"
+ EBR_social_liberal: "Empire of Brazil"
+ EBR_social_liberal_ADJ: "Brazilian"
+ EBR_social_liberal_DEF: "The Empire of Brazil"
+ EBR_market_liberal: "Empire of Brazil"
+ EBR_market_liberal_ADJ: "Brazilian"
+ EBR_market_liberal_DEF: "The Empire of Brazil"
+ EBR_social_conservative: "Empire of Brazil"
+ EBR_social_conservative_ADJ: "Brazilian"
+ EBR_social_conservative_DEF: "The Empire of Brazil"
+ EBR_authoritarian_democrat: "Empire of Brazil"
+ EBR_authoritarian_democrat_ADJ: "Brazilian"
+ EBR_authoritarian_democrat_DEF: "The Empire of Brazil"
+ EBR_paternal_autocrat: "Empire of Brazil"
+ EBR_paternal_autocrat_ADJ: "Brazilian"
+ EBR_paternal_autocrat_DEF: "The Empire of Brazil"
+ EBR_national_populist: "Empire of Brazil"
+ EBR_national_populist_ADJ: "Brazilian"
+ EBR_national_populist_DEF: "The Empire of Brazil"
+
+ ###Leaders###
+ EBR_pedro_de_alcantara: "Pedro III"
+ EBR_protogenes_pereira_guimaraes: "Protógenes Guimarães"
+ 
+ ### Characters ###
+ EBR_alipio_virgilio_di_primio: "Alípio Virgílio Di Primio"
+ EBR_antonio_carlos_da_silva_murici: "Antônio Carlos da Silva Murici" 
+ 
+ EBR_Congresso_nacional: "Congresso Nacional" 
+ EBR_floriano_de_lima_brayner: "Floriano de Lima Brayner"
+ EBR_young_turk_clique: "Comando da Força Nacional"
+ EBR_eduardo_gomes: "Eduardo Gomes"
+ EBR_henrique_aristides_guilhem: "Henrique Aristides Guilhem"
