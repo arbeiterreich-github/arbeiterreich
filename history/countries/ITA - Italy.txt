@@ -78,6 +78,19 @@ if = {
 	}
 }
 
+if = {
+	limit = {
+		has_dlc_tfv = yes
+	}
+	set_autonomy = {
+		target = LEB
+		autonomy_state = autonomy_puppet
+	}
+	else = {
+		puppet = LEB
+	}
+}
+
 ### Navy - MtG ###
 if = {
 	limit = { has_dlc_mtg = yes }
