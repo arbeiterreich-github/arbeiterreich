@@ -1,0 +1,176 @@
+﻿characters = { 
+	EBR_pedro_de_alcantara = {
+		name = EBR_pedro_de_alcantara
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/EBR/Portrait_EBR_Pedro_de_Alcantara.png"
+			}
+		}
+		country_leader = {
+			desc = EBR_pedro_de_alcantara_leader_desc
+			ideology = social_liberal_subtype
+		}
+		country_leader = {
+			desc = EBR_pedro_de_alcantara_leader_desc
+			ideology = market_liberal_subtype
+		}
+		country_leader = {
+			desc = EBR_pedro_de_alcantara_leader_desc
+			ideology = social_conservative_subtype
+		}
+		country_leader = {
+			desc = EBR_pedro_de_alcantara_leader_desc
+			ideology = authoritarian_democrat_subtype
+		}
+		country_leader = {
+			desc = EBR_pedro_de_alcantara_leader_desc
+			ideology = paternal_autocrat_subtype
+		}
+		country_leader = {
+			desc = EBR_pedro_de_alcantara_leader_desc
+			ideology = national_populist_subtype
+		}
+	}
+	
+	EBR_protogenes_pereira_guimaraes = { 
+		name = EBR_protogenes_pereira_guimaraes 
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/EBR/Portrait_BRA_Protogenes_Guimaraes.png"
+			}
+		}
+		country_leader = { 
+			desc = EBR_protogenes_pereira_guimaraes_leader_desc
+			ideology = social_democrat_subtype
+		}
+	}
+	
+	EBR_alipio_virgilio_di_primio = {
+		name = EBR_alipio_virgilio_di_primio
+		portraits = {
+			army = {
+				large = "gfx/leaders/EBR/Portrait_EBR_Alipio_Virgilio_di_Primio.png"
+			}
+		}
+		field_marshal = {
+			traits = { infantry_officer career_officer commando trickster }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	EBR_congresso_nacional = {
+		name = EBR_Congresso_nacional
+		portraits = {
+			civilian = {
+				small = "gfx/interface/advisors/EBR/BRA_congresso_nacional.png"
+			}
+		}
+		advisor = {
+			slot = second_in_command
+			idea_token = EBR_congresso_nacional_sic
+			traits = { KR_parliament_sic }
+			cost = 0
+			can_be_fired = no
+		}
+	}
+	EBR_antonio_carlos_da_silva_murici = {
+		name = EBR_antonio_carlos_da_silva_murici
+		portraits = {
+			army = {
+				small = "gfx/interface/advisors/EBR/EBR_antonio_carlos_da_silva_murici.png"
+				large = "gfx/leaders/EBR/Portrait_EBR_Antonio_Carlos_da_Silva_Murici.png"
+			}
+		}
+		field_marshal = {
+			traits = { infantry_officer career_officer }
+			skill = 4
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+		advisor = {
+			slot = theorist
+			idea_token = EBR_antonio_carlos_da_silva_murici
+			ledger = army
+			traits = { KR_superior_firepower_expert }
+			cost = 150
+		}
+	}
+		EBR_floriano_de_lima_brayner = {
+		name = EBR_floriano_de_lima_brayner
+		portraits = {
+			army = {
+				small = "gfx/interface/advisors/BRA/BRA_floriano_de_lima_brayner.png"
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = EBR_floriano_de_lima_brayner
+			ledger = army
+			traits = { KR_grand_battle_plan_expert }
+			cost = 150
+		}
+	}
+	EBR_eduardo_gomes = {
+		name = EBR_eduardo_gomes
+		portraits = {
+			army = {
+				small = "gfx/interface/advisors/BRA/BRA_eduardo_gomes.png"
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = EBR_eduardo_gomes
+			ledger = air
+			traits = { KR_victory_through_airpower }
+			cost = 150
+		}
+	}
+	EBR_young_turk_clique = {
+		name = EBR_young_turk_clique
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/advisors_brazil.png"
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = EBR_young_turk_clique
+			ledger = military
+			traits = { KR_council_of_theorists }
+			cost = 100
+		}
+	}
+	EBR_henrique_aristides_guilhem = {
+		name = EBR_henrique_aristides_guilhem
+		portraits = {
+			army = {
+				small = "gfx/interface/advisors/BRA/BRA_henrique_aristides_guilhem.png"
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = EBR_henrique_aristides_guilhem
+			available = {
+				not_already_hired_except_as = army_chief
+			}
+			traits = { KR_navy_chief_decisive_battle_2 }
+			cost = 100
+			ai_will_do = { factor = 0 }
+		}
+		advisor = {
+			slot = theorist
+			idea_token = EBR_henrique_aristides_guilhem
+			available = {
+				not_already_hired_except_as = theorist
+			}
+			traits = { KR_grand_fleet_proponent }
+			cost = 150
+			ai_will_do = { factor = 0 }
+		}
+	}
+}
