@@ -9,7 +9,7 @@
 	}
 	add_equipment_production = {
 		equipment = {
-			type = support_equipment_1
+			type = artillery_equipment_1
 		}
 		requested_factories = 1
 		progress = 0.02
@@ -19,7 +19,6 @@
 
 division_template = {
 	name = "Divisão de Infantaria"
-	division_names_group = BRA_INF_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -31,10 +30,12 @@ division_template = {
 		infantry = { x = 2 y = 1 }
 		infantry = { x = 2 y = 2 }
 	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
 }
 division_template = {
 	name = "Divisão de Cavalaria"
-	division_names_group = BRA_CAV_01
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
@@ -46,7 +47,6 @@ division_template = {
 }
 division_template = {
 	name = "Divisão de Guarda"
-	division_names_group = BRA_GAR_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -58,7 +58,6 @@ division_template = {
 }
 division_template = {
 	name = "Divisão Blindada"
-	division_names_group = BRA_ARM_01
 	regiments = {
 		light_armor = { x = 0 y = 0 }
 		light_armor = { x = 0 y = 1 }
@@ -71,62 +70,43 @@ division_template = {
 
 units = {
 	division = {
-		location = 10980
-		division_template = "Divisão de Infantaria"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		location = 5156
-		division_template = "Divisão de Infantaria"
-		start_experience_factor = 0.0
-		start_equipment_factor = 1.0
-	}
-	division = {
-		location = 5156
+		location = 8184
 		division_template = "Divisão de Infantaria"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		location = 5148
-		division_template = "Divisão de Infantaria"
-		start_experience_factor = 0.0
-		start_equipment_factor = 1.0
-	}
-	division = {
-		location = 5148
+		location = 8184
 		division_template = "Divisão de Infantaria"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		location = 12961
+		location = 1529
 		division_template = "Divisão de Infantaria"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		location = 12961
+		location = 1529
 		division_template = "Divisão de Infantaria"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		location = 12961
+		location = 10999
 		division_template = "Divisão de Infantaria"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		location = 12961
+		location = 10999
 		division_template = "Divisão de Infantaria"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		location = 10959
+		location = 5110
 		division_template = "Divisão de Cavalaria"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0

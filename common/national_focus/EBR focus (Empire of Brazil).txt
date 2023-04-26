@@ -338,7 +338,7 @@ focus_tree = {
 	### Political Tree ###
 	focus = {
 		id = EBR_the_empire
-		icon = EBR_king_emblem
+		icon = EBR_the_empire
 		available = {
 			has_government = authoritarian_democrat
 		}
