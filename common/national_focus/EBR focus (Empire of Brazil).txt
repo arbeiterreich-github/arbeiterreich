@@ -1,9 +1,8 @@
 ﻿###########################
-# EBRzil Focus Tree
-# TBW did this
-# Special thanks to Orlovio
+# EBR Brazil Focus Tree
+# MateusT made this :D
 ###########################
-# Zim was here too        #  
+# Ahmed Pasha made the GFX#  
 ###########################
 
 focus_tree = {
