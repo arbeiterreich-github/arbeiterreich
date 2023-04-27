@@ -78,30 +78,36 @@ units = {
 	}
 
 	division = {
-		location = 5156
+		location = 12853
 		division_template = "Divisão de Infantaria"
 		start_experience_factor = 0.0
 		start_equipment_factor = 1.0
 	}
 	division = {
-		location = 5156
+		location = 12853
 		division_template = "Divisão de Infantaria"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		location = 5148
+		location = 2214
 		division_template = "Divisão de Infantaria"
 		start_experience_factor = 0.0
 		start_equipment_factor = 1.0
 	}
 	division = {
-		location = 5148
+		location = 2214
 		division_template = "Divisão de Infantaria"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
-	division = {
+		division = {
+		location = 12961
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+		division = {
 		location = 12961
 		division_template = "Divisão de Infantaria"
 		start_experience_factor = 0.1
@@ -114,13 +120,19 @@ units = {
 		start_equipment_factor = 1.0
 	}
 	division = {
-		location = 12961
+		location = 13258
 		division_template = "Divisão de Infantaria"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		location = 12961
+		location = 13258
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 13258
 		division_template = "Divisão de Infantaria"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0

@@ -77,13 +77,13 @@ units = {
 	}
 	division = {
 		location = 8184
-		division_template = "Divisão de Infantaria"
+		division_template = "Divisão de Guarda"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
 		location = 1529
-		division_template = "Divisão de Infantaria"
+		division_template = "Divisão de Guarda"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
@@ -101,13 +101,37 @@ units = {
 	}
 	division = {
 		location = 10999
-		division_template = "Divisão de Infantaria"
+		division_template = "Divisão de Cavalaria"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
 		location = 5110
 		division_template = "Divisão de Cavalaria"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 8129
+		division_template = "Divisão de Cavalaria"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 8129
+		division_template = "Divisão de Cavalaria"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 8129
+		division_template = "Divisão de Guarda"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 8129
+		division_template = "Divisão de Guarda"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
