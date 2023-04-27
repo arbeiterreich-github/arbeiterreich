@@ -128,25 +128,15 @@ add_ideas = {
 }
 
 ### Country Leaders ###
-recruit_character = EBR_Isabelle
+recruit_character = UOB_luis_carlos_prestes
 
 ### Second in Command ###
 
-recruit_character = EBR_congresso_nacional
-
-activate_advisor = EBR_congresso_nacional_sic
-
-
 ### Field Marshal ###
 
-recruit_character =	EBR_alipio_virgilio_di_primio
-recruit_character = EBR_antonio_carlos_da_silva_murici 
+recruit_character =	UOB_luis_carlos_prestes
 
 ### Theorists ###
 
-recruit_character = EBR_young_turk_clique
-recruit_character = EBR_eduardo_gomes
-recruit_character = EBR_floriano_de_lima_brayner
-recruit_character = EBR_henrique_aristides_guilhem
 
 ###
