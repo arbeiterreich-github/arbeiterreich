@@ -60,6 +60,7 @@ focus_tree = {
 			focus = EBR_taxes_bre
 		}
 		available = {
+			has_civil_war = no
 			has_idea = EBR_BM
 		}
 		relative_position_id = EBR_taxes_bre
