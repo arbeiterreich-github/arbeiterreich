@@ -3,7 +3,7 @@
 		name = UOB_luis_carlos_prestes
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/EBR/Portrait_BRA_Luis_Carlos_Prestes.png"
+				large = "gfx/leaders/UOB/Portrait_UOB_Luis_Carlos_Prestes.png"
 			}
 		}
 		country_leader = {
