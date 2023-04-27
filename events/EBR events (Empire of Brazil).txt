@@ -133,8 +133,6 @@ country_event = {
 	title = ebr.5.t
 	desc = ebr.5.d
 	picture = GFX_report_event_BRA_riodejaneiro
-
-	is_triggered_only = yes
 	
 	trigger = { 
 		has_civil_war = no
@@ -365,7 +363,7 @@ country_event = {
 
 ### TEMP ALLIES ###
 
-country_event = {
+country_event = { # FOR BOLIVIA
 	id = ebr.720
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ebr.720 FROM = [From.GetName]" }
 	title = ebr.720.t
@@ -377,12 +375,10 @@ country_event = {
 	fire_only_once = yes
 
 	option = {
-		name = ebr.720.a
-		BOL = { 
+		name = ebr.720.a 
 			declare_war_on = {
 			target = PAR
 			type = annex_everything
-			}
 		}
 	}
 }

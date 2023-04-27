@@ -502,6 +502,9 @@ focus_tree = {
 		prerequisite = {
 			focus =  EBR_imperial_unions
 		}
+		available = { 
+			has_war = no
+		}
 		x = 0
 		y = 1
 		relative_position_id = EBR_imperial_unions
@@ -581,8 +584,10 @@ focus_tree = {
 			target = PAR
 			type = annex_everything
 		}
+		create_faction = BRAZIL_FAC
+		add_to_faction = BOL
+		}
 	}
-}
 	focus = {
 		id = EBR_look_pacific
 		icon = EBR_look_pacific
@@ -636,10 +641,9 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus EBR_acw"
-			USA = { country_event = 
+			
 			}
 		}
-	}
 	
 	### Military ###
 	
@@ -937,7 +941,7 @@ focus_tree = {
 		relative_position_id = EBR_armed_forces_mob
 		cost = 10
 		ai_will_do = { 
-			factor = 50
+			factor = 10
 			modifier = { 
 				factor = 100
 				has_civil_war = yes
@@ -975,7 +979,7 @@ focus_tree = {
 		relative_position_id = EBR_armed_forces_art
 		cost = 10
 		ai_will_do = { 
-			factor = 50
+			factor = 10
 			modifier = { 
 				factor = 100
 				has_civil_war = yes
@@ -1005,7 +1009,7 @@ focus_tree = {
 		relative_position_id = EBR_armed_forces
 		cost = 10
 		ai_will_do = { 
-			factor = 50
+			factor = 10
 			modifier = { 
 				factor = 100
 				has_civil_war = yes
@@ -1231,7 +1235,112 @@ focus_tree = {
 			}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_AIRFORCE_BONUS }
 	}
-}
+	focus = {
+		id = EBR_make_air_forcelight
+		icon = EBR_make_air_forcelight
+		prerequisite = {
+			focus = EBR_make_air_force2
+		}
+		x = 2
+		y = 1
+		relative_position_id = EBR_make_air_force2
+		cost = 10
+		ai_will_do = { 
+			factor = 50
+			modifier = { 
+				factor = 100
+				has_civil_war = yes
+			}
+		}
+		completion_reward = { 
+			log = "[GetDateText]: [Root.GetName]: Focus EBR_make_air_forcelight"
+				add_doctrine_cost_reduction = {
+					cost_reduction = 0.50
+					uses = 1
+					category = air_doctrine
+				}
+			}
+		}
+	focus = {
+		id = EBR_make_air_forcelight1
+		icon = EBR_make_air_forcelight1
+		prerequisite = {
+			focus = EBR_make_air_force2
+		}
+		x = 0
+		y = 2
+		relative_position_id = EBR_make_air_force2
+		cost = 10
+		ai_will_do = { 
+			factor = 50
+			modifier = { 
+				factor = 100
+				has_civil_war = yes
+			}
+		}
+		completion_reward = { 
+			log = "[GetDateText]: [Root.GetName]: Focus EBR_make_air_forcelight1"
+				add_doctrine_cost_reduction = {
+					cost_reduction = 0.50
+					uses = 1
+					category = air_doctrine
+				}
+			}
+		}
+	focus = {
+		id = EBR_make_air_forcelight2
+		icon = EBR_make_air_forcelight2
+		prerequisite = {
+			focus = EBR_make_air_forcelight1
+			focus = EBR_make_air_forcelight
+		}
+		x = 1
+		y = 1
+		relative_position_id = EBR_make_air_forcelight1
+		cost = 10
+		ai_will_do = { 
+			factor = 50
+			modifier = { 
+				factor = 100
+				has_civil_war = yes
+			}
+		}
+		completion_reward = { 
+			log = "[GetDateText]: [Root.GetName]: Focus EBR_make_air_forcelight2"
+				add_doctrine_cost_reduction = {
+					cost_reduction = 0.50
+					uses = 1
+					category = air_doctrine
+				}
+			}
+		}
+	focus = {
+		id = EBR_make_air_forcelight3
+		icon = EBR_make_air_forcelight3
+		prerequisite = {
+			focus = EBR_make_air_forcelight
+		}
+		x = 1
+		y = 1
+		relative_position_id = EBR_make_air_forcelight
+		cost = 10
+		ai_will_do = { 
+			factor = 50
+			modifier = { 
+				factor = 100
+				has_civil_war = yes
+			}
+		}
+		completion_reward = { 
+			log = "[GetDateText]: [Root.GetName]: Focus EBR_make_air_forcelight3"
+				add_doctrine_cost_reduction = {
+					cost_reduction = 0.50
+					uses = 1
+					category = air_doctrine
+				}
+			}
+		}
+	}
 
 
 

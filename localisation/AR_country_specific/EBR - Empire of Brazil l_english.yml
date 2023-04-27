@@ -126,8 +126,11 @@
  EBR_look_south: "Look to the South"
  EBR_look_pacific: "Look to the World"
  EBR_deal_par: "Deal with Paraguay"
- EBR_deal_par_desc: ""
+ EBR_deal_par_desc: "Paraguay's expansionism is growing each day, which defies our national interests and regional stability. Our objective is clear: defend our hegemony, restore balance, and safeguard our future.\nWith unwavering resolve, we march forward to halt Paraguay's defiance and reaffirm Brazil's position as the dominant force in South America."
 
+### FACTION ###
+
+ BRAZIL_FAC: "Treaty of Rio"
 
 ### Decisions ###
  
@@ -152,7 +155,7 @@
  ebr.721.a: "This time they won't come back."
 
  ebr.720.t: "A Brazilian Proposal"
- ebr.720.d: "The Empire of Brazil have offered us help in reconquering our lost territories in the Chaco War, that is if, we accept and declare war on Paraguay alongside them.
+ ebr.720.d: "The Empire of Brazil have offered us help in reconquering our lost territories in the Chaco War, that is if, we accept and declare war on Paraguay alongside them."
  ebr.720.a: "We shall crush them to the point of no recovery."
 
 ### Country Names ###
