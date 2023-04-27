@@ -3481,6 +3481,30 @@ spriteTypes = {
 		name = "Officer"
 		texturefile = "gfx/interface/goals/Officer.png"
 	}
+	SpriteType = { 
+		name = "EBR_look_south"
+		texturefile = "gfx/interface/goals/EBR_look_south.png"
+	}
+	SpriteType = { 
+		name = "EBR_look_pacific"
+		texturefile = "gfx/interface/goals/EBR_look_pacific.png"
+	}
+	SpriteType = { 
+		name = "EBR_par"
+		texturefile = "gfx/interface/goals/EBR_par.png"
+	}
+	SpriteType = { 
+		name = "EBR_arg"
+		texturefile = "gfx/interface/goals/EBR_arg.png"
+	}
+	SpriteType = { 
+		name = "ArmyMob"
+		texturefile = "gfx/interface/goals/ArmyMob.png"
+	}
+	SpriteType = { 
+		name = "ArmyArt"
+		texturefile = "gfx/interface/goals/ArmyArt.png"
+	}
 
 	### East Indies ###
 	SpriteType = {# De Jonge

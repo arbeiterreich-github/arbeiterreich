@@ -50,9 +50,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus EBR_industry"
-			add_ideas = { 
-				EBR_tax_breaks
-			}
+			add_ideas = EBR_tax_breaks
 		}
 	}
 		focus = {
@@ -374,9 +372,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus EBR_the_empire2"
-			add_ideas = {
-				EBR_parliament
-			}
+			add_ideas = EBR_parliament
 		}
 	}
 	focus = {
@@ -441,9 +437,7 @@ focus_tree = {
 				ideology = authoritarian_democrat
 				popularity = 0.10
 			}
-			add_ideas = {
-				EBR_expand_reforms
-			}
+			add_ideas = EBR_expand_reforms
 		}	
 	}
 	focus = {
@@ -465,9 +459,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus EBR_imperial_unions"
 			add_stability = 0.05
-			add_ideas = {
-				EBR_imperial_unions_idea
-			}
+			add_ideas = EBR_imperial_unions_idea
 		}
 	}
 	focus = {
@@ -571,7 +563,7 @@ focus_tree = {
 }
 	focus = {
 		id = EBR_deal_par
-		icon = EBR_deal_par
+		icon = EBR_par
 		prerequisite = {
 			focus =  EBR_look_south
 		}
@@ -787,8 +779,8 @@ focus_tree = {
 			focus =  EBR_armed_forces_art3
 		}
 		x = 0
-		y = 1
-		relative_position_id = EBR_armed_forces_art4
+		y = 3
+		relative_position_id = EBR_armed_forces_art
 		cost = 10
 		ai_will_do = { 
 			factor = 50
@@ -885,11 +877,11 @@ focus_tree = {
 		id = EBR_armed_forces_mob4
 		icon = doctrine_tank_warfare
 		prerequisite = {
-			focus =  EBR_armed_forces_mob3
+			focus =  EBR_armed_forces_mob
 		}
 		x = 0
-		y = 1
-		relative_position_id = EBR_armed_forces_mob5
+		y = 2
+		relative_position_id = EBR_armed_forces_mob
 		cost = 10
 		ai_will_do = { 
 			factor = 50
@@ -916,7 +908,7 @@ focus_tree = {
 			focus =  EBR_armed_forces_mob4
 		}
 		x = 0
-		y = 2
+		y = 3
 		relative_position_id = EBR_armed_forces_mob
 		cost = 10
 		ai_will_do = { 
@@ -952,7 +944,7 @@ focus_tree = {
 			}
 		}
 		completion_reward = { 
-			log = "[GetDateText]: [Root.GetName]: Focus EBR_armed_forces_mob5"
+			log = "[GetDateText]: [Root.GetName]: Focus EBR_tank_research"
 			if = { 
 				limit = { has_dlc_nsb = yes }
 				add_tech_bonus = {
@@ -971,6 +963,273 @@ focus_tree = {
 				}
 			}
 		}
+	}
+	focus = {
+		id = EBR_art_research
+		icon = none
+		prerequisite = {
+			focus =  EBR_armed_forces_art
+		}
+		x = -1
+		y = 1
+		relative_position_id = EBR_armed_forces_art
+		cost = 10
+		ai_will_do = { 
+			factor = 50
+			modifier = { 
+				factor = 100
+				has_civil_war = yes
+			}
+		}
+		completion_reward = { 
+			log = "[GetDateText]: [Root.GetName]: Focus EBR_art_research"
+				add_tech_bonus = { 
+					name = EBR_armed_forces_art
+					bonus = 0.75
+					uses = 2
+					category = artillery
+				}
+			}
+		}
+	focus = {
+		id = EBR_research
+		icon = EBR_research
+		prerequisite = {
+			focus =  EBR_art_research
+		}
+		prerequisite = {
+			focus =  EBR_tank_research
+		}
+		x = 0
+		y = 3
+		relative_position_id = EBR_armed_forces
+		cost = 10
+		ai_will_do = { 
+			factor = 50
+			modifier = { 
+				factor = 100
+				has_civil_war = yes
+			}
+		}
+		completion_reward = { 
+			log = "[GetDateText]: [Root.GetName]: Focus EBR_research"
+				add_research_slot = 1
+			}
+		}
+	focus = {
+		id = EBR_make_air_force
+		icon = EBR_make_air_force
+		prerequisite = {
+			focus = EBR_armed_forces_mob5
+			focus = EBR_armed_forces_art5
+		}
+		x = 0
+		y = 5
+		relative_position_id = EBR_armed_forces
+		cost = 6
+		ai_will_do = { 
+			factor = 50
+			modifier = { 
+				factor = 100
+				has_civil_war = yes
+			}
+		}
+		completion_reward = { 
+			log = "[GetDateText]: [Root.GetName]: Focus EBR_make_air_force"
+				air_experience = 25
+				add_tech_bonus = {
+					name = EBR_make_air_force
+					bonus = 0.75
+					uses = 1
+					category = radar_tech
+				}
+			}
+		}
+	focus = {
+		id = EBR_make_air_force2
+		icon = EBR_make_air_force2
+		prerequisite = {
+			focus = EBR_make_air_force 
+		}
+		x = 1
+		y = 1
+		relative_position_id = EBR_make_air_force
+		cost = 6
+		ai_will_do = { 
+			factor = 50
+			modifier = { 
+				factor = 100
+				has_civil_war = yes
+			}
+		}
+		completion_reward = { 
+			log = "[GetDateText]: [Root.GetName]: Focus EBR_make_air_force2"
+				add_tech_bonus = {
+					name = EBR_make_air_force2
+					bonus = 0.25
+					uses = 1
+					category = light_air
+				}
+				add_doctrine_cost_reduction = {
+					cost_reduction = 0.45
+					uses = 1
+					category = air_doctrine
+				}
+			}
+		}
+	focus = {
+		id = EBR_make_air_force3
+		icon = EBR_make_air_force3
+		prerequisite = {
+			focus = EBR_make_air_force 
+		}
+		x = -1
+		y = 1
+		relative_position_id = EBR_make_air_force
+		cost = 6
+		ai_will_do = { 
+			factor = 50
+			modifier = { 
+				factor = 100
+				has_civil_war = yes
+			}
+		}
+		completion_reward = { 
+			log = "[GetDateText]: [Root.GetName]: Focus EBR_make_air_force3"
+				add_tech_bonus = {
+					name = EBR_make_air_force3
+					bonus = 0.25
+					uses = 1
+					category = medium_air
+				}
+				add_doctrine_cost_reduction = {
+					cost_reduction = 0.45
+					uses = 1
+					category = air_doctrine
+				}
+			}
+		}
+	focus = {
+		id = EBR_make_air_forcebomber
+		icon = EBR_make_air_forcebomber
+		prerequisite = {
+			focus = EBR_make_air_force3
+		}
+		x = -2
+		y = 1
+		relative_position_id = EBR_make_air_force3
+		cost = 10
+		ai_will_do = { 
+			factor = 50
+			modifier = { 
+				factor = 100
+				has_civil_war = yes
+			}
+		}
+		completion_reward = { 
+			log = "[GetDateText]: [Root.GetName]: Focus EBR_make_air_forcebomber"
+				add_tech_bonus = {
+					name = EBR_make_air_forcebomber
+					bonus = 0.65
+					uses = 1
+					category = medium_air
+				}
+				add_doctrine_cost_reduction = {
+					cost_reduction = 0.25
+					uses = 1
+					category = air_doctrine
+				}
+			}
+		}
+	focus = {
+		id = EBR_make_air_forcebomber1
+		icon = EBR_make_air_forcebomber1
+		prerequisite = {
+			focus = EBR_make_air_forcebomber
+		}
+		x = -1
+		y = 1
+		relative_position_id = EBR_make_air_forcebomber
+		cost = 8
+		ai_will_do = { 
+			factor = 50
+			modifier = { 
+				factor = 100
+				has_civil_war = yes
+			}
+		}
+		completion_reward = { 
+			log = "[GetDateText]: [Root.GetName]: Focus EBR_make_air_forcebomber1"
+				air_experience = 45
+				add_ideas = EBR_air
+			}
+		}
+	focus = {
+		id = EBR_make_air_forcebomber2
+		icon = EBR_make_air_forcebomber2
+		prerequisite = {
+			focus = EBR_make_air_force3
+		}
+		x = 0
+		y = 1
+		relative_position_id = EBR_make_air_force3
+		cost = 8
+		ai_will_do = { 
+			factor = 50
+			modifier = { 
+				factor = 100
+				has_civil_war = yes
+			}
+		}
+		completion_reward = { 
+			log = "[GetDateText]: [Root.GetName]: Focus EBR_make_air_forcebomber2"
+				add_tech_bonus = {
+					name = EBR_make_air_forcebomber2
+					bonus = 0.50
+					uses = 1
+					category = heavy_air
+				}
+			}
+		}
+	focus = {
+		id = EBR_make_air_forcebomber3
+		icon = EBR_make_air_forcebomber3
+		prerequisite = {
+			focus = EBR_make_air_forcebomber
+			focus = EBR_make_air_forcebomber2
+		}
+		x = -1
+		y = 3
+		relative_position_id = EBR_make_air_force3
+		cost = 8
+		ai_will_do = { 
+			factor = 50
+			modifier = { 
+				factor = 100
+				has_civil_war = yes
+			}
+		}
+		completion_reward = { 
+			log = "[GetDateText]: [Root.GetName]: Focus EBR_make_air_forcebomber3"
+				if = {
+					limit = { has_dlc_bba = yes }
+						add_tech_bonus = {
+							name = SIC_engine_air
+							bonus = 0.75
+							uses = 2
+							category = cat_air_engine
+						}
+					}
+				else = { 
+					add_tech_bonus = {
+						name = SIC_engine_air
+						bonus = 1
+						uses = 1
+						category = cas_bomber
+					}
+				}
+			}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_AIRFORCE_BONUS }
 	}
 }
 

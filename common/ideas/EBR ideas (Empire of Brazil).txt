@@ -267,5 +267,15 @@ country = {
 				army_armor_attack_factor = 0.05	
 			}
 		}
+		EBR_air = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea EBR_air" }
+			name = EBR_air
+			picture = generic_airforce
+			allowed = { always = no }
+			modifier = {
+				air_advisor_cost_factor	= -0.10
+				experience_gain_air_factor = 0.20
+			}
+		}
 	}
 }
