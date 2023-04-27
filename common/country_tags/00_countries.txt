@@ -202,6 +202,7 @@ PUE = "countries/SouthAm.txt"
 PRU = "countries/SouthAm.txt"
 VCR = "countries/SouthAm.txt"
 SPO = "countries/SouthAm.txt"
+UOB = "countries/SouthAm.txt"
 URG = "countries/SouthAm.txt"
 VEN = "countries/SouthAm.txt"
 

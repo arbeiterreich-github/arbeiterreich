@@ -92,7 +92,9 @@ if = {
 	}
 }
 
+add_civil_war_target = UOB
 add_civil_war_target = EBR
+add_civil_war_target = BRA
 
 PIR = { inherit_technology = BRA }
 SPO = { inherit_technology = BRA }
