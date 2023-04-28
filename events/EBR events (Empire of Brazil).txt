@@ -123,7 +123,7 @@ country_event = {
 	trigger = {
 		tag = EBR
 		has_civil_war = no
-		date > 1938
+		date > 1938.1.1
 		ARG = { has_government = national_populist }
 	}
 	
@@ -131,7 +131,16 @@ country_event = {
 
 	option = {
 		name = ebr.5.a
-		
+		add_opinion_modifier = { 
+			target = ARG
+			modifier = KR_hostile
+		}
+		ARG = {
+		add_opinion_modifier = { 
+			target = EBR
+			modifier = KR_hostile
+			}
+		}
 	}
 }
 
