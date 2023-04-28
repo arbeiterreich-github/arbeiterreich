@@ -13,6 +13,7 @@ state = {
 		add_core_of = BRA
 		add_claim_by = EBR
 		add_claim_by = BOL
+		add_claim_by = UOB
 		add_to_array = { state_victory_points = 10960 }
 
 		buildings = {

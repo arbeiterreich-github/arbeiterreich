@@ -143,4 +143,28 @@ units = {
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
+	division = {
+		location = 13301
+		division_template = "Divisão de Guarda"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 13301
+		division_template = "Divisão de Guarda"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 1583
+		division_template = "Divisão de Guarda"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 1583
+		division_template = "Divisão de Guarda"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
 }

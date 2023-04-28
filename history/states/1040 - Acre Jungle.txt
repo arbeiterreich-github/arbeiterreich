@@ -10,6 +10,7 @@ state = {
 		add_core_of = BRA
 		add_claim_by = EBR
 		add_claim_by = BOL
+		add_claim_by = UOB
 
 		buildings = {
 			infrastructure = 1
