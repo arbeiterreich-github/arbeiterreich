@@ -129,12 +129,13 @@
  estrada_ferro_central_brasil: "Estrada de Ferro Central do Brasil"
 
 ### Ideas ###
- BRA_election_year: "Election Year Tensions"
- BRA_election_year_desc: "Tensions rise as vastly different factions prepare for what will probably be the most violent and contentious election in the history of Brazil. Political talk is almost synonymous with heated arguments, and an air of ideological extremism looms over the nation's populace."
-
- BRA_decentralisation: "Extreme Decentralisation"
- BRA_decentralisation_desc: "The United States of Brazil has always prized the autonomy of its states. Each has its own president, its own political parties, and its own military, and the people have shown themselves willing to die for these regional rights. However, this does result in a very weak and toothless central government, which cannot act decisively when required."
-
+ BRA_army1: "Brazilian Army"
+ BRA_army2: "Brazilian Army"
+ BRA_army3: "Brazilian Army"
+ BRA_army4: "Brazilian Army"
+ BRA_army5: "Brazilian Army"
+ BRA_army6: "Brazilian Army"
+ 
  BRA_wake_of_civil_war: "Wake of the War"
  BRA_wake_of_civil_war_desc: "Few wounds take longer to heal than a civil war. The War Between the States left thousands dead, and many more orphaned and homeless, as the tensions between the political oligarchies and regional identities finally boiled over to the battlefield after troops from Minas Gerais trespassed into São Paulo. Any actions the central government tries to do are now viewed with immense distrust, and the sheer damage caused on the border between Rio and São Paulo has not yet been fully been repaired."
 
