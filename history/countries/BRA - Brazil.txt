@@ -147,28 +147,26 @@ add_to_array = { URG.guarantor_array = BRA }
 give_military_access = URG
 
 set_politics = {
-	ruling_party = social_conservative
+	ruling_party = paternal_autocrat
 	last_election = "1932.11.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
 	totalist = 3
 	radical_socialist = 4
 	syndicalist = 3
-	social_democrat = 13
-	social_liberal = 13
+	social_democrat = 0
+	social_liberal = 0
 	market_liberal = 8
 	social_conservative = 33
 	authoritarian_democrat = 7
-	paternal_autocrat = 3
-	national_populist = 13
+	paternal_autocrat = 42
+	national_populist = 0
 }
 
 add_ideas = {
-	BRA_election_year
-	BRA_decentralisation
 	BRA_wake_of_civil_war
 	BRA_state_armies1
 }

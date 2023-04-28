@@ -123,10 +123,9 @@ set_popularities = {
 }
 
 add_ideas = {
-	BRA_decentralisation
 	BRA_wake_of_civil_war
 	BRA_state_armies1
-	EBR_trade_stuff_ITA
+	EBR_pedro_legacy
 }
 
 ### Country Leaders ###

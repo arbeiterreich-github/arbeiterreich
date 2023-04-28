@@ -1,5 +1,5 @@
 ﻿capital = 500
-oob = "EBR"
+oob = "UOB"
 set_naval_oob = "EBR_naval"
 set_war_support = 0.7
 set_convoys = 40
@@ -110,19 +110,18 @@ set_politics = {
 
 set_popularities = {
 	totalist = 0
-	radical_socialist = 0
+	radical_socialist = 46
 	syndicalist = 0
-	social_democrat = 13
+	social_democrat = 0
 	social_liberal = 13
 	market_liberal = 18
 	social_conservative = 13
-	authoritarian_democrat = 40
-	paternal_autocrat = 3
+	authoritarian_democrat = 10
+	paternal_autocrat = 0
 	national_populist = 0
 }
 
 add_ideas = {
-	BRA_decentralisation
 	BRA_wake_of_civil_war
 	BRA_state_armies1
 }

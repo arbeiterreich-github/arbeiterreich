@@ -3505,6 +3505,10 @@ spriteTypes = {
 		name = "ArmyArt"
 		texturefile = "gfx/interface/goals/ArmyArt.png"
 	}
+	SpriteType = { 
+		name = "Brazil_crown"
+		texturefile = "gfx/interface/goals/Brazil_crown.png"
+	}
 
 	### East Indies ###
 	SpriteType = {# De Jonge

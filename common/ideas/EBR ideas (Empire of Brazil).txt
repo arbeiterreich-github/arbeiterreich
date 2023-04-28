@@ -4,6 +4,18 @@ ideas = {
 
 country = {
 
+		EBR_pedro_legacy = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea EBR_BM" }
+			name = EBR_pedro_legacy 
+			picture = Brazil_crown
+			allowed = { always = no }
+			modifier = {
+				consumer_goods_factor = 0.15
+				production_speed_industrial_complex_factor = 0.10
+				production_speed_rail_way_factor = 0.10
+			}
+		}
+
 		EBR_BM = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea EBR_BM" }
 			name = EBR_BM 
@@ -210,12 +222,11 @@ country = {
 			picture = generic_lightbulb
 			allowed = { always = no }
 			modifier = {
-				political_power_gain = 0.10
 				consumer_goods_factor = -0.10
-				production_factory_efficiency_gain_factor = 0.15
-				production_factory_max_efficiency_factor = 0.15
-				production_speed_rail_way_factor = 0.20
-				production_speed_<building>_factor = 0.20
+				production_factory_efficiency_gain_factor = 0.10
+				production_factory_max_efficiency_factor = 0.10
+				production_speed_synthetic_refinery_factor = 0.05
+				production_speed_supply_node_factor = 0.15
 			}
 		}
 		EBR_militia_into_army2b = {

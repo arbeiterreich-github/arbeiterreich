@@ -7,7 +7,7 @@
 			}
 		}
 		country_leader = {
-			desc = UOB_luis_carlos_prestes
+			desc = UOB_luis_carlos_prestes_leader_desc
 			ideology = radical_socialist_subtype
 		}
 		field_marshal = {

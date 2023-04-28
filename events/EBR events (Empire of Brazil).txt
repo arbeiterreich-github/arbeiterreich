@@ -11,8 +11,6 @@ country_event = {
 	title = ebr.1.t
 	desc = ebr.1.d
 	picture = GFX_report_event_BRA_riodejaneiro
-
-	is_triggered_only = yes
 	
 	fire_only_once = yes
 
@@ -35,8 +33,6 @@ country_event = {
 	title = ebr.2.t
 	desc = ebr.2.d
 	picture = GFX_report_event_BRA_riodejaneiro
-
-	is_triggered_only = yes
 	
 	trigger = { 
 		has_civil_war = yes
@@ -75,10 +71,6 @@ country_event = {
 	picture = GFX_report_event_BRA_riodejaneiro
 
 	is_triggered_only = yes
-	
-	trigger = { 
-		date > 1937.1.1
-	}
 	
 	fire_only_once = yes
 
