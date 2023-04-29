@@ -43,7 +43,6 @@ focus_tree = {
 		x = 15
 		y = 0
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ITA_social_liberal_victory"
 			custom_effect_tooltip = ITA_snap_elections_tooltip
 		}
 	}
