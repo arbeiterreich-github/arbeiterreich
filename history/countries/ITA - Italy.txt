@@ -215,16 +215,7 @@ set_popularities = {
 add_ideas = ITA_republic_federation
 
 # Country Leaders
-recruit_character = ITA_italo_balbo
-recruit_character = ITA_pietro_ferdinando
-recruit_character = ITA_adriano_visconti
-recruit_character = ITA_emilio_de_bono
-recruit_character = ITA_giovanni_gronchi
-recruit_character = ITA_luigi_einaudi
-recruit_character = ITA_marcello_soleri
-recruit_character = ITA_ivanoe_bonomi
-recruit_character = ITA_ferruccio_parri
-recruit_character = ITA_carlo_rosselli
+recruit_character = ITA_victor_emmanuel_iii
 # SiC
 recruit_character = ITA_Federico_Comandini
 recruit_character = ITA_Giovanni_Uberti
