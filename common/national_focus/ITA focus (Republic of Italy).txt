@@ -15,10 +15,10 @@ focus_tree = {
 	default = no
 	continuous_focus_position = { x = 60 y = 1200 }
 
-### Republic of Italy ###
-	focus = {# The Republic Survives
-		id = ITA_snap_elections
-		icon = GFX_goal_ideology_market_liberal
+### Kingdom of Italy ###
+	focus = {# The Kingdom in Crisis
+		id = ITA_kingdom_crisis
+		icon = GFX_SRD_irridentism
 		cost = 7
 		available = {
 			always = no

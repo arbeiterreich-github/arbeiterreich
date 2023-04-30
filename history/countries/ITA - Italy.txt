@@ -1,4 +1,4 @@
-﻿capital = 159
+﻿capital = 2
 oob = "ITA"
 set_naval_oob = "ITA_naval"
 set_research_slots = 3

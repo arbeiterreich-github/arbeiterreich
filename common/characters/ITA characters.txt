@@ -1,17 +1,4 @@
 characters = {
-	ITA_victor_emmanuel_iii_1 = {
-		name = ITA_victor_emmanuel_iii_1
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/ITA/Portrait_ITA_Victor_Emmanuel_III.png"
-			}
-		}
-		country_leader = {
-			desc = ITA_victor_emmanuel_iii_leader_desc
-			ideology = authoritarian_democrat_subtype
-			traits = {  }
-		}
-	}
 	ITA_victor_emmanuel_iii = {
 		name = ITA_victor_emmanuel_iii
 		portraits = {
