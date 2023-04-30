@@ -1,10 +1,10 @@
 ###########################
-# Kingdom of Italy Focus Tree
+# Socialist Italy Focus Tree
 # By ME! (thedetailedbread)
 ###########################
 
 focus_tree = {
-	id = italian_federation_focus
+	id = italian_socialist_focus
 	country = {
 		factor = 0
 		modifier = {
@@ -15,10 +15,9 @@ focus_tree = {
 	default = no
 	continuous_focus_position = { x = 60 y = 1200 }
 
-### Kingdom of Italy ###
-	focus = {# The Kingdom in Crisis
-		id = ITA_kingdom_crisis
-		icon = GFX_SRD_irridentism
+	focus = {# Socialist Success
+		id = ITA_socialist_success
+		icon = GFX_SRI_irridentism
 		cost = 7
 		available = {
 			always = no
@@ -32,18 +31,14 @@ focus_tree = {
 		allow_branch = {
 			if = {
 				limit = {
-					has_country_flag = hide_trees_from_now
-				}
-				OR = {
-					has_elected_government = yes
-					has_government = paternal_autocrat
+					has_country_flag = ITA_SOCIALIST
 				}
 			}
 		}
 		x = 15
 		y = 0
 		completion_reward = {
-			custom_effect_tooltip = ITA_snap_elections_tooltip
+			custom_effect_tooltip = ITA_socialist_success_tooltip
 		}
 	}
 }
