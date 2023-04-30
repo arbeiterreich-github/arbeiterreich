@@ -143,6 +143,10 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BRA_national_ind1"
 			add_offsite_building = { type = industrial_complex level = 1 }
+				activate_targeted_decision = { target = 495 decision = BRA_rubber_army }
+				activate_targeted_decision = { target = 499 decision = BRA_lobato }
+				activate_targeted_decision = { target = 499 decision = BRA_ram_eater }
+				activate_targeted_decision = { target = 499 decision = BRA_CSI }
 			}
 		}
 	focus = {

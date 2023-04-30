@@ -136,9 +136,6 @@
  BRA_army5: "Brazilian Army"
  BRA_army6: "Brazilian Army"
  
- BRA_wake_of_civil_war: "Wake of the War"
- BRA_wake_of_civil_war_desc: "Few wounds take longer to heal than a civil war. The War Between the States left thousands dead, and many more orphaned and homeless, as the tensions between the political oligarchies and regional identities finally boiled over to the battlefield after troops from Minas Gerais trespassed into São Paulo. Any actions the central government tries to do are now viewed with immense distrust, and the sheer damage caused on the border between Rio and São Paulo has not yet been fully been repaired."
-
  BRA_forager_idea: "Forager Squads"
  BRA_forager_idea_desc: "Our troops need to have the capacity to strip the land of as much resources as they possibly can, for the logistics of supplying an army in Brazil demand that level of autonomy from our soldiers."
 
@@ -419,6 +416,9 @@
 ##Focuses
  Brazil_Focus: "Brazil Focus Tree"
  
+ BRA_national_ind: "Time for a National Industry"
+ BRA_national_ind_desc: ""
+ BRA_national_ind1: "CSN and Our Future"
  BRA_new_state: "The Estado Novo"
  BRA_new_state_desc: "Thanks to Vargas' reforms, a new state has cemented itself as the protector and guardian of Brazil. No longer will the inefficiencies plague our state, as Brazil will be led with strength towards a better future."
  BRA_political_centralisation: "Political Centralisation"

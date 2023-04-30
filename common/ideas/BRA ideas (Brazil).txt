@@ -19,13 +19,12 @@ ideas = {
 				planning_speed = -0.2
 			}
 		}
+		
 		BRA_brutal_regime = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea BRA_brutal_regime" }
 			picture = ENG_the_war_to_end_all_wars
 			allowed = { always = no }
 			modifier = {
-				ai_focus_aggressive_factor = -0.5
-				justify_war_goal_time = 0.5
 				war_support_factor = -0.2
 			}
 		}

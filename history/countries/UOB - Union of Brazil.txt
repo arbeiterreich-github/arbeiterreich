@@ -122,7 +122,6 @@ set_popularities = {
 }
 
 add_ideas = {
-	BRA_wake_of_civil_war
 	BRA_state_armies1
 }
 
