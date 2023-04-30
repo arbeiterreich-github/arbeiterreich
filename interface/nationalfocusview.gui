@@ -716,20 +716,21 @@ guiTypes = {
 			font = "hoi_18mbs"
 			borderSize = {x = 5 y = 0}
 			text = "Description"
-			maxWidth = 485
-			maxHeight = 70
+			maxWidth = 480
+			maxHeight = 115
 			format = center
+			scrollbarType = standardtext_slider
 		}
 
 		iconType = {
 			name = "reward_bg"
-			position = { x = 84 y = 363 }
+			position = { x = 84 y = 356 }
 			spriteType = "GFX_unit_list_header"
 		}
 
 		instantTextboxType = {
 			name = "reward_label"
-			position = { x = 34 y = 370 }
+			position = { x = 34 y = 365 }
 			textureFile = ""
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
@@ -747,7 +748,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			text = ""
 			maxWidth = 455
-			maxHeight = 138
+			maxHeight = 144
 			scrollbarType = standardtext_slider
 #			format = center
 		}
