@@ -1,0 +1,148 @@
+﻿capital = 500
+oob = "EBR"
+set_naval_oob = "EBR_naval"
+set_war_support = 0.7
+set_convoys = 40
+set_research_slots = 3
+
+set_technology = {
+	### Infantry ###
+	infantry_weapons = 1
+
+	### Support ###
+	tech_support = 1
+	tech_engineers = 1
+
+	### Artillery ###
+	gw_artillery = 1
+	interwar_antiair = 1
+
+	### Trains ###
+	basic_train = 1
+}
+
+### Planes - BBA ###
+if = {
+	limit = { has_dlc_bba = yes }
+	set_air_oob = "BRA_air_bba"
+	set_technology = {
+		iw_small_airframe = 1
+		aa_lmg = 1
+		engines_1 = 1
+		early_bombs = 1
+	}
+}
+
+### Planes - non BBA ###
+if = {
+	limit = { has_dlc_bba = no }
+	set_air_oob = "BRA_air_legacy"
+	set_technology = {
+		early_fighter = 1
+		CAS1 = 1
+	}
+}
+
+### Tanks - NSB ###
+if = {
+	limit = { has_dlc_nsb = yes }
+	set_technology = { gwtank_chassis = 1 }
+}
+
+### Tanks - non NSB ###
+if = {
+	limit = { has_dlc_nsb = no }
+	set_technology = { gwtank = 1 }
+}
+
+### Navy - MtG ###
+if = {
+	limit = { has_dlc_mtg = yes }
+	set_technology = {
+		### Hulls ###
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+
+		### Modules ###
+		basic_battery = 1
+		basic_torpedo = 1
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+
+		### Transport ###
+		mtg_transport = 1
+	}
+}
+
+### Navy - Non MtG ###
+if = {
+	limit = { has_dlc_mtg = no }
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+		early_battleship = 1
+
+		### Transport ###
+		transport = 1
+	}
+}
+
+give_guarantee = URG
+add_to_array = { URG.guarantor_array = BRA }
+give_military_access = URG
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1936.10.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalist = 0
+	radical_socialist = 0
+	syndicalist = 0
+	social_democrat = 13
+	social_liberal = 13
+	market_liberal = 18
+	social_conservative = 13
+	authoritarian_democrat = 40
+	paternal_autocrat = 3
+	national_populist = 0
+}
+
+add_ideas = {
+	BRA_decentralisation
+	BRA_wake_of_civil_war
+	BRA_state_armies1
+	EBR_trade_stuff_ITA
+}
+
+### Country Leaders ###
+recruit_character = EBR_Isabelle
+
+### Second in Command ###
+
+recruit_character = EBR_congresso_nacional
+
+activate_advisor = EBR_congresso_nacional_sic
+
+
+### Field Marshal ###
+
+recruit_character =	EBR_alipio_virgilio_di_primio
+recruit_character = EBR_antonio_carlos_da_silva_murici 
+
+### Theorists ###
+
+recruit_character = EBR_young_turk_clique
+recruit_character = EBR_eduardo_gomes
+recruit_character = EBR_floriano_de_lima_brayner
+recruit_character = EBR_henrique_aristides_guilhem
+
+###

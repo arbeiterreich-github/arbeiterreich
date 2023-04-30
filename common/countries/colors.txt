@@ -671,6 +671,10 @@ DOM = {
 	color = rgb { 152 130 191 }
 	color_ui = rgb { 198 169 248 }
 }
+EBR = { 
+	color = rgb { 20 102 38 }
+	color_ui = rgb { 20 102 38 }
+}
 ECU = {
 	color = rgb { 255 255 158 }
 	color_ui = rgb { 255 255 158 }
