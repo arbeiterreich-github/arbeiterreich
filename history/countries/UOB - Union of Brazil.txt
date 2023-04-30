@@ -122,7 +122,8 @@ set_popularities = {
 }
 
 add_ideas = {
-	BRA_state_armies1
+	BCW
+	BCW2
 }
 
 ### Country Leaders ###

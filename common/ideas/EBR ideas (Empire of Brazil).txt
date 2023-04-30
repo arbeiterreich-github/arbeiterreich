@@ -4,6 +4,16 @@ ideas = {
 
 country = {
 
+		EBR_British_support = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea EBR_British_support" }
+			name = EBR_British_support 
+			picture = British_support
+			allowed = { always = no }
+			modifier = {
+				industrial_capacity_factory = 0.10
+			}
+		}
+
 		EBR_pedro_legacy = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea EBR_BM" }
 			name = EBR_pedro_legacy 

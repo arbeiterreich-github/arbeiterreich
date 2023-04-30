@@ -167,8 +167,9 @@ set_popularities = {
 }
 
 add_ideas = {
-	BRA_wake_of_civil_war
+	BRA_brutal_regime
 	BRA_state_armies1
+	BCW2
 }
 
 ### Country Leaders ###

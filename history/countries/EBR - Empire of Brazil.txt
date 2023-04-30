@@ -123,8 +123,10 @@ set_popularities = {
 }
 
 add_ideas = {
-	BRA_state_armies1
+	EBR_British_support
 	EBR_pedro_legacy
+	BCW
+	BCW2
 }
 
 ### Country Leaders ###

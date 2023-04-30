@@ -30,6 +30,7 @@ country_event = {
 	
 	trigger = { 
 		has_civil_war = yes
+		tag = EBR
 	}
 	
 	fire_only_once = yes
@@ -56,63 +57,7 @@ country_event = {
 #		date > 1936.8.02
 #	}
 #	fire_only_once = yes
-		
-country_event = {
-	id = ebr.4
-	immediate = { log = "[GetDateText]: [Root.GetName]: event ebr.4 FROM = [From.GetName]" }
-	title = ebr.4.t
-	desc = ebr.4.d
-	picture = GFX_report_event_BRA_riodejaneiro
 
-	is_triggered_only = yes
-	
-	fire_only_once = yes
-
-	option = {
-		name = ebr.4.a
-		add_resource = {
-				type = steel
-				amount = 10
-				state = 500
-			}
-		add_resource = {
-				type = aluminium
-				amount = 6
-				state = 500
-			}
-		add_resource = {
-				type = rubber
-				amount = -21
-				state = 497
-			}
-		add_resource = {
-				type = rubber
-				amount = 21
-				state = 115
-			}
-		add_resource = {
-				type = aluminium
-				amount = -6
-				state = 2
-			}
-		add_resource = {
-				type = steel
-				amount = -10
-				state = 2
-			}
-		add_opinion_modifier = {
-			target = SIC
-			modifier = KR_friendly
-		}
-		SIC = {
-		add_opinion_modifier = {
-			target = EBR
-			modifier = KR_friendly
-			}
-		}
-		SIC = { country_event = SIC.203 days = 2} 
-	}
-}
 country_event = {
 	id = ebr.5
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ebr.5 FROM = [From.GetName]" }
@@ -123,24 +68,13 @@ country_event = {
 	trigger = {
 		tag = EBR
 		has_civil_war = no
-		date > 1938.1.1
-		ARG = { has_government = national_populist }
 	}
 	
 	fire_only_once = yes
 
 	option = {
 		name = ebr.5.a
-		add_opinion_modifier = { 
-			target = ARG
-			modifier = KR_hostile
-		}
-		ARG = {
-		add_opinion_modifier = { 
-			target = EBR
-			modifier = KR_hostile
-			}
-		}
+		remove_ideas = EBR_British_support
 	}
 }
 
