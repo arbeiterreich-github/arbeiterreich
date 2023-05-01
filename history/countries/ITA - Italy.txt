@@ -150,6 +150,7 @@ if = {
 
 country_event = { id = ita.1 days = 1 }
 country_event = { id = ita.2 days = 3 }
+country_event = { id = ita.3 days = 2 }
 
 add_ai_strategy = {
 	type = ignore_claim

@@ -31,3 +31,23 @@ country_event = { # socialist coup attempt
 		load_focus_tree = italian_socialist_focus
 	}
 }
+country_event = { # assasination
+	id = ita.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ita.3 FROM = [From.GetName]" }
+	title = ita.3.t
+	desc = ita.3.d
+	picture = GFX_report_event_ITA_venice
+	is_triggered_only = yes
+
+	option = {
+		name = ita.3.a
+		hidden_effect = {
+		set_country_flag = ITA_SOCIALIST
+		load_focus_tree = italian_socialist_focus
+		}
+	}
+	option = {
+		name = ita.3.b
+		add_stability = -0.05
+	}
+}

@@ -20,10 +20,7 @@ focus_tree = {
 		icon = GFX_SRI_irridentism
 		cost = 7
 		available = {
-			always = no
-			OR = {
-				has_elected_government = yes
-			}
+			has_country_flag = ITA_SOCIALIST
 		}
 		bypass = {
 
