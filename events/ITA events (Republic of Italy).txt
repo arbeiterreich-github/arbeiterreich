@@ -10,7 +10,7 @@ country_event = { # Start up Event
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ita.1 FROM = [From.GetName]" }
 	title = ita.1.t
 	desc = ita.1.d
-	picture = GFX_report_event_ITA_milan
+	picture = report_event_SIC_naples
 	is_triggered_only = yes
 
 	option = {
@@ -22,15 +22,17 @@ country_event = { # socialist coup attempt
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ita.2 FROM = [From.GetName]" }
 	title = ita.2.t
 	desc = ita.2.d
-	picture = GFX_report_event_ITA_venice
+	picture = GFX_report_event_generic_riot1
 	is_triggered_only = yes
 
 	option = {
 		name = ita.2.a
+		hidden_effect = {
 		set_country_flag = ITA_SOCIALIST
-		load_focus_tree = italian_socialist_focus
+			load_focus_tree = italian_socialist_focus
+		}
+		}
 	}
-}
 country_event = { # assasination
 	id = ita.3
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ita.3 FROM = [From.GetName]" }
@@ -41,13 +43,42 @@ country_event = { # assasination
 
 	option = {
 		name = ita.3.a
+		add_stability = -0.1
 		hidden_effect = {
-		set_country_flag = ITA_SOCIALIST
-		load_focus_tree = italian_socialist_focus
+			set_country_flag = ITA_assasinated
 		}
 	}
 	option = {
 		name = ita.3.b
-		add_stability = -0.05
+	country_event = {
+		id = ita.2
+		days = 1
+	}
+}
+}
+country_event = { # Rome Congress
+	id = ita.4
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ita.5 FROM = [From.GetName]" }
+	title = ita.4.t
+	desc = ita.4.d
+	picture = GFX_report_event_generic_conference1
+	is_triggered_only = yes
+
+	option = {
+		name = ita.3.a
+		custom_effect_tooltip = ITA_congressstart_tooltip
+	}
+}
+country_event = { # international delegates
+	id = ita.6
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ita.6 FROM = [From.GetName]" }
+	title = ita.6.t
+	desc = ita.6.d
+	picture = GFX_report_event_generic_conference3
+	is_triggered_only = yes
+
+	option = {
+		name = ita.6.a
+		custom_effect_tooltip = ITA_congressstart_tooltip
 	}
 }

@@ -18,7 +18,7 @@ focus_tree = {
 	focus = {# Socialist Success
 		id = ITA_socialist_success
 		icon = GFX_SRI_irridentism
-		cost = 7
+		cost = 0
 		available = {
 			has_country_flag = ITA_SOCIALIST
 		}
@@ -36,6 +36,37 @@ focus_tree = {
 		y = 0
 		completion_reward = {
 			custom_effect_tooltip = ITA_socialist_success_tooltip
+		}
+	}
+
+	focus = {# Rome Congress
+		id = ITA_rome_congress
+		icon = GFX_goal_ideology_radical_socialist
+		cost = 7
+		available = {
+			has_country_flag = ITA_SOCIALIST
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_SOCIALIST
+				}
+			}
+		}
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = ITA_socialist_success
+		}
+		relative_position_id = ITA_socialist_success
+		completion_reward = {
+			custom_effect_tooltip = ITA_socialist_rome_congress_tooltip
+			hidden_effect = {
+				
+			}
 		}
 	}
 }
