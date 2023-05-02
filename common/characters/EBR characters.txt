@@ -44,20 +44,27 @@
 			logistics_skill = 2
 		}
 	}
-	EBR_Antonio_Gastao_of_Orleans-Braganza = {
-		name = Antonio_Gastao_of_Orleans-Braganza
+	EBR_antonio_gastao_of_orleans-braganza = {
+		name = antonio_gastao_of_orleans-braganza
 		portraits = {
 			army = {
 				large = "gfx/leaders/EBR/Portrait_EBR_Antonio_Gastao_of_Orleans-Braganza.png"
 			}
 		}
 		field_marshal = {
-			traits = { infantry_officer career_officer commando trickster }
+			traits = { career_officer war_hero trickster }
 			skill = 4
 			attack_skill = 3
 			defense_skill = 3
 			planning_skill = 2
 			logistics_skill = 2
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = EBR_antonio_gastao_of_orleans-braganza
+			ledger = air
+			traits = { KR_air_chief_reform_2 }
+			cost = 100
 		}
 	}
 	EBR_antonio_carlos_da_silva_murici = {

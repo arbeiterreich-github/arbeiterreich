@@ -143,6 +143,7 @@ activate_advisor = EBR_congresso_nacional_sic
 
 recruit_character =	EBR_alipio_virgilio_di_primio
 recruit_character = EBR_antonio_carlos_da_silva_murici 
+recruit_character = EBR_antonio_gastao_of_orleans-braganza
 
 ### Theorists ###
 
