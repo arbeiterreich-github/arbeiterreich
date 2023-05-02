@@ -5,8 +5,8 @@ state = {
 	state_category = two
 
 	history = {
-		owner = PAL
-		add_core_of = PAL
+		owner = HEJ
+		add_core_of = HEJ
 		add_to_array = { state_victory_points = 1086 }
 		add_to_array = { state_victory_points = 4206 }
 		set_demilitarized_zone = yes
