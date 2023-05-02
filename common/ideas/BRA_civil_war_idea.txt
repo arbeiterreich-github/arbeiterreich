@@ -21,7 +21,7 @@ ideas = {
 			picture = generic_phoenix
 			allowed = { always = no }
 			modifier = {
-				surrender_limit = 0.65
+				surrender_limit = 0.25
 			}
 		}
 	}
