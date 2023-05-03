@@ -45,7 +45,7 @@
 		}
 	}
 	EBR_antonio_gastao_of_orleans-braganza = {
-		name = antonio_gastao_of_orleans-braganza
+		name = EBR_antonio_gastao_of_orleans-braganza
 		portraits = {
 			army = {
 				large = "gfx/leaders/EBR/Portrait_EBR_Antonio_Gastao_of_Orleans-Braganza.png"
