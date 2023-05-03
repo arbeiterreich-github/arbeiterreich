@@ -17,7 +17,7 @@ focus_tree = {
 
 	focus = {# Socialist Success
 		id = ITA_socialist_success
-		icon = GFX_SRI_irridentism
+		icon = GFX_SRI_success
 		cost = 0
 		available = {
 			has_country_flag = ITA_SOCIALIST
@@ -87,7 +87,7 @@ focus_tree = {
 				}
 			}
 		}
-		x = -1
+		x = -2
 		y = 2
 		prerequisite = {
 			focus = ITA_rome_congress
