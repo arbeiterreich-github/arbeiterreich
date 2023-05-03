@@ -139,6 +139,10 @@
  ITA_SOCIALIST: "The Collectivist Coalition has successfully couped Italy"
  ITA_congressstart_tooltip: "§RThe Congress Shall Begin§"
  ITA_assasinated: "§RThe Assasinations Have Occoured§"
+ ITA_socialist_militaryreform_tooltip: "§RReformation of the Military Shall Begin§"
+ ITA_socialist_agrarianreform_tooltip: "§RReformation of Agriculture Shall Begin§"
+ ITA_socialist_workersreform_tooltip: "§RReformation of the Proletariat Shall Begin§"
+
 
 ### Opinion Modifiers ###
  ITA_austrian_no_freindship: "No Austrian Friendship"
@@ -153,6 +157,9 @@ ITA_kingdom_crisis_desc: "On a routine ride along in Rome to see their people, P
 ITA_socialist_success: "The Revolution Successful"
 ITA_socialist_success_desc: "We have successfully taken over Italy and fufilled our socialist dreams that were long overdue! The capitalist scum and the old liberal government are now doomed without their leaders. The National Congress is neigh."
 ITA_rome_congress: "Begin The Rome Congress"
+ITA_military_reform: "Issues on Military Reform"
+ITA_agrarian_reform: "Issues on Agrarian Reform"
+ITA_workers_reform: "Issues on Workers Reform"
 ### Monarchy Path ###
  ITA_king_of_italy: "Restoration of the Federation"
  ITA_king_of_italy_desc: "Though republicanism guided our country for seven years, the time has come for a return to the decentralised aristocratic rule of the Italian Federation."

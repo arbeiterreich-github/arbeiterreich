@@ -69,4 +69,97 @@ focus_tree = {
 			}
 		}
 	}
+
+	focus = {# Military Reform
+		id = ITA_military_reform
+		icon = GFX_goal_Workers_Paradise
+		cost = 7
+		available = {
+			has_country_flag = ITA_SOCIALIST
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_SOCIALIST
+				}
+			}
+		}
+		x = -1
+		y = 2
+		prerequisite = {
+			focus = ITA_rome_congress
+		}
+		relative_position_id = ITA_socialist_success
+		completion_reward = {
+			custom_effect_tooltip = ITA_socialist_militaryreform_tooltip
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Agrarian Reform
+		id = ITA_agrarian_reform
+		icon = GFX_goal_intergrate_the_militia
+		cost = 7
+		available = {
+			has_country_flag = ITA_SOCIALIST
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_SOCIALIST
+				}
+			}
+		}
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = ITA_rome_congress
+		}
+		relative_position_id = ITA_socialist_success
+		completion_reward = {
+			custom_effect_tooltip = ITA_socialist_agrarianreform_tooltip
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Workers Reform
+		id = ITA_workers_reform
+		icon = GFX_goal_workers_rights
+		cost = 7
+		available = {
+			has_country_flag = ITA_SOCIALIST
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_SOCIALIST
+				}
+			}
+		}
+		x = 2
+		y = 2
+		prerequisite = {
+			focus = ITA_rome_congress
+		}
+		relative_position_id = ITA_socialist_success
+		completion_reward = {
+			custom_effect_tooltip = ITA_socialist_workersreform_tooltip
+			hidden_effect = {
+				
+			}
+		}
+	}
 }

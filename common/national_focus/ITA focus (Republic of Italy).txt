@@ -32,7 +32,7 @@ focus_tree = {
 		allow_branch = {
 			if = {
 				limit = {
-					has_country_flag = hide_trees_from_now
+					has_country_flag = ITA_assasinated
 				}
 				OR = {
 					has_elected_government = yes
@@ -52,7 +52,7 @@ focus_tree = {
 		icon = GFX_SRD_irridentism
 		cost = 0
 		available = {
-			always = no
+			has_country_flag = ITA_assasinated
 			OR = {
 				has_elected_government = yes
 			}
