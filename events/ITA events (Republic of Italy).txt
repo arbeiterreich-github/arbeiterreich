@@ -27,9 +27,14 @@ country_event = { # socialist coup attempt
 
 	option = {
 		name = ita.2.a
+		set_politics = {
+			ruling_party = syndicalist
+			elections_allowed = no
+		}
 		hidden_effect = {
 		set_country_flag = ITA_SOCIALIST
 			load_focus_tree = italian_socialist_focus
+			leave_faction = yes
 		}
 		}
 	}
@@ -50,9 +55,11 @@ country_event = { # assasination
 	}
 	option = {
 		name = ita.3.b
+		hidden_effect = {
 	country_event = {
 		id = ita.2
 		days = 1
+	}
 	}
 }
 }

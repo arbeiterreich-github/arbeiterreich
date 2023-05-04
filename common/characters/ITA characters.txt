@@ -12,6 +12,19 @@ characters = {
 			traits = {  }
 		}
 	}
+	ITA_palmiro_togliatti = {
+		name = ITA_palmiro_togliatti
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ITA/Portrait_ITA_Palmiro_Togliatti.png"
+			}
+		}
+		country_leader = {
+			desc = ITA_palmiro_togliatti_iii_leader_desc
+			ideology = syndicalist_subtype
+			traits = {  }
+		}
+	}
 	ITA_italo_balbo = {
 		name = ITA_italo_balbo
 		portraits = {

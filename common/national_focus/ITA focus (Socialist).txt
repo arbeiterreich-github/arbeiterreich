@@ -162,4 +162,34 @@ focus_tree = {
 			}
 		}
 	}
+
+	focus = {# Socialist Military Academy
+		id = ITA_socialist_milacademy
+		icon = GFX_goal_great_science
+		cost = 7
+		available = {
+			has_country_flag = ITA_SOCIALIST
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_SOCIALIST
+				}
+			}
+		}
+		x = -2
+		y = 3
+		prerequisite = {
+			focus = ITA_military_reform
+		}
+		relative_position_id = ITA_socialist_success
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
 }
