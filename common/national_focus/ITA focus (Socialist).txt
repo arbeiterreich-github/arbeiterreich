@@ -17,7 +17,7 @@ focus_tree = {
 
 	focus = {# Socialist Success
 		id = ITA_socialist_success
-		icon = GFX_SRI_success
+		icon = GFX_SRI_united
 		cost = 0
 		available = {
 			has_country_flag = ITA_SOCIALIST
@@ -72,7 +72,7 @@ focus_tree = {
 
 	focus = {# Military Reform
 		id = ITA_military_reform
-		icon = GFX_goal_Workers_Paradise
+		icon = GFX_goal_reform_socialist_army
 		cost = 7
 		available = {
 			has_country_flag = ITA_SOCIALIST
@@ -103,7 +103,7 @@ focus_tree = {
 
 	focus = {# Agrarian Reform
 		id = ITA_agrarian_reform
-		icon = GFX_goal_intergrate_the_militia
+		icon = GFX_goal_Workers_Paradise
 		cost = 7
 		available = {
 			has_country_flag = ITA_SOCIALIST
