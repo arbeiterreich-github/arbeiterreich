@@ -72,7 +72,21 @@ country_event = { # Rome Congress
 	is_triggered_only = yes
 
 	option = {
-		name = ita.3.a
+		name = ita.4.a
+		custom_effect_tooltip = ITA_congressstart_tooltip
+		set_country_flag = ITA_CONGRESS
+	}
+}
+country_event = { # WIP
+	id = ita.5
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ita.5 FROM = [From.GetName]" }
+	title = ita.5.t
+	desc = ita.5.d
+	picture = GFX_report_event_generic_conference1
+	is_triggered_only = yes
+
+	option = {
+		name = ita.5.a
 		custom_effect_tooltip = ITA_congressstart_tooltip
 	}
 }
@@ -87,5 +101,45 @@ country_event = { # international delegates
 	option = {
 		name = ita.6.a
 		custom_effect_tooltip = ITA_congressstart_tooltip
+	}
+}
+country_event = { # military reform
+	id = ita.7
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ita.6 FROM = [From.GetName]" }
+	title = ita.7.t
+	desc = ita.7.d
+	picture = GFX_report_event_generic_conference3
+	is_triggered_only = yes
+
+	option = {
+		name = ita.7.a
+		add_command_power = 0.05
+	}
+}
+country_event = { # agrarian reform
+	id = ita.8
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ita.6 FROM = [From.GetName]" }
+	title = ita.8.t
+	desc = ita.8.d
+	picture = GFX_report_event_generic_conference3
+	is_triggered_only = yes
+
+	option = {
+		name = ita.8.a
+		add_stability = 0.1
+	}
+}
+country_event = { # workers reform
+	id = ita.9
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ita.6 FROM = [From.GetName]" }
+	title = ita.9.t
+	desc = ita.9.d
+	picture = GFX_report_event_generic_conference3
+	is_triggered_only = yes
+
+	option = {
+		name = ita.9.a
+		add_political_power = 100
+
 	}
 }

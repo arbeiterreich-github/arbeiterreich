@@ -20,7 +20,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			desc = ITA_palmiro_togliatti_iii_leader_desc
+			desc = ITA_palmiro_togliatti_leader_desc
 			ideology = syndicalist_subtype
 			traits = {  }
 		}

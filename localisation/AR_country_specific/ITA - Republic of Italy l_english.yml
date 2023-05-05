@@ -142,7 +142,7 @@
  ITA_socialist_militaryreform_tooltip: "§RReformation of the Military Shall Begin§"
  ITA_socialist_agrarianreform_tooltip: "§RReformation of Agriculture Shall Begin§"
  ITA_socialist_workersreform_tooltip: "§RReformation of the Proletariat Shall Begin§"
-
+ ITA_CONGRESS: "The Rome Congress has Began"
 
 ### Opinion Modifiers ###
  ITA_austrian_no_freindship: "No Austrian Friendship"
@@ -159,6 +159,7 @@ ITA_socialist_success_desc: "We have successfully taken over Italy and fufilled 
 ITA_rome_congress: "Begin The Rome Congress"
 ITA_rome_congress_desc: "The Rome Congress is a meeting between the finest of the finest in Italian socialist politics. And though were late in this, as the Germans have already beat us to it, we are going to do it now. The delegates have arrived and we are soon to reform our country broken by capitalism."
 ITA_military_reform: "Issues on Military Reform"
+ITA_military_reform: "With the longstanding issue of military reform at hand, we must make it our core concern for the moment. The previous government made absolutley absurd promises to the military in exchange for their lives in the Great War, it is time we undo these overly expensive promised and rather repay them in wage reform and better conditions."
 ITA_agrarian_reform: "Issues on Agrarian Reform"
 ITA_workers_reform: "Issues on Workers Reform"
 ITA_socialist_milacademy: "Socialist Military Academy"
@@ -173,8 +174,19 @@ ITA_socialist_milacademy: "Socialist Military Academy"
  ita.2.a: "The Revolution has Began. A New Age for Italy has Arrisen."
  ita.3.t: "The Assasination!"
  ita.3.d: "On a routine ride along in Rome to see their people, Prime Minister Luigi Einaudi and Chancellor Ferruccio Parri were both assasinated by two members of the Socialist Revolutionary Anarchist Party, a lot like King Umberto I of Italy in 1900. They were driving and while waving to the people until suddenly Parri was shot by the first assasin and a bomb was thrown at the car a moment later by the second assasin, killing Einaudi and two civilian passerbys and leaving 14 others wounded. The two men, who go by the names Nicola Sacco and Bartolomeo Vanzetti respectively were both gunned down at the site by the military guard who were in the area. The government has not officially came out with any statements about this tragedy yet but it has left a giant power vaccum which must be filled quickly."
+ ita.3.a: "What...???"
  ita.4.t: "The Rome Congress"
  ita.4.d: "The Rome Congress is a meeting between the finest of the finest in Italian socialist politics. And though were late in this, as the Germans have already beat us to it, we are going to do it now. The delegates have arrived and we are soon to reform our country broken by capitalism."
+ ita.4.a: "Let the Congress Begin!"
+ ita.7.t: "Military Reform Issue"
+ ita.7.d: "Our military is the first gear in the machine known as Italy. With the longstanding issue of military reform at hand, we must make it our core concern for the moment. The previous government made absolutley absurd promises to the military in exchange for their lives in the Great War, it is time we undo these overly expensive promised and rather repay them in wage reform and better conditions."
+ ita.7.a: "Time to clean the capitalist stains."
+ ita.8.t: "Agrarian Reform Issue"
+ ita.8.d: "The farmers are the lifeblood of our nation. They feed our workers and are one of the three essential gears in our nations order. We have to reform their pay and make their work worth it. Nothing else should stop our great farmers from being the greatest they can be!"
+ ita.8.a: "Time to clean the capitalist stains."
+ ita.9.t: "Proletariat Reform Issue"
+ ita.9.d: "Our workers, the final gear of the Italian machine. The Proletariat is the most useful part of the system. Being the symbol of our socialist utopia, we must take into acount our working class and raise wages while lowering work hours to increase max efficiency."
+ ita.9.a: "Time to clean the capitalist stains."
 
 ### Cosmetic Tags ###
  ITA: "Italy"

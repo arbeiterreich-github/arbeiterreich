@@ -65,7 +65,10 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = ITA_socialist_rome_congress_tooltip
 			hidden_effect = {
-				
+				country_event = {
+				id = ita.4
+				days = 5
+				}
 			}
 		}
 	}
@@ -75,7 +78,7 @@ focus_tree = {
 		icon = GFX_goal_reform_socialist_army
 		cost = 7
 		available = {
-			has_country_flag = ITA_SOCIALIST
+			has_country_flag = ITA_CONGRESS
 		}
 		bypass = {
 
@@ -83,7 +86,7 @@ focus_tree = {
 		allow_branch = {
 			if = {
 				limit = {
-					has_country_flag = ITA_SOCIALIST
+					has_country_flag = ITA_CONGRESS
 				}
 			}
 		}
@@ -96,7 +99,10 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = ITA_socialist_militaryreform_tooltip
 			hidden_effect = {
-				
+				country_event = {
+					id = ita.7
+					days = 3
+				}
 			}
 		}
 	}
@@ -106,7 +112,7 @@ focus_tree = {
 		icon = GFX_goal_Workers_Paradise
 		cost = 7
 		available = {
-			has_country_flag = ITA_SOCIALIST
+			has_country_flag = ITA_CONGRESS
 		}
 		bypass = {
 
@@ -114,7 +120,7 @@ focus_tree = {
 		allow_branch = {
 			if = {
 				limit = {
-					has_country_flag = ITA_SOCIALIST
+					has_country_flag = ITA_CONGRESS
 				}
 			}
 		}
@@ -127,7 +133,10 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = ITA_socialist_agrarianreform_tooltip
 			hidden_effect = {
-				
+				country_event = {
+					id = ita.8
+					days = 3
+				}
 			}
 		}
 	}
@@ -137,7 +146,7 @@ focus_tree = {
 		icon = GFX_goal_workers_rights
 		cost = 7
 		available = {
-			has_country_flag = ITA_SOCIALIST
+			has_country_flag = ITA_CONGRESS
 		}
 		bypass = {
 
@@ -145,7 +154,7 @@ focus_tree = {
 		allow_branch = {
 			if = {
 				limit = {
-					has_country_flag = ITA_SOCIALIST
+					has_country_flag = ITA_CONGRESS
 				}
 			}
 		}
@@ -158,7 +167,10 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = ITA_socialist_workersreform_tooltip
 			hidden_effect = {
-				
+				country_event = {
+					id = ita.9
+					days = 3
+				}
 			}
 		}
 	}
@@ -168,7 +180,7 @@ focus_tree = {
 		icon = GFX_goal_great_science
 		cost = 7
 		available = {
-			has_country_flag = ITA_SOCIALIST
+			has_country_flag = ITA_CONGRESS
 		}
 		bypass = {
 
@@ -176,7 +188,7 @@ focus_tree = {
 		allow_branch = {
 			if = {
 				limit = {
-					has_country_flag = ITA_SOCIALIST
+					has_country_flag = ITA_CONGRESS
 				}
 			}
 		}
