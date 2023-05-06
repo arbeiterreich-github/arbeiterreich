@@ -162,6 +162,40 @@ country_event = { # colonies break off
 			release = LBA
 			release = ETH
 			release = SOM
+
+			remove_opinion_modifier = {
+				target = ETH
+				modifier = large_decrease
+			}
+			
+			
+			reverse_add_opinion_modifier = {
+				target = ETH
+				modifier = large_decrease
+			}
+
+			remove_opinion_modifier = {
+				target = LBA
+				modifier = large_decrease
+			}
+			
+			
+			reverse_add_opinion_modifier = {
+				target = LBA
+				modifier = large_decrease
+			}
+
+			remove_opinion_modifier = {
+				target = SOM
+				modifier = large_decrease
+			}
+			
+			
+			reverse_add_opinion_modifier = {
+				target = SOM
+				modifier = large_decrease
+			}
+			
 		}
 
 	}

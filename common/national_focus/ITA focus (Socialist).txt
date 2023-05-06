@@ -265,4 +265,161 @@ focus_tree = {
 			}
 		}
 	}
+
+	focus = {# Destroy the Bourgeoisie
+		id = ITA_destroy_bourgeoisie
+		icon = GFX_goal_step_on_skull
+		cost = 7
+		available = {
+			has_country_flag = ITA_CONGRESS
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_CONGRESS
+				}
+			}
+		}
+		x = -1
+		y = 4
+		prerequisite = {
+			focus = ITA_socialist_milacademy
+			focus = ITA_allow_communes
+			focus = ITA_allow_unions
+
+		}
+		relative_position_id = ITA_socialist_success
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Quotas
+		id = ITA_quotas
+		icon = GFX_goal_syndicalist_workers
+		cost = 7
+		available = {
+			has_country_flag = ITA_CONGRESS
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_CONGRESS
+				}
+			}
+		}
+		x = 1
+		y = 4
+		prerequisite = {
+			focus = ITA_socialist_milacademy
+			focus = ITA_allow_communes
+			focus = ITA_allow_unions
+			
+		}
+		relative_position_id = ITA_socialist_success
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Supporting the Proletariat
+		id = ITA_supporting_the_proletariat
+		icon = GFX_goal_syndicalist_congress
+		cost = 7
+		available = {
+			has_country_flag = ITA_CONGRESS
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_CONGRESS
+				}
+			}
+		}
+		x = -1
+		y = 5
+		prerequisite = {
+			focus = ITA_destroy_bourgeoisie
+		}
+		relative_position_id = ITA_socialist_success
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Education Improvements
+		id = ITA_education_improvements
+		icon = GFX_focus_generic_socialist_science
+		cost = 7
+		available = {
+			has_country_flag = ITA_CONGRESS
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_CONGRESS
+				}
+			}
+		}
+		x = 1
+		y = 5
+		prerequisite = {
+			focus = ITA_quotas
+		}
+		relative_position_id = ITA_socialist_success
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Elect a New Chairman
+		id = ITA_elect_chairman
+		icon = GFX_goal_commune_politics
+		cost = 2
+		available = {
+			has_country_flag = ITA_CONGRESS
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_CONGRESS
+				}
+			}
+		}
+		x = 0
+		y = 6
+		prerequisite = {
+			focus = ITA_supporting_the_proletariat
+			focus = ITA_education_improvements
+		}
+		relative_position_id = ITA_socialist_success
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
 }
