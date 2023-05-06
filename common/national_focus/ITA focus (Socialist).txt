@@ -253,10 +253,10 @@ focus_tree = {
 				}
 			}
 		}
-		x = 1
+		x = 2
 		y = 3
 		prerequisite = {
-			focus = ITA_agrarian_reform
+			focus = ITA_workers_reform
 		}
 		relative_position_id = ITA_socialist_success
 		completion_reward = {
