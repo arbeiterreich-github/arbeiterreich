@@ -113,7 +113,7 @@ country_event = { # military reform
 
 	option = {
 		name = ita.7.a
-		add_command_power = 0.05
+		add_command_power = 0.5
 	}
 }
 country_event = { # agrarian reform

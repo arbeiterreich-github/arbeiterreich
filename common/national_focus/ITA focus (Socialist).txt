@@ -177,7 +177,7 @@ focus_tree = {
 
 	focus = {# Socialist Military Academy
 		id = ITA_socialist_milacademy
-		icon = GFX_goal_great_science
+		icon = GFX_focus_generic_socialist_science
 		cost = 7
 		available = {
 			has_country_flag = ITA_CONGRESS
@@ -196,6 +196,67 @@ focus_tree = {
 		y = 3
 		prerequisite = {
 			focus = ITA_military_reform
+		}
+		relative_position_id = ITA_socialist_success
+		completion_reward = {
+			add_research_slot = 1
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Allow Communes
+		id = ITA_allow_communes
+		icon = GFX_goal_revolution_tools
+		cost = 7
+		available = {
+			has_country_flag = ITA_CONGRESS
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_CONGRESS
+				}
+			}
+		}
+		x = 0
+		y = 3
+		prerequisite = {
+			focus = ITA_agrarian_reform
+		}
+		relative_position_id = ITA_socialist_success
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Allow Unions
+		id = ITA_allow_unions
+		icon = GFX_GBR_fate_of_unions
+		cost = 7
+		available = {
+			has_country_flag = ITA_CONGRESS
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_CONGRESS
+				}
+			}
+		}
+		x = 1
+		y = 3
+		prerequisite = {
+			focus = ITA_agrarian_reform
 		}
 		relative_position_id = ITA_socialist_success
 		completion_reward = {

@@ -48,8 +48,8 @@ focus_tree = {
 	}
 
 	focus = {# The Kingdom in Crisis
-		id = ITA_kingdom_crisis
-		icon = GFX_SRD_irridentism
+		id = ITA_filling_power_vaccum
+		icon = GFX_focus_rom_abdicate
 		cost = 0
 		available = {
 			has_country_flag = ITA_assasinated
@@ -63,7 +63,7 @@ focus_tree = {
 		allow_branch = {
 			if = {
 				limit = {
-					has_country_flag = hide_trees_from_now
+					has_country_flag = ITA_assasinated
 				}
 				OR = {
 					has_elected_government = yes
@@ -71,10 +71,13 @@ focus_tree = {
 				}
 			}
 		}
-		x = 15
-		y = 0
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = ITA_kingdom_crisis
+		}
+		relative_position_id = ITA_kingdom_crisis
 		completion_reward = {
-			custom_effect_tooltip = ITA_snap_elections_tooltip
 		}
 	}
 }
