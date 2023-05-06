@@ -902,8 +902,8 @@ KTG = {
 	color_ui = rgb { 128 0 39 }
 }
 LBA = {
-	color = rgb { 64 64 64 }
-	color_ui = rgb { 64 64 64 }
+	color = rgb { 49 131 29 }
+	color_ui = rgb { 49 131 29 }
 }
 LIB = {
 	color = rgb { 129 169 177 }

@@ -27,14 +27,18 @@ country_event = { # socialist coup attempt
 
 	option = {
 		name = ita.2.a
-		set_politics = {
-			ruling_party = syndicalist
-			elections_allowed = no
-		}
 		hidden_effect = {
+		set_politics = {
+		ruling_party = syndicalist
+		elections_allowed = no
+		}
 		set_country_flag = ITA_SOCIALIST
 			load_focus_tree = italian_socialist_focus
 			leave_faction = yes
+			country_event = {
+				id = ita.10
+				days = 7
+			}
 		}
 		}
 	}
@@ -65,7 +69,7 @@ country_event = { # assasination
 }
 country_event = { # Rome Congress
 	id = ita.4
-	immediate = { log = "[GetDateText]: [Root.GetName]: event ita.5 FROM = [From.GetName]" }
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ita.4 FROM = [From.GetName]" }
 	title = ita.4.t
 	desc = ita.4.d
 	picture = GFX_report_event_generic_conference1
@@ -105,7 +109,7 @@ country_event = { # international delegates
 }
 country_event = { # military reform
 	id = ita.7
-	immediate = { log = "[GetDateText]: [Root.GetName]: event ita.6 FROM = [From.GetName]" }
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ita.7 FROM = [From.GetName]" }
 	title = ita.7.t
 	desc = ita.7.d
 	picture = GFX_report_event_generic_conference3
@@ -118,7 +122,7 @@ country_event = { # military reform
 }
 country_event = { # agrarian reform
 	id = ita.8
-	immediate = { log = "[GetDateText]: [Root.GetName]: event ita.6 FROM = [From.GetName]" }
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ita.8 FROM = [From.GetName]" }
 	title = ita.8.t
 	desc = ita.8.d
 	picture = GFX_report_event_generic_conference3
@@ -131,7 +135,7 @@ country_event = { # agrarian reform
 }
 country_event = { # workers reform
 	id = ita.9
-	immediate = { log = "[GetDateText]: [Root.GetName]: event ita.6 FROM = [From.GetName]" }
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ita.9 FROM = [From.GetName]" }
 	title = ita.9.t
 	desc = ita.9.d
 	picture = GFX_report_event_generic_conference3
@@ -140,6 +144,25 @@ country_event = { # workers reform
 	option = {
 		name = ita.9.a
 		add_political_power = 100
+
+	}
+}
+country_event = { # colonies break off
+	id = ita.10
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ita.10 FROM = [From.GetName]" }
+	title = ita.10.t
+	desc = ita.10.d
+	picture = GFX_report_event_generic_conference3
+	is_triggered_only = yes
+
+	option = {
+		name = ita.10.a
+		add_stability = -0.1
+		hidden_effect = {
+			release = LBA
+			release = ETH
+			release = SOM
+		}
 
 	}
 }
