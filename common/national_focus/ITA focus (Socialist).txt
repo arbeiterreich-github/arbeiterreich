@@ -15,6 +15,10 @@ focus_tree = {
 	default = no
 	continuous_focus_position = { x = 60 y = 1200 }
 
+	###########################
+	# The Beginning
+	###########################
+
 	focus = {# Socialist Success
 		id = ITA_socialist_success
 		icon = GFX_SRI_united
@@ -416,6 +420,40 @@ focus_tree = {
 			focus = ITA_education_improvements
 		}
 		relative_position_id = ITA_socialist_success
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	###########################
+	# The Anarchist
+	###########################
+
+	focus = {# The Anarchist
+		id = ITA_anarchist
+		icon = GFX_goal_anarcho_communism
+		cost = 1
+		available = {
+			has_country_flag = ITA_anarchist_victory
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_anarchist_victory
+				}
+			}
+		}
+		x = -7
+		y = 1
+		prerequisite = {
+			focus = ITA_elect_chairman
+		}
+		relative_position_id = ITA_elect_chairman
 		completion_reward = {
 			hidden_effect = {
 				

@@ -200,3 +200,23 @@ country_event = { # colonies break off
 
 	}
 }
+country_event = { # new chairman
+	id = ita.11
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ita.11 FROM = [From.GetName]" }
+	title = ita.11.t
+	desc = ita.11.d
+	picture = GFX_report_event_generic_conference3
+	is_triggered_only = yes
+
+	option = {
+		name = ita.11.a
+		set_politics = {
+			ruling_party = radical_socialist
+			elections_allowed = no
+			}
+			hidden_effect = {
+				set_country_flag = ITA_anarchist_victory
+			}
+
+	}
+}

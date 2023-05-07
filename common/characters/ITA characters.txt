@@ -16,7 +16,7 @@ characters = {
 		name = ITA_palmiro_togliatti
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/ITA/Portrait_ITA_Palmiro_Togliatti.png"
+				large = "gfx/leaders/ITA/Portrait_ITA_Socialist_Palmiro_Togliatti.png"
 			}
 		}
 		country_leader = {
