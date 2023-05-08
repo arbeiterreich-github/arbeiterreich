@@ -13,7 +13,7 @@ focus_tree = {
 		}
 	}
 	default = no
-	continuous_focus_position = { x = 60 y = 1200 }
+	continuous_focus_position = { x = 260 y = 1800 }
 
 	###########################
 	# The Beginning
@@ -421,6 +421,10 @@ focus_tree = {
 		}
 		relative_position_id = ITA_socialist_success
 		completion_reward = {
+			country_event = {
+				id = ita.11
+				days = 0
+				}
 			hidden_effect = {
 				
 			}
@@ -454,6 +458,378 @@ focus_tree = {
 			focus = ITA_elect_chairman
 		}
 		relative_position_id = ITA_elect_chairman
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {#Scale Back the Need for Order
+		id = ITA_no_need_for_order
+		icon = GFX_goal_HOL_fires_of_revolution_faux
+		cost = 5
+		available = {
+			has_country_flag = ITA_anarchist_victory
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_anarchist_victory
+				}
+			}
+		}
+		x = -2
+		y = 1
+		prerequisite = {
+			focus = ITA_anarchist
+		}
+		relative_position_id = ITA_anarchist
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {#Memorialize Nicola Sacco and Bartolomeo Vanzetti
+		id = ITA_memorialize_assasins
+		icon = GFX_goal_COS_Peace
+		cost = 5
+		available = {
+			has_country_flag = ITA_anarchist_victory
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_anarchist_victory
+				}
+			}
+		}
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = ITA_anarchist
+		}
+		relative_position_id = ITA_anarchist
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Dissolve State Programs
+		id = ITA_dissolve_programs
+		icon = GFX_goal_state_economy
+		cost = 5
+		available = {
+			has_country_flag = ITA_anarchist_victory
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_anarchist_victory
+				}
+			}
+		}
+		x = 2
+		y = 1
+		prerequisite = {
+			focus = ITA_anarchist
+		}
+		relative_position_id = ITA_anarchist
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Make Public Food Spots
+		id = ITA_public_food
+		icon = GFX_goal_famine
+		cost = 5
+		available = {
+			has_country_flag = ITA_anarchist_victory
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_anarchist_victory
+				}
+			}
+		}
+		x = -3
+		y = 2
+		prerequisite = {
+			focus = ITA_no_need_for_order
+		}
+		relative_position_id = ITA_anarchist
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Make Public Water Spots
+		id = ITA_public_water
+		icon = GFX_goal_champagne_diplomacy
+		cost = 5
+		available = {
+			has_country_flag = ITA_anarchist_victory
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_anarchist_victory
+				}
+			}
+		}
+		x = -2
+		y = 2
+		prerequisite = {
+			focus = ITA_no_need_for_order
+		}
+		relative_position_id = ITA_anarchist
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Increase an Economic Autarky
+		id = ITA_anarchist_autarky
+		icon = GFX_goal_generic_workers_democracy
+		cost = 5
+		available = {
+			has_country_flag = ITA_anarchist_victory
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_anarchist_victory
+				}
+			}
+		}
+		x = -1
+		y = 3
+		prerequisite = {
+			focus = ITA_public_food
+			focus = ITA_public_water
+		}
+		relative_position_id = ITA_anarchist
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Community Maintained Cities
+		id = ITA_community_cities
+		icon = GFX_goal_economic_control
+		cost = 5
+		available = {
+			has_country_flag = ITA_anarchist_victory
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_anarchist_victory
+				}
+			}
+		}
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = ITA_memorialize_assasins
+		}
+		relative_position_id = ITA_anarchist
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Salvage the Military
+		id = ITA_salvage_military
+		icon = GFX_goal_army_guy_2
+		cost = 5
+		available = {
+			has_country_flag = ITA_anarchist_victory
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_anarchist_victory
+				}
+			}
+		}
+		x = 2
+		y = 2
+		prerequisite = {
+			focus = ITA_dissolve_programs
+		}
+		relative_position_id = ITA_anarchist
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# End The Mafia
+		id = ITA_end_mafia
+		icon = GFX_goal_flames_of_rebellion
+		cost = 5
+		available = {
+			has_country_flag = ITA_anarchist_victory
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_anarchist_victory
+				}
+			}
+		}
+		x = 1
+		y = 3
+		prerequisite = {
+			focus = ITA_community_cities
+			focus = ITA_salvage_military
+
+		}
+		relative_position_id = ITA_anarchist
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Destroy Monarchist Symbols
+		id = ITA_destroy_monarchist_symbols
+		icon = GFX_focus_rom_abdicate
+		cost = 5
+		available = {
+			has_country_flag = ITA_anarchist_victory
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_anarchist_victory
+				}
+			}
+		}
+		x = 0
+		y = 4
+		prerequisite = {
+			focus = ITA_end_mafia
+			focus = ITA_anarchist_autarky
+		}
+		relative_position_id = ITA_anarchist
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Recruit the Socialists
+		id = ITA_recruit_socialists
+		icon = GFX_goal_ideology_radical_socialist
+		cost = 5
+		available = {
+			has_country_flag = ITA_anarchist_victory
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_anarchist_victory
+				}
+			}
+		}
+		x = 1
+		y = 5
+		prerequisite = {
+			focus = ITA_end_mafia
+			focus = ITA_anarchist_autarky
+		}
+		mutually_exclusive = {
+			focus = ITA_solidify_influence
+		}
+		relative_position_id = ITA_anarchist
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Solidify Influence
+		id = ITA_solidify_influence
+		icon = GFX_goal_HOL_crackdown_radsoc
+		cost = 5
+		available = {
+			has_country_flag = ITA_anarchist_victory
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_anarchist_victory
+				}
+			}
+		}
+		x = 1
+		y = 5
+		prerequisite = {
+			focus = ITA_end_mafia
+			focus = ITA_anarchist_autarky
+		}
+		mutually_exclusive = {
+			focus = ITA_recruit_socialists
+		}
+		relative_position_id = ITA_anarchist
 		completion_reward = {
 			hidden_effect = {
 				
