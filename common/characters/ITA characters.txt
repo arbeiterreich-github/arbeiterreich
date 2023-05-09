@@ -12,6 +12,19 @@ characters = {
 			traits = {  }
 		}
 	}
+	ITA_antonio_gramsci = {
+		name = ITA_antonio_gramsci
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ITA/Portrait_ITA_Socialist_Antonio_Gramsci.png"
+			}
+		}
+		country_leader = {
+			desc = ITA_antonio_gramsci_leader_desc
+			ideology = radical_socialist_subtype
+			traits = {  }
+		}
+	}
 	ITA_palmiro_togliatti = {
 		name = ITA_palmiro_togliatti
 		portraits = {

@@ -117,7 +117,10 @@
  ITA_socialist_agrarianreform_tooltip: "§RReformation of Agriculture Shall Begin§"
  ITA_socialist_workersreform_tooltip: "§RReformation of the Proletariat Shall Begin§"
  ITA_CONGRESS: "The Rome Congress has Began"
+ ITA_COLLECTIVIST_VICTORY: "The Collectivist Has Won"
+ ITA_coalitionelection_tooltip: "The Coalition Shall Find its Victor"
  ITA_anarchist_victory: "The Anarchist Faction has won the Italian Chairmanship"
+ ITA_coalition_victory: "The Coalition Faction has won the Italian Chairmanship"
 
 ### Opinion Modifiers ###
  ITA_austrian_no_freindship: "No Austrian Friendship"
@@ -159,6 +162,17 @@ ITA_end_mafia: "End the Mafia"
 ITA_destroy_monarchist_symbols: "Destroy Monarchist Symbols"
 ITA_recruit_socialists: "Recruit the Socialists"
 ITA_solidify_influence: "Solidify Influence"
+ITA_coalition: "The Coalition"
+ITA_collectivist: "The Collectivist"
+ITA_government_farms: "Government Farms"
+ITA_no_more_mafia: "Clamp Down on Mafia Influence"
+ITA_abolish_land_lordship: "Abolish the Land Lords"
+ITA_political_freedom: "Political Freedom"
+ITA_socialist: "The Socialist"
+ITA_tackle_corruption: "Tackle Corruption"
+ITA_industrial_projects: "Planning out Industrial Projects"
+ITA_attract_immigration: "Attract Immigration from Other Socialist States"
+ITA_disregard_debt: "Disregard Debt"
 
 ### Events ###
 
@@ -287,6 +301,8 @@ ITA_solidify_influence: "Solidify Influence"
  
 ITA_palmiro_togliatti: "Palmiro Togliatti"
 ITA_palmiro_togliatti_leader_desc: "Born in a middle class family in Genoa in 26 March 1893, Palmiro Togliatti was destined for a life struggling in the chains under the capitalist businessmen. And his early life didnt have much to show for him, as he moved to Turin and back to Genoa due to his dads job as an accountant. Togliatti studied in the Azuni high school in 1908 and later his father died, ending up in their family going into poverty. During the Great War, Togliatti joined the military, and he joined the Italian Socialist Party just before the war. Though, he was wounded and sent back home. When back home, he joined the L'Ordine Nuovo newspaper in turin, which was a socialist newspaper meant to spread socialism across Italy believe it or not. The newspapers reputation was greatly increased when they supported a 1920 strike. Though, the General Confederation of Labour was not supportive of this. The newspaper grew and grew until it stopped and tanked. Why? Because the Italian economy began to skyrocket in the late 20s. Togliatti kept on working for the newspaper and eventually the Spartacist party until he became the head of it, anbd with Italian economic stagnation in the 30s, His popularity has only grown. Now, he has taken control of Italy, and his vision has great ambitions for his Italian utopia."
+
+ITA_antonio_gramsci: "Antonio Gramsci"
 
  ITA_rodolfo_graziani: "Rodolfo Graziani"
  ITA_ettore_bastico: "Ettore Bastico"

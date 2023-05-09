@@ -210,13 +210,37 @@ country_event = { # new chairman
 
 	option = {
 		name = ita.11.a
-		set_politics = {
-			ruling_party = radical_socialist
-			elections_allowed = no
-			}
 			hidden_effect = {
+				set_politics = {
+					ruling_party = radical_socialist
+					elections_allowed = no
+					}
 				set_country_flag = ITA_anarchist_victory
 			}
+
+	}
+
+	option = {
+		name = ita.11.BAH
+			hidden_effect = {
+				set_country_flag = ITA_coalition_victory
+			}
+
+	}
+}
+country_event = { # coalition election
+	id = ita.12
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ita.12 FROM = [From.GetName]" }
+	title = ita.12.t
+	desc = ita.12.d
+	picture = GFX_report_event_generic_conference3
+	is_triggered_only = yes
+
+	option = {
+		name = ita.12.a
+		hidden_effect = {
+			set_country_flag = ITA_COLLECTIVIST_VICTORY
+		}
 
 	}
 }

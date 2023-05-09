@@ -572,7 +572,7 @@ focus_tree = {
 				}
 			}
 		}
-		x = -3
+		x = -4
 		y = 2
 		prerequisite = {
 			focus = ITA_no_need_for_order
@@ -786,11 +786,10 @@ focus_tree = {
 				}
 			}
 		}
-		x = 1
+		x = -1
 		y = 5
 		prerequisite = {
-			focus = ITA_end_mafia
-			focus = ITA_anarchist_autarky
+			focus = ITA_destroy_monarchist_symbols
 		}
 		mutually_exclusive = {
 			focus = ITA_solidify_influence
@@ -823,13 +822,347 @@ focus_tree = {
 		x = 1
 		y = 5
 		prerequisite = {
-			focus = ITA_end_mafia
-			focus = ITA_anarchist_autarky
+			focus = ITA_destroy_monarchist_symbols
 		}
 		mutually_exclusive = {
 			focus = ITA_recruit_socialists
 		}
 		relative_position_id = ITA_anarchist
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	###########################
+	# The Coalition
+	###########################
+
+	focus = {# The Coalition
+		id = ITA_coalition
+		icon = GFX_goal_anarcho_communism
+		cost = 1
+		available = {
+			has_country_flag = ITA_coalition_victory
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_coalition_victory
+				}
+			}
+		}
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = ITA_elect_chairman
+		}
+		relative_position_id = ITA_elect_chairman
+		completion_reward = {
+			custom_effect_tooltip = ITA_coalitionelection_tooltip
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# The Collectivist
+		id = ITA_collectivist
+		icon = GFX_focus_generic_soviet_politics
+		cost = 1
+		available = {
+			has_country_flag = ITA_COLLECTIVIST_VICTORY
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_COLLECTIVIST_VICTORY
+				}
+			}
+		}
+		x = -2
+		y = 1
+		prerequisite = {
+			focus = ITA_coalition
+		}
+		relative_position_id = ITA_coalition
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Government Farms
+		id = ITA_government_farms
+		icon = GFX_focus_AUS_agriculture
+		cost = 5
+		available = {
+			has_country_flag = ITA_COLLECTIVIST_VICTORY
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_COLLECTIVIST_VICTORY
+				}
+			}
+		}
+		x = -2
+		y = 1
+		prerequisite = {
+			focus = ITA_coalition
+		}
+		relative_position_id = ITA_collectivist
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Clamp Down on Mafia Influence
+		id = ITA_no_more_mafia
+		icon = GFX_goal_flames_of_rebellion
+		cost = 5
+		available = {
+			has_country_flag = ITA_COLLECTIVIST_VICTORY
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_COLLECTIVIST_VICTORY
+				}
+			}
+		}
+		x = -2
+		y = 2
+		prerequisite = {
+			focus = ITA_government_farms
+		}
+		relative_position_id = ITA_collectivist
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Abolish the Land Lords
+		id = ITA_abolish_land_lordship
+		icon = GFX_socialist_constitution
+		cost = 5
+		available = {
+			has_country_flag = ITA_COLLECTIVIST_VICTORY
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_COLLECTIVIST_VICTORY
+				}
+			}
+		}
+		x = -2
+		y = 3
+		prerequisite = {
+			focus = ITA_no_more_mafia
+		}
+		relative_position_id = ITA_collectivist
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Political Freedom
+		id = ITA_political_freedom
+		icon = GFX_focus_prc_agrarian_socialism
+		cost = 5
+		available = {
+			has_country_flag = ITA_COLLECTIVIST_VICTORY
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_COLLECTIVIST_VICTORY
+				}
+			}
+		}
+		x = -2
+		y = 4
+		prerequisite = {
+			focus = ITA_abolish_land_lordship
+		}
+		relative_position_id = ITA_collectivist
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# The Socialist
+		id = ITA_socialist
+		icon = GFX_goal_commune_politics
+		cost = 5
+		available = {
+			has_country_flag = ITA_COLLECTIVIST_VICTORY
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_COLLECTIVIST_VICTORY
+				}
+			}
+		}
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = ITA_coalition
+		}
+		relative_position_id = ITA_collectivist
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Tackle Corruption
+		id = ITA_tackle_corruption
+		icon = GFX_focus_generic_oppression
+		cost = 5
+		available = {
+			has_country_flag = ITA_COLLECTIVIST_VICTORY
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_COLLECTIVIST_VICTORY
+				}
+			}
+		}
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = ITA_coalition
+		}
+		relative_position_id = ITA_socialist
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Planning out Industrial Projects
+		id = ITA_industrial_projects
+		icon = GFX_goal_manage_industries
+		cost = 5
+		available = {
+			has_country_flag = ITA_COLLECTIVIST_VICTORY
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_COLLECTIVIST_VICTORY
+				}
+			}
+		}
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = ITA_tackle_corruption
+		}
+		relative_position_id = ITA_socialist
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Attract Immigration from Other Socialist States
+		id = ITA_attract_immigration
+		icon = GFX_goal_tripartite_pact
+		cost = 5
+		available = {
+			has_country_flag = ITA_COLLECTIVIST_VICTORY
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_COLLECTIVIST_VICTORY
+				}
+			}
+		}
+		x = 0
+		y = 3
+		prerequisite = {
+			focus = ITA_industrial_projects
+		}
+		relative_position_id = ITA_socialist
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Disregard Debt
+		id = ITA_disregard_debt
+		icon = GFX_goal_Communist_Discourse
+		cost = 5
+		available = {
+			has_country_flag = ITA_COLLECTIVIST_VICTORY
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_COLLECTIVIST_VICTORY
+				}
+			}
+		}
+		x = 0
+		y = 4
+		prerequisite = {
+			focus = ITA_attract_immigration
+		}
+		relative_position_id = ITA_socialist
 		completion_reward = {
 			hidden_effect = {
 				
