@@ -865,7 +865,10 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = ITA_coalitionelection_tooltip
 			hidden_effect = {
-				
+				country_event= {
+					id = ita.12
+					days = 0
+				}
 			}
 		}
 	}
@@ -892,6 +895,9 @@ focus_tree = {
 		prerequisite = {
 			focus = ITA_coalition
 		}
+		mutually_exclusive = {
+			focus = ITA_socialist
+		}
 		relative_position_id = ITA_coalition
 		completion_reward = {
 			hidden_effect = {
@@ -917,10 +923,10 @@ focus_tree = {
 				}
 			}
 		}
-		x = -2
+		x = 0
 		y = 1
 		prerequisite = {
-			focus = ITA_coalition
+			focus = ITA_collectivist
 		}
 		relative_position_id = ITA_collectivist
 		completion_reward = {
@@ -947,7 +953,7 @@ focus_tree = {
 				}
 			}
 		}
-		x = -2
+		x = 0
 		y = 2
 		prerequisite = {
 			focus = ITA_government_farms
@@ -977,7 +983,7 @@ focus_tree = {
 				}
 			}
 		}
-		x = -2
+		x = 0
 		y = 3
 		prerequisite = {
 			focus = ITA_no_more_mafia
@@ -1007,7 +1013,7 @@ focus_tree = {
 				}
 			}
 		}
-		x = -2
+		x = 0
 		y = 4
 		prerequisite = {
 			focus = ITA_abolish_land_lordship
@@ -1025,7 +1031,7 @@ focus_tree = {
 		icon = GFX_goal_commune_politics
 		cost = 5
 		available = {
-			has_country_flag = ITA_COLLECTIVIST_VICTORY
+			has_country_flag = ITA_SOCIALIST_VICTORY
 		}
 		bypass = {
 
@@ -1033,7 +1039,7 @@ focus_tree = {
 		allow_branch = {
 			if = {
 				limit = {
-					has_country_flag = ITA_COLLECTIVIST_VICTORY
+					has_country_flag = ITA_SOCIALIST_VICTORY
 				}
 			}
 		}
@@ -1042,7 +1048,10 @@ focus_tree = {
 		prerequisite = {
 			focus = ITA_coalition
 		}
-		relative_position_id = ITA_collectivist
+		mutually_exclusive = {
+			focus = ITA_collectivist
+		}
+		relative_position_id = ITA_coalition
 		completion_reward = {
 			hidden_effect = {
 				
@@ -1055,7 +1064,7 @@ focus_tree = {
 		icon = GFX_focus_generic_oppression
 		cost = 5
 		available = {
-			has_country_flag = ITA_COLLECTIVIST_VICTORY
+			has_country_flag = ITA_SOCIALIST_VICTORY
 		}
 		bypass = {
 
@@ -1063,16 +1072,16 @@ focus_tree = {
 		allow_branch = {
 			if = {
 				limit = {
-					has_country_flag = ITA_COLLECTIVIST_VICTORY
+					has_country_flag = ITA_SOCIALIST_VICTORY
 				}
 			}
 		}
 		x = 0
 		y = 1
 		prerequisite = {
-			focus = ITA_coalition
+			focus = ITA_socialist
 		}
-		relative_position_id = ITA_socialist
+		relative_position_id =  ITA_socialist
 		completion_reward = {
 			hidden_effect = {
 				
@@ -1085,7 +1094,7 @@ focus_tree = {
 		icon = GFX_goal_manage_industries
 		cost = 5
 		available = {
-			has_country_flag = ITA_COLLECTIVIST_VICTORY
+			has_country_flag = ITA_SOCIALIST_VICTORY
 		}
 		bypass = {
 
@@ -1093,7 +1102,7 @@ focus_tree = {
 		allow_branch = {
 			if = {
 				limit = {
-					has_country_flag = ITA_COLLECTIVIST_VICTORY
+					has_country_flag = ITA_SOCIALIST_VICTORY
 				}
 			}
 		}
@@ -1115,7 +1124,7 @@ focus_tree = {
 		icon = GFX_goal_tripartite_pact
 		cost = 5
 		available = {
-			has_country_flag = ITA_COLLECTIVIST_VICTORY
+			has_country_flag = ITA_SOCIALIST_VICTORY
 		}
 		bypass = {
 
@@ -1123,7 +1132,7 @@ focus_tree = {
 		allow_branch = {
 			if = {
 				limit = {
-					has_country_flag = ITA_COLLECTIVIST_VICTORY
+					has_country_flag = ITA_SOCIALIST_VICTORY
 				}
 			}
 		}
@@ -1145,7 +1154,7 @@ focus_tree = {
 		icon = GFX_goal_Communist_Discourse
 		cost = 5
 		available = {
-			has_country_flag = ITA_COLLECTIVIST_VICTORY
+			has_country_flag = ITA_SOCIALIST_VICTORY
 		}
 		bypass = {
 
@@ -1153,7 +1162,7 @@ focus_tree = {
 		allow_branch = {
 			if = {
 				limit = {
-					has_country_flag = ITA_COLLECTIVIST_VICTORY
+					has_country_flag = ITA_SOCIALIST_VICTORY
 				}
 			}
 		}
