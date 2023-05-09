@@ -201,6 +201,8 @@ add_ideas = ITA_republic_federation
 
 # Country Leaders
 recruit_character = ITA_victor_emmanuel_iii
+recruit_character = ITA_coalition
+recruit_character = ITA_giuseppe_romita
 recruit_character = ITA_palmiro_togliatti
 recruit_character = ITA_antonio_gramsci
 # SiC

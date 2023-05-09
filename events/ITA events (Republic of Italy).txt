@@ -251,7 +251,16 @@ country_event = { # coalition election
 		name = ita.12.b
 		hidden_effect = {
 			set_country_flag = ITA_SOCIALIST_VICTORY
+			add_country_leader_role = {
+				Character = ITA_palmiro_togliatti
+				Promote_leader = yes 
+				Country_leader = { 
+				  ideology = syndicalist_subtype
+				  expire = 1965.1.1.1
+				  traits = {
+				  }
+			}
 		}
-
 	}
+}
 }

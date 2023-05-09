@@ -12,6 +12,32 @@ characters = {
 			traits = {  }
 		}
 	}
+	ITA_coalition = {
+		name = ITA_coalition
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ITA/Portrait_ITA_Socialist_Coalition.png"
+			}
+		}
+		country_leader = {
+			desc = ITA_coalition_leader_desc
+			ideology = syndicalist_subtype
+			traits = {  }
+		}
+	}
+	ITA_giuseppe_romita = {
+		name = ITA_giuseppe_romita
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ITA/Portrait_ITA_Giuseppe_Romita.png"
+			}
+		}
+		country_leader = {
+			desc = ITA_giuseppe_romita_leader_desc
+			ideology = totalist_subtype
+			traits = {  }
+		}
+	}
 	ITA_antonio_gramsci = {
 		name = ITA_antonio_gramsci
 		portraits = {
