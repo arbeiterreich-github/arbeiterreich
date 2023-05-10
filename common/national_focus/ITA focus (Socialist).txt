@@ -897,6 +897,7 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = ITA_socialist
+			focus = ITA_spartacist
 		}
 		relative_position_id = ITA_coalition
 		completion_reward = {
@@ -1050,6 +1051,7 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = ITA_collectivist
+			focus = ITA_spartacist
 		}
 		relative_position_id = ITA_coalition
 		completion_reward = {
@@ -1203,6 +1205,7 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = ITA_socialist
+			focus = ITA_collectivist
 		}
 		relative_position_id = ITA_coalition
 		completion_reward = {
