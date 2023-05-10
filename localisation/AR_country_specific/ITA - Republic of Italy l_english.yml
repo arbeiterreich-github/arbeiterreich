@@ -175,6 +175,11 @@ ITA_tackle_corruption: "Tackle Corruption"
 ITA_industrial_projects: "Planning out Industrial Projects"
 ITA_attract_immigration: "Attract Immigration from Other Socialist States"
 ITA_disregard_debt: "Disregard Debt"
+ITA_spartacist: "The Spartacist"
+ITA_cooperation_with_germany: "Cooperation with the Germans"
+ITA_agrarian_socialism: "Agrarian Socialism"
+ITA_encourage_charity: "Encourage Charity"
+ITA_purging_capitalists: "Purging the Old Capitalists"
 
 ### Events ###
 
@@ -309,6 +314,8 @@ ITA_antonio_gramsci: "Antonio Gramsci"
 ITA_coalition: "The Socialist Coalition"
 
 ITA_giuseppe_romita: "Giuseppe Romita"
+
+ITA_giacomo_matteotti: "Giacomo Matteotti"
 
  ITA_rodolfo_graziani: "Rodolfo Graziani"
  ITA_ettore_bastico: "Ettore Bastico"

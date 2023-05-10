@@ -205,6 +205,7 @@ recruit_character = ITA_coalition
 recruit_character = ITA_giuseppe_romita
 recruit_character = ITA_palmiro_togliatti
 recruit_character = ITA_antonio_gramsci
+recruit_character = ITA_giacomo_matteotti
 # SiC
 # Advisors
 # Army Officers

@@ -25,6 +25,19 @@ characters = {
 			traits = {  }
 		}
 	}
+	ITA_giacomo_matteotti = {
+		name = ITA_giacomo_matteotti
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ITA/Portrait_ITA_Giacomo_Matteotti.png"
+			}
+		}
+		country_leader = {
+			desc = ITA_giacomo_matteotti_leader_desc
+			ideology = radical_socialist_subtype
+			traits = {  }
+		}
+	}
 	ITA_giuseppe_romita = {
 		name = ITA_giuseppe_romita
 		portraits = {
