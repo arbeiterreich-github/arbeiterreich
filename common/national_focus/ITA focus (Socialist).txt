@@ -841,7 +841,7 @@ focus_tree = {
 
 	focus = {# The Coalition
 		id = ITA_coalition
-		icon = GFX_goal_anarcho_communism
+		icon = GFX_goal_ideology_radical_socialist
 		cost = 1
 		available = {
 			has_country_flag = ITA_coalition_victory
@@ -1178,4 +1178,161 @@ focus_tree = {
 			}
 		}
 	}
+
+	focus = {# The Spartacist
+		id = ITA_spartacist
+		icon = GFX_focus_generic_soviet_politics
+		cost = 1
+		available = {
+			has_country_flag = ITA_SPARTACIST_VICTORY
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_SPARTACIST_VICTORY
+				}
+			}
+		}
+		x = 2
+		y = 1
+		prerequisite = {
+			focus = ITA_coalition
+		}
+		mutually_exclusive = {
+			focus = ITA_socialist
+		}
+		relative_position_id = ITA_coalition
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Cooperation with the Germanosphere
+		id = ITA_cooperation_with_germany
+		icon = GFX_goal_renewed_militarism
+		cost = 5
+		available = {
+			has_country_flag = ITA_SPARTACIST_VICTORY
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_SPARTACIST_VICTORY
+				}
+			}
+		}
+		x = 2
+		y = 2
+		prerequisite = {
+			focus = ITA_coalition
+		}
+		mutually_exclusive = {
+			focus = ITA_socialist
+		}
+		relative_position_id = ITA_coalition
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Agrarian Socialism
+		id = ITA_agrarian_socialism
+		icon = GFX_goal_wheat
+		cost = 5
+		available = {
+			has_country_flag = ITA_SPARTACIST_VICTORY
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_SPARTACIST_VICTORY
+				}
+			}
+		}
+		x = 2
+		y = 3
+		prerequisite = {
+			focus = ITA_cooperation_with_germany
+		}
+		relative_position_id = ITA_coalition
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+focus = {# Encourage Charity
+id = ITA_encourage_charity
+icon = GFX_focus_generic_concessions
+cost = 5
+available = {
+	has_country_flag = ITA_SPARTACIST_VICTORY
+}
+bypass = {
+
+	}
+allow_branch = {
+	if = {
+		limit = {
+			has_country_flag = ITA_SPARTACIST_VICTORY
+		}
+	}
+}
+x = 2
+y = 4
+prerequisite = {
+	focus = ITA_coalition
+}
+relative_position_id = ITA_agrarian_socialism
+completion_reward = {
+	hidden_effect = {
+		
+	}
+}
+}
+
+focus = {# Purging the Old Capitalists
+id = ITA_purging_capitalists
+icon = GFX_goal_step_on_skull
+cost = 5
+available = {
+	has_country_flag = ITA_SPARTACIST_VICTORY
+}
+bypass = {
+
+	}
+allow_branch = {
+	if = {
+		limit = {
+			has_country_flag = ITA_SPARTACIST_VICTORY
+		}
+	}
+}
+x = 2
+y = 5
+prerequisite = {
+	focus = ITA_encourage_charity
+}
+relative_position_id = ITA_coalition
+completion_reward = {
+	hidden_effect = {
+		
+	}
+}
+}
+
 }
