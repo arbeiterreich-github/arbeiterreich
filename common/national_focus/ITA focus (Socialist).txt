@@ -1232,15 +1232,15 @@ focus_tree = {
 				}
 			}
 		}
-		x = 2
-		y = 2
+		x = 0
+		y = 1
 		prerequisite = {
 			focus = ITA_coalition
 		}
 		mutually_exclusive = {
 			focus = ITA_socialist
 		}
-		relative_position_id = ITA_coalition
+		relative_position_id = ITA_spartacist
 		completion_reward = {
 			hidden_effect = {
 				
@@ -1280,7 +1280,7 @@ focus_tree = {
 
 focus = {# Encourage Charity
 id = ITA_encourage_charity
-icon = GFX_focus_generic_concessions
+icon = GFX_goal_ideology_radical_socialist
 cost = 5
 available = {
 	has_country_flag = ITA_SPARTACIST_VICTORY
@@ -1295,10 +1295,10 @@ allow_branch = {
 		}
 	}
 }
-x = 2
-y = 4
+x = 0
+y = 1
 prerequisite = {
-	focus = ITA_coalition
+	focus = ITA_agrarian_socialism
 }
 relative_position_id = ITA_agrarian_socialism
 completion_reward = {
