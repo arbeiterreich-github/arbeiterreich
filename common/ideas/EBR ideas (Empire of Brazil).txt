@@ -4,6 +4,28 @@ ideas = {
 
 country = {
 
+		EBR_British_support = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea EBR_British_support" }
+			name = EBR_British_support 
+			picture = British_support
+			allowed = { always = no }
+			modifier = {
+				industrial_capacity_factory = 0.10
+			}
+		}
+
+		EBR_pedro_legacy = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea EBR_BM" }
+			name = EBR_pedro_legacy 
+			picture = Brazil_crown
+			allowed = { always = no }
+			modifier = {
+				consumer_goods_factor = 0.05
+				production_speed_industrial_complex_factor = 0.10
+				production_speed_rail_way_factor = 0.10
+			}
+		}
+
 		EBR_BM = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea EBR_BM" }
 			name = EBR_BM 
@@ -210,12 +232,11 @@ country = {
 			picture = generic_lightbulb
 			allowed = { always = no }
 			modifier = {
-				political_power_gain = 0.10
 				consumer_goods_factor = -0.10
-				production_factory_efficiency_gain_factor = 0.15
-				production_factory_max_efficiency_factor = 0.15
-				production_speed_rail_way_factor = 0.20
-				production_speed_<building>_factor = 0.20
+				production_factory_efficiency_gain_factor = 0.10
+				production_factory_max_efficiency_factor = 0.10
+				production_speed_synthetic_refinery_factor = 0.05
+				production_speed_supply_node_factor = 0.15
 			}
 		}
 		EBR_militia_into_army2b = {
@@ -265,6 +286,16 @@ country = {
 				army_speed_factor = 0.10
 				breakthrough_factor	= 0.10
 				army_armor_attack_factor = 0.05	
+			}
+		}
+		EBR_air = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea EBR_air" }
+			name = EBR_air
+			picture = generic_airforce
+			allowed = { always = no }
+			modifier = {
+				air_advisor_cost_factor	= -0.10
+				experience_gain_air_factor = 0.20
 			}
 		}
 	}

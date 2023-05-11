@@ -779,6 +779,10 @@ TRI = {
 	color = rgb { 218 26 15 }
 	color_ui = rgb { 218 26 15 }
 }
+UOB = { 
+	color = rgb { 150 17 18 }
+	color_ui = rgb { 150 17 18 }
+}
 URG = {
 	color = rgb { 255 180 136 }
 	color_ui = rgb { 255 234 177 }
