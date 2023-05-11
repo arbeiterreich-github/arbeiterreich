@@ -131,52 +131,7 @@
  estrada_ferro_central_brasil: "Estrada de Ferro Central do Brasil"
 
 ### Ideas ###
- BRA_election_year: "Election Year Tensions"
- BRA_election_year_desc: "Tensions rise as vastly different factions prepare for what will probably be the most violent and contentious election in the history of Brazil. Political talk is almost synonymous with heated arguments, and an air of ideological extremism looms over the nation's populace."
-
- BRA_decentralisation: "Extreme Decentralisation"
- BRA_decentralisation_desc: "The United States of Brazil has always prized the autonomy of its states. Each has its own president, its own political parties, and its own military, and the people have shown themselves willing to die for these regional rights. However, this does result in a very weak and toothless central government, which cannot act decisively when required."
-
- BRA_wake_of_civil_war: "Wake of the War"
- BRA_wake_of_civil_war_desc: "Few wounds take longer to heal than a civil war. The War Between the States left thousands dead, and many more orphaned and homeless, as the tensions between the political oligarchies and regional identities finally boiled over to the battlefield after troops from Minas Gerais trespassed into São Paulo. Any actions the central government tries to do are now viewed with immense distrust, and the sheer damage caused on the border between Rio and São Paulo has not yet been fully been repaired."
-
- BRA_forager_idea: "Forager Squads"
- BRA_forager_idea_desc: "Our troops need to have the capacity to strip the land of as much resources as they possibly can, for the logistics of supplying an army in Brazil demand that level of autonomy from our soldiers."
-
- BRA_battlefield_control: "Battlefield Control"
- BRA_manoeuvre_warfare: "Manoeuvre Warfare"
-
- BRA_armored_train_firepower: "Fire Support"
- BRA_armored_train_firepower_desc: "Brazil's combat trains are undergoing a modernisation and refitting effort, focusing on offensive support and firepower."
-
- BRA_armored_train_speed: "Securing the Way"
- BRA_armored_train_speed_desc: "Brazil's combat trains are undergoing a modernisation and refitting effort, focusing on offensive support and operational speed."
-
- BRA_we_werent_expecting_special_forces: "Federal Intervention Corps"
- BRA_we_werent_expecting_special_forces_desc: "The special forces of Brazil are a well trained lot, who spent years practising the art of war to defend their country against foreign invasion. Their numbers and mastery of terrain are certainly a factor to be examined by any would be invader."
-
- BRA_state_armies: "Divided Military"
- BRA_state_armies_desc: "Brazil's armed forces are, simply put, a ragtag group of 26 state militias, a so called 'Federal Army' in Rio de Janeiro, and its navy is pretty much the only arm of the military under actual federal chafing. These archaically organised forces have immensely differing quality in both training and equipment, and are simply unsuited to modern combat in any way whatsoever, especially if required to fight for a nation they feel little allegiance to."
-
- BRA_army_reformed: "Army Reformed"
-
- BRA_militiagungs: "National Militias"
- BRA_militiagungs_desc: "The militias have been properly integrated into the army of the nation as special state guard regiments, organised and equipped in a modern fashion and ready to fight and die for Brazil."
-
- BRA_integration_of_branches: "Unification of Air Force"
- BRA_next_generation: "New Generation of Pilots"
- BRA_extended_range: "Extended Reach"
-
- BRA_merchant_marine: "Brazilian Merchant Marine"
- BRA_merchant_marine_desc: "Brazil has always been a nation of international trade, for its very name comes from its very first export, brazilwood. Our capacity to import goods is an important strategic factor, and expansion of the merchant marine is officially state sponsored."
-
- BRA_upgraded_ports: "Refited Ports"
- BRA_stray_dog_1: "Stray Dogs"
- BRA_stray_dog_2: "Stray Packs"
- BRA_cruisers_1: "Better Screens"
- BRA_cruisers_2: "Submarine Hunters"
- BRA_mastery_of_the_sea: "Mastery of the Sea"
- BRA_support_marines: "Shore Bombardment Coordination"
+ BRA_brutal_regime: "Brutal Regime"
 
  BRA_patriotism: "Civic Patriotism Campaign"
  BRA_patriotism_desc: "Our citizens are being slowly accustomed to the notion of a Brazil as an united country, but in time, our efforts to build an united identity will surely take root."
@@ -434,29 +389,11 @@
 
 ##Focuses
  Brazil_Focus: "Brazil Focus Tree"
- BRA_archipelago: "Bridge the Brazilian Archipelago"
- BRA_archipelago_desc: "To many of our military analysts and theorists, Brazil is akin to an archipelago, with cities and major centres being its islands. The vast, inaccessible unknown of the nation can greatly hinder our reaction speed to an invasion, but also may come to save it from invasion in the near future. What we need is a series of radio stations, for our army can always be ready act at a moment's notice!"
- BRA_supports: "Infantry Support Elements"
- BRA_supports_desc: "While its often said an army marches on its stomach, it also marches on its bandages, its shovels, its radios, its boots, its belts and its buckles. Modern warfare's protracted campaign have vastly increased the need for support equipment and experts for infantry divisions, but to meet their rising needs, we need to focus our efforts on obtaining the basic tools needed for the training of said experts."
- BRA_logistics_battalions: "Logistic Battalions"
- BRA_logistics_battalions_desc: "An army is made of more than just guns and uniforms. Medics, engineers, officers and scouts are of vital importance, but their effectiveness is hindered by our sheer lack of equipment."
- BRA_doctrine_usa: "Battlefield Control"
- BRA_doctrine_usa_desc: "The United States, Brazil's closest partner in diplomacy and in trade, is unparalleled in its economic and naval strength, but also in its military, whose more modern outlook on war would far better fit our plans of army reform than the German Empire's brutish discipline, which is unlikely to ever be instilled in our loose army institutions. A focus on modernisation of equipment, artillery support and combined arms will ensure Brazil will have an edge over local rivals"
- BRA_arty_doctrine: "Queen of the Battlefield"
- BRA_arty_doctrine_desc: "The biggest deficiency in terms of equipment all armies in our nation possess is a lack of proper artillery pieces, made with modern warfare in mind. Such a glaring fault would doubtlessly, and ruthlessly, exploited by the enemies of the nation, and as such, measures must be taken to remedy, be it with the acquisition of foreign models, or with the expansion of our own domestic production of pieces to more significant levels"
- BRA_bigger_guns: "New Model Artillery"
- BRA_bigger_guns_desc: "All forces in an army must act in conjunction for a successful engagement, but proper usage of Artillery is much more than simply firing at the enemy's general direction. The army must be prepared and trained to use our cannons to maximum efficiency in a combat situation, regardless of previous doctrine, with a focus on objectives; Our nation cannot afford to waste shells, even if it has plenty of men, after all."
- BRA_terrain_adaptation: "Off the Beaten Path"
- BRA_terrain_adaptation_desc: "Artillery, especially the European models we have long used in our armed forces, are heavy, cumbersome pieces of equipment that expect flat, well maintained roads to keep their operational mobility at their highest. This, however, is not exactly the situation in most of Brazil, especially in the exceedingly rough terrain surrounding the federal capital. We must keep our artillery near the battlefield regardless of how unorthodox the methods used for that end."
- BRA_doctrine_bonus: "Theory of War"
- BRA_doctrine_bonus_desc: "No plan of battle survives contact with the enemy, however, few battles are successful without a plan behind it. In order to safeguard national security, the overarching doctrine of the National Army, until now varied on a commander to commander basis, must be organised and enforced from the top all the way to the operational level."
- BRA_armored_trains: "Renovate Armoured Trains"
- BRA_armored_trains_desc: "As the shadow of war looms over the entire world, even here in South America, we must be ready to not just repair and refit older combat locomotives, such as the ones dating from the years of the War, but also to purpose build new ones to ensure the safety of our major supply arteries linking the borders to the large cities of the Southeast."
- BRA_german_doctrine: "Manoeuvre Warfare"
- BRA_german_doctrine_desc: "It's only natural a significant portion of our army officers seek to model our nation's army after the German one, the so called 'Young Turks' of Brazil, and said officers have extensive contact with peers in Germany, including Brazilian liaisons. Following their advice and re-organising the army in a modern, disciplined fashion is a logical choice."
- BRA_fatherland_volunteers: "Fatherland Volunteers"
- BRA_fatherland_volunteers_desc: "Honouring the legacy of our army in its great history, the Fatherland Volunteers are more than a force raised from common Brazilians, but it is a symbol of their willingness to die for the nation and its freedom."
- #already defined above as an idea description
+ BRA_stable_front_lines: "Stabilise the Front"
+ BRA_taming_workers: "Tame the Workers"
+ BRA_national_ind: "Time for Self-sufficiency"
+ BRA_national_ind2: "CSN and Our Future"
+ BRA_private_investments: "Deal with Opposition"
  BRA_forager_squads: "Forager Squads"
  BRA_forager_squads_desc: "When you lead a grand army, supplies are always a colossal issue. In order to aid in that endeavour, scouts and forager battalions will be trained specifically to gather food, in addition to some survival training to our troops so they can feed off the land."
  BRA_plano_infalivel_n1936: "Planning Staff"
@@ -2010,6 +1947,10 @@
  bra.762.t: "[URG.GetNameDefCap] Has Refused"
  bra.762.d: "The Cisplatine dogs have refused our generous offer of autonomy... They will be punished"
  bra.762.a: "Then war it is!"
+ bra.763.t: "The Brazilian Civil War"
+ bra.763.d: "Cândido Rondon, a renowned and respected marshal of Brazil, has returned from one of his by now usual expeditions deep into the northern jungles. With his shock at the news of the Integralist efforts to restore the monarchy, as devout republican he openly voiced his discontent. The worried government in Rio de Janeiro ordered his arrest, however the man's loyal military men refused the order, and he rose in open revolt in the west of the country.\nThis however inspired the non-Integralist monarchists rose up agaisnt both the Republicans and the Integralists seeking to restore Dom Pedro III of Alcântara, the pretender for the trone. The nation holds its breath as open war is now inevitable."
+ bra.763.a: "Kill them all!"
+ bra.763.b: "Glory to his Imperial Majesty!"
 
 ### Country Names ###
  BRA: "Brazil"
