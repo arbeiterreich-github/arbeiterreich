@@ -22,4 +22,6 @@ set_popularities = {
 	national_populist = 5
 }
 
-#GRU's leaders start in GER and are moved by effect
+### LEADERS ###
+
+recruit_character = GER_Rosa_Louxemburg
