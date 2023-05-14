@@ -8,41 +8,41 @@ CZE_czechoslavakia = {
 	color_ui = rgb { 145 145 238 }
 }
 
-## Austrian puppets
+## Hungarian puppets
 CRO_habsburg = {
-	color = rgb { 200 200 200 }
+	color = rgb { 93 153 106 }
 	color_ui = rgb { 176 62 137 }
 }
 CRO_illyria_habsburg = {
-	color = rgb { 200 200 200 }
+	color = rgb { 93 153 106 }
 	color_ui = rgb { 176 62 137 }
 }
 HUN_habsburg = {
-	color = rgb { 200 200 200 }
+	color = rgb { 93 153 106 }
 	color_ui = rgb { 67 111 77 }
 }
 CZE_habsburg = {
-	color = rgb { 200 200 200 }
+	color = rgb { 93 153 106 }
 	color_ui = rgb { 70 217 203 }
 }
 GAL_habsburg = {
-	color = rgb { 200 200 200 }
+	color = rgb { 93 153 106 }
 	color_ui = rgb { 205 38 38 }
 }
 SLO_habsburg = {
-	color = rgb { 200 200 200 }
+	color = rgb { 93 153 106 }
 	color_ui = rgb { 158 161 188 }
 }
 TRS_habsburg = {
-	color = rgb { 200 200 200 }
+	color = rgb { 93 153 106 }
 	color_ui = rgb { 0 0 156 }
 }
 SLV_habsburg = {
-	color = rgb { 200 200 200 }
+	color = rgb { 93 153 106 }
 	color_ui = rgb { 15 102 252 }
 }
 BOS_habsburg = {
-	color = rgb { 200 200 200 }
+	color = rgb { 93 153 106 }
 	color_ui = rgb { 67 158 34 }
 }
 
