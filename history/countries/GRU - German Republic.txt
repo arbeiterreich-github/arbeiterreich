@@ -24,4 +24,4 @@ set_popularities = {
 
 ### LEADERS ###
 
-recruit_character = GER_Rosa_Louxemburg
+recruit_character = GRU_Rosa_Louxemburg

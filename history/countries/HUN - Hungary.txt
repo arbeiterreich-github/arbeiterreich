@@ -46,6 +46,10 @@ if = {
 	}
 }
 
+create_faction = hun_faction
+add_to_faction = CRO
+add_to_faction = CZE
+
 ### Planes - BBA ###
 if = {
 	limit = { has_dlc_bba = yes }
@@ -160,8 +164,6 @@ set_popularities = {
 	paternal_autocrat = 32
 	national_populist = 9
 }
-
-add_ideas = HUN_financial_ties_broken
 
 ### Country Leaders ###
 recruit_character = HUN_bela_kun

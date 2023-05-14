@@ -37,39 +37,13 @@ if = {
 }
 
 ### Events ###
-country_event = { id = LIT.1 hours = 2 } #Intro event
-country_event = { id = LIT.21 days = 350 } #fire the chain that prepares the election
-country_event = { id = LITFLA.1 days = 44 } #Lithuanioan-Belarusian language shift flavor
-country_event = { id = LITFLA.3 days = 129 random_days = 72 }
-country_event = { id = LITFLA.4 days = 366 random_days = 336 }
-country_event = { id = LITFLA.6 days = 400 random_days = 30 }
-country_event = { id = LITFLA.8 days = 731 random_days = 365 }
-country_event = { id = LITFLA.9 days = 831 random_days = 365 }
-country_event = { id = LITFLA.11 days = 700 random_days = 168 }
-country_event = { id = LITFLA.12 days = 232 random_days = 48 }
-country_event = { id = LITFLA.13 days = 650 random_days = 50 }
-country_event = { id = LITFLA.15 days = 1607 random_days = 168 }
-country_event = { id = LITFLA.16 days = 74 random_days = 48 }
-country_event = { id = LITFLA.17 days = 171 }
-country_event = { id = LITFLA.18 days = 200 }
-country_event = { id = LITFLA.19 days = 900 random_days = 50 }
-country_event = { id = LITFLA.20 days = 1200 random_days = 50 }
-country_event = { id = LITFLA.21 days = 492 } #Basketball !!!
 
 add_ideas = {
 	limited_conscription
-
-	LIT_german_economic_dominance_1
-	LIT_cultural_divide_1
+	
 	LIT_disorganised_army_1
 }
 
-GER = {
-	set_autonomy = {
-		target = LIT
-		autonomy_state = kr_oststaat
-	}
-}
 set_politics = {
 	ruling_party = social_conservative
 	last_election = "1933.2.10"

@@ -116,10 +116,7 @@ set_convoys = 40
 
 add_ideas = {
 	limited_conscription
-	BUL_waning_hegemony
-	BUL_military_league
 	BUL_boris_crown_prince
-	BUL_state_protection_act
 }
 
 set_politics = {

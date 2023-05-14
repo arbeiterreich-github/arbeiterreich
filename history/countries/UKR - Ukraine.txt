@@ -106,12 +106,6 @@ if = {
 }
 
 ### Government ###
-GER = {
-	set_autonomy = {
-		target = UKR
-		autonomy_state = kr_oststaat_autonomous
-	}
-}
 
 set_politics = {
 	ruling_party = authoritarian_democrat

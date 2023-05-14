@@ -131,15 +131,12 @@ set_popularities = {
 	national_populist = 1
 }
 
-
-create_faction = "Athens Pact"
 if = {
 	limit = {
 		has_dlc_tfv = yes
 	}
 	GRE = {
 		set_autonomy = {
-			target = ANH
 			autonomy_state = autonomy_puppet
 		}
 		set_autonomy = {
@@ -148,18 +145,9 @@ if = {
 		}
 	}
 	else = {
-		puppet = ANH
 		puppet = ALB
 	}
 }
-
-add_to_faction = GRE
-add_to_faction = ALB
-add_to_faction = SER
-add_to_faction = ROM
-add_to_faction = ITA
-add_to_faction = MNT
-add_to_faction = ANH
 
 set_country_flag = { flag = gre_monarchist_sympathies value = 0 }
 
