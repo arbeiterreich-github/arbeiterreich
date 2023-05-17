@@ -47,7 +47,6 @@ if = {
 }
 
 create_faction = hun_faction
-add_to_faction = CRO
 add_to_faction = CZE
 
 ### Planes - BBA ###

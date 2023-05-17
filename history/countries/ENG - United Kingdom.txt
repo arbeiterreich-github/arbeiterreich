@@ -46,8 +46,13 @@ if = {
 		target = PAL
 		autonomy_state = autonomy_puppet
 	}
+	set_autonomy = {
+		target = EGY
+		autonomy_state = autonomy_puppet
+	}
 	else = {
 		puppet = PAL
+		puppet = EGY
 	}
 }
 

@@ -9,12 +9,10 @@ state = {
 	}
 
 	history = {
-		owner = MAF
-		add_core_of = GHA
+		owner = ENG
+		add_core_of = ENG
 		add_to_array = { state_victory_points = 10862 }
 
-		add_dynamic_modifier = { modifier = MAF_british_gold_coast }
-		set_demilitarized_zone = yes
 
 		victory_points = { 10862 1 } #Accra
 

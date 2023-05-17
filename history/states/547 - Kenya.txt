@@ -6,8 +6,8 @@ state = {
 	local_supplies = 3.0
 
 	history = {
-		owner = MAF
-		add_core_of = KEN
+		owner = ENG
+		add_core_of = ENG
 		add_to_array = { state_victory_points = 1939 }
 
 		add_dynamic_modifier = { modifier = MAF_british_kenya }
