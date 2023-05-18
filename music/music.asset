@@ -2,7 +2,7 @@
 # MAIN THEME
 music = {
 	name = "maintheme"
-	file = "ballad_of_the_great_wall.ogg"
+	file = "menu_german_workers_front.ogg"
 	volume = 1
 }
 

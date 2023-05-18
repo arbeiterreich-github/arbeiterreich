@@ -531,3 +531,7 @@ SAF_federation = {
 	color = rgb { 255 126 0 }
 	color_ui = rgb { 255 126 0 }
 }
+EGY_ENG_colony = { 
+	color = rgb { 208 12 39 }
+	color_ui = rgb { 208 12 39 }
+}

@@ -6,9 +6,9 @@ state = {
 	local_supplies = 1.0
 
 	history = {
-		owner = MAF
+		owner = ENG
 		add_core_of = TZN
-		add_claim_by = MAF
+		add_claim_by = GER
 		add_to_array = { state_victory_points = 9962 }
 
 		buildings = {
