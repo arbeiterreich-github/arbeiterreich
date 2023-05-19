@@ -285,3 +285,27 @@ hidden_effect = {
 }
 }
 }
+country_event = { # mussolini goes rogue
+	id = ita.13
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ita.13 FROM = [From.GetName]" }
+	title = ita.13.t
+	desc = ita.13.d
+	picture = GFX_report_event_generic_conference3
+	is_triggered_only = yes
+
+	option = {
+		name = ita.13.a
+			hidden_effect = {
+				set_country_flag = ITA_mussolini_out
+			}
+
+	}
+
+	option = {
+		name = ita.13.b
+			hidden_effect = {
+				set_country_flag = ITA_mussolini_in
+			}
+
+	}
+}

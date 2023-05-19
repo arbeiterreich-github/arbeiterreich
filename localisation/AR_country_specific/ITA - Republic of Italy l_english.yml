@@ -120,9 +120,14 @@
  ITA_COLLECTIVIST_VICTORY: "The Collectivist Has Won"
  ITA_SOCIALIST_VICTORY: "The Socialist Has Won"
  ITA_SPARTACIST_VICTORY: "The Spartacist Has Won"
+ ITA_futurist_tooltip: "The Futurist Was Won"
+ ITA_twotakers_tooltip: "The Two Takers of Mussolini and Marinetti have come to the Roman Leader Congress. Though, some shocking information has come up about Mussolini..."
+ ITA_mussolini_out: "Mussolini has been kicked from the party, allowing Marinetti to rise to power"
+ ITA_mussolini_in: "Mussolini remains"
  ITA_coalitionelection_tooltip: "The Coalition Shall Find its Victor"
  ITA_anarchist_victory: "The Anarchist Faction has won the Italian Chairmanship"
  ITA_coalition_victory: "The Coalition Faction has won the Italian Chairmanship"
+ ITA_futurist_victory: "The Futurist Faction has won the Italian Chairmanship"
 
 ### Opinion Modifiers ###
  ITA_austrian_no_freindship: "No Austrian Friendship"
@@ -180,6 +185,8 @@ ITA_cooperation_with_germany: "Cooperation with the Germans"
 ITA_agrarian_socialism: "Agrarian Socialism"
 ITA_encourage_charity: "Encourage Charity"
 ITA_purging_capitalists: "Purging the Old Capitalists"
+ITA_futurist: "The Futurist"
+ITA_the_two_takers: "The Two Takers"
 
 ### Events ###
 
@@ -213,6 +220,8 @@ ITA_purging_capitalists: "Purging the Old Capitalists"
  ita.11.a: "The Anarchist"
  ita.11.b: "The Coalition"
  ita.11.c: "The Futurist"
+ ita.13.t: "Mussolini Goes Rogue"
+ ita.13.d: "Shocking news has come out about comrade Mussolini, where it states he has defected from the Futurist Party and posted his own newspaper about his defection and why. Apparently, conditions in the Futurist Party have caused him to leave out of anger and disgust, and the Futirists are shocked and livid. Though, he still remains as one of the two takers. Will we allow Mussolini to take power or invite Marinetti to power?"
 
 ### Cosmetic Tags ###
  ITA: "Italy"
@@ -307,7 +316,7 @@ ITA_purging_capitalists: "Purging the Old Capitalists"
  ITA_victor_emmanuel_iii_leader_desc: "The Soldier King people call him. Victor Emmanuel III is a national icon of Italy, resembling courage, bravery, and prosperity. He’s the person who puts King in the kingdom of Italy. Literally. He was born on the 11th of November 1869 in Naples, after his father assassination he rose to the throne at the year 1900, and he showed that he was a man of constitutional monarchy, being a staunch defender of the freedoms of his people. He had also shown that he is a hater of politicial issues, but despite being a reluctantly political king he has his political powers and used them on many occasions to help Italy. During The Great War, he denied the resignation of then prime minister Antonio Salandra despite the Chamber of Deputies trying to get him out of office, dooming his country to entry in The Great War on the side of the Entente. And his reign saw his country virtually the only real victor of the Great War apart from his Greek allies. This won Victor Emmanuel the title Soldier King by the people, and his popularity was solidified. Victor guided Italy through the Rome Panic and into the late 20s, his popularity gradually growing in unison with the Italian economy. Today in 1936, Italy stands at a economic stagnation, but with Victor Emmanuel III at the head of Italy, he is pretty much guaranteed the title Soldier King."
  
 ITA_palmiro_togliatti: "Palmiro Togliatti"
-ITA_palmiro_togliatti_leader_desc: "Born in a middle class family in Genoa in 26 March 1893, Palmiro Togliatti was destined for a life struggling in the chains under the capitalist businessmen. And his early life didnt have much to show for him, as he moved to Turin and back to Genoa due to his dads job as an accountant. Togliatti studied in the Azuni high school in 1908 and later his father died, ending up in their family going into poverty. During the Great War, Togliatti joined the military, and he joined the Italian Socialist Party just before the war. Though, he was wounded and sent back home. When back home, he joined the L'Ordine Nuovo newspaper in turin, which was a socialist newspaper meant to spread socialism across Italy believe it or not. The newspapers reputation was greatly increased when they supported a 1920 strike. Though, the General Confederation of Labour was not supportive of this. The newspaper grew and grew until it stopped and tanked. Why? Because the Italian economy began to skyrocket in the late 20s. Togliatti kept on working for the newspaper and eventually the Spartacist party until he became the head of it, anbd with Italian economic stagnation in the 30s, His popularity has only grown. Now, he has taken control of Italy, and his vision has great ambitions for his Italian utopia."
+ITA_palmiro_togliatti_leader_desc: "Born in a middle class family in Genoa in 26 March 1893, Palmiro Togliatti was destined for a life struggling in the chains under the capitalist businessmen. And his early life didnt have much to show for him, as he moved to Turin and back to Genoa due to his dads job as an accountant. Togliatti studied in the Azuni high school in 1908 and later his father died, ending up in their family going into poverty. During the Great War, Togliatti joined the military, and he joined the Italian Socialist Party just before the war. Though, he was wounded and sent back home. When back home, he joined the L'Ordine Nuovo newspaper in turin, which was a socialist newspaper meant to spread socialism across Italy believe it or not. The newspapers reputation was greatly increased when they supported a 1920 strike. Though, the General Confederation of Labour was not supportive of this. The newspaper grew and grew until it stopped and tanked. Why? Because the Italian economy began to skyrocket in the late 20s. Togliatti kept on working for the newspaper and eventually the Spartacist party until he became the head of it, and with Italian economic stagnation in the 30s, His popularity has only grown. Now, he has taken control of Italy, and his vision has great ambitions for his Italian utopia."
 
 ITA_antonio_gramsci: "Antonio Gramsci"
 

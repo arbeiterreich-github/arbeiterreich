@@ -875,7 +875,7 @@ focus_tree = {
 
 	focus = {# The Collectivist
 		id = ITA_collectivist
-		icon = GFX_focus_generic_soviet_politics
+		icon = GFX_goal_red_star_dove
 		cost = 1
 		available = {
 			has_country_flag = ITA_COLLECTIVIST_VICTORY
@@ -1029,7 +1029,7 @@ focus_tree = {
 
 	focus = {# The Socialist
 		id = ITA_socialist
-		icon = GFX_goal_commune_politics
+		icon = GFX_goal_red_star_gold_wreath
 		cost = 5
 		available = {
 			has_country_flag = ITA_SOCIALIST_VICTORY
@@ -1183,7 +1183,7 @@ focus_tree = {
 
 	focus = {# The Spartacist
 		id = ITA_spartacist
-		icon = GFX_focus_generic_soviet_politics
+		icon = GFX_goal_red_star
 		cost = 1
 		available = {
 			has_country_flag = ITA_SPARTACIST_VICTORY
@@ -1250,7 +1250,7 @@ focus_tree = {
 
 	focus = {# Agrarian Socialism
 		id = ITA_agrarian_socialism
-		icon = GFX_goal_wheat
+		icon = GFX_focus_prc_agrarian_socialism
 		cost = 5
 		available = {
 			has_country_flag = ITA_SPARTACIST_VICTORY
@@ -1338,4 +1338,71 @@ completion_reward = {
 }
 }
 
+	###########################
+	# The Futurist
+	###########################
+
+	focus = {# The Futurist
+		id = ITA_futurist
+		icon = GFX_goal_red_star_gold_wreath
+		cost = 1
+		available = {
+			has_country_flag = ITA_coalition_victory
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_coalition_victory
+				}
+			}
+		}
+		x = 7
+		y = 1
+		prerequisite = {
+			focus = ITA_elect_chairman
+		}
+		relative_position_id = ITA_elect_chairman
+		completion_reward = {
+			custom_effect_tooltip = ITA_futurist_tooltip
+			hidden_effect = {
+			}
+		}
+	}
+
+	focus = {# The Two Takers
+		id = ITA_the_two_takers
+		icon = GFX_goal_Communist_Discourse
+		cost = 3
+		available = {
+			has_country_flag = ITA_futurist_victory
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_futurist_victory
+				}
+			}
+		}
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = ITA_futurist
+		}
+		relative_position_id = ITA_futurist
+		completion_reward = {
+			custom_effect_tooltip = ITA_twotakers_tooltip
+			hidden_effect = {
+				country_event = {
+					id = ita.13
+				    days = 0
+				}
+			}
+		}
+	}
 }
