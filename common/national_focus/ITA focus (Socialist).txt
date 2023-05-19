@@ -457,6 +457,10 @@ focus_tree = {
 		prerequisite = {
 			focus = ITA_elect_chairman
 		}
+		mutually_exclusive = {
+			focus = ITA_coalition
+			focus = ITA_futurist
+		}
 		relative_position_id = ITA_elect_chairman
 		completion_reward = {
 			hidden_effect = {
@@ -860,6 +864,10 @@ focus_tree = {
 		y = 1
 		prerequisite = {
 			focus = ITA_elect_chairman
+		}
+		mutually_exclusive = {
+			focus = ITA_anarchist
+			focus = ITA_futurist
 		}
 		relative_position_id = ITA_elect_chairman
 		completion_reward = {
@@ -1363,6 +1371,10 @@ completion_reward = {
 		y = 1
 		prerequisite = {
 			focus = ITA_elect_chairman
+		}
+		mutually_exclusive = {
+			focus = ITA_anarchist
+			focus = ITA_coalition
 		}
 		relative_position_id = ITA_elect_chairman
 		completion_reward = {
