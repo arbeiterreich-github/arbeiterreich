@@ -6,8 +6,8 @@ state = {
 	local_supplies = 1.0
 
 	history = {
-		owner = NFA
-		add_core_of = NGR
+		owner = MLI
+		add_core_of = MLI
 		add_claim_by = NFA
 		add_to_array = { state_victory_points = 2056 }
 		victory_points = { 2056 1 } #Niamey
