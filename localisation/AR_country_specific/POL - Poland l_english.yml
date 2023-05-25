@@ -56,10 +56,6 @@ l_english:
  POL_national_populist3_party: "ON"
  POL_national_populist3_party_long: "Organizacja Narodowa (National Organisation)\n§gIn Adam Doboszyński's theory of the nation, the multiparty system is anathema to national unity. Instead, the elite should be united under a single political organisation, which is able to coordinate the entirety of society according to Christian and distributionist doctrines. This group of virtuous men will act as the teachers and organisers for the people, and ensure that the political hygiene of the masses is developed.§!"
 
-### Faction ###
-
- east_europe_pol_faction: "Sojusz Niezależności"
-
 ### Country Names ###
  POL: "Poland"
  POL_ADJ: "Polish"
@@ -1127,6 +1123,44 @@ l_english:
  POL_crossroads_resources_tt: "$MODIFIER_LOCAL_RESOURCES_FACTOR$: $RIGHT|+=%$"
 
  POL_modifies_crossroads_tt: "Modify §YCrossroads of Europe§! by"
+
+#German-Polish decisions
+ POL_German_Control: "German Hegemony over Poland"
+ POL_German_Control_desc: "Poland may be one of our most loyal subjects for now, but there is no guarantee that this will remain the case. We must carefully consider our investments in Poland to guarantee their loyalty and economic cooperation.\n\n\n[POL_GER_polish_loyalty]"
+ POL_early: "Predicted election outcome for August IV's supporters: [POL_circle_chance]"
+ POL_status_stable: "§GPoland is loyal and stable.§!"
+ POL_status_restless: "§YPoland is stable, though the situation may change.§!"
+ POL_status_uprising_ready: "§YPoland is unstable, and military setbacks might trigger an uprising.§!"
+ POL_status_uprising_imminent: "An uprising in Poland is imminent!"
+
+ POL_status_rebellious: "§RPoland is rebellious!§!"
+
+ POL_GER_buy: "Investments in Poland"
+ POL_GER_sell: "Sell Polish Holdings"
+ POL_GER_lobby: "Pro-Monarchist Campaign"
+
+ POL_GER_promises: "Promise Autonomy for Poland"
+ POL_promise_tt: "§CPoland's loyalty will increase drastically.$!"
+ POL_GER_agricultural_exports: "Divert Agricultural Goods"
+ POL_promises1: "Has promised Poland independence"
+
+ POL_GER_recruit_Poland: "Increase Recruitment in Poland"
+ POL_GER_recruit_Poland_reduce: "Decrease Recruitment in Poland"
+ POL_GER_recruitment: "Polish Worker Recruitment"
+
+ POL_invest_tt: "By funding August IV's supporters, we will secure Polish loyalty."
+ POL_exploit_tt: "Exploitive policies towards Poland will strengthen the Anti-German and revolutionary sentiment in Poland."
+
+#Polish-Austrian interactions
+ POL_Austrian_Control: "Austrian Interests in Poland"
+ POL_Austrian_Control_desc: "Despite the border, Poland has been closely integrated with the markets of Galicia-Lodomeria and the Habsburg realm in general. These markets are our best weapon to counteract German influence with the Poles.\n\n\n[POL_GER_polish_loyalty]"
+ POL_early2: "Predicted election outcome for the Pro-Austrian opposition: [POL_centrolew_chance]"
+
+ POL_AUS_buy: "Acquire Polish Shares"
+ POL_AUS_sell: "Sell Polish Holdings"
+ POL_AUS_lobby: "Siphon Funds to LPP"
+ POL_AUS_lobby_desc: "The main vessel for our interests in Warsaw is Liga Państwowości Polskiej, the League of Polish Statehood. The party advocates for what they call the Austro-Polish solution - union between two Polands under the protection of the Habsburg Monarchy. We were robbed of this in 1919, but there is still considerable support for it among the northern Kingdom under the Prussian boot."
+ POL_AUS_agricultural_exports: "Divert Agricultural Goods"
 
 ### Other Decisions ###
  POL_Second_Four_Year_Plan_decisions: "The Second Four-Year Plan"

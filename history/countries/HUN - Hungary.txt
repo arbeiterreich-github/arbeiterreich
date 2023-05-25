@@ -164,6 +164,8 @@ set_popularities = {
 	national_populist = 9
 }
 
+add_ideas = HUN_financial_ties_broken
+
 ### Country Leaders ###
 recruit_character = HUN_bela_kun
 recruit_character = HUN_arpad_szakasits

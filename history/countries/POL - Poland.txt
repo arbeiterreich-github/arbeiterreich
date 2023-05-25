@@ -78,6 +78,12 @@ if = {
 }
 
 ### Government ###
+GER = {
+	set_autonomy = {
+		target = POL
+		autonomy_state = kr_oststaat
+	}
+}
 
 set_politics = {
 	ruling_party = market_liberal
@@ -98,13 +104,6 @@ set_popularities = {
 	paternal_autocrat = 0
 	national_populist = 7
 }
-### Diplomacy ###
-
-create_faction = east_europe_pol_faction
-add_to_faction = UKR
-add_to_faction = LIT
-add_to_faction = BAT
-add_to_faction = FIN
 
 ### Ideas ###
 add_ideas = {

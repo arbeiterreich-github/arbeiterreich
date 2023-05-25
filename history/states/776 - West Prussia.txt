@@ -5,9 +5,8 @@ state = {
 	state_category = six
 
 	history = {
-		owner = GRU
-		add_core_of = GRU
-		add_claim_by = GER
+		owner = GER
+		add_core_of = GER
 		add_to_array = { state_victory_points = 362 }
 		add_to_array = { state_victory_points = 279 }
 		victory_points = { 362 15 } #Danzig

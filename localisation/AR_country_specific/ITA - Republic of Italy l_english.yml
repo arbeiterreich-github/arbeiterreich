@@ -448,10 +448,6 @@
  ITA_rule_the_skies: "Rule the Skies"
  ITA_rule_the_skies_desc: "The air force is no longer a rag-tag collection of volunteers, but a fully functioning organ of our military. Let us rule the skies of Italy and beyond!"
 
-### Diplomacy ###
-
- ita_faction: "Patto di Roma"
-
 ### Events ###
 
  ita.1.t: "The History of the Republic of Italy: Defeat and Civil War"

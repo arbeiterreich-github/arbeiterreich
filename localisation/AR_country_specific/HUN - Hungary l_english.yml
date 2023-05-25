@@ -22,10 +22,6 @@
  HUN_national_populist_party: "NAP"
  HUN_national_populist_party_long: "Nemzet Akaratának Pártja"
 
-### Diplomacy ###
-
- hun_faction: "Hungarian Sphere"
-
 ### Cosmetic Tags ###
  HUN: "Hungary"
  HUN_ADJ: "Hungarian"

@@ -78,8 +78,6 @@ if = {
 	}
 }
 
-create_faction = ita_faction
-
 if = {
 	limit = {
 		has_dlc_tfv = yes
@@ -97,12 +95,6 @@ if = {
 		puppet = CRO
 	}
 }
-
-add_to_faction = GRE
-add_to_faction = ALB
-add_to_faction = ITA
-add_to_faction = MNT
-
 
 ### Navy - MtG ###
 if = {
