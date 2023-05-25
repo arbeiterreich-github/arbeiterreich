@@ -5,8 +5,8 @@ state = {
 	state_category = eight
 
 	history = {
-		owner = GRU
-		add_core_of = GRU
+		owner = GER
+		add_core_of = GER
 		add_to_array = { state_victory_points = 9517 }
 		victory_points = { 9517 15 }
 
