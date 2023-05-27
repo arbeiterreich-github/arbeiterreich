@@ -448,6 +448,10 @@
  ITA_rule_the_skies: "Rule the Skies"
  ITA_rule_the_skies_desc: "The air force is no longer a rag-tag collection of volunteers, but a fully functioning organ of our military. Let us rule the skies of Italy and beyond!"
 
+### Diplomacy ###
+
+ ita_faction: "Patto di Roma"
+
 ### Events ###
 
  ita.1.t: "The History of the Republic of Italy: Defeat and Civil War"
@@ -1049,9 +1053,9 @@
  ITA_social_democrat: "Italian Republic"
  ITA_social_democrat_ADJ: "Italian"
  ITA_social_democrat_DEF: "the Italian Republic"
- ITA_social_liberal: "Italian Republic"
+ ITA_social_liberal: "Kingdom of Italy"
  ITA_social_liberal_ADJ: "Italian"
- ITA_social_liberal_DEF: "the Italian Republic"
+ ITA_social_liberal_DEF: "the Kingdom of Italy"
  ITA_market_liberal: "Italian Republic"
  ITA_market_liberal_ADJ: "Italian"
  ITA_market_liberal_DEF: "the Italian Republic"

@@ -43,6 +43,8 @@
 
 ### Ideas ###
 
+ EBR_pedro_legacy: "Legacy of Pedro II"
+ EBR_pedro_legacy_desc: "We Brazilians proudly carry the legacy of Pedro II, who was committed to upholding the constitution, promoting democracy, advancing education, and industrializing our great nation. During his reign, Brazil flourished and became a superpower, but unfortunately, traitors within our midst overthrew him. But now, we say no more! We will honor his legacy by keeping our heads held high, and continuing to build a strong and prosperous Brazil. Long live the Empire!"
  EBR_tax_breaks: "Tax Breaks"
  EBR_regulate_stock_idea: "Regulated Stock"
  EBR_parliament: "Brazilian Parliament"
@@ -125,6 +127,12 @@
  EBR_arti_research: ""
  EBR_look_south: "Look to the South"
  EBR_look_pacific: "Look to the World"
+ EBR_deal_par: "Deal with Paraguay"
+ EBR_deal_par_desc: "Paraguay's expansionism is growing each day, which defies our national interests and regional stability. Our objective is clear: defend our hegemony, restore balance, and safeguard our future.\nWith unwavering resolve, we march forward to halt Paraguay's defiance and reaffirm Brazil's position as the dominant force in South America."
+
+### FACTION ###
+
+ BRAZIL_FAC: "Treaty of Rio"
 
 ### Decisions ###
  
@@ -136,17 +144,21 @@
  ebr.1.d: "Setting Brazilian Politics..."
  ebr.1.a: "Okay."
 
- ebr.2.t: "The Situation."
+ ebr.2.t: "The Situation"
  ebr.2.d: "The situation of Brazil is dire. The economy is in shambles due to the Black Monday crash, and our hopes for a peaceful transition of power have been dashed with the election of the Integralists in 1936.\nWe have been waiting for a chance to take action, and with the rebellion of the Republicans in 1938, we see an opportunity to seize control from both the Integralists and the Republicans.\nWhile some monarchists have aligned themselves with the Integralists, we see them as no better than the Republicans in their willingness to sacrifice our country's stability for their own gain. Our ultimate goal is to restore the monarchy, but we recognize that the first step is to establish a stable government that can protect the people and the nation's interests.\nThe road ahead will not be easy, as we are vastly outnumbered and outgunned. However, we believe that our cause is just and that the people of Brazil will rally to our side once they see the true nature of the Integralists and the Republicans.\nWe are prepared to fight for as long as it takes to achieve our goals, and we will not rest until the rightful monarch is restored to the throne and our country is once again a beacon of stability and prosperity in the world."
  ebr.2.a: "Avante!"
  
- ebr.4.t: "Ratification of the Treaty of Rome."
+ ebr.4.t: "Ratification of the Treaty of Rome"
  ebr.4.d: "In 1938, Italy and Brazil are in the process of ratifying the Agreement of Rome, a trade agreement that aims to boost their economies through mutual cooperation. Despite both countries having agrarian economies, they produce different products that cannot be produced in each other's land, making the agreement mutually beneficial.\n     The agreement seeks to reduce tariffs on agricultural-based products and establish a mutual agreement on the exchange of resources, which would likely benefit both economies. Additionally, the agreement aims to promote greater cultural and educational exchange between the two nations, further strengthening their relationship.\n     Although the ratification process is still ongoing, the potential benefits of this agreement could lead to a significant improvement in the economic and social conditions of both nations. As such, both countries are committed to working together to ensure the smooth implementation of the Agreement of Rome."
  ebr.4.a: "Huzzah!"
  
  ebr.721.t: "Paraguayan Military Surrenders!"
  ebr.721.d: "The Military of Paraguay decided to surrender after serious military setbacks. Those were caused by either poor planning or their enemies military might. Once again Brazil marches on Paraguayan land as its own, this time however, they may not leave..."
  ebr.721.a: "This time they won't come back."
+
+ ebr.720.t: "A Brazilian Proposal"
+ ebr.720.d: "The Empire of Brazil have offered us help in reconquering our lost territories in the Chaco War, that is if, we accept and declare war on Paraguay alongside them."
+ ebr.720.a: "We shall crush them to the point of no recovery."
 
 ### Country Names ###
  EBR: "Empire of Brazil"
@@ -187,11 +199,13 @@
 
  ###Leaders###
  EBR_Isabelle: "Empress Isabel de Orleans e Bragança"
- EBR_Isabelle_leader_desc: "Empress Isabel of Orleans is the last person a monarchist would think to take arms against republicans in Brazil, but after losing both France and Brazil she was devastaded. Today she is a martyr for Brazilian Monarchists, she inspired women to take arms and fight for what she sees as the best for Brazil." EBR_protogenes_pereira_guimaraes: "Protógenes Guimarães"
+ EBR_Isabelle_leader_desc: "Empress Isabel of Orleans is the last person a monarchist would think to take arms against republicans in Brazil, but after losing both France and Brazil she was devastaded. Today she is a martyr for Brazilian Monarchists, she inspired women to take arms and fight for what she sees as the best for Brazil." 
+ EBR_protogenes_pereira_guimaraes: "Protógenes Guimarães"
  
  ### Characters ###
  EBR_alipio_virgilio_di_primio: "Alípio Virgílio Di Primio"
- EBR_antonio_carlos_da_silva_murici: "Antônio Carlos da Silva Murici" 
+ EBR_antonio_carlos_da_silva_murici: "Antônio Carlos da Silva Murici"
+ EBR_antonio_gastao_of_orleans-braganza: "Antônio Gastão de Orléans e Bragança" 
  
  EBR_Congresso_nacional: "Congresso Nacional" 
  EBR_floriano_de_lima_brayner: "Floriano de Lima Brayner"

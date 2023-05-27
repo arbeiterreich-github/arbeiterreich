@@ -5,12 +5,9 @@ state = {
 	state_category = one
 
 	history = {
-		owner = MAF
-		add_core_of = ZAM
-		add_claim_by = MAF
-
-		add_dynamic_modifier = { modifier = MAF_british_rhodesia }
-
+		owner = ENG
+		add_core_of = ENG
+		
 		buildings = {
 			infrastructure = 1
 		}

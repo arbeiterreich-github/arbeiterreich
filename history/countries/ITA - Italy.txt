@@ -78,6 +78,8 @@ if = {
 	}
 }
 
+create_faction = ita_faction
+
 if = {
 	limit = {
 		has_dlc_tfv = yes
@@ -86,10 +88,21 @@ if = {
 		target = LEB
 		autonomy_state = autonomy_puppet
 	}
+	set_autonomy = {
+		target = CRO
+		autonomy_state = autonomy_puppet
+	}
 	else = {
 		puppet = LEB
+		puppet = CRO
 	}
 }
+
+add_to_faction = GRE
+add_to_faction = ALB
+add_to_faction = ITA
+add_to_faction = MNT
+
 
 ### Navy - MtG ###
 if = {

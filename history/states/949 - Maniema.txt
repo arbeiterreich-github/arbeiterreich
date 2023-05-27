@@ -5,7 +5,7 @@ state = {
 	state_category = one
 
 	history = {
-		owner = MAF
+		owner = ENG
 		add_core_of = COG
 
 		buildings = {

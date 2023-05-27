@@ -3,7 +3,7 @@ set_research_slots = 3
 set_convoys = 150
 
 set_politics = {
-	ruling_party = social_democrat
+	ruling_party = syndicalist
 	last_election = "1888.6.15"
 	election_frequency = 48
 	elections_allowed = no
@@ -22,4 +22,21 @@ set_popularities = {
 	national_populist = 5
 }
 
-#GRU's leaders start in GER and are moved by effect
+if = {
+	limit = {
+		has_dlc_tfv = yes
+	}
+	HUN = {
+		set_autonomy = {
+			target = AUS
+			autonomy_state = autonomy_integrated_puppet
+		}
+	}
+	else = {
+		puppet = AUS
+	}
+}
+
+### LEADERS ###
+
+recruit_character = GRU_Rosa_Louxemburg

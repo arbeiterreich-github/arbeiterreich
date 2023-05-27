@@ -5,8 +5,11 @@ state = {
 	state_category = four
 
 	history = {
-		owner = BRA
-		add_core_of = BRA
+		owner = EBR
+		add_core_of = EBR
+		add_claim_by = BRA
+		add_claim_by = UOB
+		
 		add_to_array = { state_victory_points = 10946 }
 		add_to_array = { state_victory_points = 11002 }
 

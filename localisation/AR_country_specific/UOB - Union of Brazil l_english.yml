@@ -1,0 +1,99 @@
+﻿l_english:
+
+### World Tension ###
+
+### Ship Name Lists ###
+
+### Parties ###
+ UOB_social_democrat_party: "ED"
+ UOB_social_democrat_party_long: "Esquerda Democrática\n§gThe labour movement in Brazil is small and incredibly fractured among regional and ideological lines. In an attempt to improve the livelihood of Brazilians, several moderate leaders have spent the past few years attempting to organise a broad, united left front to run for the elections and show the will of the proletariat in a democratic fashion. While the aptly named Democratic Left did have presidential candidates before 1936, those were of middling importance and appeal, and could not even gather support among major unions. It would take a major shake-up in the political landscape of the labour movement as a whole to allow the broad front to gain traction, but if such a feat could be achieved, it could be a credible threat to the predatory crony capitalists who currently hold power in Brazil.§!"
+ UOB_social_conservative_party: "PR"
+ UOB_social_conservative_party_long: "Partido Republicano\n§gThe new political order that arose from the war between the states is one almost entirely moulded by the Republican party and its members, who led the opposition to the federal government on that occasion. While not technically a party (since it's actually more akin to a federation of parties that exist on a state level) the high ranking members of the Republicans have nation-wide notoriety and wield equally immense political power. They have held this power in Brazil for a long time, due to the powerful men that support them. Figures anywhere from industrialists to plantation owners ensure that the voting tends more often than not to be in their favour. While things may yet change, these political elites are anything if not adaptable, and will always be considering ways to regain or maintain their power.§!"
+ UOB_authoritarian_democrat_party: "PPF"
+ UOB_authoritarian_democrat_party_long: "Partido Parlamentarista Federal\n§gWhile the concept of the Military taking control of Brazil may seem unrealistic to the average Brazilian, they have always been the primary power brokers since the fall of the empire. To keep its power, a transitional military government would have to be on the prowl for dissenters, while keeping a facade of democratic representation to gain legitimacy, especially after the immense chaos that would be necessary for such a state of affairs to come to be.§!"
+ UOB_paternal_autocrat_party: "PR - C"
+ UOB_paternal_autocrat_party_long: "Partido Republicano - Centralista\n§gWhile traditionally decentralised for decades, and even with major armed opposition against any kind of overt centralisation, a new kind of state is often purported to defend and maintain Brazil's sovereignty in the chaotic situation the world, where crisis and recession looms at every corner. Strong and bold leadership, with one man to be father of Brazil's poor and downtrodden; and to act with a firm hand against those who would do Brazil harm.§!"
+ UOB_paternal_autocrat2_party: "PPB"
+ UOB_paternal_autocrat2_party_long: "Partido Popular Brasileiro\n§gWhile traditionally decentralised for decades, and even with major armed opposition against any kind of overt centralisation, a new kind of state is often purported to defend and maintain Brazil's sovereignty in the chaotic situation the world, where crisis and recession looms at every corner. Strong and bold leadership, with one man to be father of Brazil's poor and downtrodden; and to act with a firm hand against those who would do Brazil harm. Such a man has arisen now in Getúlio Vargas, and a new kind of state is about to make its mark in Brazil.§!"
+ UOB_national_populist_party: "AIB"
+ UOB_national_populist_party_long: "Ação Integralista Brasileira\n§gIntegralism is a relatively young ideology in Brazil, imported mostly by Portuguese immigrants after the War of '27. A highly reactionary and nationalistic ideology, its Brazilian form is quite peculiar, for it preaches that the character of the nation is both Catholic and racially diverse, and as such faith and unity are Brazil's strength. It abhors democracy on principle, seeing it as weak, and the Republic as the reason for Brazil's fall from grace. While not openly monarchical at first, few doubt this aspect of their beliefs, considering the constant anti-republican rhetoric spouted by propaganda newspapers. The AIB, by far the most important integralist movement, is actually quite homogenous in nature, with especially large portions of its electorate being of colour, and even some 'revolutionary republicans' among its ranks. Most of its core leadership, influenced by Europe's political events, feel that a restoration of the Empire is the only way to restore Brazil's glory.§!"
+ UOB_social_liberal_party: "PL"
+ UOB_social_liberal_party_long: "Partido Liberal\n§gThe old political order that was dismantled in the war between the states was influenced by many who now are part of the Brazilian Liberal party. Like the more influential and powerful Republicans, the Liberals are closer to a federation of parties that exist at a state level than a proper organisation with a unified vision and set of proposals. The fall of the old party chiefs swayed the balance of power among liberals away from the traditional centres, and thus many of the notables in the party are from South or Northeastern areas of Brazil. In general, they lack the apparatus and personnel the Republicans have used to share their names and their candidates with the common folk, even if they do have many newspapers and intellectuals favouring their party. The ideological heterodoxy of the party is great, and the most common unifying factor is a belief in positivist and classical liberal ideals, but even those concepts are not universal among party members.§!"
+ UOB_market_liberal_party: "PLD"
+ UOB_market_liberal_party_long: "Partido Liberal Democráta\n§gThe most radical sections of the Liberal Party of Brazil are far less relevant in the current day and age, thanks to the already insignificant role of the Liberal party as a whole. Their socially and economically liberal viewpoints put them at odds with most of the common folk of Brazil, who are more focused on immediate solutions and issues than lofty ideals of equality. However, these men will not give up, and the time for Brazil to be a liberal democracy may yet come, where a man's worth is determined by his skill and talent, not station or birth.§!"
+ UOB_radical_socialist_party: "CGT-FAB"
+ UOB_radical_socialist_party_long: "Confederação Geral do Trabalho - Federação Anarquista Brasileira\n§gThe radical left in Brazil is extremely divided over minor nuances in ideology, and few can actually agree on what a Brazil ran by the workers would look like. The Brazilian Anarchist Federation and the Labour Confederation have in many ways attempted to remedy this by reconciling extremely disparate views under the banner of gaining better working conditions right now, rather than seeking utopia later. This simple goal grants it far larger adhesion than rival associations, and it enjoys relatively good membership in large cities like São Paulo and Rio de Janeiro. Said large membership allows strikes to be powerful bargaining tools, and the frequent violent clashes have made the FAB and other socialist organisations associated with disorder and street battles in the public eye.§!"
+ UOB_syndicalist_party: "PSB"
+ UOB_syndicalist_party_long: "Partido Sindicalista Brasileiro\n§gBrazil's cultural and intellectual elites have long held highly francophile views and tastes, and the Revolution after the war certainly brought syndicalism to the forefront of most academic circles in Universities, bars and any other meeting places for these people. In time, press coverage and new literature help spread Syndicalism to several unions in Rio and other cities. Most of these orthodox syndicalists are either high ranking union figures or upper class intellectuals who seek to combat the extreme social inequality plaguing Brazil. The ideology's popularity is restricted, a consequence of its leadership's lack of political clout outside of labour circles. As of the late '30s they are a frequent target from far rightists who see them as foreign agents attempting to subvert the nation to become an atheist nation.§!"
+ UOB_totalist_party: "MMN"
+ UOB_totalist_party_long: "Movimento Maximalista Nacional\n§gMaximalism as a political doctrine in Brazil dates back to the first few meetings of socialists in the country, meetings that were held in Porto Alegre decades before the ED was born. Rejecting lofty ideas of peaceful transition, the movement has explicitly stated their goal of purging Brazil of its slavery-ridden capitalistic past and industrialising it into a better tomorrow, to ensure socialism can exist for future generations of Brazilians. §!"
+
+### Tooltips ###
+
+### Opinion Modifiers ###
+
+### Country Flags ###
+
+### Companies ###
+ companhia_siderurgica_nacional: "Companhia Siderúrgica Nacional"
+ universidade_federal_rio_de_janeiro: "Universidade Federal do Rio de Janeiro"
+ ultra_brazil: "Ultra"
+ imbel: "IMBEL"
+ taurus: "Taurus"
+ fabrica_nacional_motores: "Fábrica Nacional de Motores"
+ companhia_aeronautica_paulista: "Companhia Aeronáutica Paulista"
+ arsenal_marinha_rio_de_janeiro: "Arsenal de Marinha do Rio de Janeiro"
+ estrada_ferro_central_brasil: "Estrada de Ferro Central do Brasil"
+
+### Ideas ###
+
+### Focuses ###
+
+### Decision Categories ###
+
+### Decisions 
+ 
+#Costs
+
+### Events ###
+
+### Country Names ###
+ UOB: "Union of Brazil"
+ UOB_ADJ: "Brazilian"
+ UOB_DEF: "the Union of Brazil"
+
+ UOB_totalist: "Union of Brazil"
+ UOB_totalist_ADJ: "Brazilian"
+ UOB_totalist_DEF: "the Union of Brazil"
+ UOB_syndicalist: "Union of Brazil"
+ UOB_syndicalist_ADJ: "Brazilian"
+ UOB_syndicalist_DEF: "the Union of Brazil"
+ UOB_radical_socialist: "Union of Brazil"
+ UOB_radical_socialist_ADJ: "Brazilian"
+ UOB_radical_socialist_DEF: "the Union of Brazil"
+
+ UOB_empire_social_democrat: "Empire of Brazil"
+ UOB_empire_social_democrat_ADJ: "Brazilian"
+ UOB_empire_social_democrat_DEF: "the Empire of Brazil"
+ UOB_empire_social_liberal: "Empire of Brazil"
+ UOB_empire_social_liberal_ADJ: "Brazilian"
+ UOB_empire_social_liberal_DEF: "the Empire of Brazil"
+ UOB_empire_market_liberal: "Empire of Brazil"
+ UOB_empire_market_liberal_ADJ: "Brazilian"
+ UOB_empire_market_liberal_DEF: "the Empire of Brazil"
+ UOB_empire_social_conservative: "Empire of Brazil"
+ UOB_empire_social_conservative_ADJ: "Brazilian"
+ UOB_empire_social_conservative_DEF: "the Empire of Brazil"
+ UOB_empire_authoritarian_democrat: "Empire of Brazil"
+ UOB_empire_authoritarian_democrat_ADJ: "Brazilian"
+ UOB_empire_authoritarian_democrat_DEF: "the Empire of Brazil"
+ UOB_empire_paternal_autocrat: "Empire of Brazil"
+ UOB_empire_paternal_autocrat_ADJ: "Brazilian"
+ UOB_empire_paternal_autocrat_DEF: "the Empire of Brazil"
+ UOB_empire_national_populist: "Empire of Brazil"
+ UOB_empire_national_populist_ADJ: "Brazilian"
+ UOB_empire_national_populist_DEF: "the Empire of Brazil"
+
+### Characters ###
+
+ UOB_luis_carlos_prestes: "Luís Carlos Prestes"
