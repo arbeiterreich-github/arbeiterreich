@@ -128,6 +128,8 @@
  ITA_anarchist_victory: "The Anarchist Faction has won the Italian Chairmanship"
  ITA_coalition_victory: "The Coalition Faction has won the Italian Chairmanship"
  ITA_futurist_victory: "The Futurist Faction has won the Italian Chairmanship"
+ ITA_tomcli: "Tommaso is in"
+ ITA_musli: "Mussolini is in"
 
 ### Opinion Modifiers ###
  ITA_austrian_no_freindship: "No Austrian Friendship"
@@ -222,6 +224,8 @@ ITA_the_two_takers: "The Two Takers"
  ita.11.c: "The Futurist"
  ita.13.t: "Mussolini Goes Rogue"
  ita.13.d: "Shocking news has come out about comrade Mussolini, where it states he has defected from the Futurist Party and posted his own newspaper about his defection and why. Apparently, conditions in the Futurist Party have caused him to leave out of anger and disgust, and the Futirists are shocked and livid. Though, he still remains as one of the two takers. Will we allow Mussolini to take power or invite Marinetti to power?"
+ ita.13.a: "that traitor will pay!"
+ ita.13.b: "Whatever. Let him in."
 
 ### Cosmetic Tags ###
  ITA: "Italy"

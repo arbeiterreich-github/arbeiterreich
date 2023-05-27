@@ -39,6 +39,7 @@ focus_tree = {
 		x = 15
 		y = 0
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_socialist_success"
 			custom_effect_tooltip = ITA_socialist_success_tooltip
 		}
 	}
@@ -67,6 +68,7 @@ focus_tree = {
 		}
 		relative_position_id = ITA_socialist_success
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_rome_congress"
 			custom_effect_tooltip = ITA_socialist_rome_congress_tooltip
 			hidden_effect = {
 				country_event = {
@@ -1355,7 +1357,7 @@ completion_reward = {
 		icon = GFX_goal_red_star_gold_wreath
 		cost = 1
 		available = {
-			has_country_flag = ITA_coalition_victory
+			has_country_flag = ITA_futurist_victory
 		}
 		bypass = {
 
@@ -1363,7 +1365,7 @@ completion_reward = {
 		allow_branch = {
 			if = {
 				limit = {
-					has_country_flag = ITA_coalition_victory
+					has_country_flag = ITA_futurist_victory
 				}
 			}
 		}
@@ -1414,6 +1416,70 @@ completion_reward = {
 					id = ita.13
 				    days = 0
 				}
+			}
+		}
+	}
+
+	focus = {# Filippo Tommaso Clique
+		id = ITA_tommaso
+		icon = GFX_focus_generic_soviet_politics
+		cost = 1
+		available = {
+			has_country_flag = ITA_tomcli
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_tomcli
+				}
+			}
+		}
+		x = -2
+		y = 1
+		prerequisite = {
+			focus = ITA_the_two_takers
+		}
+		prerequisite = {
+			focus = ITA_mussolini
+		}
+		relative_position_id = ITA_the_two_takers
+		completion_reward = {
+			hidden_effect = {
+			}
+		}
+	}
+
+	focus = {# Benito Mussolini Clique
+		id = ITA_mussolini
+		icon = GFX_focus_generic_soviet_politics
+		cost = 1
+		available = {
+			has_country_flag = ITA_muscli
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_muscli
+				}
+			}
+		}
+		x = 4
+		y = 1
+		prerequisite = {
+			focus = ITA_the_two_takers
+		}
+		prerequisite = {
+			focus = ITA_tommaso
+		}
+		relative_position_id = ITA_the_two_takers
+		completion_reward = {
+			hidden_effect = {
 			}
 		}
 	}

@@ -221,9 +221,17 @@ country_event = { # new chairman
 	}
 
 	option = {
-		name = ita.11.BAH
+		name = ita.11.b
 			hidden_effect = {
 				set_country_flag = ITA_coalition_victory
+			}
+
+	}
+
+	option = {
+		name = ita.11.c
+			hidden_effect = {
+				set_country_flag = ITA_futurist_victory
 			}
 
 	}
