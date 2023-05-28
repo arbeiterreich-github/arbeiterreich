@@ -44,7 +44,7 @@ focus_tree = {
 		x = 6
 		y = 0
 		completion_reward = {
-			custom_effect_tooltip = ITA_snap_elections_tooltip
+			custom_effect_tooltip = ITA_parriadmin
 		}
 	}
 ### Kingdom of Italy ###
