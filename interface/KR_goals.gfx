@@ -4999,6 +4999,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/ITA_parri_administration.png"
 	}
 
+	SpriteType = {
+		name = "GFX_goal_ITA_appeal_to_king"
+		texturefile = "gfx/interface/goals/ITA_appeal_to_king.png"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_ITA_appeal_to_parliament"
+		texturefile = "gfx/interface/goals/ITA_appeal_to_parliament.png"
+	}
+
 	### Japan ###
 	SpriteType = {
 		name = "GFX_goal_japanese_democracy"

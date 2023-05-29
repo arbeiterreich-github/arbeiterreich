@@ -185,19 +185,17 @@ set_politics = {
 }
 
 set_popularities = {
-	totalist = 0
-	radical_socialist = 0
-	syndicalist = 2
-	social_democrat = 4
-	social_liberal = 31
-	market_liberal = 11
-	social_conservative = 18
-	authoritarian_democrat = 13
-	paternal_autocrat = 3
+	totalist = 5
+	radical_socialist = 3
+	syndicalist = 7
+	social_democrat = 15
+	social_liberal = 21
+	market_liberal = 2
+	social_conservative = 19
+	authoritarian_democrat = 8
+	paternal_autocrat = 2
 	national_populist = 18
 }
-
-add_ideas = ITA_republic_federation
 
 # Country Leaders
 recruit_character = ITA_victor_emmanuel_iii

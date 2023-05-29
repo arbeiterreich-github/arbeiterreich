@@ -13,16 +13,15 @@ focus_tree = {
 		}
 	}
 	default = no
-	continuous_focus_position = { x = 60 y = 1200 }
+	continuous_focus_position = { x = 60 y = 2000 }
 
 ### Parri Administration ###
 
 	focus = {# The Ministry of Parri 
 		id = ITA_parriadmin
 		icon = GFX_goal_ITA_parri_administration
-		cost = 7
+		cost = 3
 		available = {
-			always = no
 			OR = {
 				has_elected_government = yes
 			}
@@ -33,18 +32,103 @@ focus_tree = {
 		allow_branch = {
 			if = {
 				limit = {
-					has_country_flag = ITA_assasinated
-				}
-				OR = {
-					has_elected_government = yes
-					has_government = paternal_autocrat
 				}
 			}
 		}
 		x = 6
 		y = 0
 		completion_reward = {
-			custom_effect_tooltip = ITA_parriadmin
+			custom_effect_tooltip = ITA_parriadmin_tooltip
+		}
+	}
+
+	focus = {# Liberal Reforms
+		id = ITA_liberal_reforms
+		icon = GFX_goal_ideology_social_liberal
+		cost = 5
+		available = {
+			OR = {
+				has_elected_government = yes
+			}
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+				}
+			}
+		}
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = ITA_parriadmin
+		}
+		relative_position_id = ITA_parriadmin
+		completion_reward = {
+		}
+	}
+
+	focus = {# Appeal to the Parliament
+		id = ITA_appeal_to_parliament
+		icon = GFX_goal_ITA_appeal_to_parliament
+		cost = 5
+		available = {
+			OR = {
+				has_elected_government = yes
+			}
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+				}
+			}
+		}
+		x = -2
+		y = 2
+		prerequisite = {
+			focus = ITA_liberal_reforms
+		}
+		mutually_exclusive = {
+			focus = ITA_appeal_to_parliament
+		}
+		relative_position_id = ITA_parriadmin
+		completion_reward = {
+		}
+	}
+
+	focus = {# Appeal to the King
+		id = ITA_appeal_to_king
+		icon = GFX_goal_ITA_appeal_to_king
+		cost = 5
+		available = {
+			OR = {
+				has_elected_government = yes
+			}
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+				}
+			}
+		}
+		x = 2
+		y = 2
+		prerequisite = {
+			focus = ITA_liberal_reforms
+		}
+		mutually_exclusive = {
+			focus = ITA_appeal_to_parliament
+		}
+		relative_position_id = ITA_parriadmin
+		completion_reward = {
 		}
 	}
 ### Kingdom of Italy ###
@@ -53,7 +137,6 @@ focus_tree = {
 		icon = GFX_SRD_irridentism
 		cost = 7
 		available = {
-			always = no
 			OR = {
 				has_elected_government = yes
 			}
