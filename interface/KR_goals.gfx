@@ -5009,6 +5009,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/ITA_appeal_to_parliament.png"
 	}
 
+	SpriteType = {
+		name = "GFX_goal_ITA_destroy_extremism"
+		texturefile = "gfx/interface/goals/ITA_destroy_extremism.png"
+	}
+
 	### Japan ###
 	SpriteType = {
 		name = "GFX_goal_japanese_democracy"

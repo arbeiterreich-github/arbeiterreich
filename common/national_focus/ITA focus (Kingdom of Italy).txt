@@ -131,6 +131,149 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
+
+	focus = {# Rome Speeches
+		id = ITA_rome_speeches
+		icon = GFX_goal_generic_propaganda
+		cost = 5
+		available = {
+			OR = {
+				has_elected_government = yes
+			}
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+				}
+			}
+		}
+		x = -2
+		y = 3
+		prerequisite = {
+			focus = ITA_appeal_to_parliament
+		}
+		relative_position_id = ITA_parriadmin
+		completion_reward = {
+		}
+	}
+
+	focus = {# Work with the Unions
+		id = ITA_work_with_unions
+		icon = GFX_goal_generic_propaganda
+		cost = 5
+		available = {
+			OR = {
+				has_elected_government = yes
+			}
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+				}
+			}
+		}
+		x = 0
+		y = 3
+		prerequisite = {
+			focus = ITA_liberal_reforms
+		}
+		relative_position_id = ITA_parriadmin
+		completion_reward = {
+		}
+	}
+
+	focus = {# Establish the Vatican
+		id = ITA_vatican_establishment
+		icon = GFX_goal_faith_and_state
+		cost = 5
+		available = {
+			OR = {
+				has_elected_government = yes
+			}
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+				}
+			}
+		}
+		x = 2
+		y = 3
+		prerequisite = {
+			focus = ITA_appeal_to_king
+		}
+		relative_position_id = ITA_parriadmin
+		completion_reward = {
+		}
+	}
+
+	focus = {# Rural Investments
+		id = ITA_rural_investments
+		icon = GFX_DAH_Topke
+		cost = 5
+		available = {
+			OR = {
+				has_elected_government = yes
+			}
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+				}
+			}
+		}
+		x = 0
+		y = 4
+		prerequisite = {
+			focus = ITA_vatican_establishment
+			focus = ITA_rome_speeches
+			focus = ITA_work_with_unions
+		}
+		relative_position_id = ITA_parriadmin
+		completion_reward = {
+		}
+	}
+
+	focus = {# Anti Extremism
+		id = ITA_anti_extremism
+		icon = GFX_goal_ITA_destroy_extremism
+		cost = 5
+		available = {
+			OR = {
+				has_elected_government = yes
+			}
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+				}
+			}
+		}
+		x = 0
+		y = 5
+		prerequisite = {
+			focus = ITA_rural_investments
+		}
+		relative_position_id = ITA_parriadmin
+		completion_reward = {
+		}
+	}
+
 ### Kingdom of Italy ###
 	focus = {# The Kingdom in Crisis
 		id = ITA_kingdom_crisis
