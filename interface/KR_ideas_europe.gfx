@@ -957,5 +957,11 @@ spriteTypes = {
 		name = "GFX_idea_SIC_arm_reforms"
 		texturefile = "gfx/interface/ideas/SIC_arm_reforms.png"
 	}
+
+	### ITA ABR ###
+	spriteType = {
+		name = "GFX_idea_ITA_victor"
+		texturefile = "gfx/interface/ideas/ITA_victor.png"
+	}
 }
 
