@@ -1,0 +1,49 @@
+### Kingdom of Italy Ideas
+
+ideas = {
+	country = {# Country Ideas
+		ITA_roaring_romans = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ITA_roaring_romans" }
+			picture = chi_hyper_inflation3
+			allowed = { always = no }
+			available = {
+				
+			}
+			modifier = {
+				consumer_goods_factor = -0.1
+				stability_weekly = 0.01
+				stability_factor = -0.03
+
+			}
+		}
+
+		ITA_mafia = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ITA_mafia" }
+			picture = hermann_gortz
+			allowed = { always = no }
+			available = {
+				
+			}
+			modifier = {
+				stability_factor = -0.15
+				production_factory_efficiency_gain_factor = -0.05 
+				consumer_goods_factor = 0.10 
+
+			}
+		}
+
+		ITA_victor_emmanuel_iii = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ITA_victor_emmanuel_iii" }
+			picture = GFX_idea_ITA_victor
+			allowed = { always = no }
+			available = {
+				
+			}
+			modifier = {
+				stability_factor = 0.05
+				war_support = 0.1
+			}
+		}
+	}
+}
+

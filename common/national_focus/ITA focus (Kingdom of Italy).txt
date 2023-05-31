@@ -38,6 +38,7 @@ focus_tree = {
 		x = 6
 		y = 0
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_parriadmin"
 			custom_effect_tooltip = ITA_parriadmin_tooltip
 		}
 	}
@@ -67,6 +68,7 @@ focus_tree = {
 		}
 		relative_position_id = ITA_parriadmin
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_liberal_reforms"
 		}
 	}
 
@@ -95,6 +97,7 @@ focus_tree = {
 		}
 		relative_position_id = ITA_parriadmin
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_appeal_to_parliament"
 		}
 	}
 
@@ -123,6 +126,7 @@ focus_tree = {
 		}
 		relative_position_id = ITA_parriadmin
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_appeal_to_king"
 		}
 	}
 
@@ -151,6 +155,7 @@ focus_tree = {
 		}
 		relative_position_id = ITA_parriadmin
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_rome_speeches"
 		}
 	}
 
@@ -179,6 +184,7 @@ focus_tree = {
 		}
 		relative_position_id = ITA_parriadmin
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_work_with_unions"
 		}
 	}
 
@@ -207,6 +213,7 @@ focus_tree = {
 		}
 		relative_position_id = ITA_parriadmin
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_vatican_establishment"
 		}
 	}
 
@@ -237,6 +244,7 @@ focus_tree = {
 		}
 		relative_position_id = ITA_parriadmin
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_rural_investments"
 		}
 	}
 
@@ -265,6 +273,7 @@ focus_tree = {
 		}
 		relative_position_id = ITA_parriadmin
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_anti_extremism"
 		}
 	}
 
@@ -295,6 +304,7 @@ focus_tree = {
 		x = 6
 		y = 8
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_kingdom_crisis"
 			custom_effect_tooltip = ITA_snap_elections_tooltip
 		}
 	}
@@ -330,6 +340,7 @@ focus_tree = {
 		}
 		relative_position_id = ITA_kingdom_crisis
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_filling_power_vaccum"
 		}
 	}
 }

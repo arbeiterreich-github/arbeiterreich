@@ -177,6 +177,12 @@ add_ai_strategy = {
 	value = 1
 }
 
+add_ideas = {
+	ITA_roaring_romans
+	ITA_mafia
+	ITA_victor_emmanuel_iii
+}
+
 set_politics = {
 	ruling_party = social_liberal
 	last_election = "1932.05.01"
@@ -196,6 +202,7 @@ set_popularities = {
 	paternal_autocrat = 2
 	national_populist = 18
 }
+
 
 # Country Leaders
 recruit_character = ITA_victor_emmanuel_iii
