@@ -162,7 +162,7 @@ focus_tree = {
 
 	focus = {# Work with the Unions
 		id = ITA_work_with_unions
-		icon = GFX_goal_generic_propaganda
+		icon = GFX_goal_ideology_radical_socialist
 		cost = 5
 		available = {
 			OR = {
@@ -218,7 +218,7 @@ focus_tree = {
 
 	focus = {# Rural Investments
 		id = ITA_rural_investments
-		icon = GFX_DAH_Topke
+		icon = GFX_goal_agricultural_aid
 		cost = 5
 		available = {
 			OR = {
