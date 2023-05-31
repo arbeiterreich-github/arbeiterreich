@@ -31,14 +31,10 @@ bookmarks = {
 
 		ENG = {
 			history = ENG_ARBEITERREICH_DESC
-			ideology = syndicalist
+			ideology = authoritarian_democrat
 			ideas = {
-				ENG_naval_devotion
 			}
 			focuses = {
-				ENG_devolution
-				ENG_evolution
-				ENG_revolution
 			}
 		}
 
