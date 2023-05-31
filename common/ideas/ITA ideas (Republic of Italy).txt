@@ -1,0 +1,21 @@
+### Republic of Italy Ideas
+
+ideas = {
+	country = {# Country Ideas
+		ITA_roaring_romans = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ITA_roaring_romans" }
+			picture = chi_hyper_inflation3
+			allowed = { always = no }
+			available = {
+				
+			}
+			modifier = {
+				consumer_goods_factor = -0.1
+				stability_weekly = 0.01
+				stability_factor = -0.03
+
+			}
+		}
+	}
+}
+
