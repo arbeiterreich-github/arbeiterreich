@@ -93,9 +93,6 @@ focus_tree = {
 		prerequisite = {
 			focus = ITA_liberal_reforms
 		}
-		mutually_exclusive = {
-			focus = ITA_appeal_to_parliament
-		}
 		relative_position_id = ITA_parriadmin
 		completion_reward = {
 		}
@@ -123,9 +120,6 @@ focus_tree = {
 		y = 2
 		prerequisite = {
 			focus = ITA_liberal_reforms
-		}
-		mutually_exclusive = {
-			focus = ITA_appeal_to_parliament
 		}
 		relative_position_id = ITA_parriadmin
 		completion_reward = {
