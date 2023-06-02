@@ -570,7 +570,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			maxWidth = 540
 			maxHeight = 30
-			format = left
+			format = left	
 		}
 
 		ButtonType = {
@@ -882,9 +882,40 @@ guiTypes = {
 			}
 		}
 
+		# containerWindowType = {
+		# 	name = "mapcountryview"
+		# 	position = {
+		# 		x = 1010
+		# 		y = 440
+		# 	}
+		# 	buttonType = {
+		# 		name = "switch_map_countryview"
+		# 		position = { x = 0 y = 0 }
+		# 		quadTextureSprite = "GFX_button_123x34"	
+		# 		buttonText = "Show Map"
+		# 		buttonFont = "hoi_20b"
+		# 		Orientation = "UPPER_LEFT"
+		# 		clicksound = click_default
+		# 		oversound = ui_menu_over
+		# 	}
+
+		# 	### Maps
+		# 	# Greek map
+
+		# 	iconType = {
+		# 		name = "bookmark_map_view_country"
+		# 		spriteType = bookmark_map_view
+		# 		position = {
+		# 			x = -1
+		# 			y = 60
+		# 		}
+				
+		# 	}
+		# }
+
 		instantTextBoxType = {
 			name = "history_title"
-			position = { x = 1050 y = 450 }
+			position = { x = 1050 y = 450 } #1100
 			font = "hoi4_typewriter22"
 			borderSize = {x = 0 y = 0}
 			text = "FE_COUNTRY_HISTORY_TITLE"
@@ -899,8 +930,10 @@ guiTypes = {
 			font = "hoi4_typewriter16"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 380
-			maxHeight = 30
+			maxHeight = 200
 			format = left
+			vertical_scroll_step = 40
+			scrollbartype = "standardtext_slider"
 		}
 
 #		iconType = {
