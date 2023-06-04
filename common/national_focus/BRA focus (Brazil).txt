@@ -12,7 +12,10 @@ focus_tree = {
 		factor = 0
 		modifier = {
 			add = 10
-			tag = BRA
+			OR = {
+			   tag = BRA
+		           tag = UOB #to show in bookmarks, remove later
+			}
 		}
 	}
 	default = no

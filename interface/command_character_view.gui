@@ -1,16 +1,15 @@
 guiTypes = {
 	containerWindowType = {
 		name = "command_character_view_window"
-		position = { x = -356 y = 80 }
+		position = { x = -356 y = 80 }	
 		show_position = { x = 540 y = 80 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
 		animation_time = 300
-		size = { width=500 height=590 }
+		size = { width=500 height=580 }
 		show_sound = open_sub_window
-
 		background = {
-			name = "Background"
+			name = "Background"		
 			quadTextureSprite ="GFX_tiled_plain_bg"
 		}
 
@@ -37,8 +36,8 @@ guiTypes = {
 		containerWindowType = {
 			name = "ideas"
 			position = { x = 0 y = 98 }
-			size = { width=500 height=100%% }
-
+			size = { width=500 height=100%% }	
+			
 			containerWindowType = {
 				name = "grid"
 				position = { x = 0 y = 0 }
@@ -48,9 +47,9 @@ guiTypes = {
 				smooth_scrolling = yes
 				orientation = center_up
 				origo = center_up
-
-				margin = { top = 6 bottom = 15 }
-
+	
+				margin = { top = 6 bottom = 15 }	
+				
 				background = {
 					name = "Background"
 					quadTextureSprite ="GFX_tiled_window2_1b_border"
@@ -59,17 +58,25 @@ guiTypes = {
 				background = {
 					name = "Background"
 					quadTextureSprite ="GFX_tiled_generic_overlay_bg1_small"
-					position = { x = -1 y = 0 }
+					position = { x = -1 y = 0 }					
 				}
 
 				gridBoxType = {
 					name = "box_grid"
-					position = { x = 10 y = 10 }
-					size = { width = 100%% height = 1 }
-					slotsize = { width = 231 height = 74 }
+					position = { x = 13 y = 10 }
+					size = { width = 100%% height = 1%% }
+					slotsize = { width = 231 height = 97 }
 					max_slots_horizontal = 2
 					add_horizontal = yes
 					format = "UPPER_LEFT"
+					padding = {
+						top = 6
+						bottom = 15
+					}
+					# margin = {
+					# 	top = 6
+					# 	bottom = 15
+					# }
 				}
 			}
 		}
@@ -78,13 +85,13 @@ guiTypes = {
 			name = "header"
 			position = { x = 0 y = 43 }
 			size = { width=100% height=50 }
-
+			
 			containerWindowType = {
 				name = "filters"
 				position = { x = 0 y = 0 }
 				size = { width=48% height=100% }
-
-				margin = { top = 6 bottom = 12 }
+	
+				margin = { top = 6 bottom = 12 }	
 
 				gridBoxType = {
 					name = "filter_grid"
@@ -102,7 +109,7 @@ guiTypes = {
 				position = { x = 0 y = 0 }
 				size = { width=99% height=100% }
 
-				margin = { top = 6 bottom = 12 }
+				margin = { top = 6 bottom = 12 }	
 
 				background = {
 					name = "Background"
@@ -151,7 +158,7 @@ guiTypes = {
 		name = "command_character_view_item"
 		size = { width = 231 height = 74 }
 		clipping = no
-
+			
 		background = {
 			name = "Background"
 			quadTextureSprite ="GFX_tiled_window2_1b_border"
@@ -163,7 +170,7 @@ guiTypes = {
 			spriteType = "GFX_idea_entry_bg_2"
 			clicksound = click_default
 		}
-
+			
 		iconType = {
 			name = "icon"
 			position = { x = 42 y = 38 }
@@ -182,44 +189,44 @@ guiTypes = {
 		}
 
 		containerWindowType = {
-			name = "traits_container"
-			position = { x = 76 y = 0 }
-			show_position = { x = 0 y = 0 }
+		  name = "traits_container"
+		  position = { x = 76 y = 0 }	
+		  show_position = { x = 0 y = 0 }
 			size = { width=170 height=100%% }
-
+			
 			instantTextboxType = {
 				name = "name"
 				position = { x = 0 y = 10 }
 				font = "hoi_18mbs"
-				fixedsize = yes
+				fixedsize = yes			
 				text = ""
-				maxWidth = 145
+				maxWidth = 150
 				maxHeight = 13
 				format = left
-				alwaystransparent = yes
+				alwaystransparent = yes			
 			}
 
 			instantTextboxType = {
 				name = "traits"
 				position = { x = 0 y = 28 }
 				font = "hoi_16mbs"
-				fixedsize = yes
+				fixedsize = yes			
 				text = ""
 				maxWidth = 140
 				maxHeight = 100%%
 				format = left
-				alwaystransparent = yes
+				alwaystransparent = yes			
 			}
 		}
-
+		
 		instantTextboxType = {
 			name = "cost"
-			position = { x = 80 y = 47 }
+			position = { x = -26 y = 68 }
 			font = "hoi_16mbs"
 			text = ""
 			maxWidth = 142
 			maxHeight = 10
-			format = right
+			format = center
 			alwaystransparent = yes
 		}
 
@@ -239,7 +246,7 @@ guiTypes = {
 		name = "command_character_view_item_purge"
 		size = { width = 231 height = 74 }
 		clipping = no
-
+			
 		background = {
 			name = "Background"
 			quadTextureSprite ="GFX_tiled_window2_1b_border"
@@ -251,7 +258,7 @@ guiTypes = {
 			spriteType = "GFX_idea_entry_bg_2"
 			clicksound = click_default
 		}
-
+			
 		iconType = {
 			name = "icon"
 			position = { x = 42 y = 38 }
@@ -270,33 +277,34 @@ guiTypes = {
 		}
 
 		containerWindowType = {
-			name = "traits_container"
-			position = { x = 76 y = 0 }
-			show_position = { x = 0 y = 0 }
+		  name = "traits_container"
+		  position = { x = 84 y = 0 }	
+		  show_position = { x = 0 y = 0 }
 			size = { width=170 height=100%% }
-
+			
 			instantTextboxType = {
 				name = "name"
-				position = { x = 0 y = 10 }
+				position = { x = 0 y = -13 }
 				font = "hoi_18mbs"
-				fixedsize = yes
+				fixedsize = yes			
 				text = ""
-				maxWidth = 150
-				maxHeight = 13
+				maxWidth = 160
+				maxHeight = 100%%
 				format = left
-				alwaystransparent = yes
+        		vertical_alignment = center
+				alwaystransparent = yes			
 			}
 
 			instantTextboxType = {
 				name = "traits"
-				position = { x = 0 y = 28 }
+				position = { x = 0 y = 10 }
 				font = "hoi_16mbs"
-				fixedsize = yes
+				fixedsize = yes			
 				text = ""
-				maxWidth = 140
+				maxWidth = 160
 				maxHeight = 100%%
 				format = left
-				alwaystransparent = yes
+				alwaystransparent = yes			
 			}
 		}
 

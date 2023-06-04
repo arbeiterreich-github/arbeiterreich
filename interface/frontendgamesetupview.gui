@@ -130,7 +130,7 @@ guiTypes = {
 		buttonType = {
 			name = "country_leader"
 			quadTextureSprite = "GFX_leader_unknown"
-			position = { x = 17 y = 22 }
+			position = { x = 95 y = 22 }
 			scale = 0.75
 			clicksound = click_checkbox
 		}
@@ -138,7 +138,7 @@ guiTypes = {
 		iconType = {
 			name = "country_flag"
 			quadTextureSprite = "GFX_shield_medium"
-			position = { x = 34 y = 188 }
+			position = { x = 114 y = 188 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
@@ -146,13 +146,13 @@ guiTypes = {
 		buttonType = {
 			name = "country"
 			quadTextureSprite = "GFX_country_selection_entry"
-			position = { x = 0 y = 0 }
+			position = { x = 80 y = 0 }
 			clicksound = click_checkbox
 		}
 
 		instantTextBoxType = {
 			name = "country_name"
-			position = { x = 8 y = 245 }
+			position = { x = 90 y = 245 }
 			font = "hoi_20b"
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 131
@@ -190,7 +190,7 @@ guiTypes = {
 		iconType = {
 			name = "country_flag"
 			quadTextureSprite = "GFX_shield_medium"
-			position = { x = 26 y = 22 }
+			position = { x = 88 y = 135 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
@@ -198,7 +198,7 @@ guiTypes = {
 		buttonType = {
 			name = "country"
 			quadTextureSprite = "GFX_country_selection_minor_entry"
-			position = { x = 0 y = 0 }
+			position = { x = 60 y = 115 }
 			clicksound = click_checkbox
 		}
 	}
@@ -372,7 +372,6 @@ guiTypes = {
 			position = { x = 75 y = 166 }
 			size = { width = 350 height = 300}
 			verticalScrollbar = "right_vertical_slider"
-			vertical_scroll_step = 5
 
 			background = {
 				name = "Background"
@@ -600,7 +599,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "gamesetup_interesting_countries_window"
-		size = { width = 1644 height = 720 }
+		size = { width = 1643 height = 935 }
 		Orientation = center
 		origo = center
 		clipping = no
@@ -689,10 +688,9 @@ guiTypes = {
 				name = "countries_grid"
 				position = { x = 0 y = 0 }
 				size = { width = 100% height = 100% }
-				slotsize = { width = 120 height = 40 }
-				add_horizontal = no
-				max_slots_vertical = 1
-				max_slots_horzontal = 8
+				slotsize = { width = 120 height = 90 }
+				max_slots_vertical = 2
+				max_slots_horizontal = 12
 				format = "UPPER_LEFT"
 			}
 		}
@@ -700,21 +698,21 @@ guiTypes = {
 		iconType = {
 			name = "minor_country_leader"
 			quadTextureSprite = "GFX_leader_unknown"
-			position = { x = 500 y = 441 }
-			scale = 0.696
+			position = { x = 500 y = 650 }
+			scale = 0.7
 			rotation = -0.04
 		}
 
 		iconType = {
 			name = "minor_portrait_overlay"
 			spriteType = "GFX_minor_portrait_overlay"
-			position = { x = 492 y = 430 }
+			position = { x = 492 y = 640 }
 		}
 
 
 		instantTextBoxType = {
 			name = "info_title"
-			position = { x = 200 y = 450 }
+			position = { x = 200 y = 670 }
 			font = "hoi4_typewriter22"
 			borderSize = {x = 0 y = 0}
 			text = "FE_COUNTRY_INFO_TITLE"
@@ -725,7 +723,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "info"
-			position = { x = 250 y = 485 }
+			position = { x = 250 y = 705 }
 
 			instantTextBoxType = {
 				name = "leader_label"
@@ -829,10 +827,10 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "nation_title"
-			position = { x = 650 y = 421 }
-			font = "hoi_24header"
+			position = { x = 650 y = 640 }
+			font = "hoi_30header"
 			borderSize = {x = 0 y = 0}
-			maxWidth = 340
+			maxWidth = 348
 			maxHeight = 48
 			format = centre
 			vertical_alignment = center
@@ -840,7 +838,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "spirit"
-			position = { x = 662 y = 472 }
+			position = { x = 662 y = 692 }
 
 			iconType = {
 				name = "pol_faction_icon"
@@ -858,8 +856,8 @@ guiTypes = {
 					name = "ideas_grid"
 					position = { x = 0 y = 0 }
 					size = { width = 100% height = 70 }
-					slotsize = { width = 75 height = 66 }
-					max_slots = { x = 3 y = 1 }
+					slotsize = { width = 60 height = 66 }
+					max_slots = { x = 4 y = 1 }
 					add_horizontal = yes
 					format = "UPPER_LEFT"
 				}
@@ -915,7 +913,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "history_title"
-			position = { x = 1050 y = 450 } #1100
+			position = { x = 1050 y = 670 } #1100
 			font = "hoi4_typewriter22"
 			borderSize = {x = 0 y = 0}
 			text = "FE_COUNTRY_HISTORY_TITLE"
@@ -926,7 +924,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "history"
-			position = { x = 1025 y = 490 }
+			position = { x = 1025 y = 700	 }
 			font = "hoi4_typewriter16"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 380
@@ -936,21 +934,21 @@ guiTypes = {
 			scrollbartype = "standardtext_slider"
 		}
 
-#		iconType = {
-#			name = "new_country_1"
-#			quadTextureSprite ="GFX_major_country_flag_overlay"
-#			position = { x = 23 y = 348 }
-#			Orientation = "UPPER_LEFT"
-#			alwaystransparent = yes
-#		}
-#
-#		iconType = {
-#			name = "new_country_2"
-#			quadTextureSprite ="GFX_major_country_flag_overlay"
-#			position = { x = 23 y = 388 }
-#			Orientation = "UPPER_LEFT"
-#			alwaystransparent = yes
-#		}
+		# iconType = {
+		# 	name = "new_country_1"
+		# 	quadTextureSprite ="GFX_major_country_flag_overlay"
+		# 	position = { x = 23 y = 348 }
+		# 	Orientation = "UPPER_LEFT"
+		# 	alwaystransparent = yes
+		# }
+
+		# iconType = {
+		# 	name = "new_country_2"
+		# 	quadTextureSprite ="GFX_major_country_flag_overlay"
+		# 	position = { x = 23 y = 388 }
+		# 	Orientation = "UPPER_LEFT"
+		# 	alwaystransparent = yes
+		# }
 	}
 
 	containerWindowType = {
@@ -1905,7 +1903,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType = {
-			position = {x = 30 y = 103 }
+			position = {x = 30 y = 148 }
 			name = "ironman_text"
 			font = "hoi_24header"
 			maxWidth = 370
@@ -1918,13 +1916,13 @@ guiTypes = {
 
 		checkboxType = {
 			name = "ironman_cb"
-			position = { x = 530 y = 101 }
+			position = { x = 530 y = 145 }
 			quadTextureSprite = "GFX_generic_checkbox"
 			clicksound = click_checkbox
 		}
 
 		instantTextBoxType = {
-			position = {x = 30 y = 148 }
+			position = {x = 10000 y = 10000 }
 			name = "historical_text"
 			font = "hoi_24header"
 			maxWidth = 370
@@ -1937,7 +1935,7 @@ guiTypes = {
 
 		checkboxType = {
 			name = "historical_cb"
-			position = { x = 530 y = 145 }
+			position = { x = 10000 y = 10000 }
 			quadTextureSprite ="GFX_generic_checkbox"
 			clicksound = click_checkbox
 		}

@@ -929,9 +929,12 @@
  gre.512.a: "Interesting."
 
 ### Cosmetic Tags ###
- GRE: "Greece"
- GRE_ADJ: "Greek"
- GRE_DEF: "Greece"
+ GRE: "Hellenic Empire"
+ GRE_ADJ: "Hellenic"
+ GRE_DEF: "The Hellenic Empire"
+ ANH: "Antiochian Protectorate"
+ ANH_ADJ: "Antiochian"
+ ANH_DEF: "The Antiochian Protectorate"
 
  GRE_totalist: "Hellenic Socialist Republic"
  GRE_totalist_ADJ: "Greek"
