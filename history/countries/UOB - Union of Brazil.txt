@@ -133,8 +133,6 @@ recruit_character = UOB_luis_carlos_prestes
 
 ### Field Marshal ###
 
-recruit_character =	UOB_luis_carlos_prestes
-
 ### Theorists ###
 
 

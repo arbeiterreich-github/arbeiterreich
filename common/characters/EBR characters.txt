@@ -173,7 +173,7 @@
 		name = EBR_Congresso_nacional
 		portraits = {
 			civilian = {
-				small = "gfx/interface/advisors/EBR/BRA_congresso_nacional.png"
+				small = "gfx/interface/advisors/BRA/BRA_congresso_nacional.png"
 			}
 		}
 		advisor = {
