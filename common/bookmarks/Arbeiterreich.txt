@@ -127,7 +127,7 @@ bookmarks = {
 
 		ELS = {
 			minor = yes
-			history = ELS_KR_gathering_storm_desc
+			history = ELSARBEITERREICH_DESC
 			ideology = national_populist
 			ideas = {
 				CEN_monroe_doctrine
@@ -143,7 +143,7 @@ bookmarks = {
 
 		COS = {
 			minor = yes
-			history = COS_KR_gathering_storm_desc
+			history = COSARBEITERREICH_DESC
 			ideology = social_conservative
 			ideas = {
 				COS_beacon_democracy
@@ -158,7 +158,7 @@ bookmarks = {
 
 		ARG = {
 			minor = yes
-			history = ARG_KR_gathering_storm_desc
+			history = ARGARBEITERREICH_DESC
 			ideology = national_populist
 			ideas = {
 				ARG_Military_Apparatus
@@ -174,7 +174,7 @@ bookmarks = {
 
 		FOP = {
 			minor = yes
-			history = FOP_KR_gathering_storm_desc
+			history = FOPARBEITERREICH_DESC
 			ideology = syndicalist
 			ideas = {
 				FOP_patagonian_resistance
@@ -189,7 +189,7 @@ bookmarks = {
 
 		PAR = {
 			minor = yes
-			history = PAR_KR_gathering_storm_desc
+			history = PARARBEITERREICH_DESC
 			ideology = authoritarian_democrat
 			ideas = {
 				PAR_military_influence_idea
@@ -204,7 +204,7 @@ bookmarks = {
 
 		URG = {
 			minor = yes
-			history = URG_KR_gathering_storm_desc
+			history = URGARBEITERREICH_DESC
 			ideology = social_democrat
 			ideas = {
 				URG_neutrality_idea
@@ -218,7 +218,7 @@ bookmarks = {
 
 		BRA = {
 			minor = yes
-			history = BRA_KR_gathering_storm_desc
+			history = BRAARBEITERREICH_DESC
 			ideology = social_conservative
 			ideas = {
 				BRA_decentralisation
@@ -234,7 +234,7 @@ bookmarks = {
 
 		HAI = {
 			minor = yes
-			history = HAI_KR_gathering_storm_desc
+			history = HAIARBEITERREICH_DESC
 			ideology = authoritarian_democrat
 			ideas = {
 				HAI_precarious_governance
@@ -250,7 +250,7 @@ bookmarks = {
 
 		NFA = {
 			minor = yes
-			history = NFA_KR_gathering_storm_desc
+			history = NFAARBEITERREICH_DESC
 			ideology = paternal_autocrat
 			ideas = {
 				NFA_anti_communard
@@ -266,7 +266,7 @@ bookmarks = {
 
 		SAF = {
 			minor = yes
-			history = SAF_KR_gathering_storm_desc
+			history = SAFARBEITERREICH_DESC
 			ideology = social_conservative
 			ideas = {
 				SAF_segregation_3
@@ -282,7 +282,7 @@ bookmarks = {
 
 		MAF = {
 			minor = yes
-			history = MAF_KR_gathering_storm_desc
+			history = MAFARBEITERREICH_DESC
 			ideology = authoritarian_democrat
 			ideas = {
 				MAF_colonial_budget_idea_dummy
@@ -298,7 +298,7 @@ bookmarks = {
 
 		POR = {
 			minor = yes
-			history = POR_KR_gathering_storm_desc
+			history = PORARBEITERREICH_DESC
 			ideology = national_populist
 			ideas = {
 				POR_integralist_ethos
@@ -312,7 +312,7 @@ bookmarks = {
 
 		# SRD = {
 		# 	minor = yes
-		# 	history = SRD_KR_gathering_storm_desc
+		# 	history = SRDARBEITERREICH_DESC
 		# 	ideology = paternal_autocrat
 		# 	ideas = {
 		# 		SRD_entente_support_1
@@ -326,7 +326,7 @@ bookmarks = {
 
 		# SIC = {
 		# 	minor = yes
-		# 	history = SIC_KR_gathering_storm_desc
+		# 	history = SICARBEITERREICH_DESC
 		# 	ideology = social_conservative
 		# 	ideas = {
 		# 		SIC_shipyard_profits
@@ -341,7 +341,7 @@ bookmarks = {
 
 	#	SRI = {
 	#		minor = yes
-	#		history = SRI_KR_gathering_storm_desc
+	#		history = SRIARBEITERREICH_DESC
 	#		ideology = syndicalist
 	#		ideas = {
 	#			SRI_divided_nation
@@ -356,7 +356,7 @@ bookmarks = {
 
 	#	ITA = {
 	#		minor = yes
-	#		history = ITA_KR_gathering_storm_desc
+	#		history = ITAARBEITERREICH_DESC
 	#		ideology = social_liberal
 	#		ideas = {
 	#			ITA_republic_federation
@@ -370,7 +370,7 @@ bookmarks = {
 
 	#	HOL = {
 	#		minor = yes
-	#		history = HOL_KR_gathering_storm_desc
+	#		history = HOLARBEITERREICH_DESC
 	#		ideology = social_conservative
 	#		ideas = {
 	#			HOL_idea_ambtenarenverbod
@@ -384,7 +384,7 @@ bookmarks = {
 
 	#	BEL = {
 	#		minor = yes
-	#		history = BEL_KR_gathering_storm_desc
+	#		history = BELARBEITERREICH_DESC
 	#		ideology = authoritarian_democrat
 	#		ideas = {
 	#			BEL_King_Exile
@@ -400,7 +400,7 @@ bookmarks = {
 
 	#	NOR = {
 	#		minor = yes
-	#		history = NOR_KR_gathering_storm_desc
+	#		history = NORARBEITERREICH_DESC
 	#		ideology = market_liberal
 	#		ideas = {
 	#			NOR_divided_airforce_idea
@@ -415,7 +415,7 @@ bookmarks = {
 
 	#	SWE = {
 	#		minor = yes
-	#		history = SWE_KR_gathering_storm_desc
+	#		history = SWEARBEITERREICH_DESC
 	#		ideology = social_conservative
 	#		ideas = {
 	#			SWE_conservative_army_idea_1
@@ -431,7 +431,7 @@ bookmarks = {
 
 	#	FIN = {
 	#		minor = yes
-	#		history = FIN_KR_gathering_storm_desc
+	#		history = FINARBEITERREICH_DESC
 	#		ideology = paternal_autocrat
 	#		ideas = {
 	#			FIN_mounting_dissent_idea
@@ -446,7 +446,7 @@ bookmarks = {
 
 	#	BAT = {
 	#		minor = yes
-	#		history = BAT_KR_gathering_storm_desc
+	#		history = BATARBEITERREICH_DESC
 	#		ideology = authoritarian_democrat
 	#		ideas = {
 	#			BAT_byzantine_government
@@ -462,7 +462,7 @@ bookmarks = {
 
 	#	LIT = {
 	#		minor = yes
-	#		history = LIT_KR_gathering_storm_desc
+	#		history = LITARBEITERREICH_DESC
 	#		ideology = social_conservative
 	#		ideas = {
 	#			LIT_disorganised_army_1
@@ -478,7 +478,7 @@ bookmarks = {
 
 	#	WHR = {
 	#		minor = yes
-	#		history = WHR_KR_gathering_storm_desc
+	#		history = WHRARBEITERREICH_DESC
 	#		ideology = social_democrat
 	#		ideas = {
 	#			WHR_agrarian_society
@@ -494,7 +494,7 @@ bookmarks = {
 
 	#	POL = {
 	#		minor = yes
-	#		history = POL_KR_gathering_storm_desc
+	#		history = POLARBEITERREICH_DESC
 	#		ideology = market_liberal
 	#		ideas = {
 	#			POL_german_control2
@@ -510,7 +510,7 @@ bookmarks = {
 
 	#	ROM = {
 	#		minor = yes
-	#		history = ROM_KR_gathering_storm_desc
+	#		history = ROMARBEITERREICH_DESC
 	#		ideology = national_populist
 	#		ideas = {
 	#			ROM_great_game
@@ -526,7 +526,7 @@ bookmarks = {
 
 	#	SER = {
 	#		minor = yes
-	#		history = SER_KR_gathering_storm_desc
+	#		history = SERARBEITERREICH_DESC
 	#		ideology = social_liberal
 	#		ideas = {
 	#			SER_treaty_of_wartholz
@@ -542,7 +542,7 @@ bookmarks = {
 
 	#	GRE = {
 	#		minor = yes
-	#		history = GRE_KR_gathering_storm_desc
+	#		history = GREARBEITERREICH_DESC
 	#		ideology = social_liberal
 	#		ideas = {
 	#			GRE_memories_of_king
@@ -558,7 +558,7 @@ bookmarks = {
 
 	#	BUL = {
 	#		minor = yes
-	#		history = BUL_KR_gathering_storm_desc
+	#		history = BULARBEITERREICH_DESC
 	#		ideology = authoritarian_democrat
 	#		ideas = {
 	#			BUL_waning_hegemony
@@ -574,7 +574,7 @@ bookmarks = {
 
 	#	OTT = {
 	#		minor = yes
-	#		history = OTT_KR_gathering_storm_desc
+	#		history = OTTARBEITERREICH_DESC
 	#		ideology = authoritarian_democrat
 	#		ideas = {
 	#			ott_institutionalised_islam
@@ -590,7 +590,7 @@ bookmarks = {
 
 	#	JBS = {
 	#		minor = yes
-	#		history = JBS_KR_gathering_storm_desc
+	#		history = JBSARBEITERREICH_DESC
 	#		ideology = authoritarian_democrat
 	#		ideas = {
 	#			JBS_shammar_chauvinism
@@ -605,7 +605,7 @@ bookmarks = {
 
 	#	LBA = {
 	#		minor = yes
-	#		history = LBA_KR_gathering_storm_desc
+	#		history = LBAARBEITERREICH_DESC
 	#		ideology = paternal_autocrat
 	#		ideas = {
 	#			LBA_home_of_the_Senussi
@@ -620,7 +620,7 @@ bookmarks = {
 
 	#	BHU = {
 	#		minor = yes
-	#		history = BHU_KR_gathering_storm_desc
+	#		history = BHUARBEITERREICH_DESC
 	#		ideology = paternal_autocrat
 	#		ideas = {
 	#			BHU_hermit_kingdom
@@ -636,7 +636,7 @@ bookmarks = {
 
 		SHX = {
 			minor = yes
-			history = SHX_KR_gathering_storm_desc
+			history = SHXARBEITERREICH_DESC
 			ideology = paternal_autocrat
 			ideas = {
 				SHX_dual_armies
@@ -652,7 +652,7 @@ bookmarks = {
 
 	#	SIA = {
 	#		minor = yes
-	#		history = SIA_KR_gathering_storm_desc
+	#		history = SIAARBEITERREICH_DESC
 	#		ideology = authoritarian_democrat
 	#		ideas = {
 	#			SIA_bloated_bureaucracy
@@ -666,7 +666,7 @@ bookmarks = {
 
 	#	QIE = {
 	#		minor = yes
-	#		history = QIE_KR_gathering_storm_desc
+	#		history = QIEARBEITERREICH_DESC
 	#		ideology = authoritarian_democrat
 	#		ideas = {
 	#			QIE_big_debt
@@ -682,7 +682,7 @@ bookmarks = {
 
 	#	YUN = {
 	#		minor = yes
-	#		history = YUN_KR_gathering_storm_desc
+	#		history = YUNARBEITERREICH_DESC
 	#		ideology = paternal_autocrat
 	#		ideas = {
 	#			YUN_Tangs_rule
@@ -698,7 +698,7 @@ bookmarks = {
 
 	#	FNG = {
 	#		minor = yes
-	#		history = FNG_KR_gathering_storm_desc
+	#		history = FNGARBEITERREICH_DESC
 	#		ideology = authoritarian_democrat
 	#		ideas = {
 	#			FNG_Backward_Industry
@@ -714,7 +714,7 @@ bookmarks = {
 
 	#	SZC = {
 	#		minor = yes
-	#		history = SZC_KR_gathering_storm_desc
+	#		history = SZCARBEITERREICH_DESC
 	#		ideology = authoritarian_democrat
 	#		ideas = {
 	#			SZC_baoding_influence
@@ -730,7 +730,7 @@ bookmarks = {
 
 	#	LEP = {
 	#		minor = yes
-	#		history = LEP_KR_gathering_storm_desc
+	#		history = LEPARBEITERREICH_DESC
 	#		ideology = paternal_autocrat
 	#		ideas = {
 	#			LEP_Conspicuous_Kleptocracy
@@ -746,7 +746,7 @@ bookmarks = {
 
 	#	AST = {
 	#		minor = yes
-	#		history = AST_KR_gathering_storm_desc
+	#		history = ASTARBEITERREICH_DESC
 	#		ideology = authoritarian_democrat
 	#		ideas = {
 	#			AST_oversized_fleet
