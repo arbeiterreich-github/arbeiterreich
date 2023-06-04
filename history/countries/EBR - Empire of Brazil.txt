@@ -149,7 +149,6 @@ recruit_character = EBR_antonio_gastao_of_orleans-braganza
 
 recruit_character = EBR_young_turk_clique
 recruit_character = EBR_eduardo_gomes
-recruit_character = EBR_floriano_de_lima_brayner
 recruit_character = EBR_henrique_aristides_guilhem
 
 ###
