@@ -67,6 +67,30 @@
 			cost = 100
 		}
 	}
+	EBR_juarez_távora = {
+		name = EBR_juarez_távora
+		portraits = {
+			army = {
+				small = "gfx/interface/advisors/EBR/Portrait_EBR_Juarez_Távora_ad.png"
+				large = "gfx/leaders/EBR/Portrait_EBR_Juarez_Távora.png"
+			}
+		}
+		field_marshal = {
+			traits = { commando career_officer }
+			skill = 4
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = EBR_juarez_távora
+			ledger = army
+			traits = { KR_army_chief_organisational_2 }
+			cost = 100
+		}
+	}
 	EBR_floriano_de_lima_brayner = {
 		name = EBR_floriano_de_lima_brayner
 		portraits = {
@@ -80,6 +104,7 @@
 			ledger = army
 			traits = { KR_grand_battle_plan_expert }
 			cost = 150
+			ai_will_do = { factor = 5 }
 		}
 	}
 	EBR_eduardo_gomes = {
@@ -95,6 +120,7 @@
 			ledger = air
 			traits = { KR_victory_through_airpower }
 			cost = 150
+			ai_will_do = { factor = 5 }
 		}
 	}
 	EBR_young_turk_clique = {
@@ -110,6 +136,7 @@
 			ledger = military
 			traits = { KR_council_of_theorists }
 			cost = 100
+			ai_will_do = { factor = 5 }
 		}
 	}
 	EBR_henrique_aristides_guilhem = {
@@ -123,11 +150,11 @@
 			slot = navy_chief
 			idea_token = EBR_henrique_aristides_guilhem
 			available = {
-				not_already_hired_except_as = army_chief
+				not_already_hired_except_as = navy_chief
 			}
 			traits = { KR_navy_chief_decisive_battle_2 }
 			cost = 100
-			ai_will_do = { factor = 0 }
+			ai_will_do = { factor = 10 }
 		}
 		advisor = {
 			slot = theorist
