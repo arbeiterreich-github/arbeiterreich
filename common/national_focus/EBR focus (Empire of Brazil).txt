@@ -1023,14 +1023,9 @@ focus_tree = {
 	focus = {
 		id = EBR_make_air_force
 		icon = EBR_make_air_force
-		prerequisite = { 
-			focus = EBR_research
-			focus = EBR_armed_forces_art5
-			focus = EBR_armed_forces_mob5
-		}
 		x = 0
 		y = 5
-		relative_position_id = EBR_armed_forces
+
 		cost = 6
 		ai_will_do = { 
 			factor = 10
