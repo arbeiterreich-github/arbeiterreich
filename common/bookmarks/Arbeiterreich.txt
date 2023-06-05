@@ -293,7 +293,7 @@ bookmarks = {
 
 		AST = {
 			history = RAJ_ARBEITERREICH_DESC
-			ideology = authoritarian_democrat
+			ideology = authoritarian_democrat	
 			minor = yes
 			ideas = {
 				
@@ -306,33 +306,7 @@ bookmarks = {
 
 		SLO = {
 			history = SLO_ARBEITERREICH_DESC
-			ideology = authoritarian_democrat
-			minor = yes
-			ideas = {
-				
-			}
-			focuses = {
-				
-			}
-
-		}
-
-		URG = {
-			history = URG_ARBEITERREICH_DESC
-			ideology = social_democrat
-			minor = yes
-			ideas = {
-				
-			}
-			focuses = {
-				
-			}
-
-		}
-
-		PAR = {
-			history = URG_ARBEITERREICH_DESC
-			ideology = authoritarian_democrat
+			ideology = authoritarian_democrat	
 			minor = yes
 			ideas = {
 				
