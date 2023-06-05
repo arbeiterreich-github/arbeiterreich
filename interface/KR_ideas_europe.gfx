@@ -443,6 +443,10 @@ spriteTypes = {
 		name = "GFX_idea_ITA_federation"
 		texturefile = "gfx/interface/ideas/ITA_federation.png"
 	}
+	spriteType = {
+		name = "GFX_idea_ITA_victor"
+		texturefile = "gfx/interface/ideas/ITA_victor.png"
+	}
 
 	### LIT ###
 

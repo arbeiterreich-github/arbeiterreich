@@ -197,6 +197,13 @@ set_popularities = {
 	national_populist = 18
 }
 
+add_ideas = {
+	ITA_roaring_romans
+	ITA_mafia
+	ITA_victor_emmanuel_iii
+}
+
+
 # Country Leaders
 recruit_character = ITA_victor_emmanuel_iii
 recruit_character = ITA_coalition
