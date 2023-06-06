@@ -317,3 +317,45 @@ country_event = { # mussolini goes rogue
 
 	}
 }
+
+country_event = { # snap elections
+	id = ita.14
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ita.14 FROM = [From.GetName]" }
+	title = ita.14.t
+	desc = ita.14.d
+	picture = GFX_report_event_generic_conference3
+	is_triggered_only = yes
+
+	option = {
+		name = ita.14.a
+			hidden_effect = {
+				set_country_flag = ITA_convic
+			}
+
+	}
+
+	option = {
+		name = ita.14.b
+			hidden_effect = {
+				set_country_flag = ITA_libvic
+			}
+
+	}
+	
+
+	option = {
+		name = ita.14.c
+			hidden_effect = {
+				set_country_flag = ITA_socvic
+			}
+
+	}
+
+	option = {
+		name = ita.14.d
+			hidden_effect = {
+				set_country_flag = ITA_kinvic
+			}
+
+	}
+}

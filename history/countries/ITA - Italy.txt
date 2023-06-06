@@ -199,7 +199,7 @@ set_popularities = {
 
 add_ideas = {
 	ITA_roaring_romans
-	ITA_mafia
+	ITA_the_mafia
 	ITA_victor_emmanuel_iii
 }
 

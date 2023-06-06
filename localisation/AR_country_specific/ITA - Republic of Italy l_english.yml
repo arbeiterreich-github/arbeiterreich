@@ -57,10 +57,8 @@
 ### Ideas ###
 ITA_roaring_romans: "The Roaring Romans"
 ITA_roaring_romans_desc: "Rome and Italy itself is still in its fine years as its still feeling the effects of the Roaring 20s and the economic boom! The people of Italy are used to economic prosperity by now so a drastic change in economy could severely harm Italy."
-ITA_mafia: "The Mafia"
-ITA_mafia_desc: “Italy in the late 20s has suffered from Mafia and gang warfare in southern Italy due to wealth inequality and cultural divide. Crime syndicates hold massive amounts of territory in places like Naples and Palmero and wreak havoc on the population there severely damaging Italian control in the south.”
+ITA_the_mafia: "The Mafia"
 ITA_victor_emmanuel_iii: "Victor Emmanuel III"
-ITA_victor_emmanuel_iii_desc: “The Soldier King people call him. Victor Emmanuel III is a national icon of Italy, resembling courage, bravery, and prosperity. He’s the person who puts the King in the kingdom of Italy. Literally.”
 
 ### Flags and tooltips###
  ITA_snap_elections_tooltip: "§RThe Prime Minister and Chancellor have both been assassinated! We must initiate Snap Elections to fill the gaping maw that is our newly aquired power vaccum!!§"
@@ -107,6 +105,7 @@ ITA_rural_investments: "Rural Investments"
 ITA_anti_extremism: "Anti-Extremism"
 ITA_kingdom_crisis: "The Kingdom in Crisis"
 ITA_kingdom_crisis_desc: "On a routine ride along in Rome to see their people, Prime Minister Luigi Einaudi and Chancellor Ferruccio Parri were both assasinated by two members of the Socialist Revolutionary Anarchist Party, a lot like King Umberto I of Italy in 1900. They were driving and while waving to the people until suddenly Parri was shot by the first assasin and a bomb was thrown at the car a moment later by the second assasin, killing Einaudi and two civilian passerbys and leaving 14 others wounded. The two men, who go by the names Nicola Sacco and Bartolomeo Vanzetti respectively were both gunned down at the site by the military guard who were in the area. The government has not officially came out with any statements about this tragedy yet but it has left a giant power vaccum which must be filled quickly."
+ITA_filling_power_vaccum: "Filling the Power Vaccum"
 
 ### Socialist Paths ###
 ITA_socialist_success: "The Revolution Successful"

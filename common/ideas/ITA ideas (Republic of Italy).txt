@@ -17,8 +17,8 @@ ideas = {
 			}
 		}
 
-		ITA_mafia = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ITA_mafia" }
+		ITA_the_mafia = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ITA_the_mafia" }
 			picture = hermann_gortz
 			allowed = { always = no }
 			available = {
