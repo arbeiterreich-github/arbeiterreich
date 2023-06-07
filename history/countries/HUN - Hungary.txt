@@ -38,16 +38,21 @@ if = {
 	HUN = {
 		set_autonomy = {
 			target = TRS
-			autonomy_state = autonomy_integrated_puppet
+			autonomy_state = kr_integrated_puppet
+		}
+		set_autonomy = {
+			target = CZE
+			autonomy_state = kr_integrated_puppet
 		}
 	}
 	else = {
 		puppet = TRS
+		puppet = CZE
 	}
 }
 
-create_faction = hun_faction
-add_to_faction = CZE
+create_faction = "Budapest Pact"
+
 
 ### Planes - BBA ###
 if = {

@@ -930,7 +930,7 @@ guiTypes = {
 			maxWidth = 380
 			maxHeight = 200
 			format = left
-			vertical_scroll_step = 40
+			# vertical_scroll_step = 40
 			scrollbartype = "standardtext_slider"
 		}
 
