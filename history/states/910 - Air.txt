@@ -3,11 +3,11 @@ state = {
 	name = "STATE_910"
 	manpower = 138457
 	state_category = wasteland
-	impassable = yes
+	# impassable = yes
 
 	history = {
-		owner = NFA
-		add_core_of = NGR
+		owner = CHA
+		add_core_of = CHA
 		add_claim_by = NFA
 
 		buildings = {

@@ -264,7 +264,7 @@ TRM = {
 	color_ui = rgb { 235 246 247 }
 }
 TRS = {
-	color = rgb { 0 0 156 }
+	color = rgb { 93 153 106 }
 	color_ui = rgb { 0 0 156 }
 }
 TUS = {
@@ -779,6 +779,10 @@ TRI = {
 	color = rgb { 218 26 15 }
 	color_ui = rgb { 218 26 15 }
 }
+UOB = { 
+	color = rgb { 150 17 18 }
+	color_ui = rgb { 150 17 18 }
+}
 URG = {
 	color = rgb { 255 180 136 }
 	color_ui = rgb { 255 234 177 }
@@ -902,8 +906,8 @@ KTG = {
 	color_ui = rgb { 128 0 39 }
 }
 LBA = {
-	color = rgb { 49 131 29 }
-	color_ui = rgb { 49 131 29 }
+	color = rgb { 64 64 64 }
+	color_ui = rgb { 64 64 64 }
 }
 LIB = {
 	color = rgb { 129 169 177 }

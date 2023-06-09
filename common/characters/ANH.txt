@@ -1,0 +1,14 @@
+cahracters = {
+	ANH_nikos_zachariadis = {
+		name = ANH_nikos_zachariadis
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GRE/Portrait_GRE_Nikos_Zachariadis_KR.png"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+			traits = {}
+		}
+	}	
+}

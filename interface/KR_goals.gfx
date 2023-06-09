@@ -3419,6 +3419,92 @@ spriteTypes = {
 		name = "GFX_goal_DEN_focus_marineregimentet"
 		texturefile = "gfx/interface/goals/DEN_focus_marineregimentet.png"
 	}
+	
+	### Empire of Brazil ###
+	SpriteType = {
+		name = "EBR_imp_unions"
+		texturefile = "gfx/interface/goals/EBR_imp_unions.png"
+	}
+	SpriteType = {
+		name = "EBR_parliament"
+		texturefile = "gfx/interface/goals/EBR_parliament.png"
+	}
+	SpriteType = {
+		name = "EBR_the_empire"
+		texturefile = "gfx/interface/goals/EBR_the_empire.png"
+	}
+	SpriteType = {
+		name = "EBR_royal_army"
+		texturefile = "gfx/interface/goals/EBR_royal_army.png"
+	}
+		SpriteType = {
+		name = "EBR_bacen"
+		texturefile = "gfx/interface/goals/EBR_bacen.png"
+	}
+	SpriteType = {
+		name = "EBR_fiscal_reform"
+		texturefile = "gfx/interface/goals/EBR_fiscal_reform.png"
+	}
+		SpriteType = {
+		name = "EBR_help_pop"
+		texturefile = "gfx/interface/goals/EBR_help_pop.png"
+	}
+		SpriteType = {
+		name = "EBR_no_racism"
+		texturefile = "gfx/interface/goals/EBR_no_racism.png"
+	}
+	SpriteType = {
+		name = "EBR_more_reforms"
+		texturefile = "gfx/interface/goals/EBR_more_reforms.png"
+	}
+	SpriteType = {
+		name = "EBR_regulate_stock"
+		texturefile = "gfx/interface/goals/EBR_regulate_stock.png"
+	}
+	SpriteType = {
+		name = "EBR_expand_central_authority"
+		texturefile = "gfx/interface/goals/EBR_expand_central_authority.png"
+	}
+	SpriteType = {
+		name = "EBR_con_dem"
+		texturefile = "gfx/interface/goals/EBR_con_dem.png"
+	}
+		SpriteType = {
+		name = "EBR_tax_breaks"
+		texturefile = "gfx/interface/goals/EBR_tax_breaks.png"
+	}
+		SpriteType = {
+		name = "EBR_industry"
+		texturefile = "gfx/interface/goals/EBR_industry.png"
+	}
+		SpriteType = { 
+		name = "Officer"
+		texturefile = "gfx/interface/goals/Officer.png"
+	}
+	SpriteType = { 
+		name = "EBR_look_south"
+		texturefile = "gfx/interface/goals/EBR_look_south.png"
+	}
+	SpriteType = { 
+		name = "EBR_look_pacific"
+		texturefile = "gfx/interface/goals/EBR_look_pacific.png"
+	}
+	SpriteType = { 
+		name = "EBR_par"
+		texturefile = "gfx/interface/goals/EBR_par.png"
+	}
+	SpriteType = { 
+		name = "EBR_arg"
+		texturefile = "gfx/interface/goals/EBR_arg.png"
+	}
+	SpriteType = { 
+		name = "ArmyMob"
+		texturefile = "gfx/interface/goals/ArmyMob.png"
+	}
+	SpriteType = { 
+		name = "ArmyArt"
+		texturefile = "gfx/interface/goals/ArmyArt.png"
+	}
 
 	### East Indies ###
 	SpriteType = {# De Jonge
@@ -4992,26 +5078,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_goal_ITA_Mezzogiorno"
 		texturefile = "gfx/interface/goals/ITA_Mezzogiorno.png"
-	}
-
-	SpriteType = {
-		name = "GFX_goal_ITA_parri_administration"
-		texturefile = "gfx/interface/goals/ITA_parri_administration.png"
-	}
-
-	SpriteType = {
-		name = "GFX_goal_ITA_appeal_to_king"
-		texturefile = "gfx/interface/goals/ITA_appeal_to_king.png"
-	}
-
-	SpriteType = {
-		name = "GFX_goal_ITA_appeal_to_parliament"
-		texturefile = "gfx/interface/goals/ITA_appeal_to_parliament.png"
-	}
-
-	SpriteType = {
-		name = "GFX_goal_ITA_destroy_extremism"
-		texturefile = "gfx/interface/goals/ITA_destroy_extremism.png"
 	}
 
 	### Japan ###

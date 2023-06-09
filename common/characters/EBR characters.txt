@@ -44,19 +44,27 @@
 			logistics_skill = 2
 		}
 	}
-	EBR_congresso_nacional = {
-		name = EBR_Congresso_nacional
+	EBR_antonio_gastao_of_orleans-braganza = {
+		name = EBR_antonio_gastao_of_orleans-braganza
 		portraits = {
-			civilian = {
-				small = "gfx/interface/advisors/EBR/BRA_congresso_nacional.png"
+			army = {
+				large = "gfx/leaders/EBR/Portrait_EBR_Antonio_Gastao_of_Orleans-Braganza.png"
 			}
 		}
+		field_marshal = {
+			traits = { career_officer war_hero trickster }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
 		advisor = {
-			slot = second_in_command
-			idea_token = EBR_congresso_nacional_sic
-			traits = { KR_parliament_sic }
-			cost = 0
-			can_be_fired = no
+			slot = air_chief
+			idea_token = EBR_antonio_gastao_of_orleans-braganza
+			ledger = air
+			traits = { KR_air_chief_reform_2 }
+			cost = 100
 		}
 	}
 	EBR_antonio_carlos_da_silva_murici = {
@@ -154,6 +162,23 @@
 			traits = { KR_grand_fleet_proponent }
 			cost = 150
 			ai_will_do = { factor = 0 }
+		}
+	}
+	
+	### SECOND IN COMMAND ###
+	EBR_congresso_nacional = {
+		name = EBR_Congresso_nacional
+		portraits = {
+			civilian = {
+				small = "gfx/interface/advisors/EBR/BRA_congresso_nacional.png"
+			}
+		}
+		advisor = {
+			slot = second_in_command
+			idea_token = EBR_congresso_nacional_sic
+			traits = { KR_parliament_sic }
+			cost = 0
+			can_be_fired = no
 		}
 	}
 }
