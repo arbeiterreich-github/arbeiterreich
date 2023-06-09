@@ -13,6 +13,13 @@ country_event = { #intro event
 	option = {
 		name = hun.1.a
 		add_political_power = 20
+		hidden_effect = {
+			country_event = {
+				id = hun.100
+				days = 77
+				random_days = 3 
+			}
+		}
 	}
 }
 
@@ -30,11 +37,30 @@ country_event = { # Hungary decides to go to war with Romania and serbia, to giv
 			type = take_state_focus
 			generator = { 82 84 }
 		}
+		ai_chance = {
+			base = 0
+		}
 	}
 	option = { # Send Referendum to Serbia
 		name = hun.100.a
-		set_country_flag = HUN_REFERENDUM_WITH_SER_TRA
-
+		set_country_flag = HUN_WAR_WITH_ALL_TRA
+		ai_chance = {
+			base = 100
+		}
+		create_wargoal = {
+			target = SER
+			type = take_state_focus
+			generator = {
+				45
+				875
+				794
+			}
+		}
+		create_wargoal = {
+			target = ROM
+			type = take_state_focus
+			generator = { 82 84 }
+		}
 	}
 }
 
