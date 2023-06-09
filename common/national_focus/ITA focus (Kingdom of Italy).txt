@@ -1,0 +1,409 @@
+###########################
+# Kingdom of Italy Focus Tree
+# By ME! (thedetailedbread)
+###########################
+
+focus_tree = {
+	id = italian_federation_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ITA
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 60 y = 2000 }
+
+### Parri Administration ###
+
+	focus = {# The Ministry of Parri 
+		id = ITA_parriadmin
+		icon = GFX_goal_ITA_parri_administration
+		cost = 3
+		available = {
+			OR = {
+				has_elected_government = yes
+			}
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+				}
+			}
+		}
+		x = 6
+		y = 0
+		completion_reward = {
+			custom_effect_tooltip = ITA_parriadmin_tooltip
+		}
+	}
+
+	focus = {# Liberal Reforms
+		id = ITA_liberal_reforms
+		icon = GFX_goal_ideology_social_liberal
+		cost = 5
+		available = {
+			OR = {
+				has_elected_government = yes
+			}
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+				}
+			}
+		}
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = ITA_parriadmin
+		}
+		relative_position_id = ITA_parriadmin
+		completion_reward = {
+		}
+	}
+
+	focus = {# Appeal to the Parliament
+		id = ITA_appeal_to_parliament
+		icon = GFX_goal_ITA_appeal_to_parliament
+		cost = 5
+		available = {
+			OR = {
+				has_elected_government = yes
+			}
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+				}
+			}
+		}
+		x = -2
+		y = 2
+		prerequisite = {
+			focus = ITA_liberal_reforms
+		}
+		relative_position_id = ITA_parriadmin
+		completion_reward = {
+		}
+	}
+
+	focus = {# Appeal to the King
+		id = ITA_appeal_to_king
+		icon = GFX_goal_ITA_appeal_to_king
+		cost = 5
+		available = {
+			OR = {
+				has_elected_government = yes
+			}
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+				}
+			}
+		}
+		x = 2
+		y = 2
+		prerequisite = {
+			focus = ITA_liberal_reforms
+		}
+		relative_position_id = ITA_parriadmin
+		completion_reward = {
+		}
+	}
+
+	focus = {# Rome Speeches
+		id = ITA_rome_speeches
+		icon = GFX_goal_generic_propaganda
+		cost = 5
+		available = {
+			OR = {
+				has_elected_government = yes
+			}
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+				}
+			}
+		}
+		x = -2
+		y = 3
+		prerequisite = {
+			focus = ITA_appeal_to_parliament
+		}
+		relative_position_id = ITA_parriadmin
+		completion_reward = {
+		}
+	}
+
+	focus = {# Work with the Unions
+		id = ITA_work_with_unions
+		icon = GFX_goal_ideology_radical_socialist
+		cost = 5
+		available = {
+			OR = {
+				has_elected_government = yes
+			}
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+				}
+			}
+		}
+		x = 0
+		y = 3
+		prerequisite = {
+			focus = ITA_liberal_reforms
+		}
+		relative_position_id = ITA_parriadmin
+		completion_reward = {
+		}
+	}
+
+	focus = {# Establish the Vatican
+		id = ITA_vatican_establishment
+		icon = GFX_goal_faith_and_state
+		cost = 5
+		available = {
+			OR = {
+				has_elected_government = yes
+			}
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+				}
+			}
+		}
+		x = 2
+		y = 3
+		prerequisite = {
+			focus = ITA_appeal_to_king
+		}
+		relative_position_id = ITA_parriadmin
+		completion_reward = {
+		}
+	}
+
+	focus = {# Rural Investments
+		id = ITA_rural_investments
+		icon = GFX_goal_agricultural_aid
+		cost = 5
+		available = {
+			OR = {
+				has_elected_government = yes
+			}
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+				}
+			}
+		}
+		x = 0
+		y = 4
+		prerequisite = {
+			focus = ITA_vatican_establishment
+			focus = ITA_rome_speeches
+			focus = ITA_work_with_unions
+		}
+		relative_position_id = ITA_parriadmin
+		completion_reward = {
+		}
+	}
+
+	focus = {# Anti Extremism
+		id = ITA_anti_extremism
+		icon = GFX_goal_ITA_destroy_extremism
+		cost = 5
+		available = {
+			OR = {
+				has_elected_government = yes
+			}
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+				}
+			}
+		}
+		x = 0
+		y = 5
+		prerequisite = {
+			focus = ITA_rural_investments
+		}
+		relative_position_id = ITA_parriadmin
+		completion_reward = {
+		}
+	}
+
+### Kingdom of Italy ###
+	focus = {# The Kingdom in Crisis
+		id = ITA_kingdom_crisis
+		icon = GFX_SRD_irridentism
+		cost = 7
+		available = {
+			OR = {
+				has_elected_government = yes
+			}
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_assasinated
+				}
+				OR = {
+					has_elected_government = yes
+					has_government = paternal_autocrat
+				}
+			}
+		}
+		x = 6
+		y = 6
+		completion_reward = {
+			custom_effect_tooltip = ITA_snap_elections_tooltip
+		}
+	}
+
+	focus = {# The Filling the Power Vaccum
+		id = ITA_filling_power_vaccum
+		icon = GFX_focus_rom_abdicate
+		cost = 0
+		available = {
+			has_country_flag = ITA_assasinated
+			OR = {
+				has_elected_government = yes
+			}
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_assasinated
+				}
+				OR = {
+					has_elected_government = yes
+					has_government = paternal_autocrat
+				}
+			}
+		}
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = ITA_kingdom_crisis
+		}
+		relative_position_id = ITA_kingdom_crisis
+		completion_reward = {
+		}
+	}
+
+	focus = {# Snap Elections
+		id = ITA_snap_elections
+		icon = GFX_goal_DOM_Call_Special_Election
+		cost = 0
+		available = {
+			has_country_flag = ITA_assasinated
+			OR = {
+				has_elected_government = yes
+			}
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_assasinated
+				}
+				OR = {
+					has_elected_government = yes
+					has_government = paternal_autocrat
+				}
+			}
+		}
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = ITA_filling_power_vaccum
+		}
+		relative_position_id = ITA_kingdom_crisis
+		completion_reward = {
+			country_event = {
+				id = ita.14
+				days = 0
+			}
+		}
+	}
+
+	# LIBERAL BRANCH
+
+	focus = {# The Conservatives Take Power
+		id = ITA_conservatives_take_power
+		icon = GFX_goal_ideology_social_conservative
+		cost = 0
+		available = {
+			has_country_flag = ITA_convic
+			OR = {
+				has_elected_government = yes
+			}
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_convic
+				}
+				OR = {
+					has_elected_government = yes
+					has_government = paternal_autocrat
+				}
+			}
+		}
+		x = -5
+		y = 1
+		prerequisite = {
+			focus = ITA_snap_elections
+		}
+		relative_position_id = ITA_snap_elections
+		completion_reward = {
+		}
+	}
+}
