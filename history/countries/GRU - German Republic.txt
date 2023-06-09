@@ -3,7 +3,7 @@ set_research_slots = 3
 set_convoys = 150
 
 set_politics = {
-	ruling_party = syndicalist
+	ruling_party = social_democrat
 	last_election = "1888.6.15"
 	election_frequency = 48
 	elections_allowed = no

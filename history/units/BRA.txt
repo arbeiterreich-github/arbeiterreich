@@ -78,92 +78,32 @@ units = {
 	}
 
 	division = {
-		location = 5208
+		location = 5156
 		division_template = "Divisão de Infantaria"
 		start_experience_factor = 0.0
 		start_equipment_factor = 1.0
 	}
 	division = {
-		location = 5208
+		location = 5156
 		division_template = "Divisão de Infantaria"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		location = 13326
+		location = 10447
 		division_template = "Divisão de Infantaria"
 		start_experience_factor = 0.0
 		start_equipment_factor = 1.0
 	}
 	division = {
-		location = 13326
+		location = 10447
 		division_template = "Divisão de Infantaria"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-		division = {
-		location = 13363
-		division_template = "Divisão de Infantaria"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-		division = {
-		location = 13363
-		division_template = "Divisão de Infantaria"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		location = 13303
-		division_template = "Divisão de Infantaria"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		location = 7476
-		division_template = "Divisão de Guarda"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		location = 7476
-		division_template = "Divisão de Guarda"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		location = 7476
-		division_template = "Divisão de Guarda"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
 		location = 10959
 		division_template = "Divisão de Cavalaria"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		location = 13301
-		division_template = "Divisão de Guarda"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		location = 13301
-		division_template = "Divisão de Guarda"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		location = 1583
-		division_template = "Divisão de Guarda"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-	division = {
-		location = 1583
-		division_template = "Divisão de Guarda"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}

@@ -5,9 +5,9 @@ state = {
 	state_category = one
 
 	history = {
-		owner = SOM
-		add_core_of = SOM
-		add_claim_by = ETH
+		owner = ITA
+		add_core_of = ETH
+		add_claim_by = SOM
 
 		add_to_array = { state_victory_points = 12812 }
 

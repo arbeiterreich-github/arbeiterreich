@@ -2,8 +2,6 @@ capital = 344
 set_research_slots = 3
 starting_train_buffer = 1
 
-recruit_character = ANH_nikos_zachariadis
-
 save_global_event_target_as = original_antioch
 
 set_technology = {

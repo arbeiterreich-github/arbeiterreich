@@ -387,12 +387,5 @@ spriteTypes = {
 		name = "GFX_idea_generic_broken_champagne"
 		texturefile = "gfx/interface/ideas/generic_broken_champagne.png"
 	}
-	
-	### ARBEITERREICH ###
-	
-	spriteType = {
-		name = "GFX_idea_British_support"
-		texturefile = "gfx/interface/ideas/British_support.png"
-	}
 }
 

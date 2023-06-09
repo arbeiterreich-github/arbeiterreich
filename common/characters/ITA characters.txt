@@ -1,4 +1,82 @@
 characters = {
+	ITA_victor_emmanuel_iii = {
+		name = ITA_victor_emmanuel_iii
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ITA/Portrait_ITA_Victor_Emmanuel_III.png"
+			}
+		}
+		country_leader = {
+			desc = ITA_victor_emmanuel_iii_leader_desc
+			ideology = social_liberal_subtype
+			traits = {  }
+		}
+	}
+	ITA_coalition = {
+		name = ITA_coalition
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ITA/Portrait_ITA_Socialist_Coalition.png"
+			}
+		}
+		country_leader = {
+			desc = ITA_coalition_leader_desc
+			ideology = syndicalist_subtype
+			traits = {  }
+		}
+	}
+	ITA_giacomo_matteotti = {
+		name = ITA_giacomo_matteotti
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ITA/Portrait_ITA_Giacomo_Matteotti.png"
+			}
+		}
+		country_leader = {
+			desc = ITA_giacomo_matteotti_leader_desc
+			ideology = radical_socialist_subtype
+			traits = {  }
+		}
+	}
+	ITA_giuseppe_romita = {
+		name = ITA_giuseppe_romita
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ITA/Portrait_ITA_Giuseppe_Romita.png"
+			}
+		}
+		country_leader = {
+			desc = ITA_giuseppe_romita_leader_desc
+			ideology = totalist_subtype
+			traits = {  }
+		}
+	}
+	ITA_antonio_gramsci = {
+		name = ITA_antonio_gramsci
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ITA/Portrait_ITA_Socialist_Antonio_Gramsci.png"
+			}
+		}
+		country_leader = {
+			desc = ITA_antonio_gramsci_leader_desc
+			ideology = radical_socialist_subtype
+			traits = {  }
+		}
+	}
+	ITA_palmiro_togliatti = {
+		name = ITA_palmiro_togliatti
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ITA/Portrait_ITA_Socialist_Palmiro_Togliatti.png"
+			}
+		}
+		country_leader = {
+			desc = ITA_palmiro_togliatti_leader_desc
+			ideology = syndicalist_subtype
+			traits = {  }
+		}
+	}
 	ITA_italo_balbo = {
 		name = ITA_italo_balbo
 		portraits = {

@@ -92,12 +92,6 @@ if = {
 	}
 }
 
-declare_war_on = {
-		target = BRA 
-		type = civil_war 
-	}
-add_civil_war_target = BRA
-
 give_guarantee = URG
 add_to_array = { URG.guarantor_array = BRA }
 give_military_access = URG
@@ -123,10 +117,10 @@ set_popularities = {
 }
 
 add_ideas = {
-	EBR_British_support
-	EBR_pedro_legacy
-	BCW
-	BCW2
+	BRA_decentralisation
+	BRA_wake_of_civil_war
+	BRA_state_armies1
+	EBR_trade_stuff_ITA
 }
 
 ### Country Leaders ###
@@ -143,7 +137,6 @@ activate_advisor = EBR_congresso_nacional_sic
 
 recruit_character =	EBR_alipio_virgilio_di_primio
 recruit_character = EBR_antonio_carlos_da_silva_murici 
-recruit_character = EBR_antonio_gastao_of_orleans-braganza
 
 ### Theorists ###
 
