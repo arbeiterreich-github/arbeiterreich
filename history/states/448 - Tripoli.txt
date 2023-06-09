@@ -5,8 +5,9 @@ state = {
 	state_category = four
 
 	history = {
-		owner = ITA
-		add_core_of = LBA
+		owner = TUR
+		add_core_of = TUR
+		add_core_of = TRP
 		add_to_array = { state_victory_points = 1149 }
 		victory_points = { 1149 5 }
 
