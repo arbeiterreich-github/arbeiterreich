@@ -5,9 +5,9 @@ state = {
 	state_category = four
 
 	history = {
-		owner = GRU
+		owner = GER
 		add_core_of = BEL
-		add_claim_by = GRU
+		add_claim_by = GER
 
 		buildings = {
 			infrastructure = 3

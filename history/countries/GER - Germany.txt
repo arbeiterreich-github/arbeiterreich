@@ -1,13 +1,17 @@
-﻿capital = 927
+﻿capital = 64
 oob = "GER"
 set_naval_oob = "GER_naval"
-set_research_slots = 2
-set_convoys = 70
-set_stability = 0.32
-set_war_support = 0.4
+set_research_slots = 4
+set_convoys = 400
+set_stability = 0.6
+set_war_support = 0.3
 starting_train_buffer = 2
 
 add_ideas = {
+	GER_victors_of_wwi
+	GER_quenched_militarism
+
+	limited_conscription
 }
 
 ### Starting Technologies ###
@@ -16,6 +20,8 @@ set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	motorised_infantry = 1
+	tech_mountaineers = 1
+	marines = 1
 
 	### Support ###
 	tech_support = 1
@@ -153,31 +159,56 @@ if = {
 }
 
 set_politics = {
-	ruling_party = paternal_autocrat
-	last_election = "1910.1.1"
+	ruling_party = social_democrat
+	last_election = "1932.3.8"
 	election_frequency = 60
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
-	totalist = 0
-	radical_socialist = 0
-	syndicalist = 0
-	social_democrat = 0
+	totalist = 6
+	radical_socialist = 7
+	syndicalist = 5
+	social_democrat = 60
 	social_liberal = 7
-	market_liberal = 7
-	social_conservative = 9
-	authoritarian_democrat = 32
-	paternal_autocrat = 33
-	national_populist = 12
+	market_liberal = 2
+	social_conservative = 3
+	authoritarian_democrat = 2
+	paternal_autocrat = 3
+	national_populist = 5
 }
 
 create_faction = reichspakt
+add_to_faction = GER
+add_to_faction = BEL
+add_to_faction = LIT
+add_to_faction = BAT
+add_to_faction = WHR
+add_to_faction = UKR
+add_to_faction = MOR
+add_to_faction = MAF
+add_to_faction = GEA
 
 # Mitteleuropa
 every_country = {
 	limit = {
 		OR = {
+			tag = GER
+			tag = BEL
+			tag = LIT
+			tag = BAT
+			tag = WHR
+			tag = UKR
+			tag = DEN
+			tag = ICE
+			tag = SWE
+			tag = FIN
+			tag = HOL
+			tag = DEI
+			tag = POL
+			tag = IRE
+			tag = AZR
+			tag = GEO
 		}
 	}
 	if = {
@@ -207,15 +238,15 @@ country_event = { id = gerdom.40 days = 1354 } #The first SPD Reichskanzler is d
 country_event = { id = gerdom.41 days = 1354 } #Otto Wels dies
 
 ### Country Leaders ###
-recruit_character = GER_wilhelm_iv #More vengeful than Edwardy of Canada
+recruit_character = GER_Rosa_Louxemburg #order matters - first one takes precedence
 
 ### Character Flags ###
 every_character = {
 	limit = {
 		can_be_country_leader = yes
 		NOT = {
+			is_character = GER_wilhelm_ii
 			is_character = GER_wilhelm_iii
-			is_character = GER_wilhelm_iv
 		}
 	}
 	set_character_flag = GER_republican_leader

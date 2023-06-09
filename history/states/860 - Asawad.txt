@@ -3,7 +3,7 @@ state = {
 	name = "STATE_860" #Desert Malien
 	manpower = 137733
 	state_category = wasteland
-	impassable = yes
+	# impassable = yes
 
 	history = {
 		owner = NFA

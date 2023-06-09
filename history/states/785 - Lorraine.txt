@@ -9,9 +9,9 @@ state = {
 	}
 
 	history = {
-		owner = GRU
+		owner = GER
 		add_core_of = FRA
-		add_claim_by = GRU
+		add_claim_by = GER
 		add_to_array = { state_victory_points = 5291 }
 		add_to_array = { state_victory_points = 11516 }
 

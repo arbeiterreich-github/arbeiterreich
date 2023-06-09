@@ -121,13 +121,35 @@ if = {
 add_ideas = {
 	BAT_byzantine_government
 	BAT_landeswehr
+	BAT_emigration
 	volunteer_only
 }
+
+country_event = { id = KRBAT.1 hours = 2 }
+country_event = { id = KRBAT.6 days = 18 }
+country_event = { id = KRBAT.44 days = 24 }
+country_event = { id = KRBAT.65 days = 1000 random_days = 60 }
+country_event = { id = KRBAT.34 days = 1460 random_days = 100 }
+country_event = { id = KRBAT.36 days = 960 random_days = 200 }
+country_event = { id = KRBAT.37 days = 3900 random_days = 15 }
+country_event = { id = KRBAT.82 days = 600 random_days = 30 }
+country_event = { id = KRBAT.83 days = 309 }
+country_event = { id = KRBAT.84 days = 54 }
+country_event = { id = KRBAT.85 days = 610 }
+country_event = { id = KRBAT.87 days = 420 }
+country_event = { id = KRBAT.91 days = 3096 }
+country_event = { id = KRBAT.118 days = 1000 random_days = 60 }
 
 RUS = {
 	country_event = { id = KRBAT.115 days = 180 random_days = 30 } # Latgale Region
 }
 
+GER = {
+	set_autonomy = {
+		target = BAT
+		autonomy_state = kr_oststaat_autonomous
+	}
+}
 set_politics = {
 	ruling_party = social_liberal
 	last_election = "1888.6.15"

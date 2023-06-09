@@ -2,40 +2,16 @@ characters = {
 	#######################
 	### Country Leaders ###
 	#######################
-	GER_wilhelm_iv = {
-		name = GER_wilhelm_iv
+	GER_Rosa_Louxemburg = {
+		name = "Rosa Luxemburg"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/GER/Portrait_Germany_Wilhelm_IV.png"
-			}
-			army = {
-				large = "gfx/leaders/GER/Portrait_Germany_Wilhelm_IV.png"
-				small = "gfx/interface/advisors/GER/GER_wilhelm_iv.png"
+				large = "gfx/leaders/GER/Portrait_GER_Rosa_Louxemburg.png"
 			}
 		}
 		country_leader = {
-			desc = GER_wilhelm_iv_leader_desc
 			ideology = social_democrat_subtype
 		}
-		country_leader = {
-			desc = GER_wilhelm_iv_leader_desc
-			ideology = social_liberal_subtype
-		}
-		country_leader = {
-			desc = GER_wilhelm_iv_leader_desc
-			ideology = market_liberal_subtype
-		}
-		country_leader = {
-			desc = GER_wilhelm_iv_leader_desc
-			ideology = social_conservative_subtype
-		}
-		country_leader = {
-			desc = GER_wilhelm_iv_leader_desc
-			ideology = authoritarian_democrat_subtype
-		}
-		country_leader = {
-			desc = GER_wilhelm_iv_leader_desc
-			ideology = paternal_autocrat_subtype
-		}
 	}
+}
 

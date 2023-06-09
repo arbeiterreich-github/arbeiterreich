@@ -78,31 +78,28 @@ if = {
 	}
 }
 
-create_faction = ita_faction
-
 if = {
 	limit = {
 		has_dlc_tfv = yes
 	}
 	set_autonomy = {
 		target = LEB
-		autonomy_state = autonomy_puppet
+		autonomy_state = kr_default_puppet
 	}
 	set_autonomy = {
 		target = CRO
-		autonomy_state = autonomy_puppet
+		autonomy_state = kr_default_puppet
+	}
+	set_autonomy = {
+		target = SLO
+		autonomy_state = kr_default_puppet
 	}
 	else = {
 		puppet = LEB
 		puppet = CRO
+		puppet = SLO
 	}
 }
-
-add_to_faction = GRE
-add_to_faction = ALB
-add_to_faction = ITA
-add_to_faction = MNT
-
 
 ### Navy - MtG ###
 if = {
@@ -179,31 +176,18 @@ VNC = {
 	country_event = { id = venice.36 days = 841 random_days = 90 } #Ponte della Liberta
 }
 
-add_ai_strategy = {
-	type = ignore_claim
-	id = "PAP"
-	value = 1
-}
-add_ai_strategy = {
-	type = ignore_claim
-	id = "SRD"
-	value = 1
-}
-add_ai_strategy = {
-	type = ignore_claim
-	id = "SRI"
-	value = 1
-}
-add_ai_strategy = {
-	type = ignore_claim
-	id = "SIC"
-	value = 1
-}
-add_ai_strategy = {
-	type = ignore_claim
-	id = "EMI"
-	value = 1
-}
+
+create_faction = "Athens-Rome Pact"
+
+add_to_faction = GRE
+add_to_faction = ALB
+add_to_faction = SER
+# add_to_faction = ROM added later
+add_to_faction = ITA
+add_to_faction = MNT
+add_to_faction = ANH
+add_to_faction = SLO
+
 
 set_politics = {
 	ruling_party = social_liberal

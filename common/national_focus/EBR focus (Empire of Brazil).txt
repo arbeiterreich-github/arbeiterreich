@@ -896,12 +896,12 @@ focus_tree = {
 		}
 		completion_reward = { 
 			log = "[GetDateText]: [Root.GetName]: Focus EBR_armed_forces_mob4"
-				custom_effect_tooltip = masterful_blitz_effect
-					hidden_effect = { 
-					set_technology = { masterful_blitz = 1 popup = no }
-				}
+			swap_ideas = {
+				add_idea = EBR_militia_into_army5b
+				remove_idea = EBR_militia_into_army4b
 			}
 		}
+	}
 	focus = {
 		id = EBR_armed_forces_mob5
 		icon = doctrine_tank_warfare
@@ -925,9 +925,8 @@ focus_tree = {
 		completion_reward = { 
 			log = "[GetDateText]: [Root.GetName]: Focus EBR_armed_forces_mob5"
 				custom_effect_tooltip = masterful_blitz_effect
-				swap_ideas = {
-				add_idea = EBR_militia_into_army5b
-				remove_idea = EBR_militia_into_army4b
+				hidden_effect = { 
+				set_technology = { masterful_blitz = 1 popup = no }
 			}
 		}
 	}

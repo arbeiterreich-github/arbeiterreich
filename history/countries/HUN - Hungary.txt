@@ -6,6 +6,9 @@ set_research_slots = 3
 set_cosmetic_tag = HUN_habsburg
 starting_train_buffer = 1
 
+country_event = hun.1
+
+
 set_technology = {
 	### Infantry ###
 	infantry_weapons = 1
@@ -38,16 +41,21 @@ if = {
 	HUN = {
 		set_autonomy = {
 			target = TRS
-			autonomy_state = autonomy_integrated_puppet
+			autonomy_state = kr_integrated_puppet
+		}
+		set_autonomy = {
+			target = CZE
+			autonomy_state = kr_integrated_puppet
 		}
 	}
 	else = {
 		puppet = TRS
+		puppet = CZE
 	}
 }
 
-create_faction = hun_faction
-add_to_faction = CZE
+create_faction = "Budapest Pact"
+
 
 ### Planes - BBA ###
 if = {
@@ -163,6 +171,8 @@ set_popularities = {
 	paternal_autocrat = 32
 	national_populist = 9
 }
+
+add_ideas = HUN_financial_ties_broken
 
 ### Country Leaders ###
 recruit_character = HUN_bela_kun

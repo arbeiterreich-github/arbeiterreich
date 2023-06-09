@@ -1,0 +1,22 @@
+# scripted_guis = {
+# 	mapcountryview_gui = {
+# 		window_name = mapcountryview
+# 		context_type = selected_country_context
+# 		parent_window_name = frontendgamesetupview
+
+# 		effects = {
+# 			switch_map_countryview_click = {
+
+# 			}
+# 			bookmark_map_greece_view_visible = {
+# 				has_global_flag = SHOW_GREECE_MAP_VIEW
+# 			}
+# 		}
+
+# 		properties = {
+# 			GFX_bookmark_map_view = {
+# 				image = "[GetBookmarkMapForCountryView]"
+# 			}
+# 		}
+# 	}
+# }

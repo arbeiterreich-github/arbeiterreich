@@ -153,6 +153,9 @@ set_popularities = {
 	national_populist = 0
 }
 
+
+diplomatic_relation = { country = GER relation = non_aggression_pact }
+
 add_ideas = {
 	AUS_financial_ties_broken
 	AUS_vienna_circle

@@ -8,7 +8,10 @@ focus_tree = {
 		factor = 0
 		modifier = {
 			add = 10
-			tag = ALB
+			OR = {
+			    tag = ALB
+			    tag = ANH # to show in bookmarks, remove later 
+			}
 		}
 	}
 	default = no
