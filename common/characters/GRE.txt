@@ -2,6 +2,66 @@ characters = {
 	#######################
 	### Country Leaders ###
 	#######################
+
+	GRE_georgios_glyksbourg = {
+		name = GRE_georgios_glyksbourg
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GRE/Potrait_GRE_Georgios_II.png"
+			}
+			army = {
+				large = "gfx/leaders/GRE/Potrait_GRE_Georgios_II.png"
+				small = "gfx/interface/advisors/GRE/GRE_georgios_glyksbourg.png"
+			}
+		}
+		field_marshal = {
+			traits = {
+				trait_cautious
+				inspirational_leader
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			visible = { is_country_leader = no }
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+			traits = {
+				
+			}
+		}
+	}
+	GRE_alexandros_glyksbourg = {
+		name = GRE_alexandros_glyksbourg
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GRE/Portrait_GRE_Alexander.png"
+			}
+		}
+	}
+	GRE_pavlos_glyksbourg = {
+		name = GRE_pavlos_glyksbourg
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GRE/Portrait_GRE_Paul.png"
+			}
+			army = {
+				large = "gfx/leaders/GRE/Portrait_GRE_Paul_admiral.png"
+				small = "gfx/interface/advisors/GRE/GRE_pavlos_glyksbourg.png"
+			}
+		}
+		navy_leader = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			visible = { is_country_leader = no }
+		}
+	}
+
 	GRE_athanasios_klaras = {
 		name = GRE_athanasios_klaras
 		portraits = {
@@ -214,6 +274,13 @@ characters = {
 			logistics_skill = 3
 		}
 		advisor = {
+			slot = second_in_command
+			idea_token = GRE_alexandros_papagos_hog
+			traits = { }
+			can_be_fired = no
+			cost = 150
+		}
+		advisor = {
 			slot = army_chief
 			idea_token = GRE_alexandros_papagos
 			allowed = { original_tag = GRE }
@@ -277,58 +344,7 @@ characters = {
 		}
 	}
 
-	GRE_alexandros_glyksbourg = {
-		name = GRE_alexandros_glyksbourg
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/GRE/Portrait_GRE_Alexander.png"
-			}
-		}
-	}
-	GRE_georgios_glyksbourg = {
-		name = GRE_georgios_glyksbourg
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/GRE/Portrait_GRE_George.png"
-			}
-			army = {
-				large = "gfx/leaders/GRE/Portrait_GRE_George_army.png"
-				small = "gfx/interface/advisors/GRE/GRE_georgios_glyksbourg.png"
-			}
-		}
-		field_marshal = {
-			traits = {
-				trait_cautious
-				inspirational_leader
-			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
-			visible = { is_country_leader = no }
-		}
-	}
-	GRE_pavlos_glyksbourg = {
-		name = GRE_pavlos_glyksbourg
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/GRE/Portrait_GRE_Paul.png"
-			}
-			army = {
-				large = "gfx/leaders/GRE/Portrait_GRE_Paul_admiral.png"
-				small = "gfx/interface/advisors/GRE/GRE_pavlos_glyksbourg.png"
-			}
-		}
-		navy_leader = {
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			maneuvering_skill = 1
-			coordination_skill = 1
-			visible = { is_country_leader = no }
-		}
-	}
+	
 
 	GRE_vouli_ton_ellinon = {
 		name = GRE_vouli_ton_ellinon

@@ -1,7 +1,8 @@
-###########################
-# Montenegro Focus Tree
-# By Augenis
-###########################
+# ###################################################### #
+# Montenegro National Focus Tree                         #
+# Originally created by Augenis of the Kaiserreich Team  #
+# Modified by thanasislanaras                            #
+# ###################################################### #
 
 focus_tree = {
 	id = montenegro_focus
@@ -26,6 +27,7 @@ focus_tree = {
 
 		available = {
 			has_socialist_government = yes
+			is_puppet = no
 		}
 		ai_will_do = {
 			factor = 10
@@ -132,6 +134,7 @@ focus_tree = {
 
 		available = {
 			has_elected_government = yes
+			is_puppet = no
 		}
 		ai_will_do = {
 			factor = 10
@@ -231,6 +234,7 @@ focus_tree = {
 
 		available = {
 			has_authoritarian_government = yes
+			is_puppet = no
 		}
 		ai_will_do = {
 			factor = 10
@@ -350,6 +354,39 @@ focus_tree = {
 			army_experience = 50
 		}
 		search_filters = { FOCUS_FILTER_ARMY_XP }
+	}
+	focus = {
+		id = MNT_navy
+		icon = GFX_goal_navy_decision
+		cost = 5
+		x = -4
+		y = 1
+		relative_position_id = MNT_army
+		prerequisite = {
+			focus = MNT_army
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = MNT_build_ports_kotor
+		icon = GFX_goal_generic_construct_public_housing
+		cost = 5
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = MNT_navy
+		}
+		relative_position_id = MNT_navy
+		completion_reward = {
+			841 = {
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+		}
 	}
 	focus = {
 		id = MNT_memories_of_christmas_uprising
@@ -508,7 +545,7 @@ focus_tree = {
 		id = MNT_economy
 		icon = GFX_goal_generic_improve_industry
 		x = 10
-		y = 3
+		y = 4
 		cost = 6
 
 		ai_will_do = {
@@ -705,6 +742,74 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus MNT_research"
 			add_research_slot_until_five = yes
 		}
+	}
+	### Puppet Path ###
+	focus = {
+		id = MNT_remain_loyal_to_serbia
+		icon = none
+		cost = 1
+		x = 0
+		y = 7
+		completion_reward = { }
+	}
+	focus = {
+		id = MNT_joint_exercises
+		icon = GFX_goal_generic_army_training
+		cost = x
+		x = -2
+		y = 1
+		relative_position_id = MNT_remain_loyal_to_serbia
+		prerequisite = {
+			focus = MNT_remain_loyal_to_serbia
+		}
+		completion_reward = {
+			SER = {
+				army_experience = 50
+			}
+			MNT = {
+				army_experience = 50
+			}
+		}
+	}
+	focus = {
+		id = MNT_81873789
+		icon = achievements
+		cost = 5
+		x = 0
+		y = 1
+		relative_position_id = MNT_remain_loyal_to_serbia
+		prerequisite = {
+			focus = MNT_remain_loyal_to_serbia
+		}
+		completion_reward = { }
+	}
+
+	### Greater Montenegrin Empire
+
+	focus = {
+		id = MNT_foreign_policy
+		icon = GFX_goal_foreign_diplomacy
+		cost = 0
+		x = 6
+		y = 8	
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = MNT_war_with_albania
+		icon = none
+		cost = 5
+		x = -1
+		y = 1
+		relative_position_id = MNT_foreign_policy
+		available = {
+			NOT = {
+				is_in_faction_with = ALB
+				is_puppet_of = ALB 
+			}
+		}
+		completion_reward = { }
 	}
 }
 

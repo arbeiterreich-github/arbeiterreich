@@ -225,3 +225,15 @@ if = {
 	}
 }
 
+if = {
+	limit = {
+		has_dlc_tfv = yes
+	}
+	set_autonomy = {
+		target = MNT
+		autonomy_state = kr_default_puppet
+	}
+	else = {
+		puppet = MNT
+	}
+}
