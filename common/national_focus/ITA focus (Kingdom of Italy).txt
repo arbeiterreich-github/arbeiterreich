@@ -293,7 +293,7 @@ focus_tree = {
 				}
 			}
 		}
-		x = 7
+		x = 6
 		y = 6
 		completion_reward = {
 			custom_effect_tooltip = ITA_snap_elections_tooltip
