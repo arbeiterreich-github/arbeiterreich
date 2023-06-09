@@ -276,6 +276,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_elected_government = yes
+				has_country_flag = ITA_assasinated
 			}
 		}
 		bypass = {
@@ -292,7 +293,7 @@ focus_tree = {
 				}
 			}
 		}
-		x = 6
+		x = 7
 		y = 6
 		completion_reward = {
 			custom_effect_tooltip = ITA_snap_elections_tooltip
@@ -371,7 +372,7 @@ focus_tree = {
 		}
 	}
 
-	# LIBERAL BRANCH
+	# CONSERVATIVE BRANCH
 
 	focus = {# The Conservatives Take Power
 		id = ITA_conservatives_take_power
@@ -401,6 +402,40 @@ focus_tree = {
 		y = 1
 		prerequisite = {
 			focus = ITA_snap_elections
+		}
+		relative_position_id = ITA_snap_elections
+		completion_reward = {
+		}
+	}
+
+	focus = {# Ban the PSI
+		id = ITA_ban_psi
+		icon = GFX_goal_HOL_crackdown_radsoc
+		cost = 0
+		available = {
+			has_country_flag = ITA_convic
+			OR = {
+				has_elected_government = yes
+			}
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_convic
+				}
+				OR = {
+					has_elected_government = yes
+					has_government = paternal_autocrat
+				}
+			}
+		}
+		x = -5
+		y = 2
+		prerequisite = {
+			focus = ITA_conservatives_take_power
 		}
 		relative_position_id = ITA_snap_elections
 		completion_reward = {
