@@ -303,7 +303,7 @@ focus_tree = {
 	focus = {# The Filling the Power Vaccum
 		id = ITA_filling_power_vaccum
 		icon = GFX_focus_rom_abdicate
-		cost = 0
+		cost = 5
 		available = {
 			has_country_flag = ITA_assasinated
 			OR = {
@@ -337,7 +337,7 @@ focus_tree = {
 	focus = {# Snap Elections
 		id = ITA_snap_elections
 		icon = GFX_goal_DOM_Call_Special_Election
-		cost = 0
+		cost = 5
 		available = {
 			has_country_flag = ITA_assasinated
 			OR = {
@@ -377,7 +377,7 @@ focus_tree = {
 	focus = {# The Conservatives Take Power
 		id = ITA_conservatives_take_power
 		icon = GFX_goal_ideology_social_conservative
-		cost = 0
+		cost = 8
 		available = {
 			has_country_flag = ITA_convic
 			OR = {
@@ -411,7 +411,7 @@ focus_tree = {
 	focus = {# Ban the PSI
 		id = ITA_ban_psi
 		icon = GFX_goal_HOL_crackdown_radsoc
-		cost = 0
+		cost = 8
 		available = {
 			has_country_flag = ITA_convic
 			OR = {
@@ -436,6 +436,177 @@ focus_tree = {
 		y = 2
 		prerequisite = {
 			focus = ITA_conservatives_take_power
+		}
+		relative_position_id = ITA_snap_elections
+		completion_reward = {
+		}
+	}
+
+	focus = {# Lower Taxes
+		id = ITA_lower_taxes
+		icon = GFX_goal_generic_loans
+		cost = 8
+		available = {
+			has_country_flag = ITA_convic
+			OR = {
+				has_elected_government = yes
+			}
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_convic
+				}
+				OR = {
+					has_elected_government = yes
+					has_government = paternal_autocrat
+				}
+			}
+		}
+		x = -7
+		y = 3
+		prerequisite = {
+			focus = ITA_ban_psi
+		}
+		relative_position_id = ITA_snap_elections
+		completion_reward = {
+		}
+	}
+
+	focus = {# Traditionalist Economy
+		id = ITA_traditionalist_economy
+		icon = GFX_goal_KTG_Colonial_Trinity2
+		cost = 8
+		available = {
+			has_country_flag = ITA_convic
+			OR = {
+				has_elected_government = yes
+			}
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_convic
+				}
+				OR = {
+					has_elected_government = yes
+					has_government = paternal_autocrat
+				}
+			}
+		}
+		x = -5
+		y = 3
+		prerequisite = {
+			focus = ITA_ban_psi
+		}
+		relative_position_id = ITA_snap_elections
+		completion_reward = {
+		}
+	}
+
+	focus = {# Administrative Reformation
+		id = ITA_admin_reforms
+		icon = GFX_focus_generic_self_management
+		cost = 8
+		available = {
+			has_country_flag = ITA_convic
+			OR = {
+				has_elected_government = yes
+			}
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_convic
+				}
+				OR = {
+					has_elected_government = yes
+					has_government = paternal_autocrat
+				}
+			}
+		}
+		x = -7
+		y = 4
+		prerequisite = {
+			focus = ITA_lower_taxes
+		}
+		relative_position_id = ITA_snap_elections
+		completion_reward = {
+		}
+	}
+
+	focus = {# Strengthen the Church
+		id = ITA_strengthen_church
+		icon = GFX_BEL_Improve_Catholic_Relations
+		cost = 8
+		available = {
+			has_country_flag = ITA_convic
+			OR = {
+				has_elected_government = yes
+			}
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_convic
+				}
+				OR = {
+					has_elected_government = yes
+					has_government = paternal_autocrat
+				}
+			}
+		}
+		x = -5
+		y = 4
+		prerequisite = {
+			focus = ITA_traditionalist_economy
+		}
+		relative_position_id = ITA_snap_elections
+		completion_reward = {
+		}
+	}
+
+	focus = {# Traditionalism Sustained
+		id = ITA_traditionalism_sustained
+		icon = GFX_goal_Centralised_Government
+		cost = 8
+		available = {
+			has_country_flag = ITA_convic
+			OR = {
+				has_elected_government = yes
+			}
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_convic
+				}
+				OR = {
+					has_elected_government = yes
+					has_government = paternal_autocrat
+				}
+			}
+		}
+		x = -5
+		y = 5
+		prerequisite = {
+			focus = ITA_strengthen_church
+			focus = ITA_admin_reforms
 		}
 		relative_position_id = ITA_snap_elections
 		completion_reward = {
