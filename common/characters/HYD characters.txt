@@ -89,7 +89,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = HYD_kasim_razvi
 			traits = { KR_prince_of_terror }
 		}

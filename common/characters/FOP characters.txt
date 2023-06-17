@@ -78,7 +78,7 @@ characters = {
 		advisor = {
 			idea_token = FOP_liborio_justo
 			desc = FOP_liborio_justo_advisor_desc
-			slot = political_advisor
+			slot = other_minister
 			available = {
 				is_country_leader = no
 			}
@@ -144,10 +144,10 @@ characters = {
 		advisor = {
 			idea_token = FOP_miguel_roscigna_political
 			desc = FOP_miguel_roscigna_advisor_desc
-			slot = political_advisor
+			slot = other_minister
 			available = {
 				NOT = { has_government = totalist }
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_reformist_soldier }
 		}
@@ -389,7 +389,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			available = {
 				has_government = syndicalist
 				FOP_soto_leads_USA = yes
@@ -407,7 +407,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = FOP_jose_fernando_penelon
 			desc = FOP_jose_fernando_penelon_advisor_desc
 			traits = { KR_conscientious_diplomat }
@@ -422,7 +422,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = FOP_victorio_codovilla
 			available = {
 				has_government = totalist
@@ -439,7 +439,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = FOP_leonidas_barletta
 			desc = FOP_leonidas_barletta_advisor_desc
 			traits = { KR_media_magnate }
@@ -454,7 +454,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = FOP_candido_testa
 			desc = FOP_candido_testa_advisor_desc
 			traits = { KR_war_propagandist }
@@ -468,7 +468,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = FOP_alvaro_yunque
 			desc = FOP_alvaro_yunque_advisor_desc
 			traits = { KR_socialist_novelist }
@@ -482,7 +482,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = FOP_rodolfo_gonzalez_pacheco
 			desc = FOP_rodolfo_gonzalez_pacheco_advisor_desc
 			traits = { KR_cultural_organiser }
@@ -496,7 +496,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = FOP_geronimo_arnedo_alvarez
 			desc = FOP_geronimo_arnedo_alvarez_advisor_desc
 			traits = { KR_social_revolutionary }
@@ -510,7 +510,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = FOP_diego_abad_de_santillan
 			desc = FOP_diego_abad_de_santillan_advisor_desc
 			traits = { KR_mixed_economy_proponent }
@@ -525,7 +525,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = FOP_antonio_de_tomaso
 			desc = FOP_antonio_de_tomaso_advisor_desc
 			traits = { KR_economic_reformer }
@@ -539,7 +539,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = FOP_gregorio_bermann
 			desc = FOP_gregorio_bermann_advisor_desc
 			traits = { KR_education_reformer }
@@ -553,7 +553,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = FOP_roberto_noble
 			desc = FOP_roberto_noble_advisor_desc
 			allowed = {

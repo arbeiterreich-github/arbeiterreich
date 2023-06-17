@@ -40,7 +40,7 @@ characters = {
 			traits = { BAT_jurist }
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BAT_helmuth_stegman
 			available = {
 				NOT = { has_government = national_populist }
@@ -81,7 +81,7 @@ characters = {
 			traits = { BAT_secret_council }
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BAT_inner_circle
 			available = {
 				is_country_leader = no
@@ -144,10 +144,10 @@ characters = {
 			logistics_skill = 2
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BAT_rudiger_von_der_goltz_advisor
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 				is_country_leader = no
 			}
 			traits = { KR_man_of_the_heimat }
@@ -487,7 +487,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BAT_paul_schiemann
 			available = {
 				NOT = { has_government = national_populist }
@@ -503,7 +503,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BAT_heinrich_von_stackelberg
 			traits = { KR_economic_reformer }
 		}
@@ -516,7 +516,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BAT_wilhelm_robert_von_bulmerincq
 			traits = { KR_media_magnate }
 		}
@@ -529,7 +529,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BAT_baltische_landeswehrkommission
 			traits = { KR_landeswehr_interest_group }
 		}
@@ -542,7 +542,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			on_add = {
 				set_character_flag = character_event_only
 			}
@@ -566,7 +566,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			on_add = {
 				set_character_flag = character_event_only
 			}
@@ -590,7 +590,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			on_add = {
 				set_character_flag = character_event_only
 			}
@@ -614,7 +614,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BAT_bernhard_bielenstein
 			traits = { KR_construction_magnate }
 		}

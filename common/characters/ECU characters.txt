@@ -340,7 +340,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ECU_victor_emilio_estrada
 			traits = { KR_bank_president }
 		}
@@ -355,7 +355,7 @@ characters = {
 		}
 		gender = female
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ECU_matilde_hidalgo
 			traits = { KR_reformist_administrator }
 		}
@@ -370,7 +370,7 @@ characters = {
 		}
 		gender = female
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ECU_luisa_gomez_de_la_torre_paez
 			traits = { KR_education_reformer }
 		}
@@ -384,7 +384,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ECU_augusto_nicolas_martinez
 			traits = { KR_agrarian_expert }
 		}
@@ -398,7 +398,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ECU_leopoldo_benites
 			traits = { KR_leading_diplomat }
 		}
@@ -412,7 +412,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ECU_antonio_parra_velasco
 			traits = { KR_committed_internationalist }
 		}

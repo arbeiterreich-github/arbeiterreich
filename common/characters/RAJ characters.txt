@@ -196,7 +196,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = RAJ_jehangir_ratanji_dadabhoy_tata
 			available = { is_country_leader = no }
 			traits = { KR_laissez_faire_capitalist }
@@ -591,7 +591,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = RAJ_b_r_ambedkar_pol
 			traits = { KR_industrialiser }
 		}
@@ -605,7 +605,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = RAJ_nevill_vintcent_pol
 			traits = { KR_air_superiority_proponent }
 		}
@@ -619,7 +619,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = RAJ_v_p_menon_pol
 			traits = { KR_political_specialist }
 		}
@@ -633,7 +633,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = RAJ_mehr_chand_mahajan_pol
 			traits = { KR_brilliant_lawyer }
 		}
@@ -647,7 +647,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = RAJ_vallabhbhai_patel_pol
 			traits = { KR_integration_proponent }
 		}
@@ -661,7 +661,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = RAJ_charles_tegart
 			allowed = {
 				has_dlc_lar = yes

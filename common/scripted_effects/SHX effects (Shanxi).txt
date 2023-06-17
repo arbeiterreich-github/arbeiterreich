@@ -990,7 +990,7 @@ SHX_JAP_infiltration_effect = {
 		if = {
 			limit = {
 				SHX = {
-					SHX_su_tiren = { is_political_advisor = no }
+					SHX_su_tiren = { is_other_minister = no }
 					SHX_su_tiren = { is_second_in_command = no }
 				}
 			}
@@ -1010,7 +1010,7 @@ SHX_JAP_infiltration_effect = {
 		if = {
 			limit = {
 				SHX = {
-					SHX_feng_sizhi = { is_political_advisor = no }
+					SHX_feng_sizhi = { is_other_minister = no }
 					SHX_feng_sizhi = { is_second_in_command = no }
 				}
 			}

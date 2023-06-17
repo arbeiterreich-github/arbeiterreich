@@ -183,7 +183,7 @@ characters = {
 			ideology = totalist_subtype
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BUL_vasil_ikonomov
 			available = {
 				has_socialist_government = yes
@@ -496,11 +496,11 @@ characters = {
 			logistics_skill = 2
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BUL_hristo_lukov_adv
 			traits = { KR_ultranationalist_agitator }
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 		}
 		advisor = {
@@ -616,11 +616,11 @@ characters = {
 			can_be_fired = no
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BUL_georgi_kyoseivanov_adv
 			available = {
 				has_socialist_government = no
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_leading_diplomat }
 		}
@@ -698,7 +698,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BUL_bogdan_filov
 			available = {
 				has_government = authoritarian_democrat
@@ -720,7 +720,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BUL_aleksandar_tsankov
 			available = {
 				has_completed_focus = BUL_the_great_etatist_project
@@ -737,7 +737,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BUL_todor_aleksandrov
 			traits = { KR_imro_veteran }
 		}
@@ -751,7 +751,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BUL_metropolitan_neophyte
 			traits = { KR_spiritual_leader }
 		}
@@ -765,7 +765,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BUL_damyan_velchev
 			available = {
 				has_government = paternal_autocrat
@@ -782,7 +782,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BUL_konstantin_muraviev
 			available = {
 				OR = {
@@ -802,7 +802,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BUL_ivan_burov
 			traits = { KR_captain_of_industry }
 		}
@@ -816,7 +816,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BUL_nikola_petkov
 			available = {
 				has_elected_government = yes
@@ -833,7 +833,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BUL_stamen_grigorov
 			traits = { KR_industrial_chemist }
 		}
@@ -847,7 +847,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BUL_tsvetan_lazarov
 			traits = { KR_air_superiority_proponent }
 		}
@@ -861,7 +861,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BUL_kazanlak_arsenal
 			traits = { KR_war_industrialist }
 		}
@@ -874,7 +874,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BUL_todor_radev
 			allowed = {
 				has_dlc_lar = yes

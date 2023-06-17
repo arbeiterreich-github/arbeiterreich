@@ -37,7 +37,7 @@ characters = {
 			ideology = radical_socialist_subtype
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = HAI_max_hudincourt
 			available = {
 				has_socialist_government = yes
@@ -103,10 +103,10 @@ characters = {
 			logistics_skill = 1
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = HAI_Paul_Magloire_political
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 				OR = {
 					has_socialist_government = yes
 					has_government = social_democrat
@@ -146,7 +146,7 @@ characters = {
 			ideology = social_liberal_subtype
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = HAI_jean_price_mars
 			available = {
 				has_democratic_government = yes
@@ -166,7 +166,7 @@ characters = {
 			ideology = market_liberal_subtype
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = HAI_louis_dejoie
 			allowed = {
 				has_dlc_lar = yes
@@ -190,7 +190,7 @@ characters = {
 			ideology = social_conservative_subtype
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = HAI_elie_lescot
 			available = {
 				has_democratic_government = yes
@@ -217,7 +217,7 @@ characters = {
 			ideology = authoritarian_democrat_subtype
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = HAI_stenio_vincent
 			available = {
 				OR = {
@@ -252,10 +252,10 @@ characters = {
 			logistics_skill = 1
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = HAI_john_russell
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_general_staffer }
 		}
@@ -281,7 +281,7 @@ characters = {
 			ideology = paternal_autocrat_subtype
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = HAI_franck_lavaud
 			available = {
 				OR = {
@@ -396,7 +396,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = HAI_JD_Sam
 			available = {
 				OR = {
@@ -415,7 +415,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = HAI_Philippe_Thoby_Marcelin
 			available = {
 				has_socialist_government = yes
@@ -431,7 +431,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = HAI_Dumarsais_Estime
 			available = {
 				OR = {

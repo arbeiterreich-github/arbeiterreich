@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BOS_dzafer_kulenovic
 			traits = { KR_flamboyant_brute }
 		}
@@ -32,7 +32,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BOS_mehmed_spaho
 			traits = { KR_pragmatic_statesman }
 		}
@@ -131,7 +131,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BOS_nurija_pozderac
 			traits = { KR_great_compromiser }
 		}
@@ -144,7 +144,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BOS_osman_kulenovic
 			traits = { KR_plodding_bureaucrat }
 		}
@@ -157,7 +157,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BOS_skender_kulenovic
 			traits = { KR_socialist_novelist }
 		}
@@ -170,7 +170,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BOS_vladimir_corovic
 			traits = { KR_influential_intellectual }
 		}

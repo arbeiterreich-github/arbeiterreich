@@ -284,7 +284,7 @@ characters = {
 			coordination_skill = 3
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = GEA_rudolph_firle_pol
 			traits = { KR_interventionist_economist }
 		}
@@ -329,7 +329,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = GEA_augustin_henninghaus_pol
 			traits = { KR_spiritual_leader }
 		}
@@ -343,7 +343,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = GEA_dietrich_bonhoeffer_pol
 			traits = { KR_man_of_the_people }
 		}
@@ -357,7 +357,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = GEA_paul_schneider_pol
 			traits = { KR_ideological_crusader }
 		}
@@ -371,7 +371,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = GEA_ernst_boerschmann_pol
 			traits = { KR_construction_magnate }
 		}
@@ -385,7 +385,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = GEA_rudolph_kaulla_pol
 			traits = { KR_bank_president }
 		}
@@ -399,7 +399,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = GEA_julius_dorpmuller_pol
 			traits = { KR_corporate_suit }
 		}
@@ -498,7 +498,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = GEA_theodor_wendorff
 			allowed = {
 				has_dlc_lar = yes

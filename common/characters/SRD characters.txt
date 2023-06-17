@@ -259,7 +259,7 @@ characters = {
 			logistics_skill = 1
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SRD_mario_roatta_advisor
 			allowed = {
 				has_dlc_lar = yes
@@ -497,10 +497,10 @@ characters = {
 			can_be_fired = no
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SRD_antonio_segni_adv
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_administrative_genius }
 		}
@@ -553,10 +553,10 @@ characters = {
 			can_be_fired = no
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SRD_camillo_bellieni_adv
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 				has_authoritarian_government = no
 			}
 			traits = { KR_traditionalist_economist }
@@ -571,7 +571,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SRD_alessandro_scotti_adv
 			available = {
 				has_authoritarian_government = no
@@ -611,10 +611,10 @@ characters = {
 			can_be_fired = no
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SRD_emilio_lussu_adv
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 				has_authoritarian_government = no
 			}
 			traits = { KR_ideological_crusader }
@@ -647,10 +647,10 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = SRD_Vittorio_Ambrosio_political_advisor
+			slot = other_minister
+			idea_token = SRD_Vittorio_Ambrosio_other_minister
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_general_staffer }
 		}
@@ -672,7 +672,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SRD_giovanni_sechi
 			available = {
 				has_authoritarian_government = yes
@@ -688,7 +688,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SRD_raimondo_scintu
 			available = {
 				has_authoritarian_government = yes
@@ -704,7 +704,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SRD_luigi_oggiano
 			traits = { KR_political_specialist }
 		}
@@ -717,7 +717,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SRD_battista_bardanzellu
 			traits = { KR_brilliant_lawyer }
 		}
@@ -730,7 +730,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SRD_alessandro_nanni
 			available = {
 				has_authoritarian_government = no
@@ -746,7 +746,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SRD_luigi_crespellani
 			available = {
 				has_authoritarian_government = no
@@ -762,7 +762,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SRD_stefano_siglienti
 			available = {
 				has_authoritarian_government = no
@@ -778,7 +778,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SRD_edoardo_agnelli
 			available = {
 				has_completed_focus = SRD_ensure_corporate_support
@@ -794,7 +794,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SRD_ernesto_maria_piovella
 			available = {
 				has_completed_focus = SRD_enshrine_church_collaboration
@@ -810,7 +810,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SRD_petru_rocca
 			traits = { KR_media_magnate }
 			available = {

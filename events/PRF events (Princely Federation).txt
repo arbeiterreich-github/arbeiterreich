@@ -4173,7 +4173,7 @@ country_event = {
 			}
 			PAK = {
 				PAK_aga_khan_iii = {
-					remove_political_advisor_role = yes
+					remove_other_minister_role = yes
 					if = {
 						limit = { has_ideology = social_conservative_subtype }
 						promote_character = social_conservative_subtype

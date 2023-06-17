@@ -551,7 +551,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = IRE_ernest_blythe
 			available = {
 				has_socialist_government = no
@@ -567,7 +567,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = IRE_douglas_hyde
 			available = {
 				has_socialist_government = no
@@ -583,7 +583,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = IRE_eoin_macneill
 			available = {
 				has_socialist_government = no
@@ -599,7 +599,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = IRE_john_charles_mcquaid
 			available = {
 				has_socialist_government = no
@@ -615,7 +615,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = IRE_noel_browne
 			available = {
 				has_socialist_government = yes
@@ -631,7 +631,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = IRE_roddy_connolly
 			available = {
 				has_socialist_government = yes
@@ -647,7 +647,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = IRE_benjamin_farrington
 			available = {
 				has_socialist_government = yes
@@ -663,7 +663,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = IRE_george_gilmore
 			available = {
 				has_socialist_government = yes
@@ -679,7 +679,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = IRE_joseph_brennan
 			traits = { KR_bank_president }
 		}
@@ -692,7 +692,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = IRE_harry_ferguson
 			traits = { KR_captain_of_industry }
 		}
@@ -705,7 +705,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = IRE_roy_c_geary
 			traits = { KR_economic_reformer }
 		}
@@ -718,7 +718,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = IRE_james_martin
 			traits = { KR_air_superiority_proponent }
 		}
@@ -731,7 +731,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = IRE_timothy_smiddy
 			traits = { KR_political_specialist }
 		}
@@ -744,10 +744,10 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = IRE_ernest_walton_pol_advisor
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_theoretical_scientist }
 		}
@@ -818,14 +818,14 @@ characters = {
 			cost = 50
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = IRE_dan_bryan_political_advisor
+			slot = other_minister
+			idea_token = IRE_dan_bryan_other_minister
 			allowed = {
 				has_dlc_lar = yes
 			}
 			available = {
 				has_intelligence_agency = yes
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_head_of_intelligence }
 		}

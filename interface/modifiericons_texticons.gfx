@@ -3292,8 +3292,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_political_advisor_cost_texticon"
-		texturefile = "gfx/texticons/political_advisor_cost_texticon.dds"
+		name = "GFX_other_minister_cost_texticon"
+		texturefile = "gfx/texticons/other_minister_cost_texticon.dds"
 		legacy_lazy_load = no
 	}
 	

@@ -206,8 +206,8 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = KUM_li_qian_political_advisor
+			slot = other_minister
+			idea_token = KUM_li_qian_other_minister
 			traits = { KR_ideological_crusader }
 		}
 	}
@@ -219,8 +219,8 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = KUM_sengchen_thubbstan_tshering_political_advisor
+			slot = other_minister
+			idea_token = KUM_sengchen_thubbstan_tshering_other_minister
 			available = {
 				has_government = social_democrat
 			}
@@ -235,8 +235,8 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = KUM_tahir_beg_political_advisor
+			slot = other_minister
+			idea_token = KUM_tahir_beg_other_minister
 			traits = { KR_education_reformer }
 		}
 	}
@@ -248,8 +248,8 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = KUM_ma_fuyuan_political_advisor
+			slot = other_minister
+			idea_token = KUM_ma_fuyuan_other_minister
 			available = {
 				has_government = national_populist
 			}
@@ -264,10 +264,10 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = KUM_ma_zhancang_political_advisor
+			slot = other_minister
+			idea_token = KUM_ma_zhancang_other_minister
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_respected_war_hero }
 		}
@@ -290,10 +290,10 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = KUM_dalelkhan_sugirbayev_political_advisor
+			slot = other_minister
+			idea_token = KUM_dalelkhan_sugirbayev_other_minister
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 				NOT = { has_government = national_populist }
 			}
 			traits = { KR_reformist_soldier }
@@ -317,8 +317,8 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = KUM_luo_wengan_political_advisor
+			slot = other_minister
+			idea_token = KUM_luo_wengan_other_minister
 			available = {
 				NOT = { has_country_leader = { character = KUM_khoja_niyaz_haji } }
 			}
@@ -333,8 +333,8 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = KUM_pau_tisan_political_advisor
+			slot = other_minister
+			idea_token = KUM_pau_tisan_other_minister
 			allowed = {
 				has_dlc_lar = yes
 			}
@@ -352,11 +352,11 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = KUM_ospan_batyr_political_advisor
+			slot = other_minister
+			idea_token = KUM_ospan_batyr_other_minister
 			available = {
 				has_country_leader = { character = KUM_khoja_niyaz_haji }
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_iron_fisted_brute }
 		}

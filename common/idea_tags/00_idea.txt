@@ -26,7 +26,8 @@ idea_categories = {
 		slot = mobilization_laws
 		slot = trade_laws
 		slot = economy
-		slot = religion
+		slot = government_type
+		slot = welfare
 
 		ledger = civilian
 
@@ -36,14 +37,28 @@ idea_categories = {
 
 	government = {
 		character_slot = second_in_command
-		character_slot = political_advisor
-		character_slot = political_advisor
-		character_slot = political_advisor
+		character_slot = foreign_affairs_minister
+		character_slot = interior_minister
+		character_slot = economic_minister
+		character_slot = other_minister
+		character_slot = theorist
+
 
 		ledger = civilian
 
 		cost = 150
 		removal_cost = 0
+	}
+
+	culture = {
+		slot = religion
+		slot = language_group
+		slot = globalisation_policy
+		slot = military_training
+
+		ledger = civilian
+		cost = 1000
+		removal_cost = -1
 	}
 
 	research_production = {
@@ -52,7 +67,7 @@ idea_categories = {
 		slot = aircraft_manufacturer
 		slot = materiel_manufacturer
 		slot = industrial_concern
-		character_slot = theorist
+		slot = industrial_concern
 
 		ledger = civilian
 

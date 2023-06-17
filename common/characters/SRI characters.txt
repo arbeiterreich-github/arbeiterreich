@@ -27,7 +27,7 @@ characters = {
 			desc = SRI_michele_bianchi_leader_desc
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SRI_michele_bianchi
 			available = {
 				has_government = totalist
@@ -53,7 +53,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SRI_palmiro_togliatti
 			available = {
 				has_government = syndicalist
@@ -75,7 +75,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SRI_alceste_de_ambris
 			available = {
 				has_government = syndicalist
@@ -125,7 +125,7 @@ characters = {
 			desc = SRI_giacomo_matteotti_leader_desc
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SRI_giacomo_matteotti
 			available = {
 				has_government = radical_socialist
@@ -147,7 +147,7 @@ characters = {
 			desc = SRI_giuseppe_romita_leader_desc
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SRI_giuseppe_romita
 			available = {
 				has_government = radical_socialist
@@ -169,7 +169,7 @@ characters = {
 			desc = SRI_olindo_vernocchi_leader_desc
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SRI_olindo_vernocchi
 			available = {
 				NOT = { has_government = totalist }
@@ -202,7 +202,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SRI_nicola_bombacci
 			available = {
 				has_government = totalist
@@ -218,7 +218,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SRI_pietro_nenni
 			available = {
 				NOT = { has_government = totalist }
@@ -234,7 +234,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SRI_altiero_spinelli
 			traits = { KR_paneuropean }
 		}
@@ -247,7 +247,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SRI_antonio_gramsci
 			traits = { KR_influential_intellectual }
 		}
@@ -260,7 +260,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SRI_achille_grandi
 			traits = { KR_catholic_syndicalist }
 		}
@@ -273,7 +273,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SRI_luigi_longo
 			traits = { KR_committed_internationalist }
 		}
@@ -286,7 +286,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SRI_attilio_sassi
 			traits = { KR_resource_industrialist }
 		}
@@ -299,7 +299,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SRI_luigi_razza
 			available = {
 				has_government = totalist
@@ -315,7 +315,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SRI_bruno_buozzi
 			traits = { KR_steel_magnate }
 		}
@@ -328,7 +328,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SRI_giuseppe_saragat
 			available = {
 				has_government = radical_socialist
@@ -344,7 +344,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SRI_tullio_cianetti
 			available = {
 				has_government = totalist
@@ -360,7 +360,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SRI_bruno_pontecorvo
 			traits = { KR_theoretical_scientist }
 		}
@@ -535,7 +535,7 @@ characters = {
 			logistics_skill = 2
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SRI_francesco_de_martini_advisor
 			allowed = {
 				has_dlc_lar = yes

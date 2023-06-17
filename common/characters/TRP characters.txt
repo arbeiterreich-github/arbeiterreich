@@ -39,7 +39,7 @@ characters = {
 			ideology = social_liberal_subtype
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = TRP_bashir_saadawi
 			traits = { KR_democratic_reformer }
 			available = {
@@ -118,7 +118,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = TRP_mahmud_al_muntasir
 			traits = { KR_leading_diplomat }
 		}
@@ -131,7 +131,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = TRP_abdul_majid_kubar
 			traits = { KR_construction_magnate }
 		}
@@ -144,7 +144,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = TRP_abdul_salam_al_buseiri
 			traits = { KR_ideological_crusader }
 		}
@@ -157,7 +157,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = TRP_muhammad_sakizli
 			traits = { KR_education_reformer }
 		}
@@ -170,7 +170,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = TRP_ali_aneizi
 			traits = { KR_bank_president }
 		}

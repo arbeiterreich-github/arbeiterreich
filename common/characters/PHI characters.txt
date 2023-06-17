@@ -14,7 +14,7 @@ characters = {
 			ideology = social_conservative_subtype
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PHI_elpidio_quirino_pol
 			available = { is_country_leader = no }
 			traits = { KR_brilliant_lawyer }
@@ -60,7 +60,7 @@ characters = {
 			ideology = national_populist_subtype
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PHI_emilio_aguinaldo_pol
 			available = { is_country_leader = no }
 			traits = { KR_ideological_crusader }
@@ -106,7 +106,7 @@ characters = {
 			ideology = radical_socialist_subtype
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PHI_crisanto_evangelista_pol
 			available = { is_country_leader = no }
 			traits = { KR_ambitious_union_boss }
@@ -228,7 +228,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PHI_rafael_liwanag_pol
 			traits = { KR_political_protege }
 		}
@@ -242,7 +242,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PHI_alberto_ramos_pol
 			allowed = {
 				has_dlc_lar = yes
@@ -262,7 +262,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PHI_antonio_de_las_alas_pol
 			traits = { KR_laissez_faire_capitalist }
 		}
@@ -276,7 +276,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PHI_sergio_osmena_pol
 			traits = { KR_silent_workhorse }
 		}
@@ -290,7 +290,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PHI_carlos_p_garcia_pol
 			traits = { KR_education_reformer }
 		}
@@ -304,7 +304,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PHI_gregario_licaros_pol
 			traits = { KR_bank_president }
 		}

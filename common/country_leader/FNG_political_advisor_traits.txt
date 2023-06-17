@@ -81,7 +81,7 @@ leader_traits = {
 	FNG_parliamentary_physician = { #Ruan Zhenduo
 		sprite = 13
 		random = no
-		political_advisor_cost_factor = -0.3
+		other_minister_cost_factor = -0.3
 		experience_loss_factor = -0.1
 		attrition = -0.05
 	}

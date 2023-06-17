@@ -337,7 +337,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = HOL_louis_de_visser
 			available = {
 				has_socialist_government = yes
@@ -353,7 +353,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = HOL_evert_kupers
 			available = {
 				has_socialist_government = yes
@@ -369,7 +369,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = HOL_abraham_menist
 			available = {
 				has_socialist_government = yes
@@ -385,7 +385,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = HOL_willem_van_ravensteyn
 			available = {
 				has_socialist_government = yes
@@ -401,7 +401,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = HOL_daniel_daan_goulooze
 			available = {
 				has_socialist_government = yes
@@ -417,7 +417,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = HOL_nicolaas_beuzemaker
 			available = {
 				has_socialist_government = yes
@@ -433,7 +433,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = HOL_servatius_protatius_baart
 			available = {
 				NOT = { has_government = totalist }
@@ -450,7 +450,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = HOL_george_van_den_bergh
 			available = {
 				NOT = { has_government = totalist }
@@ -467,7 +467,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = HOL_fedde_schurer
 			available = {
 				NOT = { has_government = totalist }
@@ -484,7 +484,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = HOL_johan_willem_beyen
 			available = {
 				NOT = { has_government = totalist }
@@ -501,7 +501,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = HOL_jacob_adriaan_nicolaas_patijn
 			available = {
 				has_elected_government = yes
@@ -517,7 +517,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = HOL_dirk_uipko_stikker
 			available = {
 				has_elected_government = yes
@@ -533,7 +533,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = HOL_jan_eduard_de_quay
 			available = {
 				has_democratic_government = yes
@@ -549,7 +549,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = HOL_josephus_robertus_hendricus_van_schaik
 			available = {
 				has_democratic_government = yes
@@ -565,7 +565,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = HOL_hugo_visscher
 			available = {
 				has_dictatorship_government = yes
@@ -581,7 +581,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = HOL_willem_bernhard_engelbrecht
 			available = {
 				has_dictatorship_government = yes
@@ -597,7 +597,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = HOL_coenraad_alfred_augustus_haighton
 			available = {
 				has_dictatorship_government = yes
@@ -613,7 +613,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = HOL_frederik_carel_gerretson
 			available = {
 				has_dictatorship_government = yes
@@ -629,7 +629,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = HOL_jan_tinbergen
 			traits = { KR_economic_reformer }
 		}
@@ -642,7 +642,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = HOL_tietse_pieter_sevensma
 			traits = { KR_political_specialist }
 		}
@@ -655,7 +655,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = HOL_jacob_van_gelderen
 			traits = { KR_interventionist_economist }
 		}
@@ -668,7 +668,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = HOL_louis_einthoven
 			allowed = {
 				has_dlc_lar = yes

@@ -373,7 +373,7 @@ characters = {
 			traits = { KR_administrative_genius }
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			desc = POL_wolfgang_von_kries_desc
 			idea_token = POL_wolfgang_von_kries
 			available = {
@@ -1002,7 +1002,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			desc = POL_maurucy_zamoyski_desc
 			idea_token = POL_maurucy_zamoyski
 			available = {
@@ -1025,7 +1025,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			desc = POL_stanislaw_downarowicz_desc
 			idea_token = POL_stanislaw_downarowicz
 			available = {
@@ -1048,7 +1048,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			desc = POL_janusz_radziwill_desc
 			idea_token = POL_janusz_radziwill
 			available = {
@@ -1070,7 +1070,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			desc = POL_aleksander_ii_advisor_desc
 			idea_token = POL_alexander_von_hohenzollern
 			available = {
@@ -1087,7 +1087,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = POL_august_hlond
 			available = {
 				has_socialist_government = no
@@ -1104,7 +1104,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = POL_wieslaw_gerlicz
 			available = {
 				has_socialist_government = no
@@ -1120,7 +1120,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = POL_andrzej_wierbicki
 			available = {
 				OR = {
@@ -1142,7 +1142,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = POL_marian_dabrowski
 			available = {
 				has_socialist_government = no
@@ -1158,7 +1158,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = POL_michal_kalecki
 			traits = { KR_interventionist_economist }
 		}
@@ -1172,7 +1172,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = POL_cezaria_jedrzejewiczowa
 			traits = { KR_folk_researcher }
 		}
@@ -1186,7 +1186,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = POL_wanda_wasilewska
 			available = {
 				has_socialist_government = yes
@@ -1202,7 +1202,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = POL_henryk_ehrlich
 			available = {
 				OR = {
@@ -1222,7 +1222,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = POL_stanislawa_paleolog
 			available = {
 				OR = {
@@ -1242,7 +1242,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = POL_tadeusz_kossakowski
 			traits = { KR_tank_advocate }
 			cost = 150
@@ -1256,7 +1256,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = POL_tadeusz_schaetzel
 			allowed = {
 				has_dlc_lar = yes
@@ -1482,7 +1482,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = POL_janusz_groszkowski
 			traits = { KR_electronics_expert }
 		}
@@ -1495,7 +1495,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = POL_ludwik_hirszfeld
 			traits = { KR_public_health_advocate }
 		}
@@ -1508,7 +1508,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = POL_zygmunt_pulawski
 			traits = { KR_air_superiority_proponent }
 		}
@@ -1521,7 +1521,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = POL_stanislaw_karlowski
 			traits = { KR_bank_president }
 		}

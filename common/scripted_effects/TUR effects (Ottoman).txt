@@ -1753,19 +1753,19 @@ OTT_remove_sultan = {
 
 OTT_create_halide_edip_advisor = {
 	if = {
-		limit = { NOT = { TUR_halide_edip_adivar = { has_advisor_role = political_advisor } } }
+		limit = { NOT = { TUR_halide_edip_adivar = { has_advisor_role = other_minister } } }
 		custom_effect_tooltip = tooltip_white_line
 		add_advisor_role = {
 			character = TUR_halide_edip_adivar
 			advisor = {
-				slot = political_advisor
+				slot = other_minister
 				idea_token = TUR_halide_edip_adivar
 				traits = { KR_feminist_ultranationalist }
 			}
 		}
 	}
 	else = {
-		custom_effect_tooltip = available_political_advisor
+		custom_effect_tooltip = available_other_minister
 		show_ideas_tooltip = TUR_halide_edip_adivar
 	}
 }

@@ -144,7 +144,7 @@ characters = {
 			ideology = paternal_autocrat_subtype
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = WLS_huw_robert_jones_advisor
 			available = {
 				OR = {
@@ -153,7 +153,7 @@ characters = {
 					has_government = paternal_autocrat
 				}
 				is_country_leader = no
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_welsh_warrior }
 		}
@@ -229,7 +229,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = WLS_elizabeth_andrews
 			available = {
 				has_socialist_government = yes
@@ -245,7 +245,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = WLS_alf_davies
 			available = {
 				has_socialist_government = yes
@@ -261,7 +261,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = WLS_albert_clifford_williams
 			available = {
 				has_socialist_government = yes
@@ -278,7 +278,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = WLS_goronwy_owen
 			available = {
 				has_government = social_liberal
@@ -294,7 +294,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = WLS_bertrand_russell
 			available = {
 				has_government = social_liberal
@@ -310,7 +310,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = WLS_david_john_williams
 			available = {
 				OR = {
@@ -331,7 +331,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = WLS_kate_roberts
 			available = {
 				OR = {
@@ -491,7 +491,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = WLS_arthur_owens
 			allowed = {
 				has_dlc_lar = yes

@@ -69,7 +69,7 @@ characters = {
 			ideology = radical_socialist_subtype
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = WIF_joseph_lagrosilliere
 			traits = { KR_mixed_economy_proponent }
 		}
@@ -97,7 +97,7 @@ characters = {
 			ideology = social_liberal_subtype
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = WIF_norman_manley
 			traits = { KR_ideological_crusader }
 		}
@@ -235,12 +235,12 @@ characters = {
 			ideology = radical_socialist_subtype
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = WIF_arthur_andrew_cipriani_political_advisor
+			slot = other_minister
+			idea_token = WIF_arthur_andrew_cipriani_other_minister
 			allowed = { original_tag = WIF }
 			available = {
 				has_socialist_government = yes
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_man_of_the_people }
 		}
@@ -273,7 +273,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = WIF_alexander_bustamante
 			allowed = { original_tag = WIF }
 			available = {
@@ -291,7 +291,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = WIF_hubert_nathaniel_critchlow
 			allowed = { original_tag = WIF }
 			available = {
@@ -340,7 +340,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = WIF_hegesippe_jean_legitimus
 			available = {
 				has_socialist_government = yes
@@ -356,7 +356,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = WIF_osmond_theodore_fairclough
 			traits = { KR_compassionate_gentleman }
 		}
@@ -369,7 +369,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = WIF_henry_lemery
 			allowed = {
 				has_dlc_lar = yes
@@ -388,7 +388,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = WIF_gaston_monnerville
 			available = {
 				has_elected_government = yes
@@ -404,7 +404,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = WIF_edward_brandis_denham
 			traits = { KR_naive_optimist }
 		}
@@ -417,7 +417,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = WIF_charles_dundas
 			available = {
 				is_in_faction_with = ENT
@@ -433,7 +433,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = WIF_elie_bloncourt
 			available = {
 				has_socialist_government = yes
@@ -449,7 +449,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = WIF_ralph_grey
 			available = {
 				is_in_faction_with = ENT
@@ -466,7 +466,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = WIF_gerty_archimede
 			available = {
 				has_socialist_government = yes
@@ -482,7 +482,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = WIF_gilbert_cooper
 			traits = { KR_silent_workhorse }
 		}
@@ -496,7 +496,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = WIF_yva_lero
 			available = {
 				has_socialist_government = yes
@@ -512,7 +512,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = WIF_rene_menil
 			available = {
 				has_socialist_government = yes
@@ -528,7 +528,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = WIF_henry_tucker
 			available = {
 				has_socialist_government = no
@@ -544,7 +544,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = WIF_edgar_fitzgerald_gordon
 			traits = { KR_civil_rights_advocate }
 		}
@@ -557,7 +557,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = WIF_reginald_conyers
 			available = {
 				is_in_faction_with = ENT
@@ -666,7 +666,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = WIF_felix_eboue
 			available = {
 				is_in_faction_with = NFA

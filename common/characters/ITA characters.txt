@@ -452,7 +452,7 @@ characters = {
 			logistics_skill = 2
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ITA_Fedele_De_Giorgis
 			available = {
 				has_government = national_populist
@@ -700,7 +700,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ITA_Mario_Abbiate
 			traits = { KR_public_works_administrator }
 		}
@@ -713,7 +713,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ITA_Carlo_Schanzer
 			allowed = {
 				has_dlc_lar = yes
@@ -732,7 +732,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ITA_Luigi_Gasparotto
 			traits = { KR_administrative_genius }
 		}
@@ -745,7 +745,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ITA_Anonio_Mosconi
 			available = {
 				has_government = authoritarian_democrat
@@ -761,7 +761,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ITA_Duccio_Galimberti
 			available = {
 				has_authoritarian_government = no
@@ -777,7 +777,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ITA_Alessandro_Pavolini
 			available = {
 				has_government = national_populist
@@ -793,7 +793,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ITA_Nicolo_Carandini
 			traits = { KR_paneuropean }
 		}
@@ -806,7 +806,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ITA_Ezio_Vanoni
 			available = {
 				has_authoritarian_government = no
@@ -822,7 +822,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ITA_Roberto_Tremelloni
 			traits = { KR_mixed_economy_proponent }
 		}
@@ -835,7 +835,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ITA_Giovanni_Conti
 			traits = { KR_naive_optimist }
 		}
@@ -848,7 +848,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ITA_Arrigo_Solmi
 			available = {
 				has_authoritarian_government = yes

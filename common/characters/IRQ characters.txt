@@ -93,8 +93,8 @@ characters = {
 			ideology = national_populist_subtype
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = IRQ_rashid_al_gaylani_political_advisor
+			slot = other_minister
+			idea_token = IRQ_rashid_al_gaylani_other_minister
 			traits = { KR_conniving_opportunist }
 			can_be_fired = no #intended - he is only supposed to be able to be removed via event
 		}
@@ -143,11 +143,11 @@ characters = {
 			ideology = social_democrat_subtype
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = IRQ_kamil_al_chadirchi_political_advisor
+			slot = other_minister
+			idea_token = IRQ_kamil_al_chadirchi_other_minister
 			available = {
 				has_completed_focus = IRQ_Reform_Electoral_System
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_democratic_reformer }
 		}
@@ -223,11 +223,11 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = IRQ_hikmat_sulayman_political_advisor
+			slot = other_minister
+			idea_token = IRQ_hikmat_sulayman_other_minister
 			available = {
 				has_completed_focus = IRQ_Reform_Electoral_System
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_pragmatic_statesman }
 		}
@@ -288,8 +288,8 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = IRQ_sami_shawkat_political_advisor
+			slot = other_minister
+			idea_token = IRQ_sami_shawkat_other_minister
 			available = {
 				has_completed_focus = IRQ_Al_Muthanna_Paramillitaries
 			}
@@ -304,8 +304,8 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = IRQ_muhammad_fadhil_al_jamali_political_advisor
+			slot = other_minister
+			idea_token = IRQ_muhammad_fadhil_al_jamali_other_minister
 			traits = { KR_education_reformer }
 		}
 	}
@@ -317,8 +317,8 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = IRQ_sadiq_al_bassam_political_advisor
+			slot = other_minister
+			idea_token = IRQ_sadiq_al_bassam_other_minister
 			available = {
 				has_completed_focus = IRQ_Resadiye_Reorganisation
 			}
@@ -333,8 +333,8 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = IRQ_muhammed_salim_al_radhi_political_advisor
+			slot = other_minister
+			idea_token = IRQ_muhammed_salim_al_radhi_other_minister
 			traits = { KR_agricultural_economist }
 		}
 	}
@@ -346,8 +346,8 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = IRQ_yousef_ghanima_political_advisor
+			slot = other_minister
+			idea_token = IRQ_yousef_ghanima_other_minister
 			traits = { KR_bank_president }
 		}
 	}
@@ -359,8 +359,8 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = IRQ_hanna_khayyat_political_advisor
+			slot = other_minister
+			idea_token = IRQ_hanna_khayyat_other_minister
 			traits = { KR_public_health_advocate }
 		}
 	}
@@ -374,8 +374,8 @@ characters = {
 				}
 			}
 			advisor = {
-				slot = political_advisor
-				idea_token = IRQ_hashim_al_alawi_political_advisor_lar
+				slot = other_minister
+				idea_token = IRQ_hashim_al_alawi_other_minister_lar
 				available = {
 					has_intelligence_agency = yes
 				}
@@ -391,8 +391,8 @@ characters = {
 				}
 			}
 			advisor = {
-				slot = political_advisor
-				idea_token = IRQ_hashim_al_alawi_political_advisor
+				slot = other_minister
+				idea_token = IRQ_hashim_al_alawi_other_minister
 				traits = { KR_crime_fighter }
 			}
 		}
@@ -405,8 +405,8 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = IRQ_rauf_al_bahrani_political_advisor
+			slot = other_minister
+			idea_token = IRQ_rauf_al_bahrani_other_minister
 			traits = { KR_economic_reformer }
 		}
 	}
@@ -418,8 +418,8 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = IRQ_abd_al_mahdi_political_advisor
+			slot = other_minister
+			idea_token = IRQ_abd_al_mahdi_other_minister
 			available = {
 				has_completed_focus = IRQ_Increase_Shiite_Parliamentary_Representation
 			}
@@ -434,8 +434,8 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = IRQ_jafar_abu_al_timman_political_advisor
+			slot = other_minister
+			idea_token = IRQ_jafar_abu_al_timman_other_minister
 			available = {
 				has_completed_focus = IRQ_Society_for_Eradicating_Illiteracy
 			}
@@ -450,8 +450,8 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = IRQ_muhammad_hadid_political_advisor
+			slot = other_minister
+			idea_token = IRQ_muhammad_hadid_other_minister
 			available = {
 				has_completed_focus = IRQ_Enact_Sliding_Scale_Taxation
 			}

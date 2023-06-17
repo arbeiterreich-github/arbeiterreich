@@ -290,7 +290,7 @@ country_event = {
 			activate_advisor = GBR_henry_page_croft_second_in_command
 		}
 		else = {
-			activate_advisor = GBR_henry_page_croft_political_advisor
+			activate_advisor = GBR_henry_page_croft_other_minister
 		}
 		if = {
 			limit = { check_variable = { king_influence < 5 } }
@@ -329,7 +329,7 @@ country_event = {
 			activate_advisor = GBR_robert_gascoyne_cecil_second_in_command
 		}
 		else = {
-			activate_advisor = GBR_robert_gascoyne_cecil_political_advisor
+			activate_advisor = GBR_robert_gascoyne_cecil_other_minister
 		}
 		if = {
 			limit = { check_variable = { king_influence > 0 } }
@@ -357,7 +357,7 @@ country_event = {
 			activate_advisor = GBR_anthony_eden_second_in_command
 		}
 		else = {
-			activate_advisor = GBR_anthony_eden_political_advisor
+			activate_advisor = GBR_anthony_eden_other_minister
 		}
 		add_stability = 0.03
 		set_temp_variable = { ideology_change_var = 0.05 }
@@ -1718,7 +1718,7 @@ country_event = {
 			}
 			modifier = {
 				add = 15
-				GBR_henry_page_croft = { is_political_advisor = yes }
+				GBR_henry_page_croft = { is_other_minister = yes }
 			}
 		}
 		set_country_flag = CAN_C7_full_cons
@@ -1737,7 +1737,7 @@ country_event = {
 			}
 			modifier = {
 				add = 10
-				GBR_robert_gascoyne_cecil = { is_political_advisor = yes }
+				GBR_robert_gascoyne_cecil = { is_other_minister = yes }
 			}
 			modifier = {
 				factor = 0
@@ -1773,7 +1773,7 @@ country_event = {
 			}
 			modifier = {
 				add = 20
-				GBR_robert_gascoyne_cecil = { is_political_advisor = yes }
+				GBR_robert_gascoyne_cecil = { is_other_minister = yes }
 			}
 		}
 		set_country_flag = CAN_C7_no_cons
@@ -1792,7 +1792,7 @@ country_event = {
 			}
 			modifier = {
 				add = 10
-				GBR_henry_page_croft = { is_political_advisor = yes }
+				GBR_henry_page_croft = { is_other_minister = yes }
 			}
 		}
 		set_temp_variable = { ideology_change_var = -0.05 }
@@ -1908,7 +1908,7 @@ country_event = {
 			base = 60
 			modifier = {
 				factor = 1.5
-				GBR_robert_gascoyne_cecil = { is_political_advisor = yes }
+				GBR_robert_gascoyne_cecil = { is_other_minister = yes }
 			}
 		}
 		set_country_flag = CAN_C7_econ_lib
@@ -1924,7 +1924,7 @@ country_event = {
 			base = 60
 			modifier = {
 				factor = 1.5
-				GBR_henry_page_croft = { is_political_advisor = yes }
+				GBR_henry_page_croft = { is_other_minister = yes }
 			}
 		}
 		set_country_flag = CAN_C7_econ_conserv
@@ -2068,7 +2068,7 @@ country_event = {
 			if = {
 				limit = {
 					has_country_flag = CAN_C7_full_cons
-					GBR_robert_gascoyne_cecil = { is_political_advisor = no }
+					GBR_robert_gascoyne_cecil = { is_other_minister = no }
 				}
 				subtract_from_variable = { chance_pass = 10 }
 			}
@@ -2145,7 +2145,7 @@ country_event = {
 				add_to_variable = { chance_pass = 10 }
 			}
 			if = {
-				limit = { GBR_robert_gascoyne_cecil = { is_political_advisor = yes } }
+				limit = { GBR_robert_gascoyne_cecil = { is_other_minister = yes } }
 				add_to_variable = { chance_pass = 10 }
 			}
 			set_variable = { vote = random }
@@ -3241,11 +3241,11 @@ country_event = {
 		tag = CAN
 		has_country_flag = CAN_king_replaces_pm
 		OR = {
-			GBR_henry_page_croft = { is_political_advisor = yes }
+			GBR_henry_page_croft = { is_other_minister = yes }
 			GBR_henry_page_croft = { is_second_in_command = yes }
-			GBR_robert_gascoyne_cecil = { is_political_advisor = yes }
+			GBR_robert_gascoyne_cecil = { is_other_minister = yes }
 			GBR_robert_gascoyne_cecil = { is_second_in_command = yes }
-			GBR_anthony_eden = { is_political_advisor = yes }
+			GBR_anthony_eden = { is_other_minister = yes }
 			GBR_anthony_eden = { is_second_in_command = yes }
 		}
 		NOT = { has_idea = CAN_rally_the_country }
@@ -3265,7 +3265,7 @@ country_event = {
 			activate_advisor = GBR_robert_vansittart_second_in_command
 		}
 		else = {
-			activate_advisor = GBR_robert_vansittart_political_advisor
+			activate_advisor = GBR_robert_vansittart_other_minister
 		}
 		custom_effect_tooltip = CAN_exile_influence_decrease
 		if = {

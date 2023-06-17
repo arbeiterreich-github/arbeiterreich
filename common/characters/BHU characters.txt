@@ -53,7 +53,7 @@ characters = {
 			ideology = national_populist_subtype
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BHU_choekyi_wangchuck
 			available = {
 				OR = {
@@ -90,7 +90,7 @@ characters = {
 			can_be_fired = no
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BHU_sonam_topgye_dorji_advisor
 			available = {
 				has_country_flag = BHU_ref_favored
@@ -99,7 +99,7 @@ characters = {
 					has_idea = BHU_feudal_6
 					has_idea = BHU_feudal_7
 				}
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_administrative_genius }
 		}
@@ -248,7 +248,7 @@ characters = {
 			can_be_fired = no
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BHU_namgyal_bahadur_advisor
 			available = {
 				has_country_flag = BHU_con_favored
@@ -257,7 +257,7 @@ characters = {
 					has_idea = BHU_feudal_6
 					has_idea = BHU_feudal_7
 				}
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_young_guard }
 		}
@@ -297,7 +297,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BHU_zamadar_chencho_political
 			available = {
 				has_completed_focus = bhu_address_military
@@ -306,7 +306,7 @@ characters = {
 					has_idea = BHU_feudal_6
 					has_idea = BHU_feudal_7
 				}
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_infantry_proponent }
 		}
@@ -366,7 +366,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BHU_chimi_dorji_rabden
 			available = {
 				OR = {
@@ -391,7 +391,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BHU_chogley_jigme_tenzin
 			available = {
 				OR = {
@@ -412,7 +412,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BHU_jhulendra_bahadur_pradhan
 			available = {
 				OR = {
@@ -437,7 +437,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BHU_phuntsho_choden
 			available = {
 				OR = {
@@ -462,7 +462,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BHU_samten_jamtsho
 			allowed = {
 				has_dlc_lar = yes
@@ -482,7 +482,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BHU_tashi_namgyal
 			available = {
 				owns_state = 888

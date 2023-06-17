@@ -95,12 +95,12 @@ characters = {
 			can_be_fired = no
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ROM_alexandru_cantacuzino_advisor
 			available = {
 				has_government = national_populist
 				has_country_flag = ROM_radicals_supported
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_ultranationalist_agitator }
 		}
@@ -190,7 +190,7 @@ characters = {
 			traits = { ROM_protector_of_democracy2 }
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ROM_mihai_advisor
 			available = {
 				has_completed_focus = ROM_carlist_restoration
@@ -727,12 +727,12 @@ characters = {
 			can_be_fired = no
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ROM_ion_mota_advisor
 			available = {
 				has_government = national_populist
 				has_country_flag = ROM_og_supported
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_spiritual_leader }
 		}
@@ -745,7 +745,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ROM_ernest_urdrianu
 			available = {
 				has_completed_focus = ROM_study_the_legionaries
@@ -763,7 +763,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ROM_gheorge_clime
 			available = {
 				has_government = national_populist
@@ -780,7 +780,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ROM_constantin_papanace
 			available = { has_government = national_populist }
 			traits = { KR_traditionalist_economist }
@@ -797,7 +797,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ROM_mihail_sturdza
 			available = { has_government = national_populist }
 			traits = { KR_ideological_crusader }
@@ -812,7 +812,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ROM_grigore_gafencu
 			available = {
 				has_democratic_government = yes
@@ -828,7 +828,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ROM_gheorge_tatarescu
 			available = {
 				OR = {
@@ -851,7 +851,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ROM_victor_slavescu
 			available = { NOT = { has_government = national_populist } }
 			traits = { KR_bank_president }
@@ -865,11 +865,11 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ROM_max_auschnitt
 			available = {
 				NOT = { has_government = national_populist }
-				ROM_nicolae_malaxa = { is_political_advisor = no }
+				ROM_nicolae_malaxa = { is_other_minister = no }
 			}
 			traits = { KR_steel_magnate }
 		}
@@ -882,11 +882,11 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ROM_nicolae_malaxa
 			available = {
 				has_completed_focus = ROM_support_malaxa
-				ROM_max_auschnitt = { is_political_advisor = no }
+				ROM_max_auschnitt = { is_other_minister = no }
 			}
 			traits = { KR_administrative_genius }
 		}
@@ -899,7 +899,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ROM_mikhail_moruzov
 			allowed = {
 				has_dlc_lar = yes
@@ -918,7 +918,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ROM_dimitrie_gusti
 			available = {
 				OR = {

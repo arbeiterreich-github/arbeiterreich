@@ -261,7 +261,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ARM_grigor_jaghetyan
 			traits = { KR_bank_president }
 		}
@@ -274,7 +274,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ARM_sargis_araratyan
 			traits = { KR_industrial_chemist }
 		}
@@ -287,7 +287,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ARM_nikol_aghbalian
 			traits = { KR_influential_intellectual }
 		}
@@ -300,7 +300,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ARM_simon_vratsian
 			traits = { KR_pragmatic_statesman }
 		}
@@ -313,7 +313,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ARM_garegin_pastermadjian
 			traits = { KR_respected_war_hero }
 		}
@@ -326,7 +326,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ARM_sose_vartanian
 			traits = { KR_social_revolutionary }
 		}
@@ -339,7 +339,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ARM_arshavir_shirgian
 			allowed = {
 				has_dlc_lar = yes

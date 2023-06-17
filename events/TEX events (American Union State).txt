@@ -446,7 +446,7 @@ country_event = { # Replace Charles Coughlin?
 	is_triggered_only = yes
 
 	trigger = {
-		TEX_charles_edward_coughlin = { is_political_advisor = yes }
+		TEX_charles_edward_coughlin = { is_other_minister = yes }
 	}
 
 	option = { # Remove
@@ -473,7 +473,7 @@ country_event = { # The Long Dynasty
 
 	trigger = {
 		has_country_leader = { character = TEX_huey_long }
-		has_free_political_advisor_slot = yes
+		has_free_other_minister_slot = yes
 	}
 
 	option = { # That's going too far
@@ -516,7 +516,7 @@ country_event = { # The Truth about Hugo Black
 	is_triggered_only = yes
 
 	trigger = {
-		TEX_hugo_lafayette_black = { is_political_advisor = yes }
+		TEX_hugo_lafayette_black = { is_other_minister = yes }
 	}
 
 	option = { # An intolerable association

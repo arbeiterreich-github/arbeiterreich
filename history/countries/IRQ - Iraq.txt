@@ -75,7 +75,7 @@ recruit_character = IRQ_yasin_al_hashimi
 ### Generals
 recruit_character = IRQ_kamil_shabib
 
-activate_advisor = IRQ_rashid_al_gaylani_political_advisor
+activate_advisor = IRQ_rashid_al_gaylani_other_minister
 
 recruit_character = IRQ_hikmat_sulayman
 recruit_character = IRQ_salah_al_din_al_sabbagh

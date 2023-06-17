@@ -1090,7 +1090,7 @@ country_event = { #Fate of Cyrenaica
 				every_character = {
 					limit = {
 						OR = {
-							has_advisor_role = political_advisor
+							has_advisor_role = other_minister
 							is_unit_leader = yes
 						}
 						is_generic_advisor = no

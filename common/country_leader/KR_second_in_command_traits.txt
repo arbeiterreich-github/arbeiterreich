@@ -74,7 +74,7 @@ leader_traits = {
 		sprite = 13
 		random = no
 		political_power_factor = 0.1
-		political_advisor_cost_factor = -0.5
+		other_minister_cost_factor = -0.5
 	}
 	KR_corporate_suit_sic = {
 		sprite = 10
@@ -171,7 +171,7 @@ leader_traits = {
 		mobilization_laws_cost_factor = -0.35
 		trade_laws_cost_factor = -0.35
 		economy_cost_factor = -0.35
-		political_advisor_cost_factor = -0.35
+		other_minister_cost_factor = -0.35
 	}
 	KR_pragmatic_statesman_sic = {
 		sprite = 13
@@ -416,7 +416,7 @@ leader_traits = {
 	KR_anarchist_proponent_sic = {
 		sprite = 12
 		random = no
-		political_advisor_cost_factor = -0.25
+		other_minister_cost_factor = -0.25
 		economy_cost_factor = -0.25
 		trade_laws_cost_factor = -0.25
 	}
@@ -433,7 +433,7 @@ leader_traits = {
 		random = no
 		political_power_factor = -0.25
 		war_support_factor = 0.1
-		political_advisor_cost_factor = -0.25
+		other_minister_cost_factor = -0.25
 	}
 
 	### ROM ###
@@ -543,7 +543,7 @@ leader_traits = {
 		sprite = 12
 		random = no
 		political_power_factor = 0.15
-		political_advisor_cost_factor = -0.15
+		other_minister_cost_factor = -0.15
 		stability_factor = -0.02
 	}
 
@@ -553,7 +553,7 @@ leader_traits = {
 		random = no
 		political_power_factor = -0.05
 		stability_factor = 0.05
-		political_advisor_cost_factor = -0.3
+		other_minister_cost_factor = -0.3
 	}
 	KR_socialist_industrializer_sic = {
 		sprite = 13
@@ -575,7 +575,7 @@ leader_traits = {
 		sprite = 10
 		random = no
 		political_power_gain = 0.3
-		political_advisor_cost_factor = -0.25
+		other_minister_cost_factor = -0.25
 		army_chief_cost_factor = -0.25
 		navy_chief_cost_factor = -0.25
 		air_chief_cost_factor = -0.25
@@ -729,7 +729,7 @@ leader_traits = {
 		sprite = 13
 		random = no
 		stability_factor = 0.15
-		political_advisor_cost_factor = -0.33
+		other_minister_cost_factor = -0.33
 		high_command_cost_factor = -0.20
 	}
 
@@ -803,7 +803,7 @@ leader_traits = {
 	KR_clan_council_sic = {
 		sprite = 13
 		random = no
-		political_advisor_cost_factor = -0.05
+		other_minister_cost_factor = -0.05
 		high_command_cost_factor = -0.05
 		command_power_gain_mult = 0.10 #To Help with Tibet Minigame
 	}

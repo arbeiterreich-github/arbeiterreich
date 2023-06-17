@@ -365,7 +365,7 @@ country_event = {
 			add_advisor_role = {
 				character = PAP_eugenio_pacelli
 				advisor = {
-					slot = political_advisor
+					slot = other_minister
 					idea_token = PAP_eugenio_pacelli
 					traits = { KR_master_diplomat }
 				}
@@ -456,7 +456,7 @@ country_event = {
 			add_advisor_role = {
 				character = PAP_eugenio_pacelli
 				advisor = {
-					slot = political_advisor
+					slot = other_minister
 					idea_token = PAP_eugenio_pacelli
 					traits = { KR_master_diplomat }
 				}
@@ -548,7 +548,7 @@ country_event = {
 			add_advisor_role = {
 				character = PAP_eugenio_pacelli
 				advisor = {
-					slot = political_advisor
+					slot = other_minister
 					idea_token = PAP_eugenio_pacelli
 					traits = { KR_master_diplomat }
 				}

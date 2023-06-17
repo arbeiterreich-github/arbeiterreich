@@ -316,7 +316,7 @@ country_event = {
 	fire_only_once = yes
 	trigger = {
 		has_completed_focus = CHI_est_civil_service
-		CHI_zhou_fohai = { is_political_advisor = yes }
+		CHI_zhou_fohai = { is_other_minister = yes }
 	}
 	option = {  #sack him
 		name = chi_dom.8.a
@@ -933,7 +933,7 @@ country_event = {
 		add_advisor_role = {
 			character = CHI_chiang_ching_kuo
 			advisor = {
-				slot = political_advisor
+				slot = other_minister
 				idea_token = CHI_chiang_ching_kuo
 				traits = { KR_political_protege }
 				ai_will_do = { factor = 1 }

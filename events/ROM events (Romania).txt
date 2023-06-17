@@ -6253,7 +6253,7 @@ country_event = {
 		add_to_variable = { var = ROM_IG_OG value = -1 }
 		add_to_variable = { var = ROM_IG_CZC value = 2 }
 		custom_effect_tooltip = tooltip_white_line
-		custom_effect_tooltip = remove_political_advisor
+		custom_effect_tooltip = remove_other_minister
 		show_ideas_tooltip = ROM_ion_mota_advisor
 		clr_country_flag = ROM_og_supported
 	}
@@ -6299,7 +6299,7 @@ country_event = {
 		add_to_variable = { var = ROM_IG_CML value = -1 }
 		add_to_variable = { var = ROM_IG_CZC value = 2 }
 		custom_effect_tooltip = tooltip_white_line
-		custom_effect_tooltip = remove_political_advisor
+		custom_effect_tooltip = remove_other_minister
 		show_ideas_tooltip = ROM_gheorge_clime
 		clr_country_flag = ROM_cml_supported
 	}
@@ -6334,7 +6334,7 @@ country_event = {
 		add_to_variable = { var = ROM_IG_CNTZ value = -1 }
 		add_to_variable = { var = ROM_IG_CZC value = 2 }
 		custom_effect_tooltip = tooltip_white_line
-		custom_effect_tooltip = remove_political_advisor
+		custom_effect_tooltip = remove_other_minister
 		show_ideas_tooltip = ROM_alexandru_cantacuzino_advisor
 		clr_country_flag = ROM_radicals_supported
 	}
@@ -6357,7 +6357,7 @@ country_event = {
 		activate_advisor = ROM_ion_mota_sic
 		add_stability = -0.05
 		if = {
-			limit = { ROM_ion_mota = { is_political_advisor = no } }
+			limit = { ROM_ion_mota = { is_other_minister = no } }
 			add_political_power = 50
 		}
 	}
@@ -7359,7 +7359,7 @@ country_event = {
 		ROM_mihail_sturdza = {
 			hidden_effect = {
 				set_character_name = ROM_mihai_ii
-				remove_political_advisor_role = yes
+				remove_other_minister_role = yes
 			}
 			add_country_leader_role = {
 				country_leader = {

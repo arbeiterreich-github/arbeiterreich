@@ -2642,7 +2642,7 @@ country_event = {#Negotiations with old military and bureacracy
 		add_political_power = -75
 		add_stability = -0.05
 		custom_effect_tooltip = tooltip_white_line
-		custom_effect_tooltip = available_political_advisor
+		custom_effect_tooltip = available_other_minister
 		ARG = {
 			show_ideas_tooltip = ARG_jose_maria_sobral
 			show_ideas_tooltip = ARG_luis_costa
@@ -5066,8 +5066,8 @@ country_event = { #Expeditionary Force Returns to France (FRA)
 			FRA = { FRA_nestor_makhno = { set_nationality = ROOT } }
 			if = {
 				limit = { tag = FRA }
-				custom_effect_tooltip = available_political_advisor
-				show_ideas_tooltip = FRA_nestor_makhno_political_advisor
+				custom_effect_tooltip = available_other_minister
+				show_ideas_tooltip = FRA_nestor_makhno_other_minister
 			}
 		}
 		if = {

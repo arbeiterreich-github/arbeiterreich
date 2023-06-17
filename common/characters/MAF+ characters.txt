@@ -196,7 +196,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = MAF_Carl_Schmitt
 			traits = { KR_legalist }
 		}
@@ -466,7 +466,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = MAF_Friedrich_Kegel
 			traits = { KR_railway_magnate }
 		}
@@ -480,7 +480,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = MAF_Alfred_Zintgraff
 			traits = { KR_media_magnate }
 		}
@@ -494,7 +494,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = MAF_Erich_Groener
 			traits = { KR_shipping_magnate }
 		}
@@ -508,7 +508,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = MAF_Jan_Cornelius_van_Sambeek
 			traits = { KR_education_reformer }
 		}
@@ -522,7 +522,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = MAF_Max_von_Schenckendorff
 			allowed = {
 				has_dlc_lar = yes

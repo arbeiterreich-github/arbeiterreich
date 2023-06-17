@@ -92,7 +92,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CSA_eleanor_roosevelt
 			available = {
 				if = {
@@ -279,7 +279,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CSA_dorothy_day
 			traits = { KR_catholic_anarchist }
 		}
@@ -292,7 +292,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CSA_paul_leroy_robeson
 			traits = { KR_renaissance_man }
 		}
@@ -305,7 +305,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CSA_whittaker_chambers
 			traits = { KR_media_magnate }
 		}
@@ -318,7 +318,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CSA_alger_hiss
 			traits = { KR_backroom_backstabber }
 		}
@@ -331,7 +331,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CSA_james_william_ford
 			traits = { KR_racial_equalist }
 		}
@@ -344,7 +344,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CSA_reverend_major_jealous_divine
 			traits = { KR_spiritual_leader }
 		}
@@ -357,7 +357,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CSA_ernest_miller_hemingway
 			traits = { KR_socialist_novelist }
 		}
@@ -370,7 +370,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CSA_ralph_hosea_chaplin
 			traits = { KR_cooperative_advocate }
 		}
@@ -383,7 +383,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CSA_harry_dexter_white
 			traits = { KR_economic_reformer }
 		}
@@ -396,7 +396,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CSA_meyer_london
 			traits = { KR_humanitarian }
 		}
@@ -409,7 +409,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CSA_james_renshaw_cox
 			traits = { KR_compassionate_priest }
 		}
@@ -422,7 +422,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CSA_ralph_johnson_bunche
 			traits = { KR_socialist_moderate }
 		}
@@ -435,7 +435,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CSA_william_ross_knudsen
 			traits = { KR_administrative_genius }
 		}
@@ -448,7 +448,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CSA_harold_maskell_ware
 			traits = { KR_agrarian_expert }
 		}
@@ -461,7 +461,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CSA_alexander_golberger
 			allowed = {
 				has_dlc_lar = yes

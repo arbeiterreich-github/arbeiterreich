@@ -114,7 +114,7 @@ characters = {
 			ideology = national_populist_subtype
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = LIB_frank_emmanuel_tolbert
 			available = { is_country_leader = no }
 			traits = { KR_brilliant_lawyer }
@@ -132,7 +132,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = LIB_thomas_nimene_botoe
 			traits = { KR_pragmatic_statesman }
 		}
@@ -145,7 +145,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = LIB_harry_augustus_greaves_sr
 			traits = { KR_smiling_oilman }
 		}
@@ -158,7 +158,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = LIB_momolu_dukuly
 			traits = { KR_compassionate_gentleman }
 		}
@@ -171,7 +171,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = LIB_gabriel_lafayette_dennis
 			traits = { KR_political_protege }
 		}
@@ -184,7 +184,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = LIB_nete_sie_brownell
 			traits = { KR_silent_workhorse }
 		}
@@ -197,7 +197,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = LIB_jayah_massaquoi
 			traits = { KR_popular_figurehead }
 		}
@@ -210,7 +210,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = LIB_didwho_welleh_twe
 			traits = { KR_civil_rights_advocate }
 		}
@@ -224,7 +224,7 @@ characters = {
 	#		}
 	#	}
 	#	advisor = {
-	#		slot = political_advisor
+	#		slot = other_minister
 	#		idea_token = LIB_gabriel_johnson
 	#		traits = { KR_economic_reformer }
 	#	}

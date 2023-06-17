@@ -158,7 +158,7 @@ leader_traits = {
 	MON_affable_academic = { #Jamsrangiin Tseveen
 		random = no
 		research_speed_factor = 0.05
-		political_advisor_cost_factor = -0.15
+		other_minister_cost_factor = -0.15
 		ai_focus_peaceful_factor = 0.25
 	}
 	MON_isolated_centrist = { #Davizavyn Lsol
@@ -765,7 +765,7 @@ leader_traits = {
 	ETH_negusa_nagast_2 = { #Haile Selassie
 		random = no
 		stability_factor = 0.25
-		political_advisor_cost_factor = -0.33
+		other_minister_cost_factor = -0.33
 	}
 	ETH_red_prince = { #Imru Haile Selassie
 		random = no
@@ -802,7 +802,7 @@ leader_traits = {
 	TIB_talented_reformer = { #Tsipön Lungshar
 		random = no
 		production_speed_buildings_factor = 0.1
-		political_advisor_cost_factor = -0.25
+		other_minister_cost_factor = -0.25
 	}
 	TIB_cosmopolitan_commander = { #Tsarong Dzasa
 		random = no
@@ -832,7 +832,7 @@ leader_traits = {
 	CEY_charismatic_opportunist = { #S.W.R.D Bandaranaike
 		random = no
 		political_power_factor = 0.1
-		political_advisor_cost_factor = -0.33
+		other_minister_cost_factor = -0.33
 	}
 	CEY_father_of_ceylon = { #Don Stephen Senanayake
 		random = no

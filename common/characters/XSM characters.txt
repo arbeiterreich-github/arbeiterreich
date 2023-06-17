@@ -324,14 +324,14 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = XSM_ma_bukang_pol
 			allowed = {
 				has_dlc_lar = yes
 			}
 			available = {
 				has_intelligence_agency = yes
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_head_of_intelligence }
 		}
@@ -354,7 +354,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = XSM_yang_zuorong_pol
 			traits = { KR_technocrat }
 		}
@@ -368,7 +368,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = XSM_ma_liang_pol
 			traits = { KR_railway_magnate }
 		}
@@ -382,7 +382,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = XSM_hu_songshan_pol
 			traits = { KR_great_compromiser }
 		}
@@ -396,7 +396,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = XSM_ma_burong_pol
 			traits = { KR_mixed_economy_proponent }
 		}
@@ -410,7 +410,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = XSM_ma_xiantu_pol
 			traits = { KR_crime_fighter }
 		}
@@ -424,7 +424,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = XSM_tien_chung_chin_pol
 			traits = { KR_education_reformer }
 		}

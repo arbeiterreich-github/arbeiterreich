@@ -508,7 +508,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = TIB_kapshoba
 			traits = { KR_captain_of_industry }
 		}
@@ -521,7 +521,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = TIB_dechen_nyingpo
 			traits = { KR_man_of_the_people }
 		}
@@ -534,7 +534,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = TIB_lobzang_yampel_pangdatsang
 			traits = { KR_administrative_genius }
 		}
@@ -547,7 +547,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = TIB_lukhangpa
 			traits = { KR_austere_finance_advocate }
 		}
@@ -561,7 +561,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = TIB_shengka_gyurme_topgyal
 			traits = { KR_elder_aristocrat }
 		}
@@ -574,7 +574,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = TIB_ngagchen_rinpoche
 			available = {
 				has_authoritarian_government = yes
@@ -590,7 +590,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = TIB_agvan_dorzhiev
 			available = {
 				has_authoritarian_government = yes
@@ -606,7 +606,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = TIB_norbhu_dhondhup
 			available = {
 				has_authoritarian_government = yes
@@ -622,7 +622,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = TIB_tsepon_wangchuk_shakabpa
 			available = {
 				has_authoritarian_government = yes
@@ -638,7 +638,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = TIB_dudjom_jigdral_yeshe_dorje
 			available = {
 				has_government = paternal_autocrat
@@ -654,7 +654,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = TIB_jamyang_tenpe_gyeltsen
 			available = {
 				has_government = paternal_autocrat
@@ -670,7 +670,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = TIB_gendun_chophel
 			available = {
 				has_democratic_government = yes
@@ -686,7 +686,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = TIB_hugh_richardson
 			available = {
 				has_government = authoritarian_democrat
@@ -702,7 +702,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = TIB_rapga_pangdatsang
 			available = {
 				has_socialist_government = yes
@@ -718,7 +718,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = TIB_karl_tonisson
 			available = {
 				has_socialist_government = yes
@@ -734,7 +734,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = TIB_surkhang_wangchen_gelek
 			available = {
 				OR = {
@@ -753,7 +753,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = TIB_rigzin_dorje_ringang
 			available = {
 				NOT = { has_government = paternal_autocrat }
@@ -769,7 +769,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = TIB_wangdu_norbu_kyipup
 			available = {
 				NOT = { has_government = paternal_autocrat }
@@ -785,7 +785,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = TIB_peter_aufschnaiter
 			available = {
 				OR = {

@@ -37,7 +37,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = NEP_kaiser_shumsher_jang_bahadur_rana
 			available = {
 				OR = {
@@ -68,7 +68,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = NEP_subarna_shamsher_rana
 			available = {
 				OR = {
@@ -94,7 +94,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = NEP_tanka_prasad_acharya
 			available = {
 				OR = {
@@ -245,7 +245,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = NEP_bharat_mani_sharma
 			available = {
 				OR = {
@@ -265,7 +265,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = NEP_dharma_bhakta_mathema
 			available = {
 				OR = {
@@ -285,7 +285,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = NEP_shukraraj_shastri
 			available = {
 				OR = {
@@ -305,7 +305,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = NEP_krishna_prasad_koirala
 			available = {
 				OR = {
@@ -325,7 +325,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = NEP_laxmi_prasad_devkota
 			available = {
 				OR = {
@@ -345,7 +345,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = NEP_nrip_jang_rana
 			available = {
 				OR = {
@@ -365,7 +365,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = NEP_mohan_shumsher_jang_bahadur_rana
 			available = {
 				OR = {
@@ -373,7 +373,7 @@ characters = {
 					has_government = social_conservative
 					has_government = market_liberal
 				}
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_elder_aristocrat }
 		}
@@ -400,7 +400,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = NEP_baber_shumsher_jang_bahadur_rana
 			available = {
 				OR = {
@@ -408,7 +408,7 @@ characters = {
 					has_government = social_conservative
 					has_government = market_liberal
 				}
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_respected_war_hero }
 		}
@@ -435,7 +435,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = NEP_padma_shumsher_jang_bahadur_rana
 			available = {
 				OR = {
@@ -455,7 +455,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = NEP_ranaji_vishnu_shumsher_jang_bahadur_rana
 			available = {
 				OR = {

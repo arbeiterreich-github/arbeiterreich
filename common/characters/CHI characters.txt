@@ -26,10 +26,10 @@ characters = {
 						has_completed_focus = CHI_work_with_underground
 						has_completed_focus = GXC_lec_ties
 					}
-					not_already_hired_except_as = political_advisor
+					not_already_hired_except_as = other_minister
 				}
-				slot = political_advisor
-				idea_token = CHI_dai_chunfeng_political_advisor
+				slot = other_minister
+				idea_token = CHI_dai_chunfeng_other_minister
 				traits = { KR_head_of_intelligence }
 			}
 		}
@@ -55,11 +55,11 @@ characters = {
 						has_completed_focus = CHI_work_with_underground
 						has_completed_focus = GXC_lec_ties
 					}
-					not_already_hired_except_as = political_advisor
+					not_already_hired_except_as = other_minister
 				}
-				slot = political_advisor
+				slot = other_minister
 				desc = CHI_dai_chunfeng_desc
-				idea_token = CHI_dai_chunfeng_political_advisor
+				idea_token = CHI_dai_chunfeng_other_minister
 				traits = { KR_backroom_backstabber }
 			}
 		}
@@ -77,7 +77,7 @@ characters = {
 			ideology = syndicalist_subtype
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CHI_chen_duxiu
 			available = {
 				is_country_leader = no
@@ -660,7 +660,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CHI_zhou_enlai
 			traits = { KR_young_guard }
 		}
@@ -673,7 +673,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CHI_song_ziwen
 			traits = { KR_state_capitalist }
 		}
@@ -686,7 +686,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CHI_gu_mengyu
 			traits = { KR_great_compromiser }
 		}
@@ -699,7 +699,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CHI_chen_bijun
 
 			traits = { KR_madame_wang }
@@ -713,7 +713,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CHI_zhou_fohai
 			traits = { KR_tireless_organiser }
 			on_add = {
@@ -729,7 +729,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CHI_li_shiqun
 			traits = { KR_iron_fisted_brute }
 		}
@@ -742,7 +742,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CHI_eugene_chen
 			traits = { KR_plodding_bureaucrat }
 			cost = 50
@@ -756,7 +756,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CHI_zhang_renjie
 			traits = { KR_mixed_economy_proponent }
 		}
@@ -769,7 +769,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CHI_zhang_guotao
 			available = {
 				has_government = totalist
@@ -785,7 +785,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CHI_mao_renfang
 			available = {
 				has_government = totalist
@@ -801,7 +801,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CHI_chen_lifu
 			available = {
 				OR = {
@@ -821,7 +821,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CHI_cai_yuanpei
 			traits = { KR_socialist_novelist }
 		}
@@ -834,7 +834,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CHI_deng_yingchao
 			traits = { KR_chinese_feminist }
 			on_add = {

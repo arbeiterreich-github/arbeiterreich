@@ -110,11 +110,11 @@ JBS_Decrease_Ulemma_Support = {
 			JBS_ulemma_influence = {
 				remove_trait = {
 					trait = JBS_Ulemma_Very_Happy
-					slot = political_advisor
+					slot = other_minister
 				}
 				add_trait = {
 					trait = JBS_Ulemma_Happy
-					slot = political_advisor
+					slot = other_minister
 				}
 			}
 		}
@@ -135,11 +135,11 @@ JBS_Decrease_Ulemma_Support = {
 			JBS_ulemma_influence = {
 				remove_trait = {
 					trait = JBS_Ulemma_Happy
-					slot = political_advisor
+					slot = other_minister
 				}
 				add_trait = {
 					trait = JBS_Ulemma_Pleased
-					slot = political_advisor
+					slot = other_minister
 				}
 			}
 		}
@@ -160,11 +160,11 @@ JBS_Decrease_Ulemma_Support = {
 			JBS_ulemma_influence = {
 				remove_trait = {
 					trait = JBS_Ulemma_Pleased
-					slot = political_advisor
+					slot = other_minister
 				}
 				add_trait = {
 					trait = JBS_Ulemma_Neutral
-					slot = political_advisor
+					slot = other_minister
 				}
 			}
 		}
@@ -185,11 +185,11 @@ JBS_Decrease_Ulemma_Support = {
 			JBS_ulemma_influence = {
 				remove_trait = {
 					trait = JBS_Ulemma_Neutral
-					slot = political_advisor
+					slot = other_minister
 				}
 				add_trait = {
 					trait = JBS_Ulemma_Discontent
-					slot = political_advisor
+					slot = other_minister
 				}
 			}
 		}
@@ -210,11 +210,11 @@ JBS_Decrease_Ulemma_Support = {
 			JBS_ulemma_influence = {
 				remove_trait = {
 					trait = JBS_Ulemma_Discontent
-					slot = political_advisor
+					slot = other_minister
 				}
 				add_trait = {
 					trait = JBS_Ulemma_Unhappy
-					slot = political_advisor
+					slot = other_minister
 				}
 			}
 		}
@@ -235,11 +235,11 @@ JBS_Decrease_Ulemma_Support = {
 			JBS_ulemma_influence = {
 				remove_trait = {
 					trait = JBS_Ulemma_Unhappy
-					slot = political_advisor
+					slot = other_minister
 				}
 				add_trait = {
 					trait = JBS_Ulemma_Very_Unhappy
-					slot = political_advisor
+					slot = other_minister
 				}
 			}
 			if = {
@@ -273,11 +273,11 @@ JBS_Increase_Ulemma_Support = {
 			JBS_ulemma_influence = {
 				remove_trait = {
 					trait = JBS_Ulemma_Very_Unhappy
-					slot = political_advisor
+					slot = other_minister
 				}
 				add_trait = {
 					trait = JBS_Ulemma_Unhappy
-					slot = political_advisor
+					slot = other_minister
 				}
 			}
 		}
@@ -298,11 +298,11 @@ JBS_Increase_Ulemma_Support = {
 			JBS_ulemma_influence = {
 				remove_trait = {
 					trait = JBS_Ulemma_Unhappy
-					slot = political_advisor
+					slot = other_minister
 				}
 				add_trait = {
 					trait = JBS_Ulemma_Discontent
-					slot = political_advisor
+					slot = other_minister
 				}
 			}
 		}
@@ -323,11 +323,11 @@ JBS_Increase_Ulemma_Support = {
 			JBS_ulemma_influence = {
 				remove_trait = {
 					trait = JBS_Ulemma_Discontent
-					slot = political_advisor
+					slot = other_minister
 				}
 				add_trait = {
 					trait = JBS_Ulemma_Neutral
-					slot = political_advisor
+					slot = other_minister
 				}
 			}
 		}
@@ -348,11 +348,11 @@ JBS_Increase_Ulemma_Support = {
 			JBS_ulemma_influence = {
 				remove_trait = {
 					trait = JBS_Ulemma_Neutral
-					slot = political_advisor
+					slot = other_minister
 				}
 				add_trait = {
 					trait = JBS_Ulemma_Pleased
-					slot = political_advisor
+					slot = other_minister
 				}
 			}
 		}
@@ -373,11 +373,11 @@ JBS_Increase_Ulemma_Support = {
 			JBS_ulemma_influence = {
 				remove_trait = {
 					trait = JBS_Ulemma_Pleased
-					slot = political_advisor
+					slot = other_minister
 				}
 				add_trait = {
 					trait = JBS_Ulemma_Happy
-					slot = political_advisor
+					slot = other_minister
 				}
 			}
 		}
@@ -398,11 +398,11 @@ JBS_Increase_Ulemma_Support = {
 			JBS_ulemma_influence = {
 				remove_trait = {
 					trait = JBS_Ulemma_Happy
-					slot = political_advisor
+					slot = other_minister
 				}
 				add_trait = {
 					trait = JBS_Ulemma_Very_Happy
-					slot = political_advisor
+					slot = other_minister
 				}
 			}
 		}
@@ -428,11 +428,11 @@ JBS_Decrease_Bedouin_Support = {
 			JBS_bedouin_influence = {
 				remove_trait = {
 					trait = JBS_Bedouin_Very_Happy
-					slot = political_advisor
+					slot = other_minister
 				}
 				add_trait = {
 					trait = JBS_Bedouin_Happy
-					slot = political_advisor
+					slot = other_minister
 				}
 			}
 		}
@@ -453,11 +453,11 @@ JBS_Decrease_Bedouin_Support = {
 			JBS_bedouin_influence = {
 				remove_trait = {
 					trait = JBS_Bedouin_Happy
-					slot = political_advisor
+					slot = other_minister
 				}
 				add_trait = {
 					trait = JBS_Bedouin_Pleased
-					slot = political_advisor
+					slot = other_minister
 				}
 			}
 		}
@@ -478,11 +478,11 @@ JBS_Decrease_Bedouin_Support = {
 			JBS_bedouin_influence = {
 				remove_trait = {
 					trait = JBS_Bedouin_Pleased
-					slot = political_advisor
+					slot = other_minister
 				}
 				add_trait = {
 					trait = JBS_Bedouin_Neutral
-					slot = political_advisor
+					slot = other_minister
 				}
 			}
 		}
@@ -503,11 +503,11 @@ JBS_Decrease_Bedouin_Support = {
 			JBS_bedouin_influence = {
 				remove_trait = {
 					trait = JBS_Bedouin_Neutral
-					slot = political_advisor
+					slot = other_minister
 				}
 				add_trait = {
 					trait = JBS_Bedouin_Discontent
-					slot = political_advisor
+					slot = other_minister
 				}
 			}
 		}
@@ -528,11 +528,11 @@ JBS_Decrease_Bedouin_Support = {
 			JBS_bedouin_influence = {
 				remove_trait = {
 					trait = JBS_Bedouin_Discontent
-					slot = political_advisor
+					slot = other_minister
 				}
 				add_trait = {
 					trait = JBS_Bedouin_Unhappy
-					slot = political_advisor
+					slot = other_minister
 				}
 			}
 		}
@@ -553,11 +553,11 @@ JBS_Decrease_Bedouin_Support = {
 			JBS_bedouin_influence = {
 				remove_trait = {
 					trait = JBS_Bedouin_Unhappy
-					slot = political_advisor
+					slot = other_minister
 				}
 				add_trait = {
 					trait = JBS_Bedouin_Very_Unhappy
-					slot = political_advisor
+					slot = other_minister
 				}
 			}
 			country_event = { id = jbs.6 days = 10 }
@@ -583,11 +583,11 @@ JBS_Increase_Bedouin_Support = {
 			JBS_bedouin_influence = {
 				remove_trait = {
 					trait = JBS_Bedouin_Very_Unhappy
-					slot = political_advisor
+					slot = other_minister
 				}
 				add_trait = {
 					trait = JBS_Bedouin_Unhappy
-					slot = political_advisor
+					slot = other_minister
 				}
 			}
 		}
@@ -608,11 +608,11 @@ JBS_Increase_Bedouin_Support = {
 			JBS_bedouin_influence = {
 				remove_trait = {
 					trait = JBS_Bedouin_Unhappy
-					slot = political_advisor
+					slot = other_minister
 				}
 				add_trait = {
 					trait = JBS_Bedouin_Discontent
-					slot = political_advisor
+					slot = other_minister
 				}
 			}
 		}
@@ -633,11 +633,11 @@ JBS_Increase_Bedouin_Support = {
 			JBS_bedouin_influence = {
 				remove_trait = {
 					trait = JBS_Bedouin_Discontent
-					slot = political_advisor
+					slot = other_minister
 				}
 				add_trait = {
 					trait = JBS_Bedouin_Neutral
-					slot = political_advisor
+					slot = other_minister
 				}
 			}
 		}
@@ -658,11 +658,11 @@ JBS_Increase_Bedouin_Support = {
 			JBS_bedouin_influence = {
 				remove_trait = {
 					trait = JBS_Bedouin_Neutral
-					slot = political_advisor
+					slot = other_minister
 				}
 				add_trait = {
 					trait = JBS_Bedouin_Pleased
-					slot = political_advisor
+					slot = other_minister
 				}
 			}
 		}
@@ -683,11 +683,11 @@ JBS_Increase_Bedouin_Support = {
 			JBS_bedouin_influence = {
 				remove_trait = {
 					trait = JBS_Bedouin_Pleased
-					slot = political_advisor
+					slot = other_minister
 				}
 				add_trait = {
 					trait = JBS_Bedouin_Happy
-					slot = political_advisor
+					slot = other_minister
 				}
 			}
 		}
@@ -708,11 +708,11 @@ JBS_Increase_Bedouin_Support = {
 			JBS_bedouin_influence = {
 				remove_trait = {
 					trait = JBS_Bedouin_Happy
-					slot = political_advisor
+					slot = other_minister
 				}
 				add_trait = {
 					trait = JBS_Bedouin_Very_Happy
-					slot = political_advisor
+					slot = other_minister
 				}
 			}
 		}
@@ -738,11 +738,11 @@ JBS_Decrease_Urban_Nobility_Support = {
 			JBS_urban_nobility_influence = {
 				remove_trait = {
 					trait = JBS_Urban_Nobility_Very_Happy
-					slot = political_advisor
+					slot = other_minister
 				}
 				add_trait = {
 					trait = JBS_Urban_Nobility_Happy
-					slot = political_advisor
+					slot = other_minister
 				}
 			}
 		}
@@ -763,11 +763,11 @@ JBS_Decrease_Urban_Nobility_Support = {
 			JBS_urban_nobility_influence = {
 				remove_trait = {
 					trait = JBS_Urban_Nobility_Happy
-					slot = political_advisor
+					slot = other_minister
 				}
 				add_trait = {
 					trait = JBS_Urban_Nobility_Pleased
-					slot = political_advisor
+					slot = other_minister
 				}
 			}
 		}
@@ -788,11 +788,11 @@ JBS_Decrease_Urban_Nobility_Support = {
 			JBS_urban_nobility_influence = {
 				remove_trait = {
 					trait = JBS_Urban_Nobility_Pleased
-					slot = political_advisor
+					slot = other_minister
 				}
 				add_trait = {
 					trait = JBS_Urban_Nobility_Neutral
-					slot = political_advisor
+					slot = other_minister
 				}
 			}
 		}
@@ -813,11 +813,11 @@ JBS_Decrease_Urban_Nobility_Support = {
 			JBS_urban_nobility_influence = {
 				remove_trait = {
 					trait = JBS_Urban_Nobility_Neutral
-					slot = political_advisor
+					slot = other_minister
 				}
 				add_trait = {
 					trait = JBS_Urban_Nobility_Discontent
-					slot = political_advisor
+					slot = other_minister
 				}
 			}
 		}
@@ -838,11 +838,11 @@ JBS_Decrease_Urban_Nobility_Support = {
 			JBS_urban_nobility_influence = {
 				remove_trait = {
 					trait = JBS_Urban_Nobility_Discontent
-					slot = political_advisor
+					slot = other_minister
 				}
 				add_trait = {
 					trait = JBS_Urban_Nobility_Unhappy
-					slot = political_advisor
+					slot = other_minister
 				}
 			}
 			if = {
@@ -873,11 +873,11 @@ JBS_Decrease_Urban_Nobility_Support = {
 			JBS_urban_nobility_influence = {
 				remove_trait = {
 					trait = JBS_Urban_Nobility_Unhappy
-					slot = political_advisor
+					slot = other_minister
 				}
 				add_trait = {
 					trait = JBS_Urban_Nobility_Very_Unhappy
-					slot = political_advisor
+					slot = other_minister
 				}
 			}
 			if = {
@@ -911,11 +911,11 @@ JBS_Increase_Urban_Nobility_Support = {
 			JBS_urban_nobility_influence = {
 				remove_trait = {
 					trait = JBS_Urban_Nobility_Very_Unhappy
-					slot = political_advisor
+					slot = other_minister
 				}
 				add_trait = {
 					trait = JBS_Urban_Nobility_Unhappy
-					slot = political_advisor
+					slot = other_minister
 				}
 			}
 		}
@@ -936,11 +936,11 @@ JBS_Increase_Urban_Nobility_Support = {
 			JBS_urban_nobility_influence = {
 				remove_trait = {
 					trait = JBS_Urban_Nobility_Unhappy
-					slot = political_advisor
+					slot = other_minister
 				}
 				add_trait = {
 					trait = JBS_Urban_Nobility_Discontent
-					slot = political_advisor
+					slot = other_minister
 				}
 			}
 		}
@@ -961,11 +961,11 @@ JBS_Increase_Urban_Nobility_Support = {
 			JBS_urban_nobility_influence = {
 				remove_trait = {
 					trait = JBS_Urban_Nobility_Discontent
-					slot = political_advisor
+					slot = other_minister
 				}
 				add_trait = {
 					trait = JBS_Urban_Nobility_Neutral
-					slot = political_advisor
+					slot = other_minister
 				}
 			}
 		}
@@ -986,11 +986,11 @@ JBS_Increase_Urban_Nobility_Support = {
 			JBS_urban_nobility_influence = {
 				remove_trait = {
 					trait = JBS_Urban_Nobility_Neutral
-					slot = political_advisor
+					slot = other_minister
 				}
 				add_trait = {
 					trait = JBS_Urban_Nobility_Pleased
-					slot = political_advisor
+					slot = other_minister
 				}
 			}
 		}
@@ -1011,11 +1011,11 @@ JBS_Increase_Urban_Nobility_Support = {
 			JBS_urban_nobility_influence = {
 				remove_trait = {
 					trait = JBS_Urban_Nobility_Pleased
-					slot = political_advisor
+					slot = other_minister
 				}
 				add_trait = {
 					trait = JBS_Urban_Nobility_Happy
-					slot = political_advisor
+					slot = other_minister
 				}
 			}
 		}
@@ -1036,11 +1036,11 @@ JBS_Increase_Urban_Nobility_Support = {
 			JBS_urban_nobility_influence = {
 				remove_trait = {
 					trait = JBS_Urban_Nobility_Happy
-					slot = political_advisor
+					slot = other_minister
 				}
 				add_trait = {
 					trait = JBS_Urban_Nobility_Very_Happy
-					slot = political_advisor
+					slot = other_minister
 				}
 			}
 		}
