@@ -41,7 +41,7 @@ characters = {
 		}
 		advisor = {
 			idea_token = ARG_juan_domingo_peron
-			slot = political_advisor
+			slot = other_minister
 			traits = { KR_geopolitical_theorist }
 			desc = ARG_juan_domingo_peron_advisor_desc
 		}
@@ -276,10 +276,10 @@ characters = {
 			ai_will_do = { factor = 4 }
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = ARG_enrique_mosconi_political_advisor
+			slot = other_minister
+			idea_token = ARG_enrique_mosconi_other_minister
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 				if = {
 					limit = { tag = ARG }
 					has_completed_focus = ARG_YPF_Expansion
@@ -343,7 +343,7 @@ characters = {
 			logistics_skill = 1
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ARG_manuel_savio
 			traits = { KR_master_engineer }
 			desc = ARG_manuel_savio_advisor_desc
@@ -435,12 +435,12 @@ characters = {
 			cost = 50
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ARG_manuel_domecq_garcia_political
 			traits = { KR_backroom_backstabber }
 			available = {
 				has_government = national_populist
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			desc = ARG_manuel_domecq_garcia_advisor_desc
 			ai_will_do = { factor = 15 }
@@ -630,7 +630,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ARG_miguel_ortiz
 			available = {
 				has_democratic_government = yes
@@ -647,7 +647,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ARG_segundo_storni
 			traits = { KR_battlefleet_proponent }
 			desc = ARG_segundo_storni_desc
@@ -661,7 +661,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ARG_luis_costa
 			traits = { KR_agricultural_economist }
 			available = {
@@ -681,7 +681,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ARG_juan_cooke
 			available = {
 				NOT = { has_any_authoritarian_government = yes }
@@ -698,7 +698,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ARG_diego_mason
 			traits = { KR_reformist_soldier }
 			desc = ARG_diego_mason_desc
@@ -712,7 +712,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ARG_carlos_begnis
 			traits = { KR_medical_expert }
 			desc = ARG_carlos_begnis_desc
@@ -727,7 +727,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ARG_alberto_gilbert
 			traits = { KR_infantry_proponent }
 			desc = ARG_alberto_gilbert_desc
@@ -742,7 +742,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ARG_carlos_sanchez_viamonte
 			available = {
 				NOT = { has_any_authoritarian_government = yes }
@@ -759,7 +759,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ARG_jose_maria_sobral
 			available = {
 				if = {
@@ -898,7 +898,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ARG_eduardo_lonardi
 			allowed = {
 				has_dlc_lar = yes

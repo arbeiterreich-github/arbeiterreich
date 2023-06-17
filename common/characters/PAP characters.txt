@@ -136,7 +136,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PAP_luigi_maglione
 			traits = { KR_affable_insider }
 		}
@@ -149,7 +149,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PAP_giovanni_battista_montini
 			traits = { KR_silent_workhorse }
 		}
@@ -162,7 +162,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PAP_filippo_cremonesi
 			traits = { KR_compassionate_gentleman }
 		}
@@ -175,7 +175,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PAP_pietro_campilli
 			traits = { KR_pious_entrepreneur }
 		}
@@ -188,7 +188,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PAP_filippo_andrea_doria_pamphili
 			traits = { KR_popular_nobleman }
 		}
@@ -201,7 +201,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PAP_sergio_fenoaltea
 			traits = { KR_conscientious_diplomat }
 		}
@@ -214,7 +214,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PAP_leone_cattani
 			available = {
 				has_completed_focus = PAP_relinquish_temporal
@@ -230,7 +230,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PAP_alberto_cianca
 			available = {
 				has_completed_focus = PAP_relinquish_temporal
@@ -246,7 +246,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PAP_ludovico_chigi_albani_dalla_rovere
 			available = {
 				has_completed_focus = PAP_temporal_power
@@ -262,7 +262,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PAP_heinrich_pfyffer_von_altishofen
 			available = {
 				has_completed_focus = PAP_temporal_power
@@ -278,7 +278,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PAP_felix_morlion
 			allowed = {
 				has_dlc_lar = yes

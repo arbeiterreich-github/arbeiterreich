@@ -140,7 +140,7 @@ characters = {
 			ideology = market_liberal_subtype
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = YUN_miao_yuntai
 			traits = { KR_industrialiser }
 		}
@@ -285,7 +285,7 @@ characters = {
 			logistics_skill = 3
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = YUN_hu_ruoyu
 			visible = {
 				has_country_leader = { character = YUN_tang_jiyao }
@@ -360,10 +360,10 @@ characters = {
 			cost = 100
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = YUN_long_yun_pol
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			visible = {
 				has_country_leader = { character = YUN_tang_jiyao }
@@ -395,7 +395,7 @@ characters = {
 			logistics_skill = 1
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = YUN_lu_han
 			visible = {
 				has_country_leader = { character = YUN_tang_jiyao }
@@ -627,7 +627,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = YUN_gu_zhenglun
 			available = {
 				NOT = { has_country_leader = { character = YUN_tang_jiyao } }
@@ -643,7 +643,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = YUN_li_peitian
 			traits = { KR_political_protege }
 		}
@@ -656,7 +656,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = YUN_zhang_weihan
 			traits = { KR_popular_figurehead }
 		}
@@ -669,7 +669,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			available = {
 				has_country_leader = { character = YUN_long_yun }
 			}
@@ -685,7 +685,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = YUN_chen_jun
 			traits = { KR_railway_magnate }
 		}
@@ -698,7 +698,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			available = {
 				OR = {
 					has_completed_focus = YUN_join_the_right_KMT_committee
@@ -717,7 +717,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			available = { has_completed_focus = YUN_civilian_kmt }
 			idea_token = YUN_yang_yongtai
 			traits = { KR_armaments_organiser }
@@ -731,7 +731,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			available = { has_completed_focus = YUN_civilian_kmt }
 			idea_token = YUN_zhang_qun
 			traits = { KR_political_specialist }
@@ -745,7 +745,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			available = {
 				has_country_leader = { character = YUN_long_yun }
 			}

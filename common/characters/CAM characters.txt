@@ -27,11 +27,11 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CAM_sisowath_monireth_pol
 			available = {
 				is_country_leader = no
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_reformist_soldier }
 		}
@@ -114,7 +114,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CAM_penn_nouth_pol
 			traits = { KR_political_protege }
 		}
@@ -128,7 +128,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CAM_chhean_vam_pol
 			traits = { KR_democratic_reformer }
 		}
@@ -142,7 +142,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CAM_sisowath_youtevong_pol
 			traits = { KR_education_reformer }
 		}
@@ -156,7 +156,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CAM_son_ngoc_thanh_pol
 			traits = { KR_media_magnate }
 		}
@@ -170,7 +170,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CAM_oum_chheang_sun_pol
 			traits = { KR_silent_workhorse }
 		}
@@ -184,9 +184,9 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CAM_sisowath_watchayavong_pol
-			available = { not_already_hired_except_as = political_advisor }
+			available = { not_already_hired_except_as = other_minister }
 			traits = { KR_corporate_suit }
 		}
 		advisor = {
@@ -204,7 +204,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CAM_sam_an
 			allowed = {
 				has_dlc_lar = yes

@@ -1272,7 +1272,7 @@ country_event = { #Roosevelt vs Sinclair
 		CSA_radical_socialists_elected_effect = yes
 		hidden_effect = { promote_character = CSA_eleanor_roosevelt }
 		custom_effect_tooltip = tooltip_white_line
-		custom_effect_tooltip = available_political_advisor
+		custom_effect_tooltip = available_other_minister
 		show_ideas_tooltip = CSA_eleanor_roosevelt
 	}
 }
@@ -1319,7 +1319,7 @@ country_event = { #Roosevelt vs Thomas
 		CSA_radical_socialists_elected_effect = yes
 		hidden_effect = { promote_character = CSA_eleanor_roosevelt }
 		custom_effect_tooltip = tooltip_white_line
-		custom_effect_tooltip = available_political_advisor
+		custom_effect_tooltip = available_other_minister
 		show_ideas_tooltip = CSA_eleanor_roosevelt
 	}
 }

@@ -13,7 +13,7 @@ characters = {
 			ideology = totalist_subtype
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = HAW_jack_denichi_kimoto
 			available = {
 				has_socialist_government = yes
@@ -36,7 +36,7 @@ characters = {
 			ideology = syndicalist_subtype
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = HAW_jack_wayne_hall
 			available = {
 				has_socialist_government = yes
@@ -59,7 +59,7 @@ characters = {
 			ideology = radical_socialist_subtype
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = HAW_arthur_abraham_rutledge
 			available = {
 				has_socialist_government = yes
@@ -82,7 +82,7 @@ characters = {
 			ideology = social_democrat_subtype
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = HAW_john_henry_wilson
 			available = {
 				has_socialist_government = no
@@ -105,7 +105,7 @@ characters = {
 			ideology = social_liberal_subtype
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = HAW_samuel_wilder_king
 			available = {
 				has_socialist_government = no
@@ -139,7 +139,7 @@ characters = {
 			ideology = social_conservative_subtype
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = HAW_henry_alexander_baldwin
 			available = {
 				has_socialist_government = no
@@ -181,7 +181,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = HAW_ingram_macklin_stainback
 			available = {
 				has_socialist_government = no
@@ -197,7 +197,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = HAW_joseph_rider_farrington
 			traits = { KR_political_protege }
 		}
@@ -210,7 +210,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = HAW_charles_atwood_rice
 			available = {
 				has_socialist_government = no
@@ -226,7 +226,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = HAW_charles_reed_hemenway
 			available = {
 				has_socialist_government = no
@@ -242,7 +242,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = HAW_robert_larimore_shivers
 			allowed = {
 				has_dlc_lar = yes
@@ -320,7 +320,7 @@ characters = {
 			logistics_skill = 2
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = HAW_kendall_jordan_fielder
 			traits = { KR_reformist_soldier }
 		}

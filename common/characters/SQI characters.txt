@@ -53,7 +53,7 @@ characters = {
 			traits = { SQI_qu_bodisattva }
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SQI_qu_yingguang
 			available = {
 				is_country_leader = no
@@ -171,7 +171,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SQI_zhang_fuyun
 			traits = { KR_influential_intellectual }
 		}
@@ -184,7 +184,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SQI_lu_dezhen
 			traits = { KR_captain_of_industry }
 		}
@@ -197,7 +197,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SQI_wang_zonglu
 			traits = { KR_war_industrialist }
 		}
@@ -210,7 +210,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SQI_han_enrong
 			traits = { KR_ideological_crusader }
 		}
@@ -232,7 +232,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SQI_kong_dechong
 			traits = { KR_popular_figurehead }
 		}
@@ -474,11 +474,11 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = SQI_xu_yuanquan_political_advisor
+			slot = other_minister
+			idea_token = SQI_xu_yuanquan_other_minister
 			available = {
 				has_government = paternal_autocrat
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_iron_fisted_brute }
 		}

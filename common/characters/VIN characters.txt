@@ -155,10 +155,10 @@ characters = {
 			logistics_skill = 3
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = VIN_tran_quang_vinh_pol
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_mixed_economy_proponent }
 		}
@@ -234,7 +234,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = VIN_nguyen_ton_hoan_pol
 			traits = { KR_man_of_the_people }
 		}
@@ -248,7 +248,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = VIN_tran_trong_kim_pol
 			traits = { KR_naive_optimist }
 		}
@@ -262,7 +262,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = VIN_hoang_xuan_han_pol
 			traits = { KR_education_reformer }
 		}
@@ -276,7 +276,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = VIN_ngo_dinh_can_pol
 			allowed = {
 				has_dlc_lar = yes
@@ -296,7 +296,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = VIN_ngo_dinh_thuc_pol
 			traits = { KR_spiritual_leader }
 		}
@@ -310,7 +310,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = VIN_ha_thuc_ky_pol
 			traits = { KR_brilliant_lawyer }
 		}

@@ -104,7 +104,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PRF_chintaman_dwarakanath_deshmukh
 			traits = { KR_bank_president }
 		}
@@ -117,7 +117,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PRF_umaid_singh
 			traits = { KR_education_reformer }
 		}
@@ -130,7 +130,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PRF_harilal_jekisundas_kania
 			allowed = {
 				has_dlc_lar = yes
@@ -149,7 +149,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PRF_albion_rajkumar_banerjee
 			traits = { KR_pragmatic_statesman }
 		}
@@ -162,7 +162,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PRF_mokshagundam_visvesvaraya
 			traits = { KR_construction_magnate }
 		}
@@ -175,7 +175,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PRF_kishen_pershad
 			traits = { KR_compassionate_gentleman }
 		}

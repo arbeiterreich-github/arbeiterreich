@@ -40,7 +40,7 @@ leader_traits = {
 		sprite = 13
 		random = no
 		political_power_factor = 0.05
-		political_advisor_cost_factor = -0.33
+		other_minister_cost_factor = -0.33
 
 		ai_will_do = {
 			factor = 1
@@ -99,7 +99,7 @@ leader_traits = {
 		mobilization_laws_cost_factor = -0.25
 		trade_laws_cost_factor = -0.25
 		economy_cost_factor = -0.25
-		political_advisor_cost_factor = -0.25
+		other_minister_cost_factor = -0.25
 
 		ai_will_do = {
 			factor = 1
@@ -854,7 +854,7 @@ leader_traits = {
 		random = no
 		sprite = 13
 		war_stability_factor = 0.3
-		political_advisor_cost_factor = -0.15
+		other_minister_cost_factor = -0.15
 	}
 
 	KR_influential_intellectual = {
@@ -1061,7 +1061,7 @@ leader_traits = {
 		sprite = 13
 		random = no
 		political_power_factor = 0.05
-		political_advisor_cost_factor = -0.25
+		other_minister_cost_factor = -0.25
 		experience_gain_air = 0.05
 
 		ai_will_do = {
@@ -1340,7 +1340,7 @@ leader_traits = {
 		sprite = 14
 		political_power_factor = -0.05
 		stability_factor = 0.03
-		political_advisor_cost_factor = -0.25
+		other_minister_cost_factor = -0.25
 	}
 	KR_paramilitary_leader = {
 		sprite = 7
@@ -1420,7 +1420,7 @@ leader_traits = {
 		sprite = 13
 		random = no
 		production_factory_max_efficiency_factor = 0.05
-		political_advisor_cost_factor = -0.33
+		other_minister_cost_factor = -0.33
 
 		ai_will_do = {
 			factor = 1
@@ -2136,7 +2136,7 @@ leader_traits = {
 		sprite = 13
 		random = no
 		political_power_factor = 0.05
-		political_advisor_cost_factor = -0.25
+		other_minister_cost_factor = -0.25
 		ai_will_do = {
 			factor = 1
 		}
@@ -2665,13 +2665,13 @@ leader_traits = {
 		sprite = 13
 		random = no
 		political_power_factor = -0.05
-		political_advisor_cost_factor = 0.15
+		other_minister_cost_factor = 0.15
 		stability_factor = -0.10
 	}
 	QIE_pm_imperial_cabinet = {#not used yet but will be
 		sprite = 13
 		random = no
-		political_advisor_cost_factor = 0.15
+		other_minister_cost_factor = 0.15
 		stability_factor = 0.10
 	}
 	QIE_chief_executive_bideyuan = {
@@ -2683,7 +2683,7 @@ leader_traits = {
 	QIE_secretary_general = {
 		sprite = 13
 		random = no
-		political_advisor_cost_factor = -0.25
+		other_minister_cost_factor = -0.25
 		army_chief_cost_factor = -0.25
 		navy_chief_cost_factor = -0.25
 		air_chief_cost_factor = -0.25
@@ -2766,7 +2766,7 @@ leader_traits = {
 		random = no
 		sprite = 13
 		political_power_factor = 0.1
-		political_advisor_cost_factor = -0.15
+		other_minister_cost_factor = -0.15
 	}
 	SAF_political_pioneer = { #Zainunissa Gool
 		random = no
@@ -2806,14 +2806,14 @@ leader_traits = {
 		random = no
 		sprite = 13
 		political_power_factor = 0.1
-		political_advisor_cost_factor = -0.20
+		other_minister_cost_factor = -0.20
 	}
 
 	### PAP ###
 	KR_affable_insider = {
 		sprite = 13
 		random = no
-		political_advisor_cost_factor = -0.25
+		other_minister_cost_factor = -0.25
 		army_chief_cost_factor = -0.25
 		navy_chief_cost_factor = -0.25
 		air_chief_cost_factor = -0.25

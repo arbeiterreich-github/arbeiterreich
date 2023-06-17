@@ -23,7 +23,7 @@ is_second_in_command = {
 		is_hired_as_advisor = yes
 
 		#make sure they're not just hired as another slot
-		NOT = { not_already_hired_except_as = political_advisor }
+		NOT = { not_already_hired_except_as = other_minister }
 		NOT = { not_already_hired_except_as = army_chief }
 		NOT = { not_already_hired_except_as = navy_chief }
 		NOT = { not_already_hired_except_as = air_chief }
@@ -32,14 +32,14 @@ is_second_in_command = {
 	}
 }
 
-has_free_political_advisor_slot = {
-	amount_taken_ideas = { amount < 3 slots = { political_advisor } }
+has_free_other_minister_slot = {
+	amount_taken_ideas = { amount < 3 slots = { other_minister } }
 }
 
-has_two_political_advisors = {
-	amount_taken_ideas = { amount > 1 slots = { political_advisor } }
+has_two_other_ministers = {
+	amount_taken_ideas = { amount > 1 slots = { other_minister } }
 }
 
-has_any_political_advisor = {
-	amount_taken_ideas = { amount > 0 slots = { political_advisor } }
+has_any_other_minister = {
+	amount_taken_ideas = { amount > 0 slots = { other_minister } }
 }

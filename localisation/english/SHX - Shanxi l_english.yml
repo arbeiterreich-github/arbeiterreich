@@ -756,7 +756,7 @@
  SHX_automatic_GMJ_coup_tooltip: "§RShould the Guominjun reach military supremacy, they will immediately revolt!§!"
  SHX_change_to_paying_with_inf_tooltip: "§CUpon selection we will change to paying with influence§!"
  SHX_change_to_paying_with_pp_tooltip: "§CUpon selection we will change to paying with political power§!"
- SHX_political_advisors_reminder_tooltip: "§GOur choice of advisors and staff may provide us unforeseen benefits down the line§!"
+ SHX_other_ministers_reminder_tooltip: "§GOur choice of advisors and staff may provide us unforeseen benefits down the line§!"
  SHX_special_coup_circumstances_tooltip: "§RBarring foreign invasion or other special circumstances, the power struggle in Shanxi will always end with either a purge or revolution. Yan will remain dominant should the Guominjun miss their chance§!"
  SHX_reform_disrupted_by_war_tooltip: "§RThe raging of war has severely disrupted the implementation of our reforms, considerably extending the time it will take.§!"
  SHX_dual_armies_modifier_tooltip: "§RWe will be unable to recruit divisions, edit templates or disband units until we complete the §YIntegrate the Armies§! national focus§!"

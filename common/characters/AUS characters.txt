@@ -717,7 +717,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = AUS_julius_meinl_jr
 			traits = { KR_captain_of_industry }
 		}
@@ -730,7 +730,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = AUS_ludwig_von_mises
 			available = {
 				NOT = {
@@ -749,7 +749,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = AUS_karl_von_skoda
 			traits = { KR_war_industrialist }
 		}
@@ -771,7 +771,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = AUS_maximilian_ronge
 			allowed = {
 				has_dlc_lar = yes
@@ -790,7 +790,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = AUS_emil_fey
 			available = {
 				NOT = {
@@ -809,7 +809,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = AUS_hugo_breitner
 			available = {
 				has_government = social_democrat
@@ -825,7 +825,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = AUS_walter_breisky
 			traits = { KR_education_reformer }
 		}
@@ -838,7 +838,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = AUS_richard_von_coudenhove
 			available = {
 				has_elected_government = yes
@@ -854,7 +854,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = AUS_hermann_pokorny
 			allowed = {
 				has_dlc_lar = yes

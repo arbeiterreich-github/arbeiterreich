@@ -222,7 +222,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = QIE_cao_kun
 			traits = { QIE_drunken_dabbler }
 			cost = 0
@@ -241,7 +241,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = QIE_bai_jianwu_pol
 			traits = { KR_silent_workhorse }
 		}
@@ -254,7 +254,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = QIE_wang_chonghui_pol
 			traits = { KR_chief_justice }
 		}
@@ -267,7 +267,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = QIE_zhang_yanqing_pol
 			traits = { KR_master_diplomat }
 		}
@@ -280,7 +280,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = QIE_gao_lingwei_pol
 			traits = { KR_political_specialist }
 		}
@@ -293,7 +293,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = QIE_peng_shouxin_pol
 			traits = { KR_old_general }
 		}
@@ -306,7 +306,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = QIE_wang_yujia_pol
 			traits = { KR_secret_police_chief }
 		}
@@ -319,7 +319,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = QIE_zeng_qi
 			traits = { KR_economic_reformer }
 			available = {
@@ -337,7 +337,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = QIE_li_linsi
 			traits = { KR_education_reformer }
 		}
@@ -365,7 +365,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = QIE_xiong_bingqi_pol
 			traits = { KR_industrialiser }
 		}
@@ -378,7 +378,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = QIE_lei_haizong_pol
 			traits = { KR_ideological_crusader }
 		}
@@ -391,7 +391,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = QIE_liang_shuming_pol
 			traits = { QIE_rural_reconstruction_advocate }
 		}
@@ -404,7 +404,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = QIE_tang_zhongming_pol
 			traits = { QIE_automotive_innovator }
 		}
@@ -420,7 +420,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = QIE_aisin_gioro_zaizhen
 			traits = { KR_corporate_suit }
 		}
@@ -433,7 +433,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = QIE_aisin_gioro_xiankui
 			traits = { KR_ultranationalist_agitator }
 		}
@@ -446,7 +446,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = QIE_baokang
 			traits = { KR_armaments_organiser }
 		}
@@ -459,7 +459,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = QIE_zheng_xiaoxu
 			traits = { KR_monarchist_loyalist }
 		}
@@ -472,7 +472,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = QIE_xie_jieshi
 			allowed = {
 				has_dlc_lar = yes
@@ -491,7 +491,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = QIE_guo_zeyun
 			traits = { KR_pious_intellectual }
 		}
@@ -620,7 +620,7 @@ characters = {
 			logistics_skill = 4
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = QIE_liu_menggeng_pol
 			allowed = {
 				has_dlc_lar = yes

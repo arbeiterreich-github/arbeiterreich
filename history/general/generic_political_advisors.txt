@@ -5,12 +5,12 @@
 every_possible_country = {
 	limit = {
 		is_dynamic_country = no
-		NOT = { any_character = { has_advisor_role = political_advisor } }
+		NOT = { any_character = { has_advisor_role = other_minister } }
 	}
 	generate_character = {
 		token_base = generic_silent_workhorse # token will be TAG_token_base
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			traits = { KR_silent_workhorse }
 		}
 		portraits = {
@@ -20,7 +20,7 @@ every_possible_country = {
 	generate_character = {
 		token_base = generic_captain_of_industry # token will be TAG_token_base
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			traits = { KR_captain_of_industry }
 		}
 		portraits = {
@@ -30,7 +30,7 @@ every_possible_country = {
 	generate_character = {
 		token_base = generic_fortification_engineer # token will be TAG_token_base
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			traits = { KR_fortification_engineer }
 		}
 		portraits = {
@@ -40,7 +40,7 @@ every_possible_country = {
 	generate_character = {
 		token_base = generic_war_industrialist # token will be TAG_token_base
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			traits = { KR_war_industrialist }
 		}
 		portraits = {

@@ -93,10 +93,10 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = AFG_mohammad_daoud_khan
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_young_guard }
 		}
@@ -208,10 +208,10 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = AFG_mohammad_gul_khan_momand
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_general_staffer }
 		}
@@ -234,10 +234,10 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = AFG_inayatullah_khan
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_plodding_bureaucrat }
 		}
@@ -260,10 +260,10 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = AFG_ali_ahmad_khan
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_political_specialist }
 		}
@@ -287,7 +287,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = AFG_faiz_mohammad_khan_zikeria
 			traits = { KR_influential_intellectual }
 		}
@@ -300,7 +300,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = AFG_mohammad_yusuf
 			traits = { KR_technocrat }
 		}
@@ -313,7 +313,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = AFG_abdul_ahad_wardak
 			traits = { KR_silent_workhorse }
 		}
@@ -326,7 +326,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = AFG_abdul_majid_zabuli
 			traits = { KR_bank_president }
 		}
@@ -339,7 +339,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ARG_sher_khan_nashir
 			traits = { KR_captain_of_industry }
 		}

@@ -186,12 +186,12 @@ country_event = {
 	option = {
 		name = austria.1.a
 		if = {
-			limit = { AUS_karl_von_skoda = { is_political_advisor = yes } }
+			limit = { AUS_karl_von_skoda = { is_other_minister = yes } }
 			retire_character = AUS_karl_von_skoda
 			add_advisor_role = {
 				character = AUS_hans_lauda
 				advisor = {
-					slot = political_advisor
+					slot = other_minister
 					idea_token = AUS_karl_von_skoda
 					traits = { KR_war_industrialist }
 				}
@@ -203,7 +203,7 @@ country_event = {
 			add_advisor_role = {
 				character = AUS_hans_lauda
 				advisor = {
-					slot = political_advisor
+					slot = other_minister
 					idea_token = AUS_karl_von_skoda
 					traits = { KR_war_industrialist }
 				}

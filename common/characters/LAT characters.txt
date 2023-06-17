@@ -50,7 +50,7 @@ characters = {
 			ideology = social_democrat_subtype
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = LAT_pauls_kalnins
 			allowed = { original_tag = BAT } #advisor only in BAT
 			available = {
@@ -96,7 +96,7 @@ characters = {
 			ideology = authoritarian_democrat_subtype
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = LAT_karlis_ulmanis
 			available = {
 				has_socialist_government = no
@@ -159,7 +159,7 @@ characters = {
 			ideology = national_populist_subtype
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = LAT_gustavs_celmins
 			available = {
 				has_authoritarian_government = yes
@@ -179,7 +179,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = LAT_vilis_lacis
 			available = {
 				has_socialist_government = yes
@@ -195,7 +195,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = LAT_alfreds_bilmanis
 			available = {
 				has_socialist_government = yes
@@ -211,7 +211,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = LAT_julijs_danisevskis
 			available = {
 				has_socialist_government = yes
@@ -227,7 +227,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = LAT_karlis_karlsons
 			available = {
 				has_authoritarian_government = no
@@ -243,7 +243,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = LAT_janis_kaminskis
 			traits = { KR_ambitious_engineer }
 		}
@@ -256,7 +256,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = LAT_alberts_kviesis
 			available = {
 				has_socialist_government = no
@@ -272,11 +272,11 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = LAT_janis_balodis_political_advisor
+			slot = other_minister
+			idea_token = LAT_janis_balodis_other_minister
 			available = {
 				has_authoritarian_government = yes
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_pragmatic_statesman }
 		}
@@ -299,7 +299,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = LAT_kornelijs_veitmanis
 			available = {
 				has_authoritarian_government = yes
@@ -315,7 +315,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = LAT_ludwig_adamovich
 			available = {
 				has_authoritarian_government = yes
@@ -501,7 +501,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = LAT_janis_fridrihsons
 			traits = { KR_head_of_intelligence }
 			allowed = {

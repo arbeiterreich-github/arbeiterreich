@@ -112,7 +112,7 @@ characters = {
 			ideology = syndicalist_subtype
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SIA_supha_sirimanon
 			available = {
 				has_socialist_government = yes
@@ -144,14 +144,14 @@ characters = {
 			can_be_fired = no
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SIA_pridi_phanomyong
 			available = {
 				OR = {
 					has_socialist_government = yes
 					has_left_democratic_government = yes
 				}
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_brilliant_lawyer }
 		}
@@ -185,14 +185,14 @@ characters = {
 			can_be_fired = no
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SIA_thawan_thamrongnawasawat
 			available = {
 				OR = {
 					has_socialist_government = yes
 					has_left_democratic_government = yes
 				}
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_mixed_economy_proponent }
 		}
@@ -220,7 +220,7 @@ characters = {
 			ideology = market_liberal_subtype
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SIA_pote_sarasin
 			available = {
 				OR = {
@@ -328,11 +328,11 @@ characters = {
 			can_be_fired = no
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SIA_phao_sriyanond
 			available = {
 				has_dictatorship_government = yes
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_secret_police_chief }
 		}
@@ -628,14 +628,14 @@ characters = {
 			logistics_skill = 1
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SIA_thep_panthumasaen
 			available = {
 				OR = {
 					has_socialist_government = yes
 					has_left_democratic_government = yes
 				}
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_armaments_organiser }
 		}
@@ -677,11 +677,11 @@ characters = {
 			logistics_skill = 1
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SIA_adul_adulyadejchrat
 			available = {
 				has_dictatorship_government = yes
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_prince_of_terror }
 		}
@@ -755,7 +755,7 @@ characters = {
 			logistics_skill = 1
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SIA_mangkorn_promyothee
 			available = {
 				has_democratic_government = yes
@@ -942,11 +942,11 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SIA_boonjeam_komolmit
 			available = {
 				has_completed_focus = SIA_antiairsystem
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_fortification_engineer }
 		}
@@ -1159,7 +1159,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SIA_tiang_sirikhanth
 			available = {
 				OR = {
@@ -1178,7 +1178,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SIA_wan_waithayakon
 			available = {
 				OR = {
@@ -1197,7 +1197,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SIA_wichit_wichitwathakan
 			available = {
 				has_dictatorship_government = yes
@@ -1217,7 +1217,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SIA_mangkorn_samsen
 			available = {
 				has_democratic_government = yes
@@ -1233,7 +1233,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SIA_sun_kijjumnong
 			available = {
 				has_socialist_government = yes
@@ -1249,7 +1249,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SIA_wichit_lulitanon
 			available = {
 				has_elected_government = yes
@@ -1265,7 +1265,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SIA_wisuth_tonwanik
 			available = {
 				has_dictatorship_government = yes
@@ -1285,7 +1285,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SIA_jira_wichitsongkhram
 			available = {
 				has_completed_focus = SIA_artilleryresearchdivision
@@ -1301,7 +1301,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SIA_pin_malakul
 			available = {
 				has_authoritarian_government = yes
@@ -1317,7 +1317,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SIA_tua_lapanukrom
 			available = {
 				has_elected_government = yes
@@ -1337,7 +1337,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SIA_jerm_arwuth
 			available = {
 				has_completed_focus = SIA_royalmunitionsfactory
@@ -1353,7 +1353,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SIA_narisara_nuwattiwong
 			available = {
 				has_authoritarian_government = yes
@@ -1369,7 +1369,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SIA_purachatra_jayakara
 			available = {
 				has_democratic_government = yes
@@ -1389,7 +1389,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SIA_bung_suphachalasai
 			available = {
 				has_democratic_government = yes
@@ -1405,7 +1405,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SIA_buntaeng_thongsawat
 			available = {
 				has_right_democratic_government = yes
@@ -1421,7 +1421,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SIA_kulap_saipradit
 			available = {
 				has_democratic_government = yes
@@ -1437,7 +1437,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SIA_pijarn_dullalampha
 			allowed = {
 				has_dlc_lar = yes
@@ -1456,7 +1456,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SIA_tianthai_apichartbhut
 			available = {
 				OR = {
@@ -1475,7 +1475,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SIA_wart_sunthonjamorn
 			available = {
 				has_socialist_government = yes

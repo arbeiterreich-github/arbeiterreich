@@ -803,7 +803,7 @@ SHX_xishan_fuxiang_power_struggle = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove SHX_reinforce_primary_school"
 			if = {
 				limit = {
-					SHX_zhao_pilian = { is_political_advisor = no }
+					SHX_zhao_pilian = { is_other_minister = no }
 				}
 				random_owned_controlled_state = {
 					limit = {
@@ -885,7 +885,7 @@ SHX_xishan_fuxiang_power_struggle = {
 			}
 			if = {
 				limit = {
-					SHX_zhao_pilian = { is_political_advisor = no }
+					SHX_zhao_pilian = { is_other_minister = no }
 				}
 				add_days_mission_timeout = {
 					mission = SHX_educational_reform_mission_timer
@@ -959,7 +959,7 @@ SHX_xishan_fuxiang_power_struggle = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove SHX_womens_college"
 			if = {
 				limit = {
-					SHX_chih_kung_jen = { is_political_advisor = no }
+					SHX_chih_kung_jen = { is_other_minister = no }
 				}
 
 				add_political_power = 35
@@ -1012,7 +1012,7 @@ SHX_xishan_fuxiang_power_struggle = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove SHX_eliminate_academic_corruption"
 			if = {
 				limit = {
-					SHX_chih_kung_jen = { is_political_advisor = no }
+					SHX_chih_kung_jen = { is_other_minister = no }
 				}
 
 				add_days_mission_timeout = {
@@ -1060,7 +1060,7 @@ SHX_xishan_fuxiang_power_struggle = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove SHX_cultivate_youthful_elite"
 			if = {
 				limit = {
-					SHX_zhao_pilian = { is_political_advisor = no }
+					SHX_zhao_pilian = { is_other_minister = no }
 				}
 				add_days_mission_timeout = {
 					mission = SHX_educational_reform_mission_timer
@@ -1113,7 +1113,7 @@ SHX_xishan_fuxiang_power_struggle = {
 			}
 			if = {
 				limit = {
-					SHX_chih_kung_jen = { is_political_advisor = no }
+					SHX_chih_kung_jen = { is_other_minister = no }
 				}
 				add_tech_bonus = {
 					bonus = 1
@@ -1163,7 +1163,7 @@ SHX_xishan_fuxiang_power_struggle = {
 			log = "[GetDateText]: [Root.GetName]: Decision complete SHX_expand_research_Beijing"
 			if = {
 				limit = {
-					SHX_chih_kung_jen = { is_political_advisor = no }
+					SHX_chih_kung_jen = { is_other_minister = no }
 				}
 				SHX_QIE_investment_small = yes
 			}
@@ -1177,7 +1177,7 @@ SHX_xishan_fuxiang_power_struggle = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove SHX_expand_research_Beijing"
 			if = {
 				limit = {
-					SHX_chih_kung_jen = { is_political_advisor = no }
+					SHX_chih_kung_jen = { is_other_minister = no }
 				}
 
 				add_tech_bonus = {
@@ -1261,7 +1261,7 @@ SHX_xishan_fuxiang_power_struggle = {
 			if = {
 				limit = {
 					OR = {
-						SHX_su_tiren = { is_political_advisor = yes }
+						SHX_su_tiren = { is_other_minister = yes }
 						SHX_su_tiren = { is_second_in_command = yes }
 					}
 				}
@@ -1314,7 +1314,7 @@ SHX_xishan_fuxiang_power_struggle = {
 			if = {
 				limit = {
 					OR = {
-						SHX_su_tiren = { is_political_advisor = yes }
+						SHX_su_tiren = { is_other_minister = yes }
 						SHX_su_tiren = { is_second_in_command = yes }
 					}
 				}
@@ -1364,7 +1364,7 @@ SHX_xishan_fuxiang_power_struggle = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove SHX_litigation"
 			if = {
 				limit = {
-					SHX_lian_tianxiang = { is_political_advisor = yes }
+					SHX_lian_tianxiang = { is_other_minister = yes }
 				}
 				add_days_mission_timeout = {
 					mission = SHX_agricultural_reform_mission_timer
@@ -1452,7 +1452,7 @@ SHX_xishan_fuxiang_power_struggle = {
 
 			if = {
 				limit = {
-					SHX_wei_yechou = { is_political_advisor = yes }
+					SHX_wei_yechou = { is_other_minister = yes }
 				}
 				add_days_mission_timeout = {
 					mission = SHX_agricultural_reform_mission_timer
@@ -1509,7 +1509,7 @@ SHX_xishan_fuxiang_power_struggle = {
 
 			if = {
 				limit = {
-					SHX_wei_yechou = { is_political_advisor = yes }
+					SHX_wei_yechou = { is_other_minister = yes }
 				}
 				add_days_mission_timeout = {
 					mission = SHX_agricultural_reform_mission_timer
@@ -1555,7 +1555,7 @@ SHX_xishan_fuxiang_power_struggle = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove SHX_peasant_cooperatives"
 			if = {
 				limit = {
-					SHX_lian_tianxiang = { is_political_advisor = yes }
+					SHX_lian_tianxiang = { is_other_minister = yes }
 				}
 				add_days_mission_timeout = {
 					mission = SHX_agricultural_reform_mission_timer
@@ -1574,7 +1574,7 @@ SHX_xishan_fuxiang_power_struggle = {
 			}
 			if = {
 				limit = {
-					SHX_wei_yechou = { is_political_advisor = yes }
+					SHX_wei_yechou = { is_other_minister = yes }
 				}
 				add_days_mission_timeout = {
 					mission = SHX_agricultural_reform_mission_timer
@@ -1623,7 +1623,7 @@ SHX_xishan_fuxiang_power_struggle = {
 
 			if = {
 				limit = {
-					SHX_wei_yechou = { is_political_advisor = yes }
+					SHX_wei_yechou = { is_other_minister = yes }
 				}
 				add_days_mission_timeout = {
 					mission = SHX_agricultural_reform_mission_timer
@@ -1685,7 +1685,7 @@ SHX_xishan_fuxiang_power_struggle = {
 
 			if = {
 				limit = {
-					SHX_lian_tianxiang = { is_political_advisor = yes }
+					SHX_lian_tianxiang = { is_other_minister = yes }
 				}
 				add_days_mission_timeout = {
 					mission = SHX_agricultural_reform_mission_timer
@@ -1734,7 +1734,7 @@ SHX_xishan_fuxiang_power_struggle = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove SHX_water_control"
 			1072 = { add_extra_state_shared_building_slots = 1 } #Western Shanxi
 			if = {
-				limit = { SHX_lian_tianxiang = { is_political_advisor = yes } }
+				limit = { SHX_lian_tianxiang = { is_other_minister = yes } }
 				add_political_power = 25
 				add_days_mission_timeout = {
 					mission = SHX_agricultural_reform_mission_timer
@@ -1801,7 +1801,7 @@ SHX_xishan_fuxiang_power_struggle = {
 			}
 			if = {
 				limit = {
-					SHX_lian_tianxiang = { is_political_advisor = yes }
+					SHX_lian_tianxiang = { is_other_minister = yes }
 				}
 				add_days_mission_timeout = {
 					mission = SHX_agricultural_reform_mission_timer
@@ -1856,7 +1856,7 @@ SHX_xishan_fuxiang_power_struggle = {
 			}
 			if = {
 				limit = {
-					SHX_lian_tianxiang = { is_political_advisor = yes }
+					SHX_lian_tianxiang = { is_other_minister = yes }
 				}
 				622 = {
 					if = {
@@ -1911,7 +1911,7 @@ SHX_xishan_fuxiang_power_struggle = {
 			}
 			if = {
 				limit = {
-					SHX_komoto_daisaku = { is_political_advisor = no }
+					SHX_komoto_daisaku = { is_other_minister = no }
 				}
 				add_days_mission_timeout = {
 					mission = SHX_agricultural_reform_mission_timer
@@ -2627,7 +2627,7 @@ SHX_xishan_fuxiang_power_struggle = {
 					NOT = {
 						SHX_wang_xiang = {
 							OR = {
-								is_political_advisor = yes
+								is_other_minister = yes
 								is_second_in_command = yes
 							}
 						}
@@ -2773,7 +2773,7 @@ SHX_xishan_fuxiang_power_struggle = {
 					NOT = {
 						SHX_wang_xiang = {
 							OR = {
-								is_political_advisor = yes
+								is_other_minister = yes
 								is_second_in_command = yes
 							}
 						}
@@ -2798,7 +2798,7 @@ SHX_xishan_fuxiang_power_struggle = {
 					NOT = {
 						SHX_wang_xiang = {
 							OR = {
-								is_political_advisor = yes
+								is_other_minister = yes
 								is_second_in_command = yes
 							}
 						}
@@ -2900,7 +2900,7 @@ SHX_xishan_fuxiang_power_struggle = {
 					NOT = {
 						SHX_wang_xiang = {
 							OR = {
-								is_political_advisor = yes
+								is_other_minister = yes
 								is_second_in_command = yes
 							}
 						}
@@ -2922,7 +2922,7 @@ SHX_xishan_fuxiang_power_struggle = {
 			}
 			if = {
 				limit = {
-					SHX_komoto_daisaku = { is_political_advisor = no }
+					SHX_komoto_daisaku = { is_other_minister = no }
 				}
 				add_days_mission_timeout = {
 					mission = SHX_industrial_reform_mission_timer
@@ -3288,7 +3288,7 @@ SHX_QIE_ties = {
 					NOT = {
 						SHX_wang_xiang = {
 							OR = {
-								is_political_advisor = yes
+								is_other_minister = yes
 								is_second_in_command = yes
 							}
 						}
@@ -6614,7 +6614,7 @@ SHX_northwest_decision_category = {
 			}
 			if = {
 				limit = {
-					SHX_komoto_daisaku = { is_political_advisor = no }
+					SHX_komoto_daisaku = { is_other_minister = no }
 				}
 				add_equipment_to_stockpile = {
 					type = train_equipment_1

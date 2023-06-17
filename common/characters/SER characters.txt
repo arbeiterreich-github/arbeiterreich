@@ -177,7 +177,7 @@ characters = {
 			ideology = social_democrat_subtype
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SER_zivko_topalovic
 			available = {
 				has_authoritarian_government = no
@@ -534,11 +534,11 @@ characters = {
 			can_be_fired = no
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SER_dusan_simovic_adv
 			available = {
 				has_socialist_government = no
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_political_survivor } # to be changed
 		}
@@ -633,7 +633,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SER_serbian_cultural_club
 			on_add = {
 				set_character_flag = character_event_only
@@ -660,7 +660,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SER_aleksandar_rankovic
 			available = {
 				has_socialist_government = yes
@@ -676,7 +676,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SER_konstantin_pecanac
 			traits = { KR_chetnik_veteran }
 		}
@@ -689,7 +689,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SER_slobodan_jovanovic
 			available = {
 				SER_has_republic = yes
@@ -705,7 +705,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SER_filip_filipovic
 			available = {
 				has_socialist_government = yes
@@ -721,7 +721,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SER_milan_srskic
 			available = {
 				OR = {
@@ -740,7 +740,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SER_ninko_peric
 			traits = { KR_interventionist_economist }
 		}
@@ -754,7 +754,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SER_milan_acimovic
 			on_add = {
 				set_character_flag = character_event_only
@@ -778,7 +778,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SER_dragutin_gavrilovic
 			traits = { KR_respected_war_hero }
 		}
@@ -792,7 +792,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SER_mladen_zujovic
 			available = {
 				SER_has_republic = yes
@@ -808,7 +808,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SER_momcilo_nincic
 			available = {
 				has_country_leader = { character = SER_milan_stojadinovic }
@@ -824,7 +824,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SER_milos_savcic
 			traits = { KR_captain_of_industry }
 		}
@@ -837,7 +837,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SER_dobrica_matkovic
 			allowed = {
 				has_dlc_lar = yes

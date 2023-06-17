@@ -242,7 +242,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = JBS_ulemma_influence
 			desc = JBS_ulemma_influence_desc
 			traits = { JBS_Ulemma_Neutral }
@@ -258,7 +258,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = JBS_bedouin_influence
 			desc = JBS_bedouin_influence_desc
 			traits = { JBS_Bedouin_Neutral }
@@ -274,7 +274,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = JBS_urban_nobility_influence
 			desc = JBS_urban_nobility_influence_desc
 			traits = { JBS_Urban_Nobility_Neutral }

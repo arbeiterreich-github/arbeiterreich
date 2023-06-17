@@ -11,8 +11,8 @@ characters = {
 			ideology = totalist_subtype
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = SYR_akram_al_hourani_political_advisor
+			slot = other_minister
+			idea_token = SYR_akram_al_hourani_other_minister
 			available = {
 				OR = {
 					has_government = paternal_autocrat
@@ -347,8 +347,8 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = SYR_maarouf_al_dawalibi_political_advisor
+			slot = other_minister
+			idea_token = SYR_maarouf_al_dawalibi_other_minister
 			available = {
 				OR = {
 					has_government = social_liberal
@@ -366,8 +366,8 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = SYR_nazim_kudsi_political_advisor
+			slot = other_minister
+			idea_token = SYR_nazim_kudsi_other_minister
 			available = {
 				OR = {
 					has_government = social_liberal
@@ -385,8 +385,8 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = SYR_rashad_barmada_political_advisor
+			slot = other_minister
+			idea_token = SYR_rashad_barmada_other_minister
 			available = {
 				OR = {
 					has_government = social_liberal
@@ -407,8 +407,8 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = SYR_raghib_nashashibi_political_advisor
+			slot = other_minister
+			idea_token = SYR_raghib_nashashibi_other_minister
 			available = {
 				OR = {
 					has_government = social_liberal
@@ -429,8 +429,8 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = SYR_fakhri_nashashibi_political_advisor
+			slot = other_minister
+			idea_token = SYR_fakhri_nashashibi_other_minister
 			available = {
 				OR = {
 					has_government = social_liberal
@@ -448,8 +448,8 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = SYR_edmond_homsi_political_advisor
+			slot = other_minister
+			idea_token = SYR_edmond_homsi_other_minister
 			available = {
 				OR = {
 					has_government = social_conservative
@@ -468,8 +468,8 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = SYR_saadallah_jabiri_political_advisor
+			slot = other_minister
+			idea_token = SYR_saadallah_jabiri_other_minister
 			available = {
 				OR = {
 					has_government = social_conservative
@@ -487,8 +487,8 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = SYR_fares_khoury_political_advisor
+			slot = other_minister
+			idea_token = SYR_fares_khoury_other_minister
 			available = {
 				OR = {
 					has_government = social_conservative
@@ -506,8 +506,8 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = SYR_abdulrahman_kayali_political_advisor
+			slot = other_minister
+			idea_token = SYR_abdulrahman_kayali_other_minister
 			available = {
 				OR = {
 					has_government = social_conservative
@@ -525,8 +525,8 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = SYR_lutfi_haffar_political_advisor
+			slot = other_minister
+			idea_token = SYR_lutfi_haffar_other_minister
 			available = {
 				OR = {
 					has_government = social_conservative
@@ -544,10 +544,10 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = SYR_abdullah_atfeh_political_advisor
+			slot = other_minister
+			idea_token = SYR_abdullah_atfeh_other_minister
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 				has_authoritarian_government = yes
 			}
 			traits = { KR_adventurous_daredevil }
@@ -579,11 +579,11 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = SYR_fawzi_selu_political_advisor
+			slot = other_minister
+			idea_token = SYR_fawzi_selu_other_minister
 			available = {
 				has_authoritarian_government = yes
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_iron_fisted_brute }
 		}
@@ -604,8 +604,8 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = SYR_sati_husri_political_advisor
+			slot = other_minister
+			idea_token = SYR_sati_husri_other_minister
 			available = {
 				NOT = { has_government = national_populist }
 			}
@@ -620,8 +620,8 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = SYR_ahmad_sharbati_political_advisor
+			slot = other_minister
+			idea_token = SYR_ahmad_sharbati_other_minister
 			available = {
 				NOT = { has_government = national_populist }
 			}
@@ -636,8 +636,8 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = SYR_george_abd_messih_political_advisor
+			slot = other_minister
+			idea_token = SYR_george_abd_messih_other_minister
 			available = {
 				has_government = national_populist
 			}
@@ -652,8 +652,8 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = SYR_said_taqiyaddin_political_advisor
+			slot = other_minister
+			idea_token = SYR_said_taqiyaddin_other_minister
 			available = {
 				has_government = national_populist
 			}
@@ -668,8 +668,8 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = SYR_salah_al_shishakli_political_advisor
+			slot = other_minister
+			idea_token = SYR_salah_al_shishakli_other_minister
 			available = {
 				has_government = national_populist
 			}

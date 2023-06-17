@@ -22,10 +22,10 @@ characters = {
 			ideology = radical_socialist_subtype
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = INS_tan_malaka_pol
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 				is_country_leader = no
 			}
 			traits = { KR_silent_workhorse }
@@ -110,7 +110,7 @@ characters = {
 			ideology = syndicalist_subtype
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = INS_semaun_pol
 			available = { is_country_leader = no }
 			traits = { KR_ambitious_union_boss }
@@ -298,7 +298,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = INS_abdul_hakim_harahap_pol
 			traits = { KR_industrialiser }
 		}
@@ -312,7 +312,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = INS_wilopo_pol
 			traits = { KR_interventionist_economist }
 		}
@@ -326,7 +326,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = INS_kasman_singodimedjo_pol
 			traits = { KR_industrial_chemist }
 		}
@@ -340,7 +340,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = INS_maria_ulfah_santoso_pol
 			traits = { KR_brilliant_lawyer }
 		}
@@ -354,7 +354,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = INS_albert_manoempak_sipahoetar_pol
 			traits = { KR_media_magnate }
 		}
@@ -368,7 +368,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = INS_alexander_andries_maramis_pol
 			traits = { KR_construction_magnate }
 		}
@@ -382,7 +382,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = INS_sekarmadji_maridjan_kartosuwiryo_pol
 			allowed = {
 				has_dlc_lar = yes

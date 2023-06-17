@@ -15,7 +15,7 @@ characters = {
 		}
 		advisor = {
 			idea_token = CHL_carlos_labarca
-			slot = political_advisor
+			slot = other_minister
 			available = {
 				is_country_leader = no
 			}
@@ -35,7 +35,7 @@ characters = {
 		}
 		advisor = {
 			idea_token = CHL_pablo_de_rokha
-			slot = political_advisor
+			slot = other_minister
 			traits = { KR_socialist_novelist }
 		}
 	}
@@ -537,7 +537,7 @@ characters = {
 		}
 		advisor = {
 			idea_token = CHL_oscar_schnake
-			slot = political_advisor
+			slot = other_minister
 			traits = { KR_economic_reformer }
 		}
 	}
@@ -550,7 +550,7 @@ characters = {
 		}
 		advisor = {
 			idea_token = CHL_carlos_davila
-			slot = political_advisor
+			slot = other_minister
 			traits = { KR_compassionate_gentleman }
 		}
 	}
@@ -563,7 +563,7 @@ characters = {
 		}
 		advisor = {
 			idea_token = CHL_carlos_alberto_martinez
-			slot = political_advisor
+			slot = other_minister
 			traits = { KR_ambitious_union_boss }
 		}
 	}
@@ -576,7 +576,7 @@ characters = {
 		}
 		advisor = {
 			idea_token = CHL_hernan_barros_bianchi
-			slot = political_advisor
+			slot = other_minister
 			allowed = {
 				has_dlc_lar = yes
 			}

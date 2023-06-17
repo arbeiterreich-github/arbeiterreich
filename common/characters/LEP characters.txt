@@ -109,7 +109,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = LEP_ma_yuren
 			allowed = {
 				has_dlc_lar = yes
@@ -128,7 +128,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = LEP_zhang_xinyi
 			traits = { KR_administrative_genius }
 		}
@@ -141,7 +141,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = LEP_zhang_taiyan
 			traits = { KR_media_magnate }
 		}
@@ -154,7 +154,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = LEP_chen_taoyi
 			traits = { KR_traditionalist_economist }
 		}
@@ -167,7 +167,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = LEP_ding_wenjiang
 			traits = { KR_war_industrialist }
 		}
@@ -180,7 +180,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = LEP_wei_daofeng
 			traits = { KR_political_specialist }
 		}
@@ -193,7 +193,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = LEP_pan_guogang
 			traits = { KR_captain_of_industry }
 		}
@@ -206,7 +206,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = LEP_tang_erhe
 			traits = { KR_health_and_safety_adherent }
 		}
@@ -219,7 +219,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = LEP_cheng_tienfong
 			traits = { KR_naive_optimist }
 		}

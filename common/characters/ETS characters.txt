@@ -31,7 +31,7 @@ characters = {
 			ideology = social_conservative_subtype
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ETS_isa_alptekin_pol
 			traits = { KR_ultranationalist_agitator }
 		}
@@ -70,7 +70,7 @@ characters = {
 			ideology = authoritarian_democrat_subtype
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ETS_masud_sabri_pol
 			traits = { KR_public_health_advocate }
 			available = {
@@ -102,7 +102,7 @@ characters = {
 			ideology = paternal_autocrat_subtype
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ETS_sabit_damolla_pol
 			traits = { KR_political_specialist }
 			available = {
@@ -131,7 +131,7 @@ characters = {
 			ideology = national_populist_subtype
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ETS_muhammad_amin_bughra_pol
 			traits = { KR_media_magnate }
 			available = {
@@ -189,7 +189,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ETS_saifuddin_azizi_pol
 			traits = { KR_education_reformer }
 		}
@@ -229,7 +229,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ETS_ehmetjan_qasim_pol
 			traits = { KR_political_protege }
 		}

@@ -1276,28 +1276,28 @@ CAN_add_correct_second_in_command = {
 CAN_convert_british_pm_slots = {
 	set_global_flag = GBR_british_pm_slot_changed
 	if = {
-		limit = { GBR_austen_chamberlain = { is_political_advisor = yes } }
-		hidden_effect = { deactivate_advisor = GBR_austen_chamberlain_political_advisor }
+		limit = { GBR_austen_chamberlain = { is_other_minister = yes } }
+		hidden_effect = { deactivate_advisor = GBR_austen_chamberlain_other_minister }
 		activate_advisor = GBR_austen_chamberlain_second_in_command
 	}
 	else_if = {
-		limit = { GBR_anthony_eden = { is_political_advisor = yes } }
-		hidden_effect = { deactivate_advisor = GBR_anthony_eden_political_advisor }
+		limit = { GBR_anthony_eden = { is_other_minister = yes } }
+		hidden_effect = { deactivate_advisor = GBR_anthony_eden_other_minister }
 		activate_advisor = GBR_anthony_eden_second_in_command
 	}
 	else_if = {
-		limit = { GBR_robert_gascoyne_cecil = { is_political_advisor = yes } }
-		hidden_effect = { deactivate_advisor = GBR_robert_gascoyne_cecil_political_advisor }
+		limit = { GBR_robert_gascoyne_cecil = { is_other_minister = yes } }
+		hidden_effect = { deactivate_advisor = GBR_robert_gascoyne_cecil_other_minister }
 		activate_advisor = GBR_robert_gascoyne_cecil_second_in_command
 	}
 	else_if = {
-		limit = { GBR_robert_vansittart = { is_political_advisor = yes } }
-		hidden_effect = { deactivate_advisor = GBR_robert_vansittart_political_advisor }
+		limit = { GBR_robert_vansittart = { is_other_minister = yes } }
+		hidden_effect = { deactivate_advisor = GBR_robert_vansittart_other_minister }
 		activate_advisor = GBR_robert_vansittart_second_in_command
 	}
 	else_if = {
-		limit = { GBR_henry_page_croft = { is_political_advisor = yes } }
-		hidden_effect = { deactivate_advisor = GBR_henry_page_croft_political_advisor }
+		limit = { GBR_henry_page_croft = { is_other_minister = yes } }
+		hidden_effect = { deactivate_advisor = GBR_henry_page_croft_other_minister }
 		activate_advisor = GBR_henry_page_croft_second_in_command
 	}
 }
@@ -1307,27 +1307,27 @@ CAN_revert_british_pm_slots = {
 	if = {
 		limit = { GBR_austen_chamberlain = { is_second_in_command = yes } }
 		hidden_effect = { CAN_add_correct_second_in_command = yes }
-		activate_advisor = GBR_austen_chamberlain_political_advisor
+		activate_advisor = GBR_austen_chamberlain_other_minister
 	}
 	else_if = {
 		limit = { GBR_anthony_eden = { is_second_in_command = yes } }
 		hidden_effect = { CAN_add_correct_second_in_command = yes }
-		activate_advisor = GBR_anthony_eden_political_advisor
+		activate_advisor = GBR_anthony_eden_other_minister
 	}
 	else_if = {
 		limit = { GBR_robert_gascoyne_cecil = { is_second_in_command = yes } }
 		hidden_effect = { CAN_add_correct_second_in_command = yes }
-		activate_advisor = GBR_robert_gascoyne_cecil_political_advisor
+		activate_advisor = GBR_robert_gascoyne_cecil_other_minister
 	}
 	else_if = {
 		limit = { GBR_robert_vansittart = { is_second_in_command = yes } }
 		hidden_effect = { CAN_add_correct_second_in_command = yes }
-		activate_advisor = GBR_robert_vansittart_political_advisor
+		activate_advisor = GBR_robert_vansittart_other_minister
 	}
 	else_if = {
 		limit = { GBR_henry_page_croft = { is_second_in_command = yes } }
 		hidden_effect = { CAN_add_correct_second_in_command = yes }
-		activate_advisor = GBR_henry_page_croft_political_advisor
+		activate_advisor = GBR_henry_page_croft_other_minister
 	}
 }
 
@@ -1354,7 +1354,7 @@ CAN_add_british_pm = {
 			activate_advisor = GBR_henry_page_croft_second_in_command
 		}
 		else = {
-			activate_advisor = GBR_henry_page_croft_political_advisor
+			activate_advisor = GBR_henry_page_croft_other_minister
 		}
 	}
 	else_if = {
@@ -1367,7 +1367,7 @@ CAN_add_british_pm = {
 			activate_advisor = GBR_robert_gascoyne_cecil_second_in_command
 		}
 		else = {
-			activate_advisor = GBR_robert_gascoyne_cecil_political_advisor
+			activate_advisor = GBR_robert_gascoyne_cecil_other_minister
 		}
 	}
 	else_if = {
@@ -1380,7 +1380,7 @@ CAN_add_british_pm = {
 			activate_advisor = GBR_anthony_eden_second_in_command
 		}
 		else = {
-			activate_advisor = GBR_anthony_eden_political_advisor
+			activate_advisor = GBR_anthony_eden_other_minister
 		}
 	}
 	else_if = {
@@ -1393,7 +1393,7 @@ CAN_add_british_pm = {
 			activate_advisor = GBR_robert_vansittart_second_in_command
 		}
 		else = {
-			activate_advisor = GBR_robert_vansittart_political_advisor
+			activate_advisor = GBR_robert_vansittart_other_minister
 		}
 	}
 	else = {
@@ -1402,7 +1402,7 @@ CAN_add_british_pm = {
 			activate_advisor = GBR_austen_chamberlain_second_in_command
 		}
 		else = {
-			activate_advisor = GBR_austen_chamberlain_political_advisor
+			activate_advisor = GBR_austen_chamberlain_other_minister
 		}
 	}
 }

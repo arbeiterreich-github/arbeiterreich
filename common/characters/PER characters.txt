@@ -377,10 +377,10 @@ characters = {
 			logistics_skill = 3
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PER_mohammad_taqi_khan_pessian_adv
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_reformist_soldier }
 		}
@@ -442,7 +442,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PER_ehsanollah_khan_dustdar
 			available = {
 				has_socialist_government = yes
@@ -458,7 +458,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PER_morteza_hejazi
 			available = {
 				has_socialist_government = yes
@@ -474,7 +474,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PER_khalil_maleki
 			available = {
 				has_authoritarian_government = no
@@ -490,7 +490,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PER_ebrahim_hakimi
 			traits = { KR_pragmatic_statesman }
 		}
@@ -503,7 +503,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PER_seyyed_ziaeddin_tabatabai
 			traits = { KR_thundering_traditionalist }
 		}
@@ -516,7 +516,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PER_mohammad_taqi_bahar
 			traits = { KR_king_of_poets }
 		}
@@ -529,7 +529,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PER_mohammad_farmanfarmaian
 			traits = { KR_economic_reformer }
 		}
@@ -542,7 +542,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PER_firouz_od_dowleh
 			traits = { KR_administrative_genius }
 		}
@@ -555,7 +555,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PER_abolhassan_ebtehaj
 			traits = { KR_captain_of_industry }
 		}
@@ -568,7 +568,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PER_jafar_gholi
 			traits = { KR_war_industrialist }
 		}

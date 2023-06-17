@@ -117,7 +117,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SIK_burhan_shahidi
 			available = {
 				has_government = social_democrat
@@ -210,7 +210,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SIK_yu_xiusong
 			available = {
 				has_government = social_democrat
@@ -227,7 +227,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SIK_wu_jingbin
 			available = {
 				has_government = social_democrat
@@ -243,7 +243,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SIK_zhang_fengjiu
 			traits = { KR_resource_industrialist }
 		}
@@ -256,7 +256,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SIK_guanglu
 			traits = { KR_ideological_crusader }
 		}
@@ -269,7 +269,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SIK_liu_wenlong
 			traits = { KR_captain_of_industry }
 		}
@@ -282,7 +282,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SIK_yan_yushan
 			traits = { KR_industrialiser }
 		}
@@ -295,7 +295,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SIK_yibulayin
 			traits = { KR_popular_figurehead }
 		}
@@ -308,7 +308,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SIK_huashengmu
 			traits = { KR_education_reformer }
 		}
@@ -321,7 +321,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SIK_alen_zheniskhanovich
 			traits = { KR_economic_reformer }
 		}

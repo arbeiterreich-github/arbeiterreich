@@ -14,7 +14,7 @@ characters = {
 			ideology = totalist_subtype
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CAN_timothy_buck
 			available = {
 				OR = {
@@ -94,14 +94,14 @@ characters = {
 			can_be_fired = no
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CAN_louis_st_laurent
 			available = {
 				OR = {
 					has_government = social_liberal
 					has_government = market_liberal
 				}
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 				is_country_leader = no
 			}
 			traits = { KR_public_works_administrator }
@@ -173,14 +173,14 @@ characters = {
 			can_be_fired = no
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CAN_john_bracken
 			available = {
 				OR = {
 					has_government = social_conservative
 					has_authoritarian_government = yes
 				}
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 				is_country_leader = no
 			}
 			traits = { KR_agricultural_economist }
@@ -202,14 +202,14 @@ characters = {
 			can_be_fired = no
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CAN_robert_manion
 			available = {
 				OR = {
 					has_government = social_conservative
 					has_authoritarian_government = yes
 				}
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 				is_country_leader = no
 			}
 			traits = { KR_national_unity_proponent }
@@ -299,7 +299,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CAN_john_diefenbaker
 			available = {
 				OR = {
@@ -342,7 +342,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CAN_maurice_le_noblet_duplessis
 			available = {
 				has_completed_focus = CAN_montreal_conference
@@ -358,7 +358,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CAN_clarence_decatur_howe
 			available = {
 				OR = {
@@ -377,7 +377,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CAN_ernest_lapointe
 			available = {
 				OR = {
@@ -396,7 +396,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CAN_ernest_charles_manning
 			available = {
 				OR = {
@@ -415,7 +415,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CAN_humphrey_mitchell
 			available = {
 				OR = {
@@ -435,7 +435,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CAN_henry_norman_bethune
 			available = {
 				OR = {
@@ -454,7 +454,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CAN_thomas_clement_douglas
 			traits = { KR_public_health_advocate }
 		}
@@ -467,7 +467,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CAN_george_alexander_drew
 			traits = { KR_construction_magnate }
 		}
@@ -480,7 +480,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CAN_arthur_blaikie_purvis
 			traits = { KR_captain_of_industry }
 		}
@@ -493,7 +493,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = CAN_william_samuel_stephenson
 			allowed = {
 				has_dlc_lar = yes

@@ -51,11 +51,11 @@ GAL_characters_join_poland_effect = {
 			limit = { has_character = GAL_ludwik_spiechowicz_boruta }
 			GAL_ludwik_spiechowicz_boruta = {
 				remove_high_command_role = yes
-				remove_political_advisor_role = yes
+				remove_other_minister_role = yes
 				add_advisor_role = {
 					advisor = {
-						slot = political_advisor
-						idea_token = GAL_ludwik_spiechowicz_boruta_political_advisor
+						slot = other_minister
+						idea_token = GAL_ludwik_spiechowicz_boruta_other_minister
 						traits = { KR_reformist_soldier }
 					}
 				}
@@ -65,11 +65,11 @@ GAL_characters_join_poland_effect = {
 			limit = { has_character = GAL_eugeniusz_kwiatkowski }
 			GAL_eugeniusz_kwiatkowski = {
 				remove_trait = {
-					slot = political_advisor
+					slot = other_minister
 					trait = KR_captain_of_industry
 				}
 				add_trait = {
-					slot = political_advisor
+					slot = other_minister
 					trait = KR_industrialiser
 				}
 			}
@@ -78,11 +78,11 @@ GAL_characters_join_poland_effect = {
 			limit = { has_character = GAL_franciszek_pokorny }
 			GAL_franciszek_pokorny = {
 				remove_trait = {
-					slot = political_advisor
+					slot = other_minister
 					trait = KR_head_of_intelligence
 				}
 				add_trait = {
-					slot = political_advisor
+					slot = other_minister
 					trait = KR_genius_cryptologist
 				}
 			}

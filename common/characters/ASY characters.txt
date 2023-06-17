@@ -63,10 +63,10 @@ characters = {
 			cost = 150
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = ASY_dawid_mar_shimun_political_advisor
+			slot = other_minister
+			idea_token = ASY_dawid_mar_shimun_other_minister
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_general_staffer }
 		}
@@ -167,10 +167,10 @@ characters = {
 			can_be_fired = no
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = ASY_mar_yosip_khnanisho_political_advisor
+			slot = other_minister
+			idea_token = ASY_mar_yosip_khnanisho_other_minister
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_man_of_the_people }
 		}
@@ -213,14 +213,14 @@ characters = {
 			can_be_fired = no
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = ASY_surma_dbait_mar_shimun_political_advisor
+			slot = other_minister
+			idea_token = ASY_surma_dbait_mar_shimun_other_minister
 			traits = { KR_backroom_backstabber }
 			modifier = {
 				stability_factor = -0.05
 			}
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			cost = 150
 		}
@@ -240,8 +240,8 @@ characters = {
 			ideology = radical_socialist_subtype
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = ASY_freydun_atturaya_political_advisor
+			slot = other_minister
+			idea_token = ASY_freydun_atturaya_other_minister
 			available = {
 				has_completed_focus = ASY_Labour_Laws
 			}
@@ -259,8 +259,8 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = ASY_mar_zaya_sargis_political_advisor
+			slot = other_minister
+			idea_token = ASY_mar_zaya_sargis_other_minister
 			traits = { KR_popular_figurehead }
 		}
 	}
@@ -272,8 +272,8 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = ASY_yaqo_dmalik_Ismael_political_advisor
+			slot = other_minister
+			idea_token = ASY_yaqo_dmalik_Ismael_other_minister
 			traits = { KR_iron_fisted_brute }
 		}
 	}
@@ -285,8 +285,8 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = ASY_yusuf_malek_political_advisor
+			slot = other_minister
+			idea_token = ASY_yusuf_malek_other_minister
 			traits = { KR_pragmatic_statesman }
 		}
 	}
@@ -300,8 +300,8 @@ characters = {
 				}
 			}
 			advisor = {
-				slot = political_advisor
-				idea_token = ASY_malik_qambar_political_advisor_lar
+				slot = other_minister
+				idea_token = ASY_malik_qambar_other_minister_lar
 				available = {
 					has_intelligence_agency = yes
 				}
@@ -317,8 +317,8 @@ characters = {
 				}
 			}
 			advisor = {
-				slot = political_advisor
-				idea_token = ASY_malik_qambar_political_advisor
+				slot = other_minister
+				idea_token = ASY_malik_qambar_other_minister
 				traits = { KR_secret_police_chief }
 			}
 		}

@@ -266,11 +266,11 @@ characters = {
 			cost = 50
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = WHR_francisak_kusal_political
 			available = {
 				has_authoritarian_government = yes
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_prince_of_terror }
 		}
@@ -325,7 +325,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = WHR_jan_sierada
 			available = {
 				has_elected_government = yes
@@ -341,7 +341,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = WHR_anton_lutskievic
 			available = {
 				has_authoritarian_government = no
@@ -357,7 +357,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = WHR_dmitry_pryshchepau
 			available = {
 				has_authoritarian_government = no
@@ -373,7 +373,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = WHR_symon_kandybovic
 			traits = { KR_technocrat }
 		}
@@ -386,7 +386,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = WHR_paluta_badunova
 			available = {
 				has_socialist_government = yes
@@ -402,7 +402,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = WHR_jazep_lesik
 			available = {
 				has_authoritarian_government = no
@@ -418,7 +418,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = WHR_jan_stankievic
 			available = {
 				has_authoritarian_government = yes
@@ -434,7 +434,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = WHR_vaclau_ivanouski
 			available = {
 				has_authoritarian_government = yes
@@ -450,7 +450,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = WHR_raman_skirmunt
 			available = {
 				has_elected_government = yes
@@ -466,7 +466,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = WHR_jewish_bund_advisor
 			available = {
 				OR = {
@@ -485,7 +485,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = WHR_vasily_korzh
 			allowed = {
 				has_dlc_lar = yes

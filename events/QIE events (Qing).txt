@@ -136,13 +136,13 @@ country_event = { #elections happen
 		if = {
 			limit = {
 				has_character = QIE_yan_huiqing
-				NOT = { QIE_yan_huiqing = { has_advisor_role = political_advisor } }
+				NOT = { QIE_yan_huiqing = { has_advisor_role = other_minister } }
 			}
 			custom_effect_tooltip = tooltip_white_line
 			add_advisor_role = {
 				character = QIE_yan_huiqing
 				advisor = {
-					slot = political_advisor
+					slot = other_minister
 					idea_token = QIE_yan_huiqing
 					traits = { KR_leading_diplomat }
 				}
@@ -269,13 +269,13 @@ country_event = { #Cao Kun gets booted
 		if = {
 			limit = {
 				has_character = QIE_yan_huiqing
-				NOT = { QIE_yan_huiqing = { has_advisor_role = political_advisor } }
+				NOT = { QIE_yan_huiqing = { has_advisor_role = other_minister } }
 			}
 			custom_effect_tooltip = tooltip_white_line
 			add_advisor_role = {
 				character = QIE_yan_huiqing
 				advisor = {
-					slot = political_advisor
+					slot = other_minister
 					idea_token = QIE_yan_huiqing
 					traits = { KR_leading_diplomat }
 				}
@@ -5184,11 +5184,11 @@ country_event = {
 					if = {
 						limit = { has_character = SQI_zhang_tianran }	# Prevent error.log spam
 						SQI_zhang_tianran = {
-							remove_political_advisor_role = yes
+							remove_other_minister_role = yes
 							add_advisor_role = {
 								character = SQI_zhang_tianran
 								advisor = {
-									slot = political_advisor
+									slot = other_minister
 									idea_token = SQI_zhang_tianran
 									traits = { QIE_chief_executive_bideyuan }
 									cost = 0
@@ -5207,11 +5207,11 @@ country_event = {
 					if = {
 						limit = { has_character = SQI_qu_yingguang }	# Prevent error.log spam
 						SQI_qu_yingguang = {
-							remove_political_advisor_role = yes
+							remove_other_minister_role = yes
 							add_advisor_role = {
 								character = SQI_qu_yingguang
 								advisor = {
-									slot = political_advisor
+									slot = other_minister
 									idea_token = SQI_qu_yingguang
 									traits = { QIE_secretary_general }
 									cost = 0
@@ -7838,13 +7838,13 @@ country_event = {
 		add_advisor_role = {
 			character = QIE_kang_tongbi
 			advisor = {
-				slot = political_advisor
+				slot = other_minister
 				idea_token = QIE_kang_tongbi
 				traits = { KR_prominent_feminist }
 			}
 		}
 		if = {
-			limit = { has_free_political_advisor_slot = yes }
+			limit = { has_free_other_minister_slot = yes }
 			activate_advisor = QIE_kang_tongbi
 		}
 	}

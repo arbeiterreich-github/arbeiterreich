@@ -90,7 +90,7 @@ characters = {
 			logistics_skill = 3
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = RUS_grigory_semyonov
 			available = {
 				NOT = { has_country_leader = { character = RUS_aleksandr_kolchak } }
@@ -194,10 +194,10 @@ characters = {
 			cost = 100
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = RUS_anatoly_pepelyaev_political_advisor
+			slot = other_minister
+			idea_token = RUS_anatoly_pepelyaev_other_minister
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_armaments_organiser }
 		}
@@ -521,7 +521,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = RUS_pyotr_nikiforov
 			available = {
 				has_elected_government = yes
@@ -537,7 +537,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = RUS_nikolay_uhtomski
 			traits = { KR_popular_figurehead }
 		}
@@ -550,7 +550,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = RUS_aleksey_sirodenko
 			traits = { KR_great_compromiser }
 		}
@@ -563,7 +563,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = RUS_magomed_gasanovich
 			traits = { KR_iron_fisted_brute }
 		}
@@ -576,7 +576,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = RUS_roman_basilievsky
 			traits = { KR_industrialiser }
 		}
@@ -589,7 +589,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = RUS_dimitry_lebedev
 			traits = { KR_resource_industrialist }
 		}
@@ -602,7 +602,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = RUS_nikolay_krhistenko
 			traits = { KR_technocrat }
 		}
@@ -615,7 +615,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = RUS_arkady_udintsev
 			allowed = {
 				has_dlc_lar = yes

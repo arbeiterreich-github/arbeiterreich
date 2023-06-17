@@ -70,10 +70,10 @@ characters = {
 			can_be_fired = no
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PAR_higinio_morinigo_martinez_political
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 				is_country_leader = no
 				has_socialist_government = no
 			}
@@ -293,10 +293,10 @@ characters = {
 			cost = 100
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PAR_vicente_machuca_political
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_reformist_soldier }
 		}
@@ -397,10 +397,10 @@ characters = {
 			ai_will_do = { factor = 10 }
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PAR_horacio_chiriani_political
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_general_staffer }
 		}
@@ -539,7 +539,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PAR_federico_chaves
 			traits = { KR_agricultural_economist }
 		}
@@ -552,7 +552,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PAR_ricardo_odriosola
 			traits = { KR_health_and_safety_adherent }
 		}
@@ -565,7 +565,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PAR_justo_pastor
 			traits = { KR_backroom_backstabber }
 		}
@@ -578,7 +578,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PAR_arnaldo_valdovinos
 			traits = { KR_austere_finance_advocate }
 		}
@@ -591,7 +591,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PAR_efraim_cardozo
 			traits = { KR_media_magnate }
 		}
@@ -604,7 +604,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PAR_victoriano_benitez
 			allowed = {
 				has_dlc_lar = yes
@@ -623,7 +623,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PAR_juan_stefanich
 			available = {
 				has_socialist_government = yes

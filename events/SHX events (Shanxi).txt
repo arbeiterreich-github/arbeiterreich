@@ -242,7 +242,7 @@ country_event = { #All the Governor's Men
 	option = {
 		name = shx.8.a #They have their work cut out for them!
 		add_political_power = 25
-		custom_effect_tooltip = SHX_political_advisors_reminder_tooltip
+		custom_effect_tooltip = SHX_other_ministers_reminder_tooltip
 		hidden_effect = { country_event = { id = shx.9 days = 200 } } #Another Hard Year
 	}
 
@@ -815,7 +815,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				SHX_feng_sizhi = { is_political_advisor = no }
+				SHX_feng_sizhi = { is_other_minister = no }
 			}
 			add_political_power = -40
 			custom_effect_tooltip = SHX_feng_sizhi_helpful_tooltip
@@ -931,7 +931,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				SHX_hu_jingtong = { is_political_advisor = no }
+				SHX_hu_jingtong = { is_other_minister = no }
 			}
 			add_political_power = -40
 			custom_effect_tooltip = SHX_hu_jingtong_helpful_tooltip
@@ -1619,7 +1619,7 @@ country_event = { #Raising Agricultural Revenue
 			base = 33
 			modifier = {
 				factor = 2
-				SHX_lian_tianxiang = { is_political_advisor = yes }
+				SHX_lian_tianxiang = { is_other_minister = yes }
 			}
 			modifier = {
 				factor = 1.5
@@ -1628,7 +1628,7 @@ country_event = { #Raising Agricultural Revenue
 		}
 		if = {
 			limit = {
-				SHX_lian_tianxiang = { is_political_advisor = yes }
+				SHX_lian_tianxiang = { is_other_minister = yes }
 			}
 			add_political_power = -50
 			custom_effect_tooltip = SHX_lian_tianxiang_is_helpful_tooltip
@@ -1647,7 +1647,7 @@ country_event = { #Raising Agricultural Revenue
 				factor = 2
 				SHX_wang_xiang = {
 					OR = {
-						is_political_advisor = yes
+						is_other_minister = yes
 						is_second_in_command = yes
 					}
 				}
@@ -1672,7 +1672,7 @@ country_event = { #Raising Agricultural Revenue
 			limit = {
 				SHX_wang_xiang = {
 					OR = {
-						is_political_advisor = yes
+						is_other_minister = yes
 						is_second_in_command = yes
 					}
 				}
@@ -1695,7 +1695,7 @@ country_event = { #Raising Agricultural Revenue
 			modifier = {
 				factor = 2
 				OR = {
-					SHX_su_tiren = { is_political_advisor = yes }
+					SHX_su_tiren = { is_other_minister = yes }
 					SHX_su_tiren = { is_second_in_command = yes }
 				}
 			}
@@ -1707,7 +1707,7 @@ country_event = { #Raising Agricultural Revenue
 		if = {
 			limit = {
 				OR = {
-					SHX_su_tiren = { is_political_advisor = yes }
+					SHX_su_tiren = { is_other_minister = yes }
 					SHX_su_tiren = { is_second_in_command = yes }
 				}
 			}
@@ -1764,7 +1764,7 @@ country_event = {
 			base = 50
 			modifier = {
 				factor = 1.5
-				SHX_wei_yechou = { is_political_advisor = yes }
+				SHX_wei_yechou = { is_other_minister = yes }
 			}
 			modifier = {
 				factor = 1.5
@@ -1785,7 +1785,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				SHX_wei_yechou = { is_political_advisor = yes }
+				SHX_wei_yechou = { is_other_minister = yes }
 			}
 			SHX_QIE_investment_small = yes
 			add_stability = -0.05
@@ -1804,7 +1804,7 @@ country_event = {
 			modifier = {
 				factor = 1.5
 				OR = {
-					SHX_su_tiren = { is_political_advisor = yes }
+					SHX_su_tiren = { is_other_minister = yes }
 					SHX_su_tiren = { is_second_in_command = yes }
 				}
 			}
@@ -1818,7 +1818,7 @@ country_event = {
 		if = {
 			limit = {
 				OR = {
-					SHX_su_tiren = { is_political_advisor = yes }
+					SHX_su_tiren = { is_other_minister = yes }
 					SHX_su_tiren = { is_second_in_command = yes }
 				}
 			}
@@ -1861,7 +1861,7 @@ country_event = {
 			base = 50
 			modifier = {
 				factor = 1.5
-				SHX_wei_yechou = { is_political_advisor = yes }
+				SHX_wei_yechou = { is_other_minister = yes }
 			}
 			modifier = {
 				factor = 1.5
@@ -1872,7 +1872,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				SHX_wei_yechou = { is_political_advisor = yes }
+				SHX_wei_yechou = { is_other_minister = yes }
 			}
 			add_days_mission_timeout = {
 				mission = SHX_agricultural_reform_mission_timer
@@ -1896,7 +1896,7 @@ country_event = {
 			modifier = {
 				factor = 1.5
 				OR = {
-					SHX_su_tiren = { is_political_advisor = yes }
+					SHX_su_tiren = { is_other_minister = yes }
 					SHX_su_tiren = { is_second_in_command = yes }
 				}
 			}
@@ -1910,7 +1910,7 @@ country_event = {
 		if = {
 			limit = {
 				OR = {
-					SHX_su_tiren = { is_political_advisor = yes }
+					SHX_su_tiren = { is_other_minister = yes }
 					SHX_su_tiren = { is_second_in_command = yes }
 				}
 			}
@@ -2251,7 +2251,7 @@ country_event = {
 	option = {
 		name = shx_edu.2.a
 		add_political_power = 20
-		custom_effect_tooltip = available_political_advisor
+		custom_effect_tooltip = available_other_minister
 		show_ideas_tooltip = SHX_chih_kung_jen_pol
 	}
 
@@ -2369,7 +2369,7 @@ country_event = {
 			base = 40
 			modifier = {
 				factor = 1.5
-				SHX_zhao_pilian = { is_political_advisor = yes }
+				SHX_zhao_pilian = { is_other_minister = yes }
 			}
 		}
 		add_popularity = {
@@ -2380,7 +2380,7 @@ country_event = {
 		add_manpower = -25000
 		if = {
 			limit = {
-				SHX_zhao_pilian = { is_political_advisor = no }
+				SHX_zhao_pilian = { is_other_minister = no }
 			}
 			add_days_mission_timeout = {
 				mission = SHX_educational_reform_mission_timer
@@ -2403,7 +2403,7 @@ country_event = {
 			base = 40
 			modifier = {
 				factor = 1.5
-				SHX_feng_sizhi = { is_political_advisor = yes }
+				SHX_feng_sizhi = { is_other_minister = yes }
 			}
 		}
 		add_popularity = {
@@ -2420,7 +2420,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				SHX_feng_sizhi = { is_political_advisor = no }
+				SHX_feng_sizhi = { is_other_minister = no }
 			}
 			add_stability = -0.1
 			add_days_mission_timeout = {
@@ -2869,10 +2869,10 @@ country_event = { #Aftermath of the Leadership
 			SHX_liang_huazhi = {
 				remove_unit_leader_role = yes #He shouldn't have one until Sacrifice League is formed (which is after one side wins) but just in case
 				remove_military_advisor_roles = yes
-				remove_political_advisor_role = yes
+				remove_other_minister_role = yes
 			}
 			SHX_wang_xiang = {
-				remove_political_advisor_role = yes
+				remove_other_minister_role = yes
 			}
 		}
 		add_country_leader_role = {
@@ -3021,16 +3021,16 @@ country_event = { #Fate of the Advisors
 		}
 		hidden_effect = {
 			SHX_yu_xinqing = {
-				remove_political_advisor_role = yes
+				remove_other_minister_role = yes
 			}
 			SHX_bo_yibo = {
-				remove_political_advisor_role = yes
+				remove_other_minister_role = yes
 			}
 			SHX_wei_yechou = {
-				remove_political_advisor_role = yes
+				remove_other_minister_role = yes
 			}
 			SHX_hu_jingtong = {
-				remove_political_advisor_role = yes
+				remove_other_minister_role = yes
 			}
 		}
 		add_political_power = 50
@@ -3069,22 +3069,22 @@ country_event = { #Fate of the Advisors
 
 		hidden_effect = {
 			SHX_su_tiren = {
-				remove_political_advisor_role = yes
+				remove_other_minister_role = yes
 			}
 			SHX_feng_sizhi = {
-				remove_political_advisor_role = yes
+				remove_other_minister_role = yes
 			}
 			SHX_wang_xiang = {
-				remove_political_advisor_role = yes
+				remove_other_minister_role = yes
 			}
 			SHX_liang_huazhi = {
-				remove_political_advisor_role = yes
+				remove_other_minister_role = yes
 			}
 			SHX_zhao_daiwen = {
-				remove_political_advisor_role = yes
+				remove_other_minister_role = yes
 			}
 			SHX_sun_chu = {
-				remove_political_advisor_role = yes
+				remove_other_minister_role = yes
 			}
 		}
 		add_political_power = 50
@@ -4508,7 +4508,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				SHX_feng_sizhi = { is_political_advisor = no }
+				SHX_feng_sizhi = { is_other_minister = no }
 			}
 			add_political_power = -50
 			add_popularity = {
@@ -4557,7 +4557,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				SHX_hu_jingtong = { is_political_advisor = no }
+				SHX_hu_jingtong = { is_other_minister = no }
 			}
 			add_days_mission_timeout = {
 				mission = SHX_industrial_reform_mission_timer
@@ -4672,7 +4672,7 @@ country_event = {
 				SHX = {
 					SHX_wang_xiang = {
 						OR = {
-							is_political_advisor = yes
+							is_other_minister = yes
 							is_second_in_command = yes
 						}
 					}
@@ -4871,7 +4871,7 @@ country_event = {
 	picture = GFX_report_event_JAP_kwantung
 
 	trigger = {
-		SHX_komoto_daisaku = { is_political_advisor = yes }
+		SHX_komoto_daisaku = { is_other_minister = yes }
 		JAP = {
 			NOT = {
 				is_subject = yes
@@ -4891,7 +4891,7 @@ country_event = {
 		retire_character = SHX_liu_yufen
 		if = {
 			limit = {
-				SHX_sun_chu = { is_political_advisor = no }
+				SHX_sun_chu = { is_other_minister = no }
 			}
 			add_stability = -0.10
 			custom_effect_tooltip = SHX_sun_chu_helpful_tooltip
@@ -4906,7 +4906,7 @@ country_event = {
 		name = shx_japanese_infiltration.1.b #Sweep it under the rug...
 		if = {
 			limit = {
-				SHX_sun_chu = { is_political_advisor = no }
+				SHX_sun_chu = { is_other_minister = no }
 			}
 			add_political_power = -200
 			custom_effect_tooltip = SHX_sun_chu_helpful_tooltip
@@ -5055,7 +5055,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				SHX_sun_chu = { is_political_advisor = no }
+				SHX_sun_chu = { is_other_minister = no }
 			}
 			SHX_QIE_investment_medium = yes
 			add_political_power = 30
@@ -5101,7 +5101,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				SHX_sun_chu = { is_political_advisor = no }
+				SHX_sun_chu = { is_other_minister = no }
 			}
 			SHX_QIE_Investment_small = yes
 			add_political_power = -20
@@ -5159,7 +5159,7 @@ country_event = {
 				factor = 1.5
 				SHX_wang_xiang = {
 					OR = {
-						is_political_advisor = yes
+						is_other_minister = yes
 						is_second_in_command = yes
 					}
 				}
@@ -5180,7 +5180,7 @@ country_event = {
 				NOT = {
 					SHX_wang_xiang = {
 						OR = {
-							is_political_advisor = yes
+							is_other_minister = yes
 							is_second_in_command = yes
 						}
 					}
@@ -5229,7 +5229,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 1.5
-				SHX_yu_xinqing = { is_political_advisor = yes }
+				SHX_yu_xinqing = { is_other_minister = yes }
 			}
 			modifier = {
 				factor = 0
@@ -5241,7 +5241,7 @@ country_event = {
 
 		if = {
 			limit = {
-				SHX_yu_xinqing = { is_political_advisor = no }
+				SHX_yu_xinqing = { is_other_minister = no }
 			}
 			add_political_power = -50
 			custom_effect_tooltip = SHX_yu_xinqing_helpful_tooltip
@@ -5302,7 +5302,7 @@ country_event = {
 				factor = 1.5
 				SHX_wang_xiang = {
 					OR = {
-						is_political_advisor = yes
+						is_other_minister = yes
 						is_second_in_command = yes
 					}
 				}
@@ -5313,7 +5313,7 @@ country_event = {
 				NOT = {
 					SHX_wang_xiang = {
 						OR = {
-							is_political_advisor = yes
+							is_other_minister = yes
 							is_second_in_command = yes
 						}
 					}
@@ -5389,17 +5389,17 @@ country_event = {
 
 			modifier = {
 				factor = 1.5
-				SHX_liang_huazhi = { is_political_advisor = yes }
+				SHX_liang_huazhi = { is_other_minister = yes }
 			}
 			modifier = {
 				factor = 1.5
-				SHX_hu_jingtong = { is_political_advisor = yes }
+				SHX_hu_jingtong = { is_other_minister = yes }
 			}
 		}
 
 		if = {
 			limit = {
-				SHX_hu_jingtong = { is_political_advisor = no }
+				SHX_hu_jingtong = { is_other_minister = no }
 			}
 			add_political_power = -25
 			add_popularity = {
@@ -5425,7 +5425,7 @@ country_event = {
 
 		if = {
 			limit = {
-				SHX_liang_huazhi = { is_political_advisor = no }
+				SHX_liang_huazhi = { is_other_minister = no }
 				SHX_liang_huazhi = { is_second_in_command = no }
 			}
 			add_political_power = -25
@@ -5501,7 +5501,7 @@ country_event = {
 				factor = 1.5
 				SHX_wang_xiang = {
 					OR = {
-						is_political_advisor = yes
+						is_other_minister = yes
 						is_second_in_command = yes
 					}
 				}
@@ -5511,7 +5511,7 @@ country_event = {
 			limit = {
 				SHX_wang_xiang = {
 					OR = {
-						is_political_advisor = yes
+						is_other_minister = yes
 						is_second_in_command = yes
 					}
 				}
@@ -5581,17 +5581,17 @@ country_event = {
 
 			modifier = {
 				factor = 1.5
-				SHX_liang_huazhi = { is_political_advisor = yes }
+				SHX_liang_huazhi = { is_other_minister = yes }
 			}
 			modifier = {
 				factor = 1.5
-				SHX_hu_jingtong = { is_political_advisor = yes }
+				SHX_hu_jingtong = { is_other_minister = yes }
 			}
 		}
 
 		if = {
 			limit = {
-				SHX_hu_jingtong = { is_political_advisor = no }
+				SHX_hu_jingtong = { is_other_minister = no }
 			}
 			add_political_power = -25
 			add_popularity = {
@@ -5617,7 +5617,7 @@ country_event = {
 
 		if = {
 			limit = {
-				SHX_liang_huazhi = { is_political_advisor = no }
+				SHX_liang_huazhi = { is_other_minister = no }
 				SHX_liang_huazhi = { is_second_in_command = no }
 			}
 			add_political_power = -25
@@ -5691,20 +5691,20 @@ country_event = {
 
 			modifier = {
 				factor = 1.5
-				SHX_lian_tianxiang = { is_political_advisor = yes }
+				SHX_lian_tianxiang = { is_other_minister = yes }
 			}
 
 			modifier = {
 				factor = 1.5
 				OR = {
-					SHX_su_tiren = { is_political_advisor = yes }
+					SHX_su_tiren = { is_other_minister = yes }
 					SHX_su_tiren = { is_second_in_command = yes }
 				}
 			}
 		}
 		if = {
 			limit = {
-				SHX_lian_tianxiang = { is_political_advisor = no }
+				SHX_lian_tianxiang = { is_other_minister = no }
 			}
 			add_timed_idea = {
 				idea = SHX_beijing_agricultural_relief_package
@@ -5721,7 +5721,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				SHX_su_tiren = { is_political_advisor = no }
+				SHX_su_tiren = { is_other_minister = no }
 				SHX_su_tiren = { is_second_in_command = no }
 			}
 			add_days_mission_timeout = {
@@ -5774,13 +5774,13 @@ country_event = {
 
 			modifier = {
 				factor = 1.5
-				SHX_wei_yechou = { is_political_advisor = yes }
+				SHX_wei_yechou = { is_other_minister = yes }
 			}
 		}
 
 		if = {
 			limit = {
-				SHX_wei_yechou = { is_political_advisor = no }
+				SHX_wei_yechou = { is_other_minister = no }
 			}
 			add_political_power = -50
 			add_popularity = {
@@ -5847,17 +5847,17 @@ country_event = {
 
 			modifier = {
 				factor = 1.5
-				SHX_chih_kung_jen = { is_political_advisor = yes }
+				SHX_chih_kung_jen = { is_other_minister = yes }
 			}
 
 			modifier = {
 				factor = 1.5
-				SHX_zhao_pilian = { is_political_advisor = yes }
+				SHX_zhao_pilian = { is_other_minister = yes }
 			}
 		}
 		if = {
 			limit = {
-				SHX_chih_kung_jen = { is_political_advisor = no }
+				SHX_chih_kung_jen = { is_other_minister = no }
 			}
 			add_days_mission_timeout = {
 				mission = SHX_educational_reform_mission_timer
@@ -5875,7 +5875,7 @@ country_event = {
 
 		if = {
 			limit = {
-				SHX_zhao_pilian = { is_political_advisor = no }
+				SHX_zhao_pilian = { is_other_minister = no }
 			}
 			add_timed_idea = {
 				idea = SHX_james_yens_literacy_campaign
@@ -5940,13 +5940,13 @@ country_event = {
 
 			modifier = {
 				factor = 1.5
-				SHX_zhao_daiwen = { is_political_advisor = yes }
+				SHX_zhao_daiwen = { is_other_minister = yes }
 			}
 		}
 
 		if = {
 			limit = {
-				SHX_zhao_daiwen = { is_political_advisor = no }
+				SHX_zhao_daiwen = { is_other_minister = no }
 			}
 			add_political_power = -50
 			add_popularity = {
@@ -6681,7 +6681,7 @@ country_event = {
 		add_political_power = 50
 		set_country_flag = SHX_japanese_infiltration_flag
 		custom_effect_tooltip = tooltip_white_line
-		custom_effect_tooltip = available_political_advisor
+		custom_effect_tooltip = available_other_minister
 		show_ideas_tooltip = SHX_komoto_daisaku_pol
 	}
 
@@ -8910,7 +8910,7 @@ country_event = {
 			}
 			if = {
 				limit = {
-					SHX_bo_yibo = { is_political_advisor = yes }
+					SHX_bo_yibo = { is_other_minister = yes }
 				}
 				add_manpower = 15000
 				add_war_support = -0.05
@@ -8953,7 +8953,7 @@ country_event = {
 			if = {
 				limit = {
 					OR = {
-						SHX_liang_huazhi = { is_political_advisor = yes }
+						SHX_liang_huazhi = { is_other_minister = yes }
 						SHX_liang_huazhi = { is_second_in_command = yes }
 					}
 				}
@@ -11580,7 +11580,7 @@ country_event = {
 		QIE_james_yen = {
 			add_advisor_role = {
 				advisor = {
-					slot = political_advisor
+					slot = other_minister
 					cost = 100
 					idea_token = SHX_james_yen_pol
 					traits = { KR_education_reformer }
@@ -11600,7 +11600,7 @@ country_event = {
 		QIE_hu_shih = {
 			add_advisor_role = {
 				advisor = {
-					slot = political_advisor
+					slot = other_minister
 					cost = 100
 					idea_token = SHX_hu_shih_pol
 					traits = { KR_pragmatic_statesman }
@@ -11620,7 +11620,7 @@ country_event = {
 		QIE_james_yen = {
 			add_advisor_role = {
 				advisor = {
-					slot = political_advisor
+					slot = other_minister
 					cost = 150
 					idea_token = SHX_james_yen_pol
 					traits = { KR_education_reformer }
@@ -11630,7 +11630,7 @@ country_event = {
 		QIE_hu_shih = {
 			add_advisor_role = {
 				advisor = {
-					slot = political_advisor
+					slot = other_minister
 					cost = 150
 					idea_token = SHX_hu_shih_pol
 					traits = { KR_pragmatic_statesman }
@@ -11688,7 +11688,7 @@ country_event = {
 		GXC_zhang_junmai = {
 			add_advisor_role = {
 				advisor = {
-					slot = political_advisor
+					slot = other_minister
 					cost = 150
 					idea_token = SHX_zhang_junmai_pol
 					traits = { KR_great_compromiser }
@@ -11749,7 +11749,7 @@ country_event = {
 		QIE_zeng_qi = {
 			add_advisor_role = {
 				advisor = {
-					slot = political_advisor
+					slot = other_minister
 					cost = 150
 					idea_token = SHX_zeng_qi_pol
 					traits = { KR_economic_reformer }
@@ -11838,7 +11838,7 @@ country_event = {
 			CHI_song_qingling = {
 				add_advisor_role = {
 					advisor = {
-						slot = political_advisor
+						slot = other_minister
 						cost = 150
 						idea_token = SHX_song_qingling_pol
 						traits = { KR_popular_figurehead }
@@ -11889,7 +11889,7 @@ country_event = {
 			CHI_wang_jingwei = {
 				add_advisor_role = {
 					advisor = {
-						slot = political_advisor
+						slot = other_minister
 						cost = 150
 						idea_token = SHX_wang_jingwei_pol
 						traits = { KR_heir_to_the_revolution }
@@ -12216,7 +12216,7 @@ country_event = { #Wang's New Post
 
 	trigger = {
 		has_completed_focus = SHX_from_china_to_world
-		CHI_wang_jingwei = { is_political_advisor = yes }
+		CHI_wang_jingwei = { is_other_minister = yes }
 		country_exists = FRA
 	}
 

@@ -41,7 +41,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = UKR_volodymyr_vynnychenko
 			traits = { KR_naive_optimist }
 		}
@@ -81,7 +81,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = UKR_dmytro_doroshenko
 			available = {
 				has_socialist_government = no
@@ -101,7 +101,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = UKR_borys_martos
 			traits = { KR_cooperatives_proponent }
 		}
@@ -375,7 +375,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = UKR_mykola_skrypnyk
 			available = {
 				has_socialist_government = yes
@@ -391,7 +391,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = UKR_panas_liubchenko
 			available = {
 				has_socialist_government = yes
@@ -407,7 +407,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = UKR_yurii_kotsiubinskyi
 			available = {
 				has_socialist_government = yes
@@ -423,7 +423,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = UKR_mykola_stsiborskyi
 			available = {
 				has_government = national_populist
@@ -439,7 +439,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = UKR_kyrylo_osmak
 			available = {
 				has_government = national_populist
@@ -455,7 +455,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = UKR_yurii_lypa
 			available = {
 				has_government = national_populist
@@ -471,7 +471,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = UKR_ivan_feshchenko_chopivskyi
 			available = {
 				has_socialist_government = no
@@ -488,7 +488,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = UKR_serhii_ostapenko
 			available = {
 				has_socialist_government = no
@@ -504,7 +504,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = UKR_viacheslav_prokopovych
 			available = {
 				has_socialist_government = no
@@ -520,7 +520,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = UKR_oleksandr_shulhyn
 			available = {
 				has_socialist_government = no
@@ -536,7 +536,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = UKR_mykola_boretskyi
 			traits = { KR_chaplain_of_the_ukrainian_revolution }
 		}
@@ -549,7 +549,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = UKR_ihor_kistyakivskyi
 			allowed = {
 				has_dlc_lar = yes
@@ -568,7 +568,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = UKR_volodymyr_chekhivskyi
 			traits = { KR_red_divine }
 		}
@@ -581,7 +581,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = UKR_patriarch_mstyslav
 			traits = { KR_spiritual_leader }
 		}

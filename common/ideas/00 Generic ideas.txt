@@ -5,7 +5,7 @@
 ideas = {
 	### DO NOT REMOVE - these empty entries are needed for amount_taken_ideas to work correctly
 	second_in_command = { }
-	political_advisor = { }
+	other_minister = { }
 	theorist = { }
 	army_chief = { }
 	navy_chief = { }

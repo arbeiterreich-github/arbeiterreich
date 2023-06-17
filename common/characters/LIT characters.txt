@@ -152,10 +152,10 @@ characters = {
 			cost = 100
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = LIT_povilas_plechavicius_political
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 				has_socialist_government = no
 			}
 			traits = { KR_reformist_soldier }
@@ -599,7 +599,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = LIT_salomeja_neris
 			cost = 150
 			traits = { KR_cultural_organiser }
@@ -630,10 +630,10 @@ characters = {
 			cost = 100
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = LIT_antanas_gustaitis_political
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_air_superiority_proponent }
 		}
@@ -646,7 +646,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = LIT_augustinas_povilaitis
 			allowed = {
 				has_dlc_lar = yes
@@ -665,7 +665,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = LIT_jonas_vailokaitis
 			traits = { KR_bank_president }
 		}
@@ -678,7 +678,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = LIT_juozas_paknys
 			traits = { KR_economic_reformer }
 		}
@@ -691,7 +691,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = LIT_gabriele_petkevicaite-bite
 			traits = { KR_popular_figurehead }
 		}
@@ -704,7 +704,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = LIT_herbert_tillmanns
 			available = { is_in_faction_with = GER }
 			traits = { KR_corporate_suit }

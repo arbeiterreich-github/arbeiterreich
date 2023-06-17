@@ -15,7 +15,7 @@ characters = {
 			ideology = totalist_subtype
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SWF_dolores_ibarruri_gomez
 			traits = { KR_la_pasionaria }
 		}
@@ -51,10 +51,10 @@ characters = {
 			logistics_skill = 2
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SWF_buenaventura_durruti_political
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_young_guard }
 		}
@@ -189,7 +189,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SWF_francisco_largo_caballero
 			traits = { KR_pragmatic_statesman }
 		}
@@ -202,7 +202,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SWF_juan_garcia_oliver
 			traits = { KR_armaments_organiser }
 		}
@@ -215,7 +215,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SWF_horacio_martinez_prieto
 			traits = { KR_silent_workhorse }
 		}
@@ -228,7 +228,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SWF_joan_peiro
 			traits = { KR_administrative_genius }
 		}
@@ -241,7 +241,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SWF_andreu_nin_perez
 			traits = { KR_naive_optimist }
 		}
@@ -254,7 +254,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SWF_ramon_rufat
 			allowed = {
 				has_dlc_lar = yes

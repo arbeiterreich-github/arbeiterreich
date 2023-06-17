@@ -167,10 +167,10 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = ETH_beyene_merid_political_advisor
+			slot = other_minister
+			idea_token = ETH_beyene_merid_other_minister
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_ideological_crusader }
 		}
@@ -192,10 +192,10 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = ETH_desta_damtew_political_advisor
+			slot = other_minister
+			idea_token = ETH_desta_damtew_other_minister
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_monarchist_loyalist }
 		}
@@ -217,7 +217,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ETH_yeebio_woldai
 			traits = { KR_tribal_headman }
 		}
@@ -230,7 +230,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ETH_obboo_bulee_dabarsa
 			traits = { KR_regional_traditionalist_leader }
 		}
@@ -243,7 +243,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ETH_aklilu_habte_wold
 			traits = { KR_political_protege }
 		}
@@ -256,7 +256,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ETH_mesfin_sileshi
 			traits = { KR_infantry_proponent }
 		}
@@ -269,7 +269,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ETH_seyoum_mengesha
 			traits = { KR_general_staffer }
 		}
@@ -282,7 +282,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ETH_yilma_deressa
 			traits = { KR_great_compromiser }
 		}
@@ -295,7 +295,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ETH_lorenzo_taezaz
 			allowed = {
 				has_dlc_lar = yes
@@ -336,7 +336,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = ETH_abebe_aregai
 			traits = { KR_young_guard }
 		}

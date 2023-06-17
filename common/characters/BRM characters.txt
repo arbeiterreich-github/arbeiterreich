@@ -136,12 +136,12 @@ characters = {
 			can_be_fired = no
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BRM_u_saw_pol
 			available = {
 				has_authoritarian_government = yes
 				is_country_leader = no
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_prince_of_terror }
 		}
@@ -158,7 +158,7 @@ characters = {
 			ideology = national_populist_subtype
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BRM_tharrawaddy_u_pu
 			available = { has_authoritarian_government = yes }
 			traits = { KR_iron_fisted_brute }
@@ -367,7 +367,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BRM_zin
 			available = { has_socialist_government = yes }
 			traits = { KR_secret_police_chief }
@@ -382,7 +382,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BRM_thein_pe_myint
 			available = { has_socialist_government = yes }
 			traits = { KR_backroom_backstabber }
@@ -397,7 +397,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BRM_kyaw_tun
 			available = { has_socialist_government = yes }
 			traits = { KR_agricultural_economist }
@@ -412,7 +412,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BRM_dr_thein_maung
 			available = { has_elected_government = yes }
 			cost = 50
@@ -428,7 +428,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BRM_tin_tut
 			available = { has_elected_government = yes }
 			traits = { KR_leading_diplomat }
@@ -443,7 +443,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BRM_lim_kar_chang
 			available = { has_elected_government = yes }
 			traits = { KR_bank_president }
@@ -458,7 +458,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BRM_u_pu
 			available = { has_elected_government = yes }
 			traits = { KR_man_of_the_people }
@@ -473,7 +473,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BRM_ohn_ghine
 			available = { has_authoritarian_government = yes }
 			traits = { KR_construction_magnate }
@@ -488,7 +488,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BRM_u_tint_swe
 			traits = { KR_media_magnate }
 		}
@@ -502,7 +502,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BRM_myo_kin
 			traits = { KR_brilliant_lawyer }
 		}
@@ -516,7 +516,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BRM_sithu_u_tin
 			traits = { KR_ambitious_engineer }
 		}
@@ -530,7 +530,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = BRM_ba_chit
 			allowed = {
 				has_dlc_lar = yes

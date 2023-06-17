@@ -173,7 +173,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = LBA_senussi_cartographers_pol
 			traits = { KR_desert_cartographer }
 			available = { has_completed_focus = LBA_fast_move }
@@ -188,7 +188,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = LBA_senussi_spy_ring_pol
 			traits = { KR_desert_spy_ring }
 		}
@@ -202,7 +202,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = LBA_well_armed_bannermen_pol
 			traits = { KR_armed_caravans }
 			available = { has_completed_focus = LBA_Weapon_Smuggling }
@@ -235,7 +235,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = LBA_pliant_authorities_pol
 			traits = { KR_pliant_authorities }
 		}

@@ -34,7 +34,7 @@ characters = {
 			ideology = social_liberal_subtype
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PAN_ricardo_alfaro_jovane
 			traits = { KR_human_rights_lawyer }
 		}
@@ -176,7 +176,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PAN_alcibiades_arosemena
 			traits = { KR_man_of_the_people }
 		}
@@ -190,7 +190,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PAN_roberto_francisco_chiari_remon
 			traits = { KR_social_security_champion }
 		}
@@ -204,7 +204,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PAN_daniel_chanis_pinzon
 			traits = { KR_public_health_advocate }
 		}
@@ -218,7 +218,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PAN_ricardo_adolfo_de_la_guardia_arango
 			traits = { KR_ideological_crusader }
 		}
@@ -232,7 +232,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PAN_augusto_samuel_boyd
 			traits = { KR_railway_magnate }
 		}
@@ -246,7 +246,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PAN_henrique_de_obarrio_vallarino
 			traits = { KR_bank_president }
 		}

@@ -139,10 +139,10 @@ characters = {
 			can_be_fired = no
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = URG_martin_echegoyen
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_interventionist_economist }
 		}
@@ -412,10 +412,10 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = URG_andres_martinez_trueba_political_advisor
+			slot = other_minister
+			idea_token = URG_andres_martinez_trueba_other_minister
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_popular_figurehead }
 		}
@@ -559,7 +559,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = URG_leopoldo_carlos
 			traits = { KR_construction_magnate }
 		}
@@ -572,7 +572,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = URG_leonardo_vilarino
 			traits = { KR_naive_optimist }
 		}
@@ -585,7 +585,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = URG_feliciano_alberto
 			traits = { KR_agricultural_economist }
 		}
@@ -598,7 +598,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = URG_horacio_arredondo
 			available = {
 				has_socialist_government = yes
@@ -614,7 +614,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = URG_alfeo_brum
 			traits = { KR_great_compromiser }
 		}
@@ -627,7 +627,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = URG_tomas_berreta
 			traits = { KR_administrative_genius }
 		}
@@ -640,7 +640,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = URG_alberto_guani
 			allowed = {
 				has_dlc_lar = yes

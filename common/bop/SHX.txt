@@ -35,7 +35,7 @@ SHX_power_balance = {
 			modifier = {
 				stability_weekly = 0.0010
 				political_power_gain = -0.10
-				political_advisor_cost_factor = -0.10
+				other_minister_cost_factor = -0.10
 			}
 			on_activate = {
 
@@ -51,7 +51,7 @@ SHX_power_balance = {
 			max = -0.60
 			modifier = {
 				stability_weekly = 0.0010
-				political_advisor_cost_factor = -0.25
+				other_minister_cost_factor = -0.25
 			}
 			on_activate = {
 
@@ -67,7 +67,7 @@ SHX_power_balance = {
 			max = -0.95
 			modifier = {
 				stability_weekly = 0.0010
-				political_advisor_cost_factor = -0.25
+				other_minister_cost_factor = -0.25
 				political_power_gain = 0.10
 			}
 			on_activate = {

@@ -3316,7 +3316,7 @@ country_event = { # Visit from the King's Brother
 		add_advisor_role = {
 			character = LIT_wilhelm_von_urach
 			advisor = {
-				slot = political_advisor
+				slot = other_minister
 				idea_token = LIT_wilhelm_von_urach
 				traits = { KR_daimler_benz_engineer }
 			}

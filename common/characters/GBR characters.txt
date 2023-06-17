@@ -201,8 +201,8 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = GBR_austen_chamberlain_political_advisor
+			slot = other_minister
+			idea_token = GBR_austen_chamberlain_other_minister
 			traits = { GBR_british_pm_in_exile }
 			modifier = {
 				political_power_gain = 0.05
@@ -238,8 +238,8 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = GBR_anthony_eden_political_advisor
+			slot = other_minister
+			idea_token = GBR_anthony_eden_other_minister
 			traits = { GBR_british_pm_in_exile }
 			modifier = {
 				stability_factor = 0.1
@@ -276,8 +276,8 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = GBR_robert_gascoyne_cecil_political_advisor
+			slot = other_minister
+			idea_token = GBR_robert_gascoyne_cecil_other_minister
 			traits = { GBR_british_pm_in_exile }
 			modifier = {
 				political_power_gain = 0.10
@@ -314,8 +314,8 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = GBR_robert_vansittart_political_advisor
+			slot = other_minister
+			idea_token = GBR_robert_vansittart_other_minister
 			traits = { GBR_british_pm_in_exile }
 			modifier = {
 				political_power_gain = 0.1
@@ -352,8 +352,8 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = GBR_henry_page_croft_political_advisor
+			slot = other_minister
+			idea_token = GBR_henry_page_croft_other_minister
 			traits = { GBR_british_pm_in_exile }
 			modifier = {
 				political_power_cost = 0.05
@@ -455,7 +455,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = GBR_william_maxwell_aitken
 			traits = { KR_war_industrialist }
 		}
@@ -470,7 +470,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = GBR_joseph_kenworthy
 			available = {
 				has_elected_government = yes
@@ -486,7 +486,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = GBR_philip_noel_baker
 			available = {
 				has_elected_government = yes
@@ -502,7 +502,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = GBR_percy_harris
 			available = {
 				has_elected_government = yes
@@ -518,7 +518,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = GBR_norman_birkett
 			available = {
 				has_elected_government = yes
@@ -534,7 +534,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = GBR_arthur_kenneth_chesterton
 			available = {
 				has_authoritarian_government = yes
@@ -550,7 +550,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = GBR_frank_cyril_tiarks
 			available = {
 				has_authoritarian_government = yes
@@ -566,7 +566,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = GBR_barry_domvile
 			available = {
 				has_authoritarian_government = yes
@@ -582,7 +582,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = GBR_walter_runciman
 			available = {
 				has_elected_government = yes
@@ -598,7 +598,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = GBR_oliver_lyttlelton
 			available = {
 				has_elected_government = yes
@@ -614,7 +614,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = GBR_edward_cavendish
 			available = {
 				has_elected_government = yes
@@ -630,7 +630,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = GBR_desmond_morton
 			available = {
 				has_elected_government = yes
@@ -646,7 +646,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = GBR_gerald_wallop
 			available = {
 				has_authoritarian_government = yes
@@ -662,7 +662,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = GBR_john_anderson
 			traits = { KR_administrative_genius }
 		}
@@ -675,7 +675,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = GBR_montagu_norman
 			traits = { KR_bank_president }
 		}
@@ -688,7 +688,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = GBR_charles_henry_maxwell_knight
 			allowed = {
 				has_dlc_lar = yes

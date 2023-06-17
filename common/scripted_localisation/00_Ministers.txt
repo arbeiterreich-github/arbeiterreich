@@ -1,0 +1,99 @@
+defined_text = {
+	name = GetOtherMinisterName
+	text = {
+		trigger = {
+			# this trigger is for all nations, if a specific country has another minister, add it to the following array 
+			# NOT = {
+			# 	OR = {
+			# 		## add like the commented item
+			# 		#tag = TAG
+			# 	}
+				
+			# }
+		}
+		localization_key = education_minister
+	}
+	### remove always = no if adding entries ###
+	# text = {
+	# 	trigger = {
+	# 		always = no
+	# 		OR = {
+	# 			## tags here
+	# 		}
+	# 	}
+	# 	localization_key = health_minister
+	# }
+	# text = {
+	# 	trigger = { 
+	# 		always = no
+	# 		OR = {
+	# 			## tags here
+	# 		}
+	# 	}
+	# 	localization_key = transport_minister
+	# }
+	# text = {
+	# 	trigger = {
+	# 		always = no
+	# 		OR = {
+	# 			## tags here
+	# 		}
+	# 	}
+	# 	localization_key = defence_minister
+	# }
+	# text = {
+	# 	trigger = {
+	# 		always = no
+	# 		OR = {
+	# 			## tags here
+	# 		}
+	# 	}
+	# 	localization_key = energy_minister
+	# }
+	# text = {
+	# 	trigger = {
+	# 		always = no
+	# 		OR = {
+	# 			## tags here
+	# 		}
+	# 	}
+	# 	localization_key = trade_minister
+	# }
+	# text = {
+	# 	trigger = {
+	# 		always = no
+	# 		OR = {
+	# 			## tags here
+	# 		}
+	# 	}
+	# 	localization_key = culture_minister
+	# }
+	# text = {
+	# 	trigger = {
+	# 		always = no
+	# 		OR = {
+	# 			## tags here
+	# 		}
+	# 	}
+	# 	localization_key = environment_minister
+	# }
+	# text = {
+	# 	trigger = {
+	# 		always = no
+	# 		OR = {
+	# 			## tags here
+	# 		}
+	# 	}
+	# 	localization_key = agriculture_minister
+	# }
+	# text = {
+	# 	trigger = {
+	# 		always = no
+	# 		OR = {
+	# 			## tags here
+	# 		}
+	# 	}
+	# 	localization_key = intel_minister
+	# }
+
+}

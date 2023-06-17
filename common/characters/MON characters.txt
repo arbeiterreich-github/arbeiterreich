@@ -13,10 +13,10 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = MON_khorloogiin_choibalsan_advisor
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 				OR = {
 					has_government = social_democrat
 					has_socialist_government = yes
@@ -197,7 +197,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = MON_jodbajab
 			available = {
 				has_authoritarian_government = yes
@@ -243,12 +243,12 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = MON_manlaibaatar_damdinsuren_advisor
 			available = {
 				has_authoritarian_government = yes
 				NOT = { has_country_leader = { character = MON_roman_von_ungernsternberg } }
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_respected_war_hero }
 		}
@@ -289,11 +289,11 @@ characters = {
 			can_be_fired = no
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = MON_altanochir_advisor
 			available = {
 				has_elected_government = yes
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_war_industrialist }
 		}
@@ -316,10 +316,10 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = MON_khatanbaatar_magsarjav_advisor
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 				OR = {
 					has_authoritarian_government = yes
 					has_government = social_conservative
@@ -452,10 +452,10 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = MON_urzhin_garmaev_advisor
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 				has_country_leader = { character = MON_roman_von_ungernsternberg }
 			}
 			traits = { KR_war_propagandist }
@@ -495,10 +495,10 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = MON_gelegdorjiyn_demid_advisor
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 				has_authoritarian_government = no
 			}
 			traits = { KR_young_guard }
@@ -664,10 +664,10 @@ characters = {
 			can_be_fired = no
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = MON_touvdentserenchimid_advisor
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 				has_democratic_government = yes
 				NOT = { has_government = social_democrat }
 			}
@@ -701,7 +701,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = MON_balingiyn_tserendorj
 			traits = { KR_silent_workhorse }
 		}
@@ -715,7 +715,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = MON_zhamsranzhavyn_galsandash
 			available = {
 				has_government = national_populist
@@ -732,7 +732,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = MON_sambadondogiyn_tseredorj
 			available = {
 				has_authoritarian_government = yes
@@ -749,7 +749,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = MON_xia_gong
 			available = {
 				has_authoritarian_government = yes
@@ -766,7 +766,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = MON_kamil_gizycki
 			available = {
 				has_country_leader = { character = MON_roman_von_ungernsternberg }
@@ -783,7 +783,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = MON_ferdynand_ossendowski
 			available = {
 				has_country_leader = { character = MON_roman_von_ungernsternberg }
@@ -800,7 +800,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = MON_yu_pinqing
 			available = {
 				OR = {
@@ -820,7 +820,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = MON_amurlingkui
 			available = {
 				has_authoritarian_government = yes
@@ -838,7 +838,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = MON_ajvaagiyn_danzan
 			available = {
 				has_elected_government = yes
@@ -855,7 +855,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = MON_tseren_ochiryn_dambadorj
 			available = {
 				has_elected_government = yes
@@ -873,7 +873,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = MON_shirnengiyn_ayuush
 			available = {
 				has_elected_government = yes
@@ -891,7 +891,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = MON_dorjjavyn_luvsansharav
 			allowed = {
 				has_dlc_lar = yes
@@ -911,7 +911,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = MON_sonombalzhiryn_buyannemeh
 			available = {
 				OR = {
@@ -931,7 +931,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = MON_dogsomyn_bodoo
 			available = {
 				OR = {

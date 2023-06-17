@@ -146,7 +146,7 @@ characters = {
 			traits = { PSA_crusader_of_justice }
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PSA_earl_warren
 			available = {
 				is_country_leader = no
@@ -224,7 +224,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PSA_ng_poon_chew
 			traits = { KR_civil_rights_advocate }
 		}
@@ -237,7 +237,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PSA_leland_merritt_ford
 			traits = { KR_resource_industrialist }
 		}
@@ -250,7 +250,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PSA_george_orson_welles
 			traits = { KR_patriotic_director }
 		}
@@ -263,7 +263,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PSA_harvey_arthur_van_norman
 			traits = { KR_master_engineer }
 		}
@@ -276,7 +276,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PSA_hugh_samuel_johnson
 			traits = { KR_industrialiser }
 		}
@@ -289,7 +289,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PSA_harold_leclair_ickes
 			traits = { KR_public_works_administrator }
 		}
@@ -302,7 +302,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PSA_william_frederick_friedman
 			allowed = {
 				has_dlc_lar = yes
@@ -321,7 +321,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = PSA_herbert_osborn_yardley
 			allowed = {
 				has_dlc_lar = yes

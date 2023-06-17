@@ -334,16 +334,16 @@ remove_second_in_command_role = {
 	}
 }
 
-remove_political_advisor_role = {
+remove_other_minister_role = {
 	if = {
-		limit = { has_advisor_role = political_advisor }
-		remove_advisor_role = { slot = political_advisor }
+		limit = { has_advisor_role = other_minister }
+		remove_advisor_role = { slot = other_minister }
 	}
 }
 
 remove_civilian_advisor_roles = {
 	remove_second_in_command_role = yes
-	remove_political_advisor_role = yes
+	remove_other_minister_role = yes
 }
 
 remove_theorist_role = {

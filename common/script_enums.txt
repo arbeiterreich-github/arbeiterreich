@@ -115,7 +115,10 @@ script_enum_advisor_slot_type = {
 	army_chief
 	navy_chief
 	air_chief
-	political_advisor
+	interior_minister
+	foreign_affairs_minister
+	economic_minister
+	other_minister
 	second_in_command
 }
 

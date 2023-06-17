@@ -38,7 +38,7 @@ characters = {
 		}
 		advisor = {
 			idea_token = GUA_juan_jose_arevalo_bermejo
-			slot = political_advisor
+			slot = other_minister
 			traits = { KR_compassionate_gentleman }
 			available = {
 				OR = {
@@ -98,7 +98,7 @@ characters = {
 		}
 		advisor = {
 			idea_token = GUA_julio_domingo_bianchi_smout
-			slot = political_advisor
+			slot = other_minister
 			traits = { KR_health_and_safety_adherent }
 			available = {
 				OR = {
@@ -203,9 +203,9 @@ characters = {
 			logistics_skill = 3
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = GUA_jacobo_arbenz_pol
-			available = { not_already_hired_except_as = political_advisor }
+			available = { not_already_hired_except_as = other_minister }
 			traits = { KR_young_guard }
 		}
 		advisor = {
@@ -226,7 +226,7 @@ characters = {
 		}
 		advisor = {
 			idea_token = GUA_flavio_herrera
-			slot = political_advisor
+			slot = other_minister
 			traits = { KR_brilliant_lawyer }
 			available = {
 				OR = {
@@ -246,7 +246,7 @@ characters = {
 		}
 		advisor = {
 			idea_token = GUA_federico_guillermo_toriello_garrido
-			slot = political_advisor
+			slot = other_minister
 			traits = { KR_human_rights_lawyer }
 			available = {
 				OR = {
@@ -266,7 +266,7 @@ characters = {
 		}
 		advisor = {
 			idea_token = GUA_carlos_federico_mora
-			slot = political_advisor
+			slot = other_minister
 			traits = { KR_popular_figurehead }
 			available = {
 				OR = {
@@ -285,7 +285,7 @@ characters = {
 		}
 		advisor = {
 			idea_token = GUA_david_vela
-			slot = political_advisor
+			slot = other_minister
 			traits = { KR_media_magnate }
 			available = {
 				OR = {
@@ -304,10 +304,10 @@ characters = {
 		}
 		advisor = {
 			idea_token = GUA_manuel_maria_orellana_contreras_pol
-			slot = political_advisor
+			slot = other_minister
 			traits = { KR_old_general }
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 				has_authoritarian_government = yes
 			}
 		}
@@ -331,9 +331,9 @@ characters = {
 		}
 		advisor = {
 			idea_token = GUA_juan_federico_ponce_vaides_pol
-			slot = political_advisor
+			slot = other_minister
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 				has_authoritarian_government = yes
 			}
 			traits = { KR_iron_fisted_brute }
@@ -357,9 +357,9 @@ characters = {
 		}
 		advisor = {
 			idea_token = GUA_buenaventura_pineda_pol
-			slot = political_advisor
+			slot = other_minister
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 				has_authoritarian_government = yes
 			}
 			traits = { KR_war_industrialist }
@@ -383,7 +383,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = GUA_eduardo_villagran_ariza
 			allowed = {
 				has_dlc_lar = yes
@@ -403,10 +403,10 @@ characters = {
 		}
 		advisor = {
 			idea_token = GUA_francisco_javier_arana_pol
-			slot = political_advisor
+			slot = other_minister
 			traits = { KR_adventurous_daredevil }
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 		}
 		advisor = {
@@ -438,7 +438,7 @@ characters = {
 		}
 		advisor = {
 			idea_token = GUA_rafael_arevalo_martinez
-			slot = political_advisor
+			slot = other_minister
 			traits = { KR_education_reformer }
 		}
 	}
@@ -451,7 +451,7 @@ characters = {
 		}
 		advisor = {
 			idea_token = GUA_miguel_angel_asturias
-			slot = political_advisor
+			slot = other_minister
 			traits = { KR_folk_researcher }
 		}
 	}
@@ -465,7 +465,7 @@ characters = {
 
 		advisor = {
 			idea_token = GUA_jorge_toriello_garrido
-			slot = political_advisor
+			slot = other_minister
 			traits = { KR_captain_of_industry }
 		}
 	}
@@ -478,9 +478,9 @@ characters = {
 		}
 		advisor = {
 			idea_token = GUA_carlos_aldana_sandoval_pol
-			slot = political_advisor
+			slot = other_minister
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_interventionist_economist }
 		}

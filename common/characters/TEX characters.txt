@@ -29,7 +29,7 @@ characters = {
 			traits = { TEX_the_brothers_keeper }
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = TEX_earl_kemp_long
 			available = {
 				has_government = authoritarian_democrat
@@ -139,7 +139,7 @@ characters = {
 			traits = { TEX_rule_of_the_klan }
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = TEX_gerald_lyman_kenneth_smith
 			available = {
 				is_country_leader = no
@@ -178,7 +178,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			available = {
 				NOT = { has_government = national_populist }
 			}
@@ -194,7 +194,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = TEX_herbert_walter_armstrong
 			traits = { KR_revelatory_speaker }
 		}
@@ -207,7 +207,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = TEX_henry_ford
 			available = {
 				NOT = { has_government = national_populist }
@@ -223,7 +223,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = TEX_archibald_bulloch_roosevelt
 			available = {
 				NOT = { has_government = national_populist }
@@ -239,7 +239,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = TEX_fred_chase_koch
 			available = {
 				NOT = { has_government = national_populist }
@@ -255,7 +255,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = TEX_hugo_lafayette_black
 			available = {
 				has_government = authoritarian_democrat
@@ -271,7 +271,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = TEX_francis_everett_townsend
 			available = {
 				has_government = authoritarian_democrat
@@ -287,7 +287,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = TEX_elizabeth_eloise_kirkpatrick_dilling
 			available = {
 				NOT = { has_government = national_populist }
@@ -303,7 +303,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = TEX_george_samuel_schuyler
 			available = {
 				NOT = { has_government = national_populist }
@@ -319,7 +319,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = TEX_george_william_christians
 			available = {
 				has_government = national_populist
@@ -335,7 +335,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = TEX_guy_warren_ballard
 			available = {
 				has_government = national_populist
@@ -351,7 +351,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = TEX_wilbur_glenn_voliva
 			traits = { KR_ideological_crusader }
 		}
@@ -364,7 +364,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = TEX_george_sylvester_viereck
 			allowed = {
 				has_dlc_lar = yes

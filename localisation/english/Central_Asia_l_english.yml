@@ -2,7 +2,7 @@
 
 ### Tooltips ###
  CA_theorist_tooltip: "Unlocks a new §YMilitary Theorist§!.\n"
- CA_political_advisor_tooltip: "Unlocks a new §YPolitical Advisor§!.\n"
+ CA_other_minister_tooltip: "Unlocks a new §YPolitical Advisor§!.\n"
 
 ### Decisions ###
  CA_unite_central_asia: "Unite Central Asia"

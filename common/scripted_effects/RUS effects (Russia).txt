@@ -1073,11 +1073,11 @@ RUS_cossack_ataman_effect = {
 		}
 	}
 	deactivate_advisor = RUS_gerasim_vdovenko
-	RUS_gerasim_vdovenko = { remove_political_advisor_role = yes }
+	RUS_gerasim_vdovenko = { remove_other_minister_role = yes }
 	add_advisor_role = {
 		character = RUS_gerasim_vdovenko
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = RUS_gerasim_vdovenko
 			traits = { RUS_cossack_ataman_spawned }
 		}

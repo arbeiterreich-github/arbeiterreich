@@ -102,7 +102,7 @@ characters = {
 			desc = SHX_hu_jingtong_leader_desc
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SHX_hu_jingtong_pol
 			desc = SHX_hu_jingtong_pol_desc
 			traits = { KR_compassionate_gentleman }
@@ -130,7 +130,7 @@ characters = {
 			desc = SHX_wei_yechou_leader_desc
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SHX_wei_yechou_pol
 			desc = SHX_wei_yechou_pol_desc
 			traits = { KR_social_revolutionary }
@@ -161,7 +161,7 @@ characters = {
 			desc = SHX_zhao_pilian_hos_desc
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SHX_zhao_pilian_pol
 			desc = SHX_zhao_pilian_pol_desc
 			traits = { KR_education_reformer }
@@ -204,10 +204,10 @@ characters = {
 			on_remove = { SHX_new_sic_effect = yes }
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SHX_wang_xiang_pol
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			desc = SHX_wang_xiang_pol_desc
 			traits = { KR_bank_president }
@@ -298,9 +298,9 @@ characters = {
 			on_remove = { SHX_new_sic_effect = yes }
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			idea_token = SHX_zhao_daiwen_pol
 			traits = { KR_silent_workhorse }
@@ -366,14 +366,14 @@ characters = {
 			on_remove = { SHX_new_sic_effect = yes }
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SHX_liang_huazhi_pol
 			available = {
 				OR = {
 					has_completed_focus = SHX_heart_washing
 					NOT = { tag = SHX }
 				}
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_ultranationalist_agitator }
 			on_add = {
@@ -802,11 +802,11 @@ characters = {
 		}
 
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SHX_yu_xinqing_pol
 			desc = SHX_yu_xinqing_pol_desc
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_spiritual_leader }
 			on_add = {
@@ -829,7 +829,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SHX_chih_kung_jen_pol
 			visible = {
 				has_country_flag = SHX_chih_kung_jen_returns
@@ -875,10 +875,10 @@ characters = {
 		}
 
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SHX_su_tiren_pol
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_mixed_economy_proponent }
 			desc = SHX_su_tiren_pol_desc
@@ -902,7 +902,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SHX_feng_sizhi_pol
 			available = {
 			}
@@ -928,7 +928,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SHX_lian_tianxiang_pol
 			desc = SHX_lian_tianxiang_pol_desc
 			traits = { KR_agricultural_economist }
@@ -952,7 +952,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SHX_bo_yibo_pol
 			available = {
 				has_completed_focus = SHX_socialism
@@ -979,7 +979,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SHX_komoto_daisaku_pol
 			visible = {
 				has_country_flag = SHX_japanese_infiltration_flag
@@ -1158,7 +1158,7 @@ characters = {
 		}
 
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SHX_sun_chu_pol
 			allowed = {
 				has_dlc_lar = yes

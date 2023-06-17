@@ -59,10 +59,10 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SAU_saud_bin_abdulaziz_al_saud_advisor
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_political_protege }
 		}
@@ -111,10 +111,10 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SAU_abdallah_bin_abdul_rahman_al_saud_advisor
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_old_general }
 		}
@@ -146,10 +146,10 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SAU_saad_bin_abdulaziz_al_saud_advisor
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_general_staffer }
 		}
@@ -199,10 +199,10 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SAU_muhammad_bin_abdul_rahman_al_saud_advisor
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_backroom_backstabber }
 		}
@@ -232,10 +232,10 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SAU_abdullah_bin_jiluwi_al_saud_advisor
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_elder_aristocrat }
 		}
@@ -258,10 +258,10 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SAU_faisal_bin_abdulaziz_al_saud_advisor
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 				has_completed_focus = SAU_saudi_hegemony
 			}
 			traits = { KR_economic_reformer }
@@ -285,10 +285,10 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SAU_khalid_bin_muhammad_al_saud_advisor
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_armaments_organiser }
 		}
@@ -311,10 +311,10 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SAU_saad_bin_abdul_rahman_al_saud_advisor
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 			}
 			traits = { KR_respected_war_hero }
 		}
@@ -338,7 +338,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SAU_noura_bint_abdul_rahman_al_saud
 			traits = { KR_liberal_philanthropist }
 			available = { has_completed_focus = SAU_saudi_hegemony }
@@ -352,7 +352,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SAU_muhammad_bin_abdulaziz_al_saud
 			traits = { KR_austere_finance_advocate }
 		}
@@ -365,10 +365,10 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SAU_mansour_bin_abdulaziz_al_saud_advisor
 			available = {
-				not_already_hired_except_as = political_advisor
+				not_already_hired_except_as = other_minister
 				has_completed_focus = SAU_establish_new_arabian_army
 			}
 			traits = { KR_young_guard }
@@ -393,7 +393,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SAU_abdullah_bin_faisal_al_saud
 			available = {
 				has_completed_focus = SAU_building_better_future
@@ -409,7 +409,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SAU_muhammad_bin_abdullah_bin_aiban_al_nasiri
 			allowed = {
 				has_dlc_lar = yes
@@ -428,7 +428,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SAU_yusuf_yasin
 			traits = { KR_political_specialist }
 		}
@@ -441,7 +441,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = SAU_muhammad_ibn_ibrahim_al_ash_sheikh
 			available = {
 				has_completed_focus = SAU_land_of_faith

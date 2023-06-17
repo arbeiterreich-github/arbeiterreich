@@ -1083,7 +1083,7 @@ country_event = { #Wu Jinglian Criticizes Japan
 	picture = GFX_report_event_JAP_foreign_minister
 
 	trigger = {
-		FNG_wu_jinglian = { is_political_advisor = yes }
+		FNG_wu_jinglian = { is_other_minister = yes }
 		JAP = { is_faction_leader = yes }
 		FNG_JAP_hostile = no
 	}
@@ -1320,7 +1320,7 @@ country_event = { #Wu Jinglian Negotiates New Trade Terms
 	is_triggered_only = yes
 
 	trigger = {
-		FNG_wu_jinglian = { is_political_advisor = yes }
+		FNG_wu_jinglian = { is_other_minister = yes }
 	}
 
 	option = { #Excellent!
@@ -2921,7 +2921,7 @@ country_event = { #Japan refused to bailout Fengtian
 	option = { #Perhaps Ruan can smooth things over
 		name = fengtian.74.b
 		trigger = {
-			FNG_ruan_zhenduo = { is_political_advisor = yes }
+			FNG_ruan_zhenduo = { is_other_minister = yes }
 		}
 		ai_chance = {
 			base = 80
@@ -6678,7 +6678,7 @@ country_event = { #Lu Ronghuan gifts a Sturdy Northeastern Pony
 	is_triggered_only = yes
 
 	trigger = {
-		FNG_lu_ronghuan = { is_political_advisor = yes }
+		FNG_lu_ronghuan = { is_other_minister = yes }
 	}
 
 	option = { #Never look a gift horse in the mouth
@@ -6698,7 +6698,7 @@ country_event = { #Rail Union Strikes!
 	fire_only_once = yes
 
 	trigger = {
-		FNG_li_shaogeng = { is_political_advisor = yes }
+		FNG_li_shaogeng = { is_other_minister = yes }
 	}
 
 	option = { #Good
@@ -6722,7 +6722,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		FNG_liang_shiyi = { is_political_advisor = yes }
+		FNG_liang_shiyi = { is_other_minister = yes }
 	}
 
 	option = { #Damn it Liang
@@ -6857,8 +6857,8 @@ country_event = { #China Eastern Railway Tax Dispute
 	trigger = {
 		tag = FNG
 		has_completed_focus = FNG_Reorganise_the_NTC
-		FNG_yuan_jinkai = { is_political_advisor = yes }
-		FNG_li_shaogeng = { is_political_advisor = yes }
+		FNG_yuan_jinkai = { is_other_minister = yes }
+		FNG_li_shaogeng = { is_other_minister = yes }
 	}
 
 	option = { #Levy the tax
@@ -6911,7 +6911,7 @@ country_event = { #Yuan Investigates Regardless
 	is_triggered_only = yes
 
 	trigger = {
-		FNG_yuan_jinkai = { is_political_advisor = yes }
+		FNG_yuan_jinkai = { is_other_minister = yes }
 	}
 
 	option = { #This will not be tolerated
@@ -7369,7 +7369,7 @@ country_event = { # An Interesting Discovery (Leaked codes)
 			FNG = {
 				FNG_ruan_zhenduo = {
 					is_character = event_target:leaker
-					is_political_advisor = yes
+					is_other_minister = yes
 				}
 			}
 		}
@@ -7381,7 +7381,7 @@ country_event = { # An Interesting Discovery (Leaked codes)
 			FNG = {
 				FNG_ruan_zhenduo = {
 					is_character = event_target:leaker
-					is_political_advisor = no
+					is_other_minister = no
 				}
 			}
 		}
@@ -7453,7 +7453,7 @@ country_event = { # An Interesting Discovery (Leaked codes)
 				FNG = {
 					FNG_ruan_zhenduo = {
 						is_character = event_target:leaker
-						is_political_advisor = no
+						is_other_minister = no
 					}
 				}
 			}
@@ -7481,7 +7481,7 @@ country_event = { # An Interesting Discovery (Leaked codes)
 			FNG = {
 				FNG_ruan_zhenduo = {
 					is_character = event_target:leaker
-					is_political_advisor = no
+					is_other_minister = no
 				}
 			}
 		}
@@ -7553,7 +7553,7 @@ country_event = { #Japan Demands Ruan Zhenduo's Reinstatement
 		add_political_power = -10
 		set_temp_variable = { CCPOP = 3 }
 		FNG_CCPOP = yes
-		activate_advisor = FNG_ruan_zhenduo_political_advisor
+		activate_advisor = FNG_ruan_zhenduo_other_minister
 		ai_chance = {
 			base = 45
 			modifier = {
@@ -13476,11 +13476,11 @@ country_event = { #Encryption Codes Leaked!
 	immediate = {
 		set_country_flag = FNG_encryption_codes_leaked
 		if = {
-			limit = { FNG_ruan_zhenduo = { is_political_advisor = yes } }
+			limit = { FNG_ruan_zhenduo = { is_other_minister = yes } }
 			FNG_ruan_zhenduo = { save_event_target_as = leaker }
 		}
 		else_if = {
-			limit = { FNG_wang_yintai = { is_political_advisor = yes } }
+			limit = { FNG_wang_yintai = { is_other_minister = yes } }
 			FNG_wang_yintai = { save_event_target_as = leaker }
 		}
 		else = {
@@ -13607,7 +13607,7 @@ country_event = { #Encryption Codes Leaked!
 			FNG_CAPOP = yes
 			set_temp_variable = { ZCPOP = 3 }
 			FNG_ZCPOP = yes
-			deactivate_advisor = FNG_ruan_zhenduo_political_advisor
+			deactivate_advisor = FNG_ruan_zhenduo_other_minister
 			custom_effect_tooltip = FNG_japan_dislike
 		}
 		else_if = {

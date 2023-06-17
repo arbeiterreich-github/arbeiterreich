@@ -1384,7 +1384,7 @@ ROM_legion_category = {
 				limit = { NOT = { has_country_flag = ROM_og_supported } }
 				set_country_flag = ROM_og_supported
 				custom_effect_tooltip = tooltip_white_line
-				custom_effect_tooltip = available_political_advisor
+				custom_effect_tooltip = available_other_minister
 				show_ideas_tooltip = ROM_ion_mota_sic
 			}
 		}
@@ -1417,7 +1417,7 @@ ROM_legion_category = {
 				limit = { NOT = { has_country_flag = ROM_cml_supported } }
 				set_country_flag = ROM_cml_supported
 				custom_effect_tooltip = tooltip_white_line
-				custom_effect_tooltip = available_political_advisor
+				custom_effect_tooltip = available_other_minister
 				show_ideas_tooltip = ROM_gheorge_clime
 			}
 		}
@@ -1468,7 +1468,7 @@ ROM_legion_category = {
 				limit = { NOT = { has_country_flag = ROM_radicals_supported } }
 				set_country_flag = ROM_radicals_supported
 				custom_effect_tooltip = tooltip_white_line
-				custom_effect_tooltip = available_political_advisor
+				custom_effect_tooltip = available_other_minister
 				show_ideas_tooltip = ROM_alexandru_cantacuzino_advisor
 			}
 		}

@@ -47,7 +47,7 @@ characters = {
 			ideology = radical_socialist_subtype
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = NZL_fintan_patrick_walsh
 			available = {
 				has_socialist_government = yes
@@ -164,7 +164,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = NZL_constance_alice_rawcliffe
 			available = {
 				has_socialist_government = yes
@@ -180,7 +180,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = NZL_sidney_wilfred_scott
 			available = {
 				has_socialist_government = yes
@@ -196,7 +196,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = NZL_arthur_cook
 			available = {
 				has_socialist_government = yes
@@ -212,7 +212,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = NZL_arnold_henry_nordmeyer
 			available = {
 				has_socialist_government = yes
@@ -228,7 +228,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = NZL_david_gervan_mcmillan
 			available = {
 				has_socialist_government = yes
@@ -244,7 +244,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = NZL_frederick_nelson_jones
 			available = {
 				has_authoritarian_government = no
@@ -260,7 +260,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = NZL_james_roberts
 			available = {
 				has_authoritarian_government = no
@@ -276,7 +276,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = NZL_tapihana_paraire_paikea
 			available = {
 				has_authoritarian_government = no
@@ -292,7 +292,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = NZL_tiaki_omana
 			available = {
 				has_authoritarian_government = no
@@ -308,7 +308,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = NZL_ernest_richard_toop
 			available = {
 				has_democratic_government = yes
@@ -324,7 +324,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = NZL_william_goodfellow
 			available = {
 				has_democratic_government = yes
@@ -340,7 +340,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = NZL_william_john_polson
 			available = {
 				has_democratic_government = yes
@@ -356,7 +356,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = NZL_joseph_gordon_coates
 			available = {
 				has_democratic_government = yes
@@ -372,7 +372,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = NZL_berkeley_lionel_scudamore_dallard
 			available = {
 				has_democratic_government = yes
@@ -388,7 +388,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = NZL_keith_lindsay_stewart
 			available = {
 				has_dictatorship_government = yes
@@ -404,7 +404,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = NZL_lindsay_merritt_inglis
 			available = {
 				has_dictatorship_government = yes
@@ -420,7 +420,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = NZL_will_lawson
 			available = {
 				has_dictatorship_government = yes
@@ -436,7 +436,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = NZL_arthur_nelson_field
 			available = {
 				has_dictatorship_government = yes
@@ -828,7 +828,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = other_minister
 			idea_token = NZL_nancy_grace_augusta_wake
 			allowed = {
 				has_dlc_lar = yes
