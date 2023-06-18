@@ -359,3 +359,27 @@ country_event = { # snap elections
 
 	}
 }
+
+country_event = { # working with unions
+	id = ita.15
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ita.15 FROM = [From.GetName]" }
+	title = ita.15.t
+	desc = ita.15.d
+	picture = GFX_report_event_generic_conference3
+	is_triggered_only = yes
+
+	option = {
+		name = ita.15.a
+			hidden_effect = {
+				add_ideas = ITA_unions_appeased
+			}
+
+	}
+
+	option = {
+		name = ita.15.b
+			hidden_effect = {
+			}
+
+	}
+}

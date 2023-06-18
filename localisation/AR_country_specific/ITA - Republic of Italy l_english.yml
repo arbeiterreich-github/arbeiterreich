@@ -59,6 +59,9 @@ ITA_roaring_romans: "The Roaring Romans"
 ITA_roaring_romans_desc: "Rome and Italy itself is still in its fine years as its still feeling the effects of the Roaring 20s and the economic boom! The people of Italy are used to economic prosperity by now so a drastic change in economy could severely harm Italy."
 ITA_the_mafia: "The Mafia"
 ITA_victor_emmanuel_iii: "Victor Emmanuel III"
+ITA_rome_speeches: "Rome Speeches"
+ITA_the_vatican: "The Vatican"
+ITA_unions_appeased: "Unions Appeased"
 
 ### Flags and tooltips###
  ITA_snap_elections_tooltip: "§RThe Prime Minister and Chancellor have both been assassinated! We must initiate Snap Elections to fill the gaping maw that is our newly aquired power vaccum!!§"
@@ -200,6 +203,8 @@ ITA_the_two_takers: "The Two Takers"
  ita.13.d: "Shocking news has come out about comrade Mussolini, where it states he has defected from the Futurist Party and posted his own newspaper about his defection and why. Apparently, conditions in the Futurist Party have caused him to leave out of anger and disgust, and the Futirists are shocked and livid. Though, he still remains as one of the two takers. Will we allow Mussolini to take power or invite Marinetti to power?"
  ita.13.a: "that traitor will pay!"
  ita.13.b: "Whatever. Let him in."
+ ita.15.t: "Working With Unions"
+ ita.15.d: "Unions in Italy are pretty common, especially in industrialized population centers like Rome and Naples"
 
 ### Cosmetic Tags ###
  ITA: "Italy"

@@ -67,6 +67,8 @@ focus_tree = {
 		}
 		relative_position_id = ITA_parriadmin
 		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 50
 		}
 	}
 
@@ -95,6 +97,7 @@ focus_tree = {
 		}
 		relative_position_id = ITA_parriadmin
 		completion_reward = {
+			add_political_power = 100
 		}
 	}
 
@@ -151,6 +154,7 @@ focus_tree = {
 		}
 		relative_position_id = ITA_parriadmin
 		completion_reward = {
+			add_timed_idea = { idea = ITA_rome_speeches  days = 100 }
 		}
 	}
 
@@ -179,6 +183,10 @@ focus_tree = {
 		}
 		relative_position_id = ITA_parriadmin
 		completion_reward = {
+			country_event = {
+			id = ita.15
+			days = 0
+			}
 		}
 	}
 
@@ -207,6 +215,7 @@ focus_tree = {
 		}
 		relative_position_id = ITA_parriadmin
 		completion_reward = {
+			add_ideas = ITA_the_vatican
 		}
 	}
 
@@ -237,6 +246,7 @@ focus_tree = {
 		}
 		relative_position_id = ITA_parriadmin
 		completion_reward = {
+			add_stability = 0.1
 		}
 	}
 
@@ -265,6 +275,22 @@ focus_tree = {
 		}
 		relative_position_id = ITA_parriadmin
 		completion_reward = {
+			add_popularity = {
+				ideology = totalist
+				popularity = -0.05
+			}
+			add_popularity = {
+				ideology = syndicalist
+				popularity = -0.05
+			}
+			add_popularity = {
+				ideology = radical_socialist
+				popularity = -0.05
+			}
+			add_popularity = {
+				ideology = national_populist
+				popularity = -0.05
+			}
 		}
 	}
 
@@ -274,9 +300,9 @@ focus_tree = {
 		icon = GFX_SRD_irridentism
 		cost = 7
 		available = {
+			has_country_flag = ITA_assasinated
 			OR = {
 				has_elected_government = yes
-				has_country_flag = ITA_assasinated
 			}
 		}
 		bypass = {
@@ -294,7 +320,7 @@ focus_tree = {
 			}
 		}
 		x = 6
-		y = 6
+		y = 7
 		completion_reward = {
 			custom_effect_tooltip = ITA_snap_elections_tooltip
 		}
@@ -612,4 +638,7 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
+
+	# LIBERAL BRANCH
+
 }

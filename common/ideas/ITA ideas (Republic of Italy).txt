@@ -44,6 +44,43 @@ ideas = {
 				war_support = 0.1
 			}
 		}
+
+		ITA_rome_speeches = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ITA_rome_speeches" }
+			picture = hol_the_foundations_of_defense
+			allowed = { always = no }
+			available = {
+				
+			}
+			modifier = {
+				stability_weekly = 0.01
+			}
+		}
+
+		ITA_the_vatican = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ITA_the_vatican" }
+			picture = BRA_faith_unity
+			allowed = { always = no }
+			available = {
+				
+			}
+			modifier = {
+				stability_factor = 0.15
+			}
+		}
+
+		ITA_unions_appeased = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ITA_unions_appeased" }
+			picture = jap_the_unthinkable_option
+			allowed = { always = no }
+			available = {
+				
+			}
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.05
+				stability_factor = -0.03
+			}
+		}
 	}
 }
 
