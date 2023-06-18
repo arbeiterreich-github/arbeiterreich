@@ -119,214 +119,7 @@
  SER_fourth_balkan_war_threat: "Fourth Balkan War"
 
 ### Ideas ###
- SER_treaty_of_wartholz: "The Treaty of Wartholz"
- SER_treaty_of_wartholz_desc: "Signed by the Kingdom of Serbia in 1919, the Treaty of Wartholz is a punitive agreement that establishes Serbia’s postwar relationship with the Austro-Hungarian Empire. It limits the size of the Serbian Army to 35 thousand men, establishes a free trade area between the two states, and requires Serbia to relinquish all claims upon Austrian and Bulgarian territory."
- SER_everything_disabled_tt: "§RCannot train units, disband units, or edit unit templates.§!\n§RCannot enact conscription or mobilise the economy.§!\n§RCannot produce tanks or aircraft.§!\n"
-
- SER_secret_rearmament: "Secret Rearmament"
- SER_secret_rearmament_desc: "Serbia’s secret rearmament began almost immediately after the Treaty of Wartholz, but ramped up in intensity after the Republican Revolution. Hidden as civilian contracts, equipment purchases are made, a new generation of pilots and officers are trained, and terms of the treaty are violated in preparation for the restoration of Greater Serbia."
-
- SER_open_rearmament: "Open Rearmament"
- SER_open_rearmament_desc: "The Treaty of Wartholz is dead, and the Serbian eagle spreads its wings once more. Equipment is being purchased, a new generation of pilots and officers are trained, and the nation mobilised in preparation for the restoration of Greater Serbia."
-
- SER_scarred_nation: "A Scarred Nation"
- SER_scarred_nation_desc: "Serbia suffered more than any other country in the Weltkrieg. Entire towns were depopulated, the country looted, hundreds of thousands died - and the ordinary Serb believes it was their fault. After all, it was a Serb who shot Archduke Franz Ferdinand and thus sparked the conflict. Though the leaders of Serbia may hold irredentist ambitions, they will need to convince the people that this will not go the same way as last time."
-
- SER_konspiracija_dynamic_modifier: "£pol_idea The Konspiracija"
- SER_konspiracija_idea: "The Konspiracija"
- SER_konspiracija_idea_desc: "The Konspiracija orchestrated the Republican Revolution of 1925 and thus considers itself entitled to dictate the foreign policy of the country - they wish to pursue Serbian irredentism and the destruction of Bulgaria. Conceding ground to this “secret society” can grant us powerful boons, but it is a Faustian bargain...\n§W--------------\n$MODIFIER_POLITICAL_POWER_FACTOR$: [?var_KONS_influence|=%+0]"
-
- SER_puppet_show: "Dance of the Puppet Show"
-
- SER_Petar_II_regency: "Petar II"
- SER_Petar_II_regency_desc: "Petar II Karađorđević is the sole child of the late Aleksandar II, the last King of Serbia before the Republican Revolution. Left without a father at the age of two, he was secured by Petar Živković before the revolutionaries found him and smuggled across the border - from there, the heir made it all the way to Canada. There, he fell under the tutelage of his uncle Prince Pavle - a cultured and easy-going bon vivant who inducted the future King into the lifestyle of British nobility.\n\nRestored to the throne, Petar arrived to an impoverished nation and has been turned into a puppet for the politicking of Živković and Ljotić - and yet, though he may still be young, his nation sees potential in him. Perhaps he can turn a page away from his father and reveal himself to be a 'modern monarch', one with a liberal, British-raised view of the world."
- SER_Petar_II_stojadinovic_puppet: "Petar II"
- SER_Petar_II_stojadinovic_puppet_desc: "Petar II Karađorđević is the sole child of the late Aleksandar II, the last King of Serbia before the Republican Revolution. Left without a father at the age of two, he was secured by Petar Živković before the revolutionaries found him and smuggled across the border - from there, the heir made it all the way to Canada. There, he fell under the tutelage of his uncle Prince Pavle - a cultured and easy-going bon vivant who inducted the future King into the lifestyle of British nobility.\n\nRestored to the throne, Petar arrived to an impoverished nation and has been turned into a puppet for the nationalist regime of Milan Stojadinović - and yet, though he may still be young, his nation sees potential in him. Perhaps he can turn a page away from his father and reveal himself to be a 'modern monarch', one with a liberal, British-raised view of the world."
-
- SER_structuralist_economics: "Structuralist Economics"
- SER_structuralist_economics_desc: "Based upon the belief that there is no universal economic model and each country needs to find their own path, economic structuralism calls for the state to promote industry reliant on materials produced domestically, and the need for the state to have control of monetary resources in order to redirect it to industries which need them."
- SER_black_monday: "Black Monday"
- SER_black_monday_desc: "The collapse of German imports and the closure of international trade means that our small industrial sector starves and our agrarian population struggles to find markets to sell their produce. This has led to a full collapse of the nation's economy."
-
- SER_farming_subsidies: "Farming Subsidies"
- SER_farming_subsidies_desc: "To ensure that the economy of Serbia remains afloat, the state needs to take a more direct role in agriculture and intervene to ensure stable production, stable prices and stable exports."
-
- SER_state_railways_directorate: "State Railways Directorate"
- SER_state_railways_directorate_desc: "The newly centralised Serbian State Railways Directorate brings ownership of every railway in the country under a single organisation. With internal competition eliminated, the Directorate can now work to extend the existing railways to every corner of Serbia."
-
- SER_military_reform_council: "Military Reform Council"
- SER_military_reform_council_desc: "Led by General Milan Nedić, the Military Reform Council has been created with the aim to bring the woeful Serbian Army into the modern age, through a series of rigorous reforms."
-
- SER_local_designs_idea: "Local Designs"
- SER_local_designs_idea_desc: "Having access to foreign designs has allowed Serbian local talent to design their own local designs."
-
- SER_airforce_idea: "Serbian Air Force Doctrine"
- SER_airforce_idea_desc: "Serbia, with the aid of foreign advisors and local talent, has adopted a modern air doctrine."
-
- SER_russian_aerial_expertise: "Russian Aerial Expertise"
- SER_russian_aerial_expertise_desc: "Serbia has sought Russian advisors to assist in training its new pilots."
-
- SER_french_aerial_expertise: "French Aerial Expertise"
- SER_french_aerial_expertise_desc: "Serbia has sought French advisors to assist in training its new pilots."
-
- SER_naval_investments: "Naval Investments"
- SER_naval_investments_desc: "The government is investing significant funds in shipbuilding, taking a noticeable portion of the budget while spurring the shipbuilders."
-
- SER_republican_guard: "The Republican Guard"
- SER_republican_guard_desc: "To defend ourselves from the threat of a military coup, we must always have an armed backbone - and a militarised public organisation committed to the defence of republican ideas is the solution we have found."
-
- SER_ideologically_charged_army: "Ideologically Charged Army"
- SER_ideologically_charged_army_desc: "Shaken by new promotions and appointments, the Serbian Army is uncharacteristically loyal and devout to the republican ideal."
-
- SER_workplace_democracy_idea: "Progress of Labour!"
- SER_workplace_democracy_idea_desc: "We shall grant the Serbian worker and farmer a new future, one free of struggle and hardship, free of unjust exploitation and shone over by harmonious existence!"
-
- SER_liberation_of_women: "Progress of the Sexes!"
- SER_liberation_of_women_desc: "We have to realise that men and women are both people with equal capacity to learn, work and fight. While we cannot defeat millennia of preconceived notions, we can legislate to improve the current conditions, and give women more opportunity in life."
-
- SER_rep_political_reform: "Progress of Governance!"
- SER_rep_political_reform_desc: "A modern democratic society requires a strong bureaucratic founding base in order to function properly. While democracy is not merely a procedural process, strong procedure, transparent governance, and efficient administration are all beneficial to no end."
-
- SER_pre_harmony_of_classes: "Progress of Labour! §Wand§! Progress of Governance!"
-
- SER_harmony_of_classes: "Class Harmony"
- SER_harmony_of_classes_desc: "At last, with the leadership of the Republican Party, the Serbian people can enjoy the full benefits of social and economical progress - a harmonious society, where any person of any class can qualify for a fulfilling life."
-
- SER_national_labor_union_council_idea: "National Trade Union Council"
- SER_national_labor_union_council_idea_desc: "The National Trade Union Council is the mediator between central government and the interests of the workers, and we must respect its advice."
-
- SER_state_corporatism_idea: "State Corporatism"
- SER_state_corporatism_idea_desc: "All national energies need to be welded into a single organ with which we may defeat any enemies - strong or weak, internal or external."
-
- SER_serb_radicalism: "Serb Radicalism"
- SER_serb_radicalism_desc: "The People's Radical Party, the vanguard of the Serbian nation, pursues a policy of agrarian supremacy, mass politics, and patriotic dedication to one's community as well as the entire nation. The historical ideal of the Zadruga, a democratic rural community of Slavic peasantry, is what guides us in our policies."
-
- SER_pasic_cult_idea: "The Cult of Nikola Pašić"
- SER_pasic_cult_idea_desc: "The greatest statesman Serbia has ever seen, Nikola Pašić is the father of the Serbian state, its guide for decades who fought against absolutism and authoritarianism all his life. While it appeared his efforts were in vain at the moment of his death, his legacy still resonates with us, and he is a glorious enough figure to lift to near-divine status!"
-
- SER_tripartite_labor_relations_council_idea: "Tripartite Council on Economic Affairs"
- SER_tripartite_labor_relations_council_idea_desc: "The Tripartite Council is an organ composed of government, business and labour representatives, deliberating on national economic policy and working to create policies which will benefit the entire nation, not just any social group."
-
- SER_via_media: "Via Media"
- SER_via_media_desc: "Sometimes, the pen is mightier than the sword."
-
- SER_secret_police_idea: "Court for the Protection of the State"
-
- SER_nationalist_fervor_idea: "Nationalist Fervour"
- SER_nationalist_fervor_idea_desc: "The Serbian people are once again ready for war, and war we shall give them!"
-
- SER_greenshirts: "Greenshirts"
- SER_greenshirts_desc: "Milan Stojadinović's Greenshirts, inspired by the Romanian Iron Guard, are the paramilitary wing of his Radical Union. Armed by the state, these brave men have dedicated their lives to protect the Serbian government at any cost. They will ensure that any attempts to dislodge our Vojvoda's rule will be met with furious retaliation, so that Serbia can once again be a strong nation."
-
- SER_social_welfare_idea: "Expanded Social Welfare"
-
- SER_avant_garde_idea: "The Second Serbian Avant-Garde"
- SER_avant_garde_idea_desc: "Artists, poets and playwrights across Serbia once again push to break the boundaries set by society and discover new ways in which traditions may be challenged."
-
- SER_socialist_realism_idea: "Socialist Realism"
- SER_socialist_realism_idea_desc: "Art must serve ideological ideals, and so we shall ensure that artists and playwrights make the sort of content which will further the cause of socialism. They shall present socialism as a bright tomorrow and will not engage in unnecessary degeneracy."
-
- SER_hotel_slavija: "The Hotel Slavija Regime"
- SER_hotel_slavija_desc: "While the Skupština remains the sole legislative authority, more and more decisions are instead being made in the headquarters of the SRP and extraparliamentary institutions, eroding democratic power and strengthening socialist authority."
-
- SER_revolution_purged_army: "Military Purges"
-
- SER_state_terror: "Subordination of Society"
- SER_state_terror_desc: "We shall ensure that everyone in Serbian society stays in line. There is only one path for the masses and that is the path of socialism, any deviation is akin to betrayal."
-
- SER_economic_transformation_initial: "Economic Transformation of Society"
- SER_economic_transformation_initial_desc: "The means of production and who controls them are the key factor which drives history forward. Let us hand the means of production to the workers and so accelerate the transformation towards socialism!"
-
- SER_unified_trade_union_idea: "Central Workers' Trade Union"
- SER_unified_trade_union_idea_desc: "Divided between various trades, the workers of Serbia will be unable to defend their rights and organise. Following the examples of the CGT and the TUC, we shall unify all trade unions in Serbia into one organ - which just so happens to be controlled by the Socialist Workers' Party."
-
- SER_youth_work_brigades_idea: "Youth Work Brigades"
- SER_youth_work_brigades_idea_desc: "The backbone of new industrial Serbian socialism shall be built with the sweat of our youth. They need to be integrated into socialist society from an early age - high schoolers and students shall be drafted into work actions and spend their time building roads and railways, gaining valuable experience and finding comrades along the way!"
-
- SER_national_revival: "National Regeneration"
- SER_national_revival_desc: "Merely restoring the Royal family is not enough. We must build an ideal, regenerated state, which follows the orders of nature once again and turns the power of the monarchy total. We are not merely reactionaries - we are revolutionaries, national revolutionaries, and we will build a new Serbian monarchy upon the ashes of the Republic."
-
- SER_zadruga: "Zadruga Communalism"
- SER_zadruga_desc: "The Serbian nation shall no longer be poisoned by the ideas of socialism, individualism and modernism! Our home is the village, and the village community - here, in the idyllic countryside, where the rulers rule and the subjects serve, where solidarity prospers, we will found a new Serbia!"
-
- SER_military_dominance_idea: "Military Dominance"
- SER_military_dominance_idea_desc: "The Serbian Army are the saviours of monarchism and shall guide us forevermore! Let us ensure that military officers routinely hold political positions and sway the government in their favour, and thus empower them to be the guardian angels of the Serbian people!"
-
- SER_royal_constitution: "The Royal Constitution"
- SER_royal_constitution_desc: "The Constitution so generously bestowed upon the Serbian people by His Majesty's Government shall signal a return to the constitutionalism of the era before the Weltkrieg, a golden age in Serbian history which we shall live again!"
-
- SER_the_dream_of_yugoslavia: "The Dream of Yugoslavia"
- SER_the_dream_of_yugoslavia_desc: "Despite the best efforts of the oppressors in Vienna and Budapest, the Yugoslav dream lives on in the hearts of all Southern Slavs! Serbia must once again carry the torch of liberation with the selfless goal to overthrow the German-Hungarian hegemony over Slavdom."
-
- SER_national_lottery: "National Lottery"
-
- SER_YUG_anti_serb_rebellion: "The War Against Belgrade"
-
- SER_YUG_unified_tariff_system: "Unified System of Tariffs and Fees"
-
- SER_YUG_constitutionalist_military: "Constitutionalist Military"
- SER_YUG_constitutionalist_military_desc: "The Yugoslav military has been subordinated to civilian affairs and an era of army interference in politics has come to an end."
-
- SER_YUG_interferent_military: "Interferent Military"
- SER_YUG_interferent_military_desc: "Though the Konspiracija is long gone, the military continues to interfere in political affairs and democracy in Yugoslavia struggles to breathe."
-
- SER_YUG_deep_state: "The Yugoslav Secret Society"
- SER_YUG_deep_state_desc: "Politics in Yugoslavia remain shackled by a secret society behind the backs of civilian politicians. At any time, some ambitious colonel may overthrow the fragile republic and establish his own order."
-
- SER_konspiracija_conflict: "Movement for the Constitution"
- SER_konspiracija_conflict_desc: "Internal backlash against the Serbian Army and its interferent role in society is currently taking place, and while it is paralysing government activities, this movement may be channelled for our use."
-
- SER_YUG_reformed_conscription: "Reformed Conscription System"
-
- SER_YUG_anti_imperialist_vanguard_idea: "The Anti-Imperialist Vanguard"
-
- SER_YUG_dalmatian_tourism: "Adriatic Tourism Industry"
- SER_YUG_dalmatian_tourism_desc: "Smart investment into the tourism infrastructure on the Adriatic has helped it boom. The beaches and islands of the Dalmatian coast are quite an attraction, and perhaps one day it will become the capital of tourism in Southeastern Europe."
-
- SER_YUG_serbocroatian: "Serbo-Croatian Language"
- SER_YUG_serbocroatian_desc: "The official language of the country is Serbo-Croatian, and the state declares that "Croatian", "Serbian" and "Bosnian" languages are fiction, merely dialects of a single, unified language."
-
- SER_YUG_serbocroatianslovenian: "Serbo-Croatian-Slovenian Language"
- SER_YUG_serbocroatianslovenian_desc: "The official language of the country is Serbo-Croatian-Slovenian, and the state declares that "Slovene", "Croatian", "Serbian" and "Bosnian" languages are fiction, merely dialects of a single, unified language."
-
- SER_YUG_cyrillic: "Cyrillic Script Enforced"
- SER_YUG_cyrillic_desc: "The Cyrillic script is the natural script of the Serbo-Croatian language and should be enforced - official documents will be written strictly in Cyrillic and bureaucrats from Croatia and Slovenia will be taught this script to use in everyday work."
-
- SER_YUG_national_myth: "National Mythology"
- SER_YUG_national_myth_desc: "All Yugoslavs shall worship the same heroes and the same historical achievements - the Battle of Kosovo and the Weltkrieg were all-Yugoslav battles against oppressors, not Serbian or any other causes."
-
- SER_YUG_unified_education_system: "Unified Education System"
-
- SER_YUG_special_relationship_idea: "The Special Relationship"
-
- SER_YUG_princip_memorial_idea: "Gavrilo Princip Memorial"
- SER_YUG_princip_memorial_idea_desc: "Gavrilo Princip, the brave Young Bosnian youth who made the fateful shots in 1914, should no longer be treated as a failure who doomed the South Slavs to untold suffering. After two decades, the Yugoslav idea he died for has finally been realised, and thus we can finally recognise him for who he truly was - a slayer of tyrants."
-
- SER_YUG_yugosphere_idea: "Building the Yugosphere"
- SER_progressive_reforms_base: "Progressive Reforms"
- SER_progressive_reforms_liberal: "Progressive Reforms"
- SER_progressive_reforms_authoritarian: "Progressive Reforms"
- SER_progressive_reforms_final_liberal: "Progressive Liberal Reforms"
- SER_progressive_reforms_final_authoritarian: "Progressive Authoritarian Reforms"
-
- SER_dinar_stabilized: "Strong Dinar Currency"
- SER_dinar_stabilized_desc: "Following the establishment of a standard currency, the dinar is now strong and stable."
-
- SER_central_banking_committee: "Central Banking Committee"
- SER_central_banking_committee_desc: "With the Banking Committee overseeing banking matters, the financial system has been greatly improved."
-
- SER_domestic_enemies_1: "Domestic Enemies Strength: §RStrong§!"
- SER_domestic_enemies_2: "Domestic Enemies Strength: §YAverage§!"
- SER_domestic_enemies_3: "Domestic Enemies Strength: §GWeak§!"
-
- SER_surprise_attack: "Surprise Attack"
- SER_surprise_attack_desc: "The discretion of our conspiracy gave us the effect of surprise against Bulgaria."
-
- SER_federalized_montenegro: "Montenegrin Autonomy"
-
- SER_IMRO_rebellion_2: "Remnants of the IMRO"
- SER_IMRO_rebellion_2_desc: "The Internal Macedonian Revolutionary Organisation has been defeated, but their underground cells are still making a last stand, committing acts of terrorism in vain hope that this will prove a point. Until this ceases, our nation will suffer."
-
+ 
 ### Tech Sharing ###
  balkan_research_name: "Balkan Research Initiative"
  balkan_research_desc: ""
@@ -2547,33 +2340,33 @@
  SER_radical_socialist_ADJ: "Serbian"
  SER_radical_socialist_DEF: "the Serbian Socialist Republic"
 
- SER_republic_totalist: "Serbian Socialist Republic"
+ SER_republic_totalist: "Serbian Socialist State"
  SER_republic_totalist_ADJ: "Serbian"
- SER_republic_totalist_DEF: "the Serbian Socialist Republic"
+ SER_republic_totalist_DEF: "the Serbian Socialist State"
  SER_republic_syndicalist: "Serbian Socialist Republic"
  SER_republic_syndicalist_ADJ: "Serbian"
  SER_republic_syndicalist_DEF: "the Serbian Socialist Republic"
- SER_republic_radical_socialist: "Serbia"
+ SER_republic_radical_socialist: "Serbian Socialist State"
  SER_republic_radical_socialist_ADJ: "Serbian"
- SER_republic_radical_socialist_DEF: "the Serbian Republic"
- SER_republic_social_democrat: "Serbia"
+ SER_republic_radical_socialist_DEF: "the Serbian Socialist State"
+ SER_republic_social_democrat: "Kingdom of Serbia"
  SER_republic_social_democrat_ADJ: "Serbian"
- SER_republic_social_democrat_DEF: "the Serbian Republic"
- SER_republic_social_liberal: "Serbia"
+ SER_republic_social_democrat_DEF: "the Kingdom of Serbia"
+ SER_republic_social_liberal: "Kingdom of Serbia"
  SER_republic_social_liberal_ADJ: "Serbian"
- SER_republic_social_liberal_DEF: "the Serbian Republic"
- SER_republic_market_liberal: "Serbia"
+ SER_republic_social_liberal_DEF: "the Kingdom of Serbia"
+ SER_republic_market_liberal: "Kingdom of Serbia"
  SER_republic_market_liberal_ADJ: "Serbian"
- SER_republic_market_liberal_DEF: "the Serbian Republic"
- SER_republic_social_conservative: "Serbia"
+ SER_republic_market_liberal_DEF: "the Kingdom of Serbia"
+ SER_republic_social_conservative: "Kingdom of Serbia"
  SER_republic_social_conservative_ADJ: "Serbian"
- SER_republic_social_conservative_DEF: "the Serbian Republic"
- SER_republic_authoritarian_democrat: "Serbia"
+ SER_republic_social_conservative_DEF: "the Kingdom of Serbia"
+ SER_republic_authoritarian_democrat: "Kingdom of Serbia"
  SER_republic_authoritarian_democrat_ADJ: "Serbian"
- SER_republic_authoritarian_democrat_DEF: "the Serbian Republic"
- SER_republic_paternal_autocrat: "Serbia"
+ SER_republic_authoritarian_democrat_DEF: "Kingdom of Serbiac"
+ SER_republic_paternal_autocrat: "Kingdom of Serbia"
  SER_republic_paternal_autocrat_ADJ: "Serbian"
- SER_republic_paternal_autocrat_DEF: "the Serbian Republic"
+ SER_republic_paternal_autocrat_DEF: "Kingdom of Serbia"
  SER_republic_national_populist: "Serbian State"
  SER_republic_national_populist_ADJ: "Serbian"
  SER_republic_national_populist_DEF: "the Serbian State"
