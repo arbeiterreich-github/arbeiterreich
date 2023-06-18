@@ -92,6 +92,10 @@ if = {
 	}
 }
 
+add_civil_war_target = BRA
+add_civil_war_target = EBR
+add_civil_war_target = EBR
+
 declare_war_on = {
 		target = BRA 
 		type = civil_war 

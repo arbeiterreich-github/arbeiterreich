@@ -27,6 +27,7 @@ focus_tree = {
 		icon = GFX_goal_vargas_victorious
 		available = {
 			has_government = paternal_autocrat
+			has_civil_war = no
 		}
 		allow_branch = {
 			has_government = paternal_autocrat

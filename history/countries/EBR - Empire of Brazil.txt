@@ -92,11 +92,18 @@ if = {
 	}
 }
 
+add_civil_war_target = BRA
+add_civil_war_target = UOB
+add_civil_war_target = EBR
+
 declare_war_on = {
 		target = BRA 
 		type = civil_war 
 	}
-add_civil_war_target = BRA
+declare_war_on = {
+		target = UOB 
+		type = civil_war 
+	}
 
 give_guarantee = URG
 add_to_array = { URG.guarantor_array = BRA }

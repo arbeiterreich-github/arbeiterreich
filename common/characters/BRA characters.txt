@@ -41,37 +41,6 @@ characters = {
 			ideology = syndicalist_subtype
 		}
 	}
-	BRA_luis_carlos_prestes = {
-		name = BRA_luis_carlos_prestes
-		portraits = {
-			army = {
-				small = "gfx/interface/advisors/BRA/BRA_luis_carlos_prestes.png"
-				large = "gfx/leaders/BRA/Portrait_BRA_Luis_Carlos_Prestes.png"
-			}
-		}
-		country_leader = {
-			desc = BRA_luis_carlos_prestes_leader_desc
-			ideology = syndicalist_subtype
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = BRA_luis_carlos_prestes
-			available = {
-				has_socialist_government = yes
-				is_country_leader = no
-			}
-			traits = { KR_reformist_soldier }
-		}
-		corps_commander = {
-			desc = BRA_luis_carlos_prestes_commander_desc
-			traits = { trait_reckless infantry_officer infantry_leader commando ambusher }
-			skill = 2
-			attack_skill = 3
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 2
-		}
-	}
 	BRA_patricia_rehder_galvao = {
 		name = BRA_patricia_rehder_galvao
 		gender = female
