@@ -43,14 +43,9 @@ if = {
 			target = TRS
 			autonomy_state = kr_integrated_puppet
 		}
-		set_autonomy = {
-			target = CZE
-			autonomy_state = kr_integrated_puppet
-		}
 	}
 	else = {
 		puppet = TRS
-		puppet = CZE
 	}
 }
 
