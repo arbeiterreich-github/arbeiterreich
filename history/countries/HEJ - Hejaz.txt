@@ -34,6 +34,8 @@ add_ideas = {
 	HEJ_ottoman_civil_service_idea
 }
 
+add_cosmetic_tag = ARB
+
 recruit_character = HEJ_faisal
 recruit_character = HEJ_abdullah_bin_al_hussein
 
