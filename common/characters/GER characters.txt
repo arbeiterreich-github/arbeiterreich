@@ -10,7 +10,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = social_democrat_subtype
+			ideology = radical_socialist_subtype
 		}
 	}
 }
