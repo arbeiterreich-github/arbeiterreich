@@ -193,8 +193,8 @@
  GER_grain_and_steel_idea_desc: "Focusing on local initiatives opposed to foreign, this programme hopes to achieve a small level of autarky within the Kaiserreich and less reliance on foreign goods"
 
 ### Research Groups ###
- german_research_name: "Kaiser Wilhelm Society"
- german_research_desc: "The Kaiser Wilhelm Society is the principle joint-research organisation of Mitteleuropa."
+ german_research_name: "The People's Society"
+ german_research_desc: "The People's Society is the principle joint-research organisation of The Arbeiterbund."
 
 ### Tooltips ###
  GER_oil_imports: "Importing more than §H100§! units of §HOil§!"
@@ -1644,20 +1644,20 @@
 
  GER_totalist: "German Socialist Republic"
  GER_totalist_ADJ: "German"
- GER_totalist_DEF: "the German Socialist Republic"
- GER_syndicalist: "German Socialist Republic"
+ GER_totalist_DEF: "the German Socialist Republic""
+ GER_syndicalist: "German Socialist Republic""
  GER_syndicalist_ADJ: "German"
- GER_syndicalist_DEF: "the German Socialist Republic"
- GER_radical_socialist: "German Socialist Republic"
+ GER_syndicalist_DEF: "the German Socialist Republic""
+ GER_radical_socialist: "German Socialist Republic""
  GER_radical_socialist_ADJ: "German"
- GER_radical_socialist_DEF: "the German Socialist Republic"
+ GER_radical_socialist_DEF: "the German Socialist Republic""
  GER_social_democrat: "German Republic"
  GER_social_democrat_ADJ: "German"
  GER_social_democrat_DEF: "the German Republic"
  GER_social_liberal: "German Republic"
  GER_social_liberal_ADJ: "German"
  GER_social_liberal_DEF: "the German Republic"
- GER_market_liberal: "German Republic"
+ GER_market_liberal: "German Empire"
  GER_market_liberal_ADJ: "German"
  GER_market_liberal_DEF: "the German Republic"
  GER_social_conservative: "German Empire"
@@ -1669,7 +1669,7 @@
  GER_paternal_autocrat: "German Empire"
  GER_paternal_autocrat_ADJ: "German"
  GER_paternal_autocrat_DEF: "the German Empire"
- GER_national_populist: "German Statw"
+ GER_national_populist: "German State"
  GER_national_populist_ADJ: "German"
  GER_national_populist_DEF: "the German State"
 
