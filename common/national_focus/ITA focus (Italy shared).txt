@@ -1,0 +1,60 @@
+###########################
+# Italy Shared Focus Tree
+# By ME! (thedetailedbread)
+###########################
+
+### ECONOMY RECOVERY ###
+
+	shared_focus = {# Handling the Stock Market Crash
+		id = ITA_handling_economic_no_good
+		icon = GFX_goal_ITA_parri_administration
+		cost = 3
+		available = {
+			OR = {
+				has_elected_government = yes
+			}
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+				}
+			}
+		}
+		x = 11
+		y = 0
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_handling_economic_no_good"
+			custom_effect_tooltip = ITA_economic_crisis
+		}
+	}
+
+	shared_focus = {# Devalue the Lira
+		id = ITA_devalue_lira
+		icon = GFX_goal_ITA_parri_administration
+		cost = 3
+		available = {
+			OR = {
+				has_elected_government = yes
+			}
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+				}
+			}
+		}
+		x = -4
+		y = 1
+		prerequisite = {
+			focus = ITA_handling_economic_no_good
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_devalue_lira"
+		}
+	}

@@ -15,6 +15,8 @@ focus_tree = {
 	default = no
 	continuous_focus_position = { x = 60 y = 2000 }
 
+	shared_focus = ITA_handling_economic_no_good
+	
 ### Parri Administration ###
 
 	focus = {# The Ministry of Parri 
@@ -38,6 +40,7 @@ focus_tree = {
 		x = 6
 		y = 0
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_parriadmin"
 			custom_effect_tooltip = ITA_parriadmin_tooltip
 		}
 	}
@@ -67,6 +70,7 @@ focus_tree = {
 		}
 		relative_position_id = ITA_parriadmin
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_liberal_reforms"
 			add_stability = 0.05
 			add_political_power = 50
 		}
@@ -97,6 +101,7 @@ focus_tree = {
 		}
 		relative_position_id = ITA_parriadmin
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_appeal_to_parliament"
 			add_political_power = 100
 		}
 	}
@@ -126,6 +131,8 @@ focus_tree = {
 		}
 		relative_position_id = ITA_parriadmin
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_appeal_to_king"
+			add_stability = 0.1
 		}
 	}
 
@@ -154,6 +161,7 @@ focus_tree = {
 		}
 		relative_position_id = ITA_parriadmin
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_rome_speeches"
 			add_timed_idea = { idea = ITA_rome_speeches  days = 100 }
 		}
 	}
@@ -183,6 +191,7 @@ focus_tree = {
 		}
 		relative_position_id = ITA_parriadmin
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_rome_speeches"
 			country_event = {
 			id = ita.15
 			days = 0
@@ -215,6 +224,7 @@ focus_tree = {
 		}
 		relative_position_id = ITA_parriadmin
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_vatican_establishment"
 			add_ideas = ITA_the_vatican
 		}
 	}
