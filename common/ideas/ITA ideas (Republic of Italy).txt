@@ -81,6 +81,18 @@ ideas = {
 				stability_factor = -0.03
 			}
 		}
+
+		ITA_economic_collapse = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ITA_economic_collapse" }
+			picture = chi_hyper_inflation3
+			allowed = { always = no }
+			available = {
+				
+			}
+			modifier = {
+				# WORK IN PROGRESS
+			}
+		}
 	}
 }
 

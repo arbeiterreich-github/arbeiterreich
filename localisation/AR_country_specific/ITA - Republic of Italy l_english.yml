@@ -168,6 +168,13 @@ ITA_purging_capitalists: "Purging the Old Capitalists"
 ITA_futurist: "The Futurist"
 ITA_the_two_takers: "The Two Takers"
 
+### Shared Focuses ###
+ITA_handling_economic_no_good: "Handling the Stock Market Crash"
+ITA_devalue_lira: "Devalue the Lira"
+ITA_gold_standard: "Fiercely Hold the Gold Standard"
+ITA_temp_suspend_debts: "Temporarily Suspend Debts"
+ITA_look_for_investment: "Look for Investment"
+
 ### Events ###
 
  ita.1.t: "The Kingdom of Italy"

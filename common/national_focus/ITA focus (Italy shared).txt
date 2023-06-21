@@ -54,7 +54,97 @@
 		prerequisite = {
 			focus = ITA_handling_economic_no_good
 		}
+		mutually_exclusive = {
+			focus = ITA_gold_standard
+		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ITA_devalue_lira"
+		}
+	}
+
+	shared_focus = {# Fiercely Hold the Gold Standard
+		id = ITA_gold_standard
+		icon = GFX_goal_ITA_parri_administration
+		cost = 3
+		available = {
+			OR = {
+				has_elected_government = yes
+			}
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+				}
+			}
+		}
+		x = 4
+		y = 1
+		prerequisite = {
+			focus = ITA_handling_economic_no_good
+		}
+		mutually_exclusive = {
+			focus = ITA_devalue_lira
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_gold_standard"
+		}
+	}
+
+	shared_focus = {# Temporarily Suspend Debts
+		id = ITA_temp_suspend_debts
+		icon = GFX_focus_mex_privatisation
+		cost = 3
+		available = {
+			OR = {
+				has_elected_government = yes
+			}
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+				}
+			}
+		}
+		x = -5
+		y = 2
+		prerequisite = {
+			focus = ITA_devalue_lira
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_temp_suspend_debts"
+		}
+	}
+
+	shared_focus = {# Look for Investment
+		id = ITA_look_for_investment
+		icon = GFX_goal_bag_of_money
+		cost = 3
+		available = {
+			OR = {
+				has_elected_government = yes
+			}
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+				}
+			}
+		}
+		x = -4
+		y = 2
+		prerequisite = {
+			focus = ITA_devalue_lira
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_look_for_investment"
 		}
 	}
