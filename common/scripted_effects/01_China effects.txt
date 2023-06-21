@@ -713,7 +713,7 @@ china_integrate_ally_effect = {
 		FROM = {
 			set_autonomy = {
 				target = PREV
-				autonomy_state = kr_integrated_puppet
+				autonomy_state = integrated_puppet
 				end_wars = no
 			}
 		}

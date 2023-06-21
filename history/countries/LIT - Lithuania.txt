@@ -67,7 +67,7 @@ add_ideas = {
 GER = {
 	set_autonomy = {
 		target = LIT
-		autonomy_state = kr_oststaat
+		autonomy_state = autonomy_puppet
 	}
 }
 set_politics = {

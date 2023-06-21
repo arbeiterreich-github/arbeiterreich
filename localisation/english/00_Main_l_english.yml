@@ -142,7 +142,7 @@
  INTELLIGENCE_AGENCY_BLOCK_TOOLTIP: "[!intelligence_agency_blocker_button_click_enabled]"
 
 ### Autonomy Levels ###
- kr_integrated_puppet: "Integrated Puppet"
+ integrated_puppet: "Integrated Puppet"
  kr_occupied_puppet: "Occupied Puppet"
  kr_default_puppet: "Puppet"
  kr_autonomous_puppet: "Autonomous Puppet"
@@ -150,14 +150,11 @@
  kr_french_colonial_government: "Colonial Government"
  kr_nominal_puppet: "Nominal Puppet"
  kr_special_autonomous_dependency: "Autonomous Dependency"
- kr_initial_wif_puppet: "Federated Colony"
  kr_soclib_wif_puppet: "Federated Dominion"
  kr_ottoman_emirate: "Ottoman Emirate"
  kr_ottoman_international_zone: "International Mandate"
  kr_federated_state: "Confederated State"
  kr_crownland: "Crownland"
- kr_oststaat: "Oststaat"
- kr_oststaat_autonomous: "Autonomous Oststaat"
 
 ### Autonomy Tooltips ###
  can_lower_autonomy_level: "Can lower autonomy level"

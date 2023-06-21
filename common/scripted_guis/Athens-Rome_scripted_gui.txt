@@ -1,0 +1,37 @@
+# scripted_guis = { 
+# 	athens_rome_gui_open_btn = {
+# 		context_type = selected_country_context
+# 		window_name = "athens_rome_gui_open_btn"
+# 		parent_window_token = politics_tab
+		
+# 		visible = {
+# 			OR = {
+# 				tag = GRE
+# 				tag = ITA
+# 			}
+# 			is_ai = no
+# 		}
+# 		effects = {
+# 			athens_rome_gui_btn_click = {
+# 				set_country_flag = ATHROM_GUI_OPEN
+# 			}
+# 		}
+# 	}
+# 	athens_rome_gui = {
+# 		context_type = selected_country_context
+# 		window_name = "athens_rome_gui"
+# 		parent_window_token = politics_tab
+# 		visible = {
+# 			has_country_flag = ATHROM_GUI_OPEN
+# 			OR = { 
+# 				tag = GRE
+# 				tag = ITA
+# 			}
+# 		}
+# 		effects = {
+# 			athens_rome_gui_btn_close_click = {
+# 				clr_country_flag = ATHROM_GUI_OPEN
+# 			}
+# 		}
+# 	}
+# }

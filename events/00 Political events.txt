@@ -975,7 +975,7 @@ country_event = {
 ##################################
 
 # There are five main puppet levels:
-#  1. Integrated Puppet (kr_integrated_puppet) - the lowest, and countries normally can't raise above this if set here
+#  1. Integrated Puppet (integrated_puppet) - the lowest, and countries normally can't raise above this if set here
 #  2. Occupied Puppet (kr_occupied_puppet) - the default state, countries will be able to raise to the next level once they get some military, based on their size
 #  3. Puppet (kr_default_puppet) - the equivalent to the old colony level, only majors can generally raise higher than this on their own
 #	4. Autonomous Puppet (kr_autonomous_puppet) - the equivalent to the old dominion level, only more majors can raise higher than this on their own

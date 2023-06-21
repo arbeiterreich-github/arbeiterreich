@@ -263,9 +263,9 @@ TRM = {
 	color = rgb { 235 246 247 }
 	color_ui = rgb { 235 246 247 }
 }
-TRS = {
-	color = rgb { 93 153 106 }
-	color_ui = rgb { 0 0 156 }
+TRS = { 
+	color = rgb { 25 25 215 }
+	color_ui = rgb { 25 25 215 }
 }
 TUS = {
 	color = rgb { 255 50 0 }

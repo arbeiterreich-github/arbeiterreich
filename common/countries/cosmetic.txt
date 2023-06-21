@@ -45,6 +45,10 @@ BOS_habsburg = {
 	color = rgb { 93 153 106 }
 	color_ui = rgb { 67 158 34 }
 }
+TRS_HUN = {
+	color = rgb { 93 153 106 }
+	color_ui = rgb { 0 0 156 }
+}
 
 ###
 

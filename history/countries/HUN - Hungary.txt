@@ -41,11 +41,11 @@ if = {
 	HUN = {
 		set_autonomy = {
 			target = TRS
-			autonomy_state = kr_integrated_puppet
+			autonomy_state = integrated_puppet
 		}
 		set_autonomy = {
 			target = CZE
-			autonomy_state = kr_integrated_puppet
+			autonomy_state = integrated_puppet
 		}
 	}
 	else = {

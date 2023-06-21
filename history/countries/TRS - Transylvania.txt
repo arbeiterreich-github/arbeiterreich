@@ -7,6 +7,8 @@ set_technology = {
 	infantry_weapons1 = 1
 }
 
+set_cosmetic_tag = TRS_HUN
+
 set_politics = {
 	ruling_party = social_conservative
 	last_election = "1888.6.15"

@@ -1,0 +1,15 @@
+# guiTypes = {
+# 	containerWindowType = {
+# 		name = athens_rome_gui_open_btn
+# 		position = {
+# 			x = 0
+# 			y = 0
+# 		}
+# 		buttonType = {
+# 			name = athens_rome_gui_btn
+# 			position = { x= 13 y = 11 }
+# 			Orientation = "LOWER_LEFT"
+# 			spriteType = GFX_athrom_gre_btn
+# 		}
+# 	}
+# }
