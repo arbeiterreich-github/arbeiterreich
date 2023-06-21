@@ -3050,7 +3050,7 @@
  STATE_772_ENDONYM: "[772.Controller.GetStateName_772]"
  STATE_772_ROMANIAN: "Dobrogea"
 
- STATE_773: "Constantinople"
+ STATE_773: "Konstantinoúpolis"
  STATE_773_BULGARIAN: "Tsarigrad"
  STATE_773_ENDONYM: "[773.Controller.GetStateName_773]"
  STATE_773_GREEK: "Konstantinoúpolis"
