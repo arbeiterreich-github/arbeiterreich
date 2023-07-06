@@ -63,10 +63,14 @@ RUS = { country_event = { id = whrmisc.23 days = 1492 } } #Accident Above Svecha
 set_variable = { WHR_Land_Reform_Success = 40 }
 set_variable = { WHR_Land_Reform_Popularity = 50 }
 
-GER = {
+POL = {
 	set_autonomy = {
 		target = WHR
+<<<<<<< Updated upstream
 		autonomy_state = autonomy_puppet
+=======
+		autonomy_state = kr_autonomous_puppet
+>>>>>>> Stashed changes
 	}
 }
 

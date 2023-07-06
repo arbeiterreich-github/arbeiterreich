@@ -78,12 +78,15 @@ if = {
 }
 
 ### Government ###
+<<<<<<< Updated upstream
 GER = {
 	set_autonomy = {
 		target = POL
 		autonomy_state = autonomy_puppet
 	}
 }
+=======
+>>>>>>> Stashed changes
 
 set_politics = {
 	ruling_party = market_liberal
@@ -108,7 +111,7 @@ set_popularities = {
 ### Ideas ###
 add_ideas = {
 	#Laws
-	volunteer_only
+	limited_conscription
 
 	#Ideas
 	POL_german_control2

@@ -38,7 +38,6 @@ autonomy_state = {
 	allowed = {
 		overlord = {
 			tag = POL
-			has_completed_focus = POL_Exceptional_Individual
 		}
 		OR = {
 			tag = CZE

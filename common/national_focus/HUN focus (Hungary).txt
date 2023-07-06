@@ -1,0 +1,321 @@
+focus_tree = {
+	id = hungary_focus
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = HUN
+		}
+	}
+
+	default = no
+	continuous_focus_position = { x = 600 y = 900 }
+
+### War for Transylvania
+
+	focus = {
+		id = HUN_prepare_war
+		icon = GFX_goal_liberty
+		cost = 3
+		x = 4
+		y = 0
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus HUN_prepare_war"
+			add_political_power = 10
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY }
+	}
+	focus = {
+		id = HUN_prepare_war2a
+		icon = balkan_fist
+		prerequisite = { focus = HUN_prepare_war }
+		relative_position_id = HUN_prepare_war
+		cost = 5
+		x = -1
+		y = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus HUN_prepare_war2a"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	focus = {
+		id = HUN_prepare_war3a
+		icon = stab
+		prerequisite = { focus = HUN_prepare_war }
+		relative_position_id = HUN_prepare_war
+		cost = 5
+		x = 1
+		y = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus HUN_prepare_war3a"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	focus = {
+		id = HUN_prepare_war4a
+		icon = forts
+		prerequisite = { focus = HUN_prepare_war3a }
+		prerequisite = { focus = HUN_prepare_war2a }
+		relative_position_id = HUN_prepare_war
+		cost = 5
+		x = 0
+		y = 2
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus HUN_prepare_war4a"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_MANPOWER }
+	}
+	focus = {
+		id = HUN_prepare_war5a
+		icon = forts
+		prerequisite = { focus = HUN_prepare_war4a }
+		relative_position_id = HUN_prepare_war
+		cost = 5
+		x = 0
+		y = 3
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus HUN_prepare_war4a"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+
+### Army ###
+
+	focus = {
+		id = generic_army_effort_HUN
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 0
+		y = 0
+		cost = 10
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_army_effort_HUN"
+			army_experience = 5
+			add_doctrine_cost_reduction = {
+				name = generic_army_effort_HUN
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+		search_filters = { FOCUS_FILTER_ARMY_XP FOCUS_FILTER_RESEARCH }
+	}
+
+	focus = {
+		id = generic_equipment_effort_HUN
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = generic_army_effort_HUN }
+		relative_position_id = generic_army_effort_HUN
+		x = -1
+		y = 1
+		cost = 10
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_equipment_effort_HUN"
+			add_tech_bonus = {
+				name = generic_equipment_effort_HUN
+				bonus = 1
+				uses = 1
+				category = infantry_weapons
+				category = artillery
+			}
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH }
+	}
+
+	focus = {
+		id = generic_motorization_effort_HUN
+		icon = GFX_goal_generic_army_motorized
+		prerequisite = { focus = generic_army_effort_HUN }
+		bypass = { has_tech = motorised_infantry }
+		relative_position_id = generic_army_effort_HUN
+		x = 1
+		y = 1
+		cost = 10
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_motorization_effort_HUN"
+			add_tech_bonus = {
+				name = generic_motorization_effort_HUN
+				bonus = 2
+				technology = motorised_infantry
+			}
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH }
+	}
+
+	focus = {
+		id = generic_doctrine_effort_HUN
+		icon = GFX_goal_generic_army_doctrines
+		prerequisite = { focus = generic_army_effort_HUN }
+		relative_position_id = generic_army_effort_HUN
+		x = 0
+		y = 2
+		cost = 10
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_doctrine_effort_HUN"
+			army_experience = 5
+			add_doctrine_cost_reduction = {
+				name = generic_doctrine_effort_HUN
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+		search_filters = { FOCUS_FILTER_ARMY_XP FOCUS_FILTER_RESEARCH }
+	}
+
+	focus = {
+		id = generic_equipment_effort_HUN_2
+		icon = GFX_goal_generic_army_artillery
+		prerequisite = { focus = generic_equipment_effort_HUN }
+		relative_position_id = generic_army_effort_HUN
+		x = -1
+		y = 3
+		cost = 10
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_equipment_effort_HUN_2"
+			add_tech_bonus = {
+				name = generic_equipment_effort_HUN_2
+				bonus = 1
+				uses = 1
+				category = infantry_weapons
+				category = artillery
+			}
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH }
+	}
+
+	focus = {
+		id = generic_mechanization_effort_HUN
+		icon = GFX_goal_generic_build_tank
+		prerequisite = { focus = generic_motorization_effort_HUN }
+		relative_position_id = generic_army_effort_HUN
+		x = 1
+		y = 3
+		cost = 10
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_mechanization_effort_HUN"
+			add_tech_bonus = {
+				name = generic_mechanization_effort_HUN
+				bonus = 1
+				uses = 1
+				category = motorized_equipment
+			}
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH }
+	}
+
+	focus = {
+		id = generic_doctrine_effort_HUN_2
+		icon = GFX_goal_generic_army_doctrines
+		prerequisite = { focus = generic_doctrine_effort_HUN }
+		relative_position_id = generic_army_effort_HUN
+		x = 0
+		y = 4
+		cost = 10
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_doctrine_effort_HUN_2"
+			army_experience = 5
+			add_doctrine_cost_reduction = {
+				name = generic_doctrine_effort_HUN_2
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+		search_filters = { FOCUS_FILTER_ARMY_XP FOCUS_FILTER_RESEARCH }
+	}
+
+	focus = {
+		id = generic_equipment_effort_HUN_3
+		icon = GFX_goal_generic_army_artillery2
+		prerequisite = { focus = generic_equipment_effort_HUN_2 }
+		relative_position_id = generic_army_effort_HUN
+		x = -1
+		y = 5
+		cost = 10
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_equipment_effort_HUN_3"
+			add_tech_bonus = {
+				name = generic_equipment_effort_HUN_3
+				bonus = 1
+				uses = 1
+				category = infantry_weapons
+				category = artillery
+			}
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH }
+	}
+
+	focus = {
+		id = generic_armor_effort_HUN
+		icon = GFX_goal_generic_army_tanks
+		prerequisite = { focus = generic_mechanization_effort_HUN }
+		relative_position_id = generic_army_effort_HUN
+		x = 1
+		y = 5
+		cost = 10
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_armor_effort_HUN"
+			add_tech_bonus = {
+				name = generic_armor_effort_HUN
+				bonus = 1
+				uses = 2
+				category = armor
+			}
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH }
+	}
+
+	focus = {
+		id = generic_special_forces_HUN
+		icon = GFX_goal_generic_special_forces_HUN
+		prerequisite = { focus = generic_equipment_effort_HUN_3 }
+		prerequisite = { focus = generic_doctrine_effort_HUN_2 }
+		prerequisite = { focus = generic_armor_effort_HUN }
+		relative_position_id = generic_army_effort_HUN
+		x = 0
+		y = 6
+		cost = 10
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_special_forces_HUN"
+			add_tech_bonus = {
+				name = generic_special_forces_HUN
+				bonus = 1
+				uses = 1
+				technology = paratroopers
+				technology = paratroopers2
+				technology = marines
+				technology = marines2
+				technology = tech_mountaineers
+				technology = tech_mountaineers2
+			}
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH }
+	}
+
+

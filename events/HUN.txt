@@ -23,7 +23,7 @@ country_event = { #intro event
 	}
 }
 
-country_event = { # Hungary decides to go to war with Romania and serbia, to give their transylvanian puppet the rest of transylvania
+country_event = { # Hungary decides to go to war with Romania and Serbia, to give their transylvanian puppet the rest of transylvania
 	id = hun.100
 	title = hun.100.t
 	desc = hun.100.d
@@ -48,19 +48,11 @@ country_event = { # Hungary decides to go to war with Romania and serbia, to giv
 			base = 100
 		}
 		create_wargoal = {
-			target = SER
-			type = take_state_focus
-			generator = {
-				45
-				875
-				794
-			}
-		}
-		create_wargoal = {
 			target = ROM
 			type = take_state_focus
 			generator = { 82 84 }
 		}
+		SER = { country_event = hun.101 }
 	}
 }
 

@@ -2,6 +2,7 @@
 
  german_focus: "Germany Focus Tree"
 
+<<<<<<< Updated upstream
 ### Temporary ###
  GER_poli_temp: "Final Reforms"
  GER_poli_temp_desc: "For too long people have battled over where power should lie in our great government. It is time to answer that question once and for all."
@@ -1637,11 +1638,14 @@
  siemens_schuckert_air: "Heavy Bomber Manufacturer"
  heinkel: "Jet & Bomber Manufacturer"
 
+=======
+>>>>>>> Stashed changes
 ### Country Names ###
  GER: "Germany"
  GER_ADJ: "German"
  GER_DEF: "Germany"
 
+<<<<<<< Updated upstream
  GER_totalist: "German Socialist Republic"
  GER_totalist_ADJ: "German"
  GER_totalist_DEF: "The German Socialist Republic"
@@ -1655,6 +1659,24 @@
  GER_social_democrat_ADJ: "German"
  GER_social_democrat_DEF: "The German Republic"
  GER_social_liberal: "German Republic"
+=======
+ GER_totalist: "The German State"
+ GER_totalist_ADJ: "German"
+ GER_totalist_DEF: "the German Empire"
+ GER_syndicalist: "Union of Germany"
+ GER_syndicalist_ADJ: "German"
+ GER_syndicalist_DEF: "the Union of Britain"
+ GER_radical_socialist: "Socialist Republic of Germany"
+ GER_radical_socialist_ADJ: "German"
+ GER_radical_socialist_DEF: "the German Socialist Republic"
+ GER_social_democrat: "Socialist Republic of Germany"
+ GER_social_democrat_ADJ: "German"
+ GER_social_democrat_DEF: "the German Socialist Republic"
+ GER_social_democrat2: "The German Empire"
+ GER_social_democrat2_ADJ: "German"
+ GER_social_democrat2_DEF: "the German Empire"
+ GER_social_liberal: "German Empire"
+>>>>>>> Stashed changes
  GER_social_liberal_ADJ: "German"
  GER_social_liberal_DEF: "The German Republic"
  GER_market_liberal: "German Empire"
@@ -1671,7 +1693,33 @@
  GER_paternal_autocrat_DEF: "The German Empire"
  GER_national_populist: "German State"
  GER_national_populist_ADJ: "German"
+<<<<<<< Updated upstream
  GER_national_populist_DEF: "The German State"
+=======
+ GER_national_populist_DEF: "the German Empire"
+ 
+### Parties ###
+ GER_totalist_party: "KPD-O"
+ GER_totalist_party_long: "Kommunistische Partei Deutschlands - Opposition"
+ GER_syndicalist_party: "KAPD"
+ GER_syndicalist_party_long: "Kommunistische Arbeiter-Partei Deutschlands"
+ GER_radical_socialist_party: "KPD"
+ GER_radical_socialist_party_long: "Kommunistische Partei Deutschlands"
+ GER_social_democrat_party: "SPD"
+ GER_social_democrat_party_long: "Sozialdemokratische Partei Deutschlands"
+ GER_social_liberal_party: "RdP"
+ GER_social_liberal_party_long: "Radikaldemokratische Partei"
+ GER_market_liberal_party: "DStP"
+ GER_market_liberal_party_long: "Deutsche Staatspartei"
+ GER_social_conservative_party: "Zentrum"
+ GER_social_conservative_party_long: "Zentrum"
+ GER_authoritarian_democrat_party: "Der Stahlhelm"
+ GER_authoritarian_democrat_party_long: "Der Stahlhelm"
+ GER_paternal_autocrat_party: "Der Stahlhelm"
+ GER_paternal_autocrat_party_long: "Der Stahlhelm"
+ GER_national_populist_party: "AbL"
+ GER_national_populist_party_long: "Antibolschewistische Liga"
+>>>>>>> Stashed changes
 
 ### Characters ###
  GER_ernst_thalmann: "Ernst Thälmann"

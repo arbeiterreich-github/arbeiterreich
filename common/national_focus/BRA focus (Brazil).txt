@@ -1,0 +1,180 @@
+###########################
+# Brazil Focus Tree
+# TBW did this
+# Special thanks to Orlovio
+###########################
+# Zim was here too
+###########################
+
+focus_tree = {
+	id = BRA_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			OR = {
+			   tag = BRA
+		           tag = UOB #to show in bookmarks, remove later
+			}
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 2750 y = 800 }
+
+	### Estado Novo
+	focus = {
+		id = BRA_new_state
+		icon = 
+		available = {
+			has_government = paternal_autocrat
+			has_civil_war = no
+		}
+		allow_branch = {
+			has_government = paternal_autocrat
+		}
+		x = 1
+		y = 0
+		cost = 3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus BRA_new_state"
+
+			add_popularity = {
+				ideology = paternal_autocrat
+				popularity = 0.05
+			}
+		}
+	}
+	
+	### WORKERS RIGHTS ###
+	
+	focus = {
+		id = BRA_taming_workers
+		icon = GFX_goal_vargas_victorious
+		prerequisite = { 
+			focus = BRA_new_state
+		}
+		available = {
+			has_government = paternal_autocrat
+		}
+		allow_branch = {
+			has_government = paternal_autocrat
+		}
+		x = 3
+		y = 1
+		relative_position_id = BRA_new_state
+		cost = 5
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus BRA_taming_workers"
+
+			add_popularity = {
+				ideology = paternal_autocrat
+				popularity = 0.05
+			}
+		}
+	}
+	
+	### PRIVATE MARKET ###
+	
+	focus = {
+		id = BRA_private_investment 
+		icon = GFX_goal_vargas_victorious
+		prerequisite = { 
+			focus = BRA_new_state
+		}
+		available = {
+			has_government = paternal_autocrat
+		}
+		allow_branch = {
+			has_government = paternal_autocrat
+		}
+		x = -3
+		y = 1
+		relative_position_id = BRA_new_state
+		cost = 5
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus BRA_private_investment"
+
+			add_popularity = {
+				ideology = paternal_autocrat
+				popularity = 0.05
+			}
+		}
+	}
+	
+	### NATIONAL INDUSTRY ###
+	
+	focus = {
+		id = BRA_national_ind
+		icon = GFX_goal_vargas_victorious
+		prerequisite = { 
+			focus = BRA_new_state
+		}
+		available = {
+			has_government = paternal_autocrat
+		}
+		allow_branch = {
+			has_government = paternal_autocrat
+		}
+		x = 0
+		y = 1
+		relative_position_id = BRA_new_state
+		cost = 5
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus BRA_national_ind"
+
+			add_popularity = {
+				ideology = paternal_autocrat
+				popularity = 0.05
+			}
+		}
+	}
+	focus = {
+		id = BRA_national_ind1
+		icon = GFX_goal_vargas_victorious
+		prerequisite = { 
+			focus = BRA_national_ind
+		}
+		available = {
+			has_government = paternal_autocrat
+		}
+		allow_branch = {
+			has_government = paternal_autocrat
+		}
+		x = -1
+		y = 1
+		relative_position_id = BRA_national_ind
+		cost = 10
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus BRA_national_ind1"
+			add_offsite_building = { type = industrial_complex level = 1 }
+				activate_targeted_decision = { target = 495 decision = BRA_rubber_army }
+				activate_targeted_decision = { target = 499 decision = BRA_lobato }
+				activate_targeted_decision = { target = 499 decision = BRA_ram_eater }
+				activate_targeted_decision = { target = 499 decision = BRA_CSI }
+			}
+		}
+	focus = {
+		id = BRA_stable_front_lines
+		icon = BRA_army
+		available = {
+			has_government = paternal_autocrat
+		}
+		allow_branch = {
+			has_government = paternal_autocrat
+		}
+		x = 0
+		y = 10
+		relative_position_id = BRA_new_state
+		cost = 5
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus BRA_stable_front_lines"
+			add_stability = -0.05
+			swap_ideas = {
+				remove_idea = BRA_state_armies1
+				add_idea = BRA_army1
+				}
+			}
+		}
+	}
+}
+
