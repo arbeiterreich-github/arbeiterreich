@@ -55,7 +55,7 @@ if = {
 }
 
 create_faction = "Budapest Pact"
-add_to_faction = CZE
+
 
 ### Planes - BBA ###
 if = {

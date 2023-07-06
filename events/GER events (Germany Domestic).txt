@@ -1,8 +1,0 @@
-﻿###########################
-# German Domestic Events
-###########################
-# By Levi, Zarasophos and Zankoas
-###########################
-
-add_namespace = gerpol
-add_namespace = gerind

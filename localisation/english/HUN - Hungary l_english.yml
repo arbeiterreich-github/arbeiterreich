@@ -1,27 +1,5 @@
 ﻿l_english:
 
- hungary_focus: "Hungary Focus Tree"
- 
-### Tooltips ###
-
- HUN_war_effect_tooltip: "This
- 
-### Focuses ###
-
- HUN_prepare_war: "Prepare the liberation!"
- HUN_prepare_war_desc: "Today we will plan the liberation, the liberation of our land and people, the liberation of Transylvania from the Romanian and Serbian scum!"
- HUN_prepare_war2a: "Behind their Lines"
- HUN_prepare_war2a_desc: "The Serbians always had used of terrorism and "enemies behind lines" to destroy and destabilise us, ironically, we will use the same tactic against them."
- HUN_prepare_war3a: "Incite Hungarian Revolts"
- HUN_prepare_war4a: "Prepare Transylvania"
- HUN_prepare_war5a: ""
- 
-### Events ###
-
- hun.101: "Transfer our Transylvanian territories?"
- hun.101.a: "It is the way of peace..."
- hun.101.b: "Not a chance!"
-
 ### Parties ###
  HUN_totalist_party: "TSZF"
  HUN_totalist_party_long: "Totalitárius Szociálista Frakció"
@@ -45,7 +23,7 @@
  HUN_national_populist_party_long: "Nemzet Akaratának Pártja"
 
 ### Cosmetic Tags ###
- HUN: "Kingdom of Hungary"
+ HUN: "Hungary"
  HUN_ADJ: "Hungarian"
  HUN_DEF: "Hungary"
 

@@ -106,14 +106,10 @@ if = {
 }
 
 ### Government ###
-POL = {
+GER = {
 	set_autonomy = {
 		target = UKR
-<<<<<<< Updated upstream
 		autonomy_state = autonomy_puppet
-=======
-		autonomy_state = kr_autonomous_puppet
->>>>>>> Stashed changes
 	}
 }
 
