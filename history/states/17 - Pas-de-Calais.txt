@@ -10,9 +10,8 @@ state = {
 	}
 
 	history = {
-		owner = BEL
+		owner = FRA
 		add_core_of = FRA
-		add_claim_by = BEL
 		add_to_array = { state_victory_points = 11548 }
 
 		victory_points = { 11548 5 } #Calais

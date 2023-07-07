@@ -22,4 +22,182 @@ set_popularities = {
 	national_populist = 0
 }
 
-recruit_character = GER_karl_liebknecht
+### Country Leaders ###
+recruit_character = PRE_wilhelm_iii
+recruit_character = PRE_wilhelm_iv
+
+recruit_character = PRE_ernst_thalmann
+recruit_character = PRE_rudolf_rocker
+recruit_character = PRE_wilhelm_pieck
+recruit_character = PRE_willi_munzenberg
+recruit_character = PRE_kurt_schumacher
+recruit_character = PRE_erich_kochweser
+recruit_character = PRE_gustav_krupp
+recruit_character = PRE_heinrich_bruning
+recruit_character = PRE_franz_von_papen
+recruit_character = PRE_erwin_von_witzleben
+recruit_character = PRE_heinrich_class
+
+### Field Marshals ###
+recruit_character = PRE_PREd_von_rundstedt
+recruit_character = PRE_alfred_von_vollard_bockelberg
+recruit_character = PRE_august_von_mackensen
+
+### Generals ###
+recruit_character = PRE_erich_von_manstein
+recruit_character = PRE_heinz_guderian
+recruit_character = PRE_walter_model
+recruit_character = PRE_werner_von_blomberg
+recruit_character = PRE_gunther_von_kluge
+recruit_character = PRE_wilhelm_ritter_von_leeb
+recruit_character = PRE_albert_kesselring
+recruit_character = PRE_eberhard_von_mackensen
+recruit_character = PRE_nikolaus_von_falkenhorst
+recruit_character = PRE_erich_hoepner
+recruit_character = PRE_ewald_von_kleist
+recruit_character = PRE_fedor_von_bock
+recruit_character = PRE_friedrich_paulus
+recruit_character = PRE_georg_von_kuchler
+recruit_character = PRE_franz_halder
+recruit_character = PRE_gotthard_heinrici
+recruit_character = PRE_hermann_hoth
+recruit_character = PRE_franz_von_bayern
+recruit_character = PRE_curt_haase
+recruit_character = PRE_walther_von_reichenau
+recruit_character = PRE_rupprecht_von_bayern
+
+### Admirals ###
+recruit_character = PRE_karl_donitz
+recruit_character = PRE_erich_raeder
+recruit_character = PRE_lothar_von_arnauld_de_la_periere
+recruit_character = PRE_alfred_saalwachter
+recruit_character = PRE_hermann_boehm
+recruit_character = PRE_wilhelm_marschall
+recruit_character = PRE_max_bastian
+recruit_character = PRE_willy_von_nordeck
+recruit_character = PRE_max_valentiner
+recruit_character = PRE_rolf_carls
+recruit_character = PRE_gunther_lutjens
+recruit_character = PRE_bernhard_rogge
+
+### SiC ###
+recruit_character = PRE_kurt_von_schleicher
+recruit_character = PRE_otto_wels
+recruit_character = PRE_hans_vogel
+recruit_character = PRE_paul_von_lettow_vorbeck
+recruit_character = PRE_carl_friedrich_goerdeler
+activate_advisor = PRE_franz_von_papen_sic # Already recruited earlier
+
+### Advisors ###
+recruit_character = PRE_alfred_hugenberg
+recruit_character = PRE_theodor_wolff
+recruit_character = PRE_carl_siemens
+recruit_character = PRE_fritz_thyssen
+recruit_character = PRE_paul_lejeune_jung
+recruit_character = PRE_wilhelm_groener
+recruit_character = PRE_oswald_lutz
+recruit_character = PRE_ufa
+recruit_character = PRE_max_planck
+recruit_character = PRE_adolf_georg_maltzan
+recruit_character = PRE_carl_bosch
+recruit_character = PRE_konrad_zuse
+recruit_character = PRE_uranverein
+recruit_character = PRE_hafraba
+recruit_character = PRE_franz_gurtner
+recruit_character = PRE_hjalmar_schacht
+recruit_character = PRE_karl_helfferich
+recruit_character = PRE_wilhelm_canaris
+
+recruit_character = PRE_walther_von_brauchitsch
+recruit_character = PRE_kurt_von_hammerstein_equord
+recruit_character = PRE_ludwig_beck
+recruit_character = PRE_werner_von_fritsch
+recruit_character = PRE_wolfgang_wegener
+recruit_character = PRE_walther_wever
+recruit_character = PRE_manfred_von_richthofen
+recruit_character = PRE_robert_von_greim
+recruit_character = PRE_kurt_student
+recruit_character = PRE_hugo_sperrle
+recruit_character = PRE_walter_dornberPRE
+recruit_character = PRE_werner_heisenberg
+
+### Character Setup ###
+PRE_wilhelm_ii = { set_character_flag = is_monarch }
+PRE_wilhelm_iii = { set_character_flag = is_monarch }
+PRE_wilhelm_iv = { set_character_flag = is_monarch }
+PRE_heinz_guderian = { set_nationality = POL }
+
+### Operatives ###
+if = {
+	limit = { has_dlc_lar = yes }
+	create_intelligence_agency = yes
+	create_operative_leader = {
+		name = "Hermann Giskes"
+		GFX = GFX_portrait_kr_hermann_giskes
+		traits = {
+			operative_master_interrogator
+		}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { PRE }
+	}
+	create_operative_leader = {
+		name = "Hugo Bleicher"
+		GFX = GFX_portrait_kr_hugo_bleicher
+		traits = {
+			operative_demolition_expert
+		}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { PRE }
+	}
+	create_operative_leader = {
+		name = "Josef Jakobs"
+		GFX = GFX_portrait_kr_josef_jakobs
+		traits = {
+			operative_commando
+		}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { PRE }
+	}
+}
+
+################
+### Variants ###
+################
+PRE_add_plane_variants = yes
+PRE_add_armour_variants = yes
+PRE_add_naval_variants = yes
+
+GRU = {
+	inherit_technology = PRE
+	PRE_add_plane_variants = yes
+	PRE_add_armour_variants = yes
+	PRE_add_naval_variants = yes
+}
+RHI = {
+	inherit_technology = PRE
+	PRE_add_plane_variants = yes
+	PRE_add_armour_variants = yes
+	PRE_add_naval_variants = yes
+}
+BAY = {
+	inherit_technology = PRE
+	PRE_add_plane_variants = yes
+	PRE_add_armour_variants = yes
+	PRE_add_naval_variants = yes
+}
+NGF = {
+	inherit_technology = PRE
+	PRE_add_plane_variants = yes
+	PRE_add_armour_variants = yes
+	PRE_add_naval_variants = yes
+}
+PRE = {
+	inherit_technology = PRE
+	PRE_add_plane_variants = yes
+	PRE_add_armour_variants = yes
+	PRE_add_naval_variants = yes
+}
+

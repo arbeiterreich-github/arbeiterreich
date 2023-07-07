@@ -144,12 +144,15 @@ RUS = {
 	country_event = { id = KRBAT.115 days = 180 random_days = 30 } # Latgale Region
 }
 
+<<<<<<< Updated upstream
 GER = {
 	set_autonomy = {
 		target = BAT
 		autonomy_state = autonomy_puppet
 	}
 }
+=======
+>>>>>>> Stashed changes
 set_politics = {
 	ruling_party = social_liberal
 	last_election = "1888.6.15"

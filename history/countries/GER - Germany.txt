@@ -166,9 +166,15 @@ set_politics = {
 }
 
 set_popularities = {
+<<<<<<< Updated upstream
 	totalist = 6
 	radical_socialist = 40
 	syndicalist = 5
+=======
+	totalist = 10
+	radical_socialist = 30
+	syndicalist = 11
+>>>>>>> Stashed changes
 	social_democrat = 27
 	social_liberal = 7
 	market_liberal = 2
@@ -180,8 +186,12 @@ set_popularities = {
 
 create_faction = reichspakt
 add_to_faction = GER
+<<<<<<< Updated upstream
 add_to_faction = BEL
 add_to_faction = AUS
+=======
+
+>>>>>>> Stashed changes
 
 # Mitteleuropa
 every_country = {

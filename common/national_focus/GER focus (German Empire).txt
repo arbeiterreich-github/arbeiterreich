@@ -1,0 +1,39 @@
+######################################################
+# German Focus Tree
+# By Zarasophos, Zankoas & ~mw~
+######################################################
+
+focus_tree = {
+	id = german_focus
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+
+	default = no
+	continuous_focus_position = { x = 3400 y = 900 }
+
+	### Revolution Status ###
+
+	focus = {
+		id = GER_status
+		icon = GER_status
+		x = 0
+		y = 1
+		cost = 2
+
+		ai_will_do = { factor = 100 }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GER_status"
+			country_event = gerrev.1
+			POL = { country_event = { id = pol.1 days = 5 } }
+			add_political_power = 5
+		}
+	}
+}
