@@ -53,6 +53,7 @@ focus_tree = {
 			add_ideas = EBR_tax_breaks
 		}
 	}
+<<<<<<< Updated upstream
 		focus = {
 		id = EBR_fix_BM
 		icon = generic_financial_markets
@@ -217,6 +218,8 @@ focus_tree = {
 		}
 	}
 }
+=======
+>>>>>>> Stashed changes
 	focus = {
 		id = EBR_industry2
 		icon = generic_financial_markets
@@ -226,7 +229,11 @@ focus_tree = {
 		available = { 
 			894 = { is_owned_and_controlled_by = EBR }
 		}
+<<<<<<< Updated upstream
 		x = -1
+=======
+		x = 1
+>>>>>>> Stashed changes
 		y = 1
 		relative_position_id = EBR_taxes_bre
 		cost = 10
@@ -242,6 +249,26 @@ focus_tree = {
 				instant_build = yes
 				}
 			}
+		}
+	}
+	focus = {
+		id = EBR_no_oligarchy
+		icon = generic_financial_markets
+		prerequisite = {
+			focus = EBR_intervention
+		}
+		prerequisite = {
+			focus = EBR_industry5
+		}
+		x = -1
+		y = 3
+		relative_position_id = EBR_taxes_bre
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus EBR_industry4"
 		}
 	}
 	focus = {
