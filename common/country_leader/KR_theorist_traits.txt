@@ -238,6 +238,22 @@ leader_traits = {
 			}
 		}
 	}
+	
+	AR_commando_specialist = { 
+		sprite = 14
+		terrain_penalty_reduction = 0.15
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					has_tech = trench_warfare
+					has_tech = mass_assault
+				}
+			}
+		}
+	}
 
 	KR_rocket_scientist = {			#			 add	research_bonus = {
 		random = no					#			  			rocketry = 0.150
@@ -266,7 +282,7 @@ leader_traits = {
 			factor = 1
 		}
 	}
-
+	
 	### USA ###
 	KR_leapfrog_advocate = {
 		sprite = 3

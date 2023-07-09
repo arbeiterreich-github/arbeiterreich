@@ -11,11 +11,12 @@
 			ideology = radical_socialist_subtype
 		}
 		field_marshal = {
-			traits = { infantry_officer career_officer trickster }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 3
-			planning_skill = 3
+			desc = BRA_luis_carlos_prestes_commander_desc
+			traits = { trait_reckless infantry_officer infantry_leader commando ambusher }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
 			logistics_skill = 2
 		}
 	}

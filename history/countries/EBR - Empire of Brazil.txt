@@ -92,11 +92,18 @@ if = {
 	}
 }
 
+add_civil_war_target = BRA
+add_civil_war_target = UOB
+add_civil_war_target = EBR
+
 declare_war_on = {
 		target = BRA 
 		type = civil_war 
 	}
-add_civil_war_target = BRA
+declare_war_on = {
+		target = UOB 
+		type = civil_war 
+	}
 
 give_guarantee = URG
 add_to_array = { URG.guarantor_array = BRA }
@@ -147,9 +154,9 @@ recruit_character = EBR_antonio_gastao_of_orleans-braganza
 
 ### Theorists ###
 
+recruit_character = EBR_juarez_távora
 recruit_character = EBR_young_turk_clique
 recruit_character = EBR_eduardo_gomes
-recruit_character = EBR_floriano_de_lima_brayner
 recruit_character = EBR_henrique_aristides_guilhem
 
 ###
