@@ -25,7 +25,7 @@
  EBR_social_conservative2_party: "PC"
  EBR_social_conservative2_party_long: "Partido Conservador
  EBR_authoritarian_democrat_party: "PM"
- EBR_authoritarian_democrat_party_long: "Partido Parlamentarista Federal\n§gWhile the concept of the Military taking control of Brazil may seem unrealistic to the average Brazilian, they have always been the primary power brokers since the fall of the empire. To keep its power, a transitional military government would have to be on the prowl for dissenters, while keeping a facade of democratic representation to gain legitimacy, especially after the immense chaos that would be necessary for such a state of affairs to come to be.§!"
+ EBR_authoritarian_democrat_party_long: "Partido Monarquista\n§g.§!"
  EBR_paternal_autocrat_party: "PR - C"
  EBR_paternal_autocrat_party_long: "Partido Republicano - Centralista\n§gWhile traditionally decentralised for decades, and even with major armed opposition against any kind of overt centralisation, a new kind of state is often purported to defend and maintain Brazil's sovereignty in the chaotic situation the world, where crisis and recession looms at every corner. Strong and bold leadership, with one man to be father of Brazil's poor and downtrodden; and to act with a firm hand against those who would do Brazil harm.§!"
  EBR_paternal_autocrat2_party: "PPB"
@@ -106,7 +106,6 @@
  EBR_imperial_unions: "Regulate Unions"
  EBR_imperial_unions_desc: "As the government of Brazil, we have taken the necessary steps to regulate workers unions to prevent radical elements from gaining undue influence and threatening the stability of our nation. We understand the importance of workers' rights and the need for their representation, but we cannot allow extremist ideologies to take hold and harm the interests of the Brazilian people." 
  EBR_expand_central_authority: "Expand Central Authority"
- <<<<<<< Updated upstream
  EBR_expand_central_authority_desc: "Brazil has always been a diverse and complex nation, with many different regions and groups. In order to better unify the country and promote more efficient governance, we have taken steps to centralize our government. This includes consolidating power in the federal government, and streamlining bureaucratic processes."
  EBR_unity: "Brazilian Unity"
  EBR_industry2: "Invest in Factories"
@@ -129,7 +128,6 @@
  EBR_armed_forces_mob5: ""
  EBR_tank_research: "A Old Machine for a Modern Time"
  EBR_arti_research: ""
- =======
  EBR_expand_central_authority_desc: "Brazil has always been a diverse and politically complex nation, with many different regions and groups. To establish order in the house, we have taken steps to centralize our government. This includes consolidating power in the federal government, and streamlining bureaucratic processes." EBR_unity: "Brazilian Unity"
  EBR_unity: "The New Brazil"
  EBR_industry2: "Our New Economy"
