@@ -67,16 +67,16 @@
 			cost = 100
 		}
 	}
-	EBR_juarez_távora = {
-		name = EBR_juarez_távora
+	EBR_antonio_carlos_da_silva_murici = {
+		name = EBR_antonio_carlos_da_silva_murici
 		portraits = {
 			army = {
-				small = "gfx/interface/advisors/EBR/Portrait_EBR_Juarez_Távora_ad.png"
-				large = "gfx/leaders/EBR/Portrait_EBR_Juarez_Távora.png"
+				small = "gfx/interface/advisors/EBR/EBR_antonio_carlos_da_silva_murici.png"
+				large = "gfx/leaders/EBR/Portrait_EBR_Antonio_Carlos_da_Silva_Murici.png"
 			}
 		}
 		field_marshal = {
-			traits = { commando career_officer }
+			traits = { infantry_officer career_officer }
 			skill = 4
 			attack_skill = 2
 			defense_skill = 3
@@ -84,14 +84,14 @@
 			logistics_skill = 2
 		}
 		advisor = {
-			slot = army_chief
-			idea_token = EBR_juarez_távora
+			slot = theorist
+			idea_token = EBR_antonio_carlos_da_silva_murici
 			ledger = army
-			traits = { KR_army_chief_organisational_2 }
-			cost = 100
+			traits = { KR_superior_firepower_expert }
+			cost = 150
 		}
 	}
-	EBR_floriano_de_lima_brayner = {
+		EBR_floriano_de_lima_brayner = {
 		name = EBR_floriano_de_lima_brayner
 		portraits = {
 			army = {
@@ -104,7 +104,6 @@
 			ledger = army
 			traits = { KR_grand_battle_plan_expert }
 			cost = 150
-			ai_will_do = { factor = 5 }
 		}
 	}
 	EBR_eduardo_gomes = {
@@ -120,7 +119,6 @@
 			ledger = air
 			traits = { KR_victory_through_airpower }
 			cost = 150
-			ai_will_do = { factor = 5 }
 		}
 	}
 	EBR_young_turk_clique = {
@@ -136,7 +134,6 @@
 			ledger = military
 			traits = { KR_council_of_theorists }
 			cost = 100
-			ai_will_do = { factor = 5 }
 		}
 	}
 	EBR_henrique_aristides_guilhem = {
@@ -150,11 +147,11 @@
 			slot = navy_chief
 			idea_token = EBR_henrique_aristides_guilhem
 			available = {
-				not_already_hired_except_as = navy_chief
+				not_already_hired_except_as = army_chief
 			}
 			traits = { KR_navy_chief_decisive_battle_2 }
 			cost = 100
-			ai_will_do = { factor = 10 }
+			ai_will_do = { factor = 0 }
 		}
 		advisor = {
 			slot = theorist
@@ -173,7 +170,7 @@
 		name = EBR_Congresso_nacional
 		portraits = {
 			civilian = {
-				small = "gfx/interface/advisors/BRA/BRA_congresso_nacional.png"
+				small = "gfx/interface/advisors/EBR/BRA_congresso_nacional.png"
 			}
 		}
 		advisor = {
