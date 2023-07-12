@@ -1,0 +1,32 @@
+# scripted_gui = {
+# 	italy_seats_scripted_gui = {
+# 		context_type = decision_category
+# 		window_name = "italy_seats_gui"
+# 		parent_window_token = decision_tab
+
+# 		dynamic_lists = {
+# 			italy_seat_entry = {
+# 				array = ITALY_SEATS_X_ARRAY
+# 				change_scope = no
+# 				entry_container = italy_seats_grid
+# 				index = seat_idx
+# 			}
+# 		}
+		
+		
+# 		properties = {
+# 			italy_seat = {
+# 				x = ITALY_SEATS_X_ARRAY^seat_idx
+# 				y = ITALY_SEATS_Y_ARRAY^seat_idx
+# 				frame = ITALY_SEATS_FRAMES_ARRAY^seat_idx
+# 			}
+# 		}
+
+# 		# properties = {
+# 		# 	italian_seat_icon = {
+# 		# 		frame = get_ita_seat_icon
+# 		# 	}
+# 		# }
+		
+# 	}
+# }

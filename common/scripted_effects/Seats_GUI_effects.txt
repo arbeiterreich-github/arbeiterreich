@@ -1,0 +1,1039 @@
+
+#  ITALY_GENERATE_PARTY_SEATS = {
+
+#  	set_variable = {
+#  		tot_italian_seats = ITA.party_popularity_100@totalist
+#  	}
+#  	multiply_variable = {
+#  		tot_italian_seats = 4
+#  	}
+#  	set_variable = {
+#  		synd_italian_seats = ITA.party_popularity_100@syndicalist
+#  	}
+#  	multiply_variable = {
+#  		synd_italian_seats = 4
+#  	}
+#  	set_variable = {
+#  		radsoc_italian_seats = ITA.party_popularity_100@radical_socialist
+#  	}
+#  	multiply_variable = {
+#  		radsoc_italian_seats = 4
+#  	}
+#  	set_variable = {
+#  		socdem_italian_seats = ITA.party_popularity_100@social_democrat
+#  	}
+#  	multiply_variable = {
+#  		socdem_italian_seats = 4
+#  	}
+#  	set_variable = {
+#  		soclib_italian_seats = ITA.party_popularity_100@social_liberal
+#  	}
+#  	multiply_variable = {
+#  		soclib_italian_seats = 4
+#  	}
+#  	set_variable = {
+#  		marlib_italian_seats = ITA.party_popularity_100@market_liberal
+#  	}
+#  	multiply_variable = {
+#  		marlib_italian_seats = 4
+#  	}
+#  	set_variable = {
+#  		soccon_italian_seats = ITA.party_popularity_100@social_conservative
+#  	}
+#  	multiply_variable = {
+#  		soccon_italian_seats = 4
+#  	}
+#  	set_variable = {
+#  		authdem_italian_seats = ITA.party_popularity_100@authoritarian_democrat
+#  	}
+#  	multiply_variable = {
+#  		authdem_italian_seats = 4
+#  	}
+#  	set_variable = {
+#  		pataut_italian_seats = ITA.party_popularity_100@paternal_autocrat
+#  	}
+#  	multiply_variable = {
+#  		pataut_italian_seats = 4
+#  	}
+#  	set_variable = {
+#  		natpop_italian_seats = ITA.party_popularity_100@national_populist
+#  	}
+#  	multiply_variable = {
+#  		natpop_italian_seats = 4
+#  	}
+#  	#   Shenanigans to be sure total number of seats is 400
+#  	 set_temp_variable = {
+#  	 	total_italian_seats = tot_italian_seats
+#  	 }
+#  	 add_to_temp_variable = {
+#  	 	total_italian_seats = synd_italian_seats
+#  	 }
+#  	 add_to_temp_variable = {
+#  	 	total_italian_seats = radsoc_italian_seats
+#  	 }
+#  	 add_to_temp_variable = {
+#  	 	total_italian_seats = socdem_italian_seats
+#  	 }
+#  	 add_to_temp_variable = {
+#  	 	total_italian_seats = soclib_italian_seats
+#  	 }
+#  	 add_to_temp_variable = {
+#  	 	total_italian_seats = marlib_italian_seats
+#  	 }
+#  	 add_to_temp_variable = {
+#  	 	total_italian_seats = soccon_italian_seats
+#  	 }
+#  	 add_to_temp_variable = {
+#  	 	total_italian_seats = authdem_italian_seats
+#  	 }
+#  	 add_to_temp_variable = {
+#  	 	total_italian_seats = pataut_italian_seats
+#  	 }
+#  	 add_to_temp_variable = {
+#  	 	total_italian_seats = natpop_italian_seats
+#  	 }
+
+#  }
+
+
+#  ITALY_INIT_PARLIAMENT = {
+#  	ITALY_GENERATE_PARTY_SEATS = yes
+
+#  	clear_array = ITALY_SEATS_FRAMES_ARRAY
+
+#  	resize_array = {
+#  		array = ITALY_SEATS_FRAMES_ARRAY
+#  		size = tot_italian_seats
+#  		value = 1
+#  	}
+#  	resize_array = {
+#  		array = ITALY_SEATS_FRAMES_ARRAY
+#  		size = synd_italian_seats
+#  		value = 2
+#  	}
+#  	resize_array = {
+#  		array = ITALY_SEATS_FRAMES_ARRAY
+#  		size = radsoc_italian_seats
+#  		value = 3
+#  	}
+#  	resize_array = {
+#  		array = ITALY_SEATS_FRAMES_ARRAY
+#  		size = socdem_italian_seats
+#  		value = 4
+#  	}
+#  	resize_array = {
+#  		array = ITALY_SEATS_FRAMES_ARRAY
+#  		size = soclib_italian_seats
+#  		value = 5
+#  	}
+#  	resize_array = {
+#  		array = ITALY_SEATS_FRAMES_ARRAY
+#  		size = marlib_italian_seats
+#  		value = 6
+#  	}
+#  	resize_array = {
+#  		array = ITALY_SEATS_FRAMES_ARRAY
+#  		size = soccon_italian_seats
+#  		value = 7
+#  	}
+#  	resize_array = {
+#  		array = ITALY_SEATS_FRAMES_ARRAY
+#  		size = authdem_italian_seats
+#  		value = 8
+#  	}
+#  	resize_array = {
+#  		array = ITALY_SEATS_FRAMES_ARRAY
+#  		size = pataut_italian_seats
+#  		value = 9
+#  	}
+#  	resize_array = {
+#  		array = ITALY_SEATS_FRAMES_ARRAY
+#  		size = natpop_italian_seats
+#  		value = 10
+#  	}
+
+#  	clear_array = ITALY_SEATS_X_ARRAY
+#  	clear_array = ITALY_SEATS_Y_ARRAY
+
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 0 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 237 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 15 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 237 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 30 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 237 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 45 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 237 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 60 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 237 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 75 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 237 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 90 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 237 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 105 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 237 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 120 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 237 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 135 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 237 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 1 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 222 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 150 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 237 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 16 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 222 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 31 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 222 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 46 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 223 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 61 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 223 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 76 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 223 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 91 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 223 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 3 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 207 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 106 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 224 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 18 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 207 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 33 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 207 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 122 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 224 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 49 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 208 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 137 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 225 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 64 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 208 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 6 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 192 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 79 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 209 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 152 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 225 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 21 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 192 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 94 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 210 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 37 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 193 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 109 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 210 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 52 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 194 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 10 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 178 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 67 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 194 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 125 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 211 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 26 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 178 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 83 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 195 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 140 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 212 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 41 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 178 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 98 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 196 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 56 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 180 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 15 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 163 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 114 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 197 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 156 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 213 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 72 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 180 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 31 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 164 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 47 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 164 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 88 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 181 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 130 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 198 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 20 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 149 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 62 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 166 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 103 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 183 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 37 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 150 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 145 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 200 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 78 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 167 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 119 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 184 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 53 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 150 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 27 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 136 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 94 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 168 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 68 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 153 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 161 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 202 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 44 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 136 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 110 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 171 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 136 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 186 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 85 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 154 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 34 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 122 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 60 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 137 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 151 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 189 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 76 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 141 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 126 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 172 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 51 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 123 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 102 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 155 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 43 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 110 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 117 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 159 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 93 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 142 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 69 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 125 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 143 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 174 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 168 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 192 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 60 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 111 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 84 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 128 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 110 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 144 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 52 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 97 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 134 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 161 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 159 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 179 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 78 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 113 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 102 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 130 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 126 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 148 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 69 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 99 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 94 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 117 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 61 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 86 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 152 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 164 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 120 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 133 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 88 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 101 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 144 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 151 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 176 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 182 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 112 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 119 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 80 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 88 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 72 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 75 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 104 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 106 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 135 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 138 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 167 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 169 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 98 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 91 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 130 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 122 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 91 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 78 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 122 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 109 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 83 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 64 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 162 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 154 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 114 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 96 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 154 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 141 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 146 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 129 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 110 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 81 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 185 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 174 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 102 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 68 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 95 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 55 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 177 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 161 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 141 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 113 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 134 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 100 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 126 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 87 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 172 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 146 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 122 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 72 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 165 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 133 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 114 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 59 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 107 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 46 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 157 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 120 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 153 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 105 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 146 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 92 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 138 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 79 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 195 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 167 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 188 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 154 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 135 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 64 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 127 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 51 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 120 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 38 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 169 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 113 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 176 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 126 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 184 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 139 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 151 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 72 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 158 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 85 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 166 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 98 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 133 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 31 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 141 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 44 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 148 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 57 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 199 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 148 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 182 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 107 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 164 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 65 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 147 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 24 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 189 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 120 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 206 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 161 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 172 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 79 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 154 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 37 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 162 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 50 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 179 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 92 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 196 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 133 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 161 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 19 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 178 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 60 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 168 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 32 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 195 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 102 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 185 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 73 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 176 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 45 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 193 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 87 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 202 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 115 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 211 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 144 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 175 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 14 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 209 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 129 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 218 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 157 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 183 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 27 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 192 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 56 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 190 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 41 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 199 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 69 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 208 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 98 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 190 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 10 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 207 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 83 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 215 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 112 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 198 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 24 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 206 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 53 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 224 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 141 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 205 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 38 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 222 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 126 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 214 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 66 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 205 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 7 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 222 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 95 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 230 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 155 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 213 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 21 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 221 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 81 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 221 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 50 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 220 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 35 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 229 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 110 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 220 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 5 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 228 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 65 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 228 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 20 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 236 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 139 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 236 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 124 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 236 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 94 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 235 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 79 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 235 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 49 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 235 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 34 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 235 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 5 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 243 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 154 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 243 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 109 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 243 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 64 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 243 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 19 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 250 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 5 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 250 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 34 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 250 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 49 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 250 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 79 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 250 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 94 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 250 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 124 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 249 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 139 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 258 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 20 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 257 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 65 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 265 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 5 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 257 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 110 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 265 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 35 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 265 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 50 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 264 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 81 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 273 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 21 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 255 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 155 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 264 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 95 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 280 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 7 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 272 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 66 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 263 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 126 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 280 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 38 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 262 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 141 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 279 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 53 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 288 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 24 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 270 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 112 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 279 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 83 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 295 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 10 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 277 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 98 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 286 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 69 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 295 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 41 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 294 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 56 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 303 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 27 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 267 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 157 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 276 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 129 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 310 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 14 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 274 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 144 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 284 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 115 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 293 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 87 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 310 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 45 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 300 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 73 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 291 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 102 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 317 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 32 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 308 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 60 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 325 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 19 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 289 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 133 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 306 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 92 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 324 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 50 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 331 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 37 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 314 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 79 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 279 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 161 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 297 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 120 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 339 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 24 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 321 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 65 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 304 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 107 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 286 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 148 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 337 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 57 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 345 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 44 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 352 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 31 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 320 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 98 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 327 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 85 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 335 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 72 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 302 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 139 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 309 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 126 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 316 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 113 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 366 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 38 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 358 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 51 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 351 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 64 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 298 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 154 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 290 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 167 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 347 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 79 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 340 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 92 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 332 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 105 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 328 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 120 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 379 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 46 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 371 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 59 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 321 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 133 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 363 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 72 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 313 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 146 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 360 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 87 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 352 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 100 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 344 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 113 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 308 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 161 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 391 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 55 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 383 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 68 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 301 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 174 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 376 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 81 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 340 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 129 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 332 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 141 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 371 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 96 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 324 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 154 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 403 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 64 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 363 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 109 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 395 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 78 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 355 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 122 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 387 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 91 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 318 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 169 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 350 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 138 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 382 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 106 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 414 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 75 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 406 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 88 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 374 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 119 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 310 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 182 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 342 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 151 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 398 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 101 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 366 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 133 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 334 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 164 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 424 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 86 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 392 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 117 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 416 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 99 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 360 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 148 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 384 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 130 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 408 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 113 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 327 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 179 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 351 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 161 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 434 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 97 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 375 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 144 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 401 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 128 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 425 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 111 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 318 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 192 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 342 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 174 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 417 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 125 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 393 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 142 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 368 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 159 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 443 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 110 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 384 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 155 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 434 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 123 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 359 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 172 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 410 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 141 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 334 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 189 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 425 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 137 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 451 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 122 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 400 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 154 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 350 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 186 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 376 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 171 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 442 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 136 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 325 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 202 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 417 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 153 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 391 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 168 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 458 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 136 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 432 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 150 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 366 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 184 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 407 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 167 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 341 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 200 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 449 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 150 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 382 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 183 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 424 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 166 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 465 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 149 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 356 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 198 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 397 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 181 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 439 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 164 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 455 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 164 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 413 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 180 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 330 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 213 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 372 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 197 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 471 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 163 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 429 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 180 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 387 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 196 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 444 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 178 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 345 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 212 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 403 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 195 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 460 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 178 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 361 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 211 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 418 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 194 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 475 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 178 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 434 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 194 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 376 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 210 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 449 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 193 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 391 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 210 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 464 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 192 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 334 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 225 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 406 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 209 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 479 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 192 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 422 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 208 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 349 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 225 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 437 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 208 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 364 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 224 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 452 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 207 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 467 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 207 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 379 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 224 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 482 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 207 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 394 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 223 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 409 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 223 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 424 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 223 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 439 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 223 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 454 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 222 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 469 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 222 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 336 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 237 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 484 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 222 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 351 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 237 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 366 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 237 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 381 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 237 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 396 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 237 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 411 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 237 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 426 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 237 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 441 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 237 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 456 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 237 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 471 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 237 }
+#  	add_to_array = { ITALY_SEATS_X_ARRAY = 485 }
+#  	add_to_array = { ITALY_SEATS_Y_ARRAY = 237 }
+
+#  }
+
+
+# ITALY_CALCULATE_SEATS = {
+# 	set_variable = {
+# 		total_italian_seats = 400
+# 	}
+
+# 	 Seats Calculation
+# 	set_variable = {
+# 		tot_italian_seats = ITA.party_popularity_100@totalist
+# 	}
+# 	multiply_variable = {
+# 		tot_italian_seats = 4
+# 	}
+
+# 	set_variable = {
+# 		synd_italian_seats = ITA.party_popularity_100@syndicalist
+# 	}
+# 	multiply_variable = {
+# 		synd_italian_seats = 4
+# 	}
+# 	set_variable = {
+# 		radsoc_italian_seats = ITA.party_popularity_100@radical_socialist
+# 	}
+# 	multiply_variable = {
+# 		radsoc_italian_seats = 4
+# 	}
+# 	set_variable = {
+# 		socdem_italian_seats = ITA.party_popularity_100@social_democrat
+# 	}
+# 	multiply_variable = {
+# 		socdem_italian_seats = 4
+# 	}
+# 	set_variable = {
+# 		soclib_italian_seats = ITA.party_popularity_100@social_liberal
+# 	}
+# 	multiply_variable = {
+# 		soclib_italian_seats = 4
+# 	}
+# 	set_variable = {
+# 		marlib_italian_seats = ITA.party_popularity_100@market_liberal
+# 	}
+# 	multiply_variable = {
+# 		marlib_italian_seats = 4
+# 	}
+# 	set_variable = {
+# 		soccon_italian_seats = ITA.party_popularity_100@social_conservative
+# 	}
+# 	multiply_variable = {
+# 		soccon_italian_seats = 4
+# 	}
+# 	set_variable = {
+# 		authdem_italian_seats = ITA.party_popularity_100@authoritarian_democrat
+# 	}
+# 	multiply_variable = {
+# 		authdem_italian_seats = 4
+# 	}
+# 	set_variable = {
+# 		pataut_italian_seats = ITA.party_popularity_100@paternal_autocrat
+# 	}
+# 	multiply_variable = {
+# 		pataut_italian_seats = 4
+# 	}
+# 	set_variable = {
+# 		natpop_italian_seats = ITA.party_popularity_100@national_populist
+# 	}
+# 	multiply_variable = {
+# 		natpop_italian_seats = 4
+# 	}
+
+# }
+
+# #  ITA_SYND_SEATS = {
+# #  	set_variable = {
+# #  		ITA.SYNDICALIST_SEATS = ITA.party_popularity_100@syndicalist
+# #  	}
+# #  	multiply_variable = {
+# #  		ITA.SYNDICALIST_SEATS = 4
+# #  	}
+# #  }

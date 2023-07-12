@@ -34,3 +34,12 @@ ITA_occupation_decisions = {
 	}
 }
 
+
+# ITA_seats_gui_decision_category = {
+# 	visible = {
+# 		always = yes
+# 	}
+	
+# 	visible_when_empty = yes
+# 	scripted_gui = italy_seats_scripted_gui
+# }
