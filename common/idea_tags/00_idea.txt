@@ -26,7 +26,6 @@ idea_categories = {
 		slot = mobilization_laws
 		slot = trade_laws
 		slot = economy
-		slot = religion
 
 		ledger = civilian
 

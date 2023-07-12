@@ -10,6 +10,7 @@ state = {
 		add_to_array = { state_victory_points = 10074 }
 		add_to_array = { state_victory_points = 4159 }
 		add_to_array = { state_victory_points = 4014 }
+		set_demilitarized_zone = yes
 
 		victory_points = { 10074 15 } #Palermo
 		victory_points = { 4159 4 } #Messina

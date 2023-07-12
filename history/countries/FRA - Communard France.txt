@@ -188,6 +188,9 @@ country_event = { id = comfrance.155 days = 3712 random_hours = 192 }
 country_event = { id = comfrance.156 days = 5538 random_hours = 192 }
 
 ### Diplomacy ###
+create_faction = third_internationale
+save_global_event_target_as = KR_internationale_leader
+add_to_faction = ENG
 
 ### Country Leaders ###
 recruit_character = FRA_marcel_deat

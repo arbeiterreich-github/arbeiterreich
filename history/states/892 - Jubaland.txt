@@ -5,9 +5,12 @@ state = {
 	state_category = one
 
 	history = {
-		owner = ENG
+		owner = MAF
 		add_core_of = SOM
-		add_core_of = ENG
+		add_core_of = KEN
+
+		add_dynamic_modifier = { modifier = MAF_british_kenya }
+		set_demilitarized_zone = yes
 
 		buildings = {
 			infrastructure = 1

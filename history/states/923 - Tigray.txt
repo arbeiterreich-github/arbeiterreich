@@ -5,9 +5,8 @@ state = {
 	state_category = one
 
 	history = {
-		owner = ETH
+		owner = ITA
 		add_core_of = ETH
-
 		add_to_array = { state_victory_points = 2072 }
 		add_to_array = { state_victory_points = 13828 }
 		add_to_array = { state_victory_points = 13829 }

@@ -1,0 +1,1488 @@
+###########################
+# Socialist Italy Focus Tree
+# By ME! (thedetailedbread)
+###########################
+
+focus_tree = {
+	id = italian_socialist_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ITA
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 260 y = 2500 }
+
+	shared_focus = ITA_handling_economic_no_good
+
+	###########################
+	# The Beginning
+	###########################
+
+	focus = {# Socialist Success
+		id = ITA_socialist_success
+		icon = GFX_SRI_united
+		cost = 0
+		available = {
+			has_country_flag = ITA_SOCIALIST
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_SOCIALIST
+				}
+			}
+		}
+		x = 15
+		y = 0
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_socialist_success"
+			custom_effect_tooltip = ITA_socialist_success_tooltip
+		}
+	}
+
+	focus = {# Rome Congress
+		id = ITA_rome_congress
+		icon = GFX_goal_ideology_radical_socialist
+		cost = 7
+		available = {
+			has_country_flag = ITA_SOCIALIST
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_SOCIALIST
+				}
+			}
+		}
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = ITA_socialist_success
+		}
+		relative_position_id = ITA_socialist_success
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_rome_congress"
+			custom_effect_tooltip = ITA_socialist_rome_congress_tooltip
+			hidden_effect = {
+				country_event = {
+				id = ita.4
+				days = 5
+				}
+			}
+		}
+	}
+
+	focus = {# Military Reform
+		id = ITA_military_reform
+		icon = GFX_goal_reform_socialist_army
+		cost = 7
+		available = {
+			has_country_flag = ITA_CONGRESS
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_CONGRESS
+				}
+			}
+		}
+		x = -2
+		y = 2
+		prerequisite = {
+			focus = ITA_rome_congress
+		}
+		relative_position_id = ITA_socialist_success
+		completion_reward = {
+			custom_effect_tooltip = ITA_socialist_militaryreform_tooltip
+			hidden_effect = {
+				country_event = {
+					id = ita.7
+					days = 3
+				}
+			}
+		}
+	}
+
+	focus = {# Agrarian Reform
+		id = ITA_agrarian_reform
+		icon = GFX_goal_Workers_Paradise
+		cost = 7
+		available = {
+			has_country_flag = ITA_CONGRESS
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_CONGRESS
+				}
+			}
+		}
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = ITA_rome_congress
+		}
+		relative_position_id = ITA_socialist_success
+		completion_reward = {
+			custom_effect_tooltip = ITA_socialist_agrarianreform_tooltip
+			hidden_effect = {
+				country_event = {
+					id = ita.8
+					days = 3
+				}
+			}
+		}
+	}
+
+	focus = {# Workers Reform
+		id = ITA_workers_reform
+		icon = GFX_goal_workers_rights
+		cost = 7
+		available = {
+			has_country_flag = ITA_CONGRESS
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_CONGRESS
+				}
+			}
+		}
+		x = 2
+		y = 2
+		prerequisite = {
+			focus = ITA_rome_congress
+		}
+		relative_position_id = ITA_socialist_success
+		completion_reward = {
+			custom_effect_tooltip = ITA_socialist_workersreform_tooltip
+			hidden_effect = {
+				country_event = {
+					id = ita.9
+					days = 3
+				}
+			}
+		}
+	}
+
+	focus = {# Socialist Military Academy
+		id = ITA_socialist_milacademy
+		icon = GFX_focus_generic_socialist_science
+		cost = 7
+		available = {
+			has_country_flag = ITA_CONGRESS
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_CONGRESS
+				}
+			}
+		}
+		x = -2
+		y = 3
+		prerequisite = {
+			focus = ITA_military_reform
+		}
+		relative_position_id = ITA_socialist_success
+		completion_reward = {
+			add_research_slot = 1
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Allow Communes
+		id = ITA_allow_communes
+		icon = GFX_goal_revolution_tools
+		cost = 7
+		available = {
+			has_country_flag = ITA_CONGRESS
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_CONGRESS
+				}
+			}
+		}
+		x = 0
+		y = 3
+		prerequisite = {
+			focus = ITA_agrarian_reform
+		}
+		relative_position_id = ITA_socialist_success
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Allow Unions
+		id = ITA_allow_unions
+		icon = GFX_GBR_fate_of_unions
+		cost = 7
+		available = {
+			has_country_flag = ITA_CONGRESS
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_CONGRESS
+				}
+			}
+		}
+		x = 2
+		y = 3
+		prerequisite = {
+			focus = ITA_workers_reform
+		}
+		relative_position_id = ITA_socialist_success
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Destroy the Bourgeoisie
+		id = ITA_destroy_bourgeoisie
+		icon = GFX_goal_step_on_skull
+		cost = 7
+		available = {
+			has_country_flag = ITA_CONGRESS
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_CONGRESS
+				}
+			}
+		}
+		x = -1
+		y = 4
+		prerequisite = {
+			focus = ITA_socialist_milacademy
+			focus = ITA_allow_communes
+			focus = ITA_allow_unions
+
+		}
+		relative_position_id = ITA_socialist_success
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Quotas
+		id = ITA_quotas
+		icon = GFX_goal_syndicalist_workers
+		cost = 7
+		available = {
+			has_country_flag = ITA_CONGRESS
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_CONGRESS
+				}
+			}
+		}
+		x = 1
+		y = 4
+		prerequisite = {
+			focus = ITA_socialist_milacademy
+			focus = ITA_allow_communes
+			focus = ITA_allow_unions
+			
+		}
+		relative_position_id = ITA_socialist_success
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Supporting the Proletariat
+		id = ITA_supporting_the_proletariat
+		icon = GFX_goal_syndicalist_congress
+		cost = 7
+		available = {
+			has_country_flag = ITA_CONGRESS
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_CONGRESS
+				}
+			}
+		}
+		x = -1
+		y = 5
+		prerequisite = {
+			focus = ITA_destroy_bourgeoisie
+		}
+		relative_position_id = ITA_socialist_success
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Education Improvements
+		id = ITA_education_improvements
+		icon = GFX_focus_generic_socialist_science
+		cost = 7
+		available = {
+			has_country_flag = ITA_CONGRESS
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_CONGRESS
+				}
+			}
+		}
+		x = 1
+		y = 5
+		prerequisite = {
+			focus = ITA_quotas
+		}
+		relative_position_id = ITA_socialist_success
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Elect a New Chairman
+		id = ITA_elect_chairman
+		icon = GFX_goal_commune_politics
+		cost = 2
+		available = {
+			has_country_flag = ITA_CONGRESS
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_CONGRESS
+				}
+			}
+		}
+		x = 0
+		y = 6
+		prerequisite = {
+			focus = ITA_supporting_the_proletariat
+			focus = ITA_education_improvements
+		}
+		relative_position_id = ITA_socialist_success
+		completion_reward = {
+			country_event = {
+				id = ita.11
+				days = 0
+				}
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	###########################
+	# The Anarchist
+	###########################
+
+	focus = {# The Anarchist
+		id = ITA_anarchist
+		icon = GFX_goal_anarcho_communism
+		cost = 1
+		available = {
+			has_country_flag = ITA_anarchist_victory
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_anarchist_victory
+				}
+			}
+		}
+		x = -7
+		y = 1
+		prerequisite = {
+			focus = ITA_elect_chairman
+		}
+		mutually_exclusive = {
+			focus = ITA_coalition
+			focus = ITA_futurist
+		}
+		relative_position_id = ITA_elect_chairman
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {#Scale Back the Need for Order
+		id = ITA_no_need_for_order
+		icon = GFX_goal_HOL_fires_of_revolution_faux
+		cost = 5
+		available = {
+			has_country_flag = ITA_anarchist_victory
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_anarchist_victory
+				}
+			}
+		}
+		x = -2
+		y = 1
+		prerequisite = {
+			focus = ITA_anarchist
+		}
+		relative_position_id = ITA_anarchist
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {#Memorialize Nicola Sacco and Bartolomeo Vanzetti
+		id = ITA_memorialize_assasins
+		icon = GFX_goal_COS_Peace
+		cost = 5
+		available = {
+			has_country_flag = ITA_anarchist_victory
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_anarchist_victory
+				}
+			}
+		}
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = ITA_anarchist
+		}
+		relative_position_id = ITA_anarchist
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Dissolve State Programs
+		id = ITA_dissolve_programs
+		icon = GFX_goal_state_economy
+		cost = 5
+		available = {
+			has_country_flag = ITA_anarchist_victory
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_anarchist_victory
+				}
+			}
+		}
+		x = 2
+		y = 1
+		prerequisite = {
+			focus = ITA_anarchist
+		}
+		relative_position_id = ITA_anarchist
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Make Public Food Spots
+		id = ITA_public_food
+		icon = GFX_goal_famine
+		cost = 5
+		available = {
+			has_country_flag = ITA_anarchist_victory
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_anarchist_victory
+				}
+			}
+		}
+		x = -4
+		y = 2
+		prerequisite = {
+			focus = ITA_no_need_for_order
+		}
+		relative_position_id = ITA_anarchist
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Make Public Water Spots
+		id = ITA_public_water
+		icon = GFX_goal_champagne_diplomacy
+		cost = 5
+		available = {
+			has_country_flag = ITA_anarchist_victory
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_anarchist_victory
+				}
+			}
+		}
+		x = -2
+		y = 2
+		prerequisite = {
+			focus = ITA_no_need_for_order
+		}
+		relative_position_id = ITA_anarchist
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Increase an Economic Autarky
+		id = ITA_anarchist_autarky
+		icon = GFX_goal_generic_workers_democracy
+		cost = 5
+		available = {
+			has_country_flag = ITA_anarchist_victory
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_anarchist_victory
+				}
+			}
+		}
+		x = -1
+		y = 3
+		prerequisite = {
+			focus = ITA_public_food
+			focus = ITA_public_water
+		}
+		relative_position_id = ITA_anarchist
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Community Maintained Cities
+		id = ITA_community_cities
+		icon = GFX_goal_economic_control
+		cost = 5
+		available = {
+			has_country_flag = ITA_anarchist_victory
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_anarchist_victory
+				}
+			}
+		}
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = ITA_memorialize_assasins
+		}
+		relative_position_id = ITA_anarchist
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Salvage the Military
+		id = ITA_salvage_military
+		icon = GFX_goal_army_guy_2
+		cost = 5
+		available = {
+			has_country_flag = ITA_anarchist_victory
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_anarchist_victory
+				}
+			}
+		}
+		x = 2
+		y = 2
+		prerequisite = {
+			focus = ITA_dissolve_programs
+		}
+		relative_position_id = ITA_anarchist
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# End The Mafia
+		id = ITA_end_mafia
+		icon = GFX_goal_flames_of_rebellion
+		cost = 5
+		available = {
+			has_country_flag = ITA_anarchist_victory
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_anarchist_victory
+				}
+			}
+		}
+		x = 1
+		y = 3
+		prerequisite = {
+			focus = ITA_community_cities
+			focus = ITA_salvage_military
+
+		}
+		relative_position_id = ITA_anarchist
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Destroy Monarchist Symbols
+		id = ITA_destroy_monarchist_symbols
+		icon = GFX_focus_rom_abdicate
+		cost = 5
+		available = {
+			has_country_flag = ITA_anarchist_victory
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_anarchist_victory
+				}
+			}
+		}
+		x = 0
+		y = 4
+		prerequisite = {
+			focus = ITA_end_mafia
+			focus = ITA_anarchist_autarky
+		}
+		relative_position_id = ITA_anarchist
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Recruit the Socialists
+		id = ITA_recruit_socialists
+		icon = GFX_goal_ideology_radical_socialist
+		cost = 5
+		available = {
+			has_country_flag = ITA_anarchist_victory
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_anarchist_victory
+				}
+			}
+		}
+		x = -1
+		y = 5
+		prerequisite = {
+			focus = ITA_destroy_monarchist_symbols
+		}
+		mutually_exclusive = {
+			focus = ITA_solidify_influence
+		}
+		relative_position_id = ITA_anarchist
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Solidify Influence
+		id = ITA_solidify_influence
+		icon = GFX_goal_HOL_crackdown_radsoc
+		cost = 5
+		available = {
+			has_country_flag = ITA_anarchist_victory
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_anarchist_victory
+				}
+			}
+		}
+		x = 1
+		y = 5
+		prerequisite = {
+			focus = ITA_destroy_monarchist_symbols
+		}
+		mutually_exclusive = {
+			focus = ITA_recruit_socialists
+		}
+		relative_position_id = ITA_anarchist
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	###########################
+	# The Coalition
+	###########################
+
+	focus = {# The Coalition
+		id = ITA_coalition
+		icon = GFX_goal_ideology_radical_socialist
+		cost = 1
+		available = {
+			has_country_flag = ITA_coalition_victory
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_coalition_victory
+				}
+			}
+		}
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = ITA_elect_chairman
+		}
+		mutually_exclusive = {
+			focus = ITA_anarchist
+			focus = ITA_futurist
+		}
+		relative_position_id = ITA_elect_chairman
+		completion_reward = {
+			custom_effect_tooltip = ITA_coalitionelection_tooltip
+			hidden_effect = {
+				country_event= {
+					id = ita.12
+					days = 0
+				}
+			}
+		}
+	}
+
+	focus = {# The Collectivist
+		id = ITA_collectivist
+		icon = GFX_goal_red_star_dove
+		cost = 1
+		available = {
+			has_country_flag = ITA_COLLECTIVIST_VICTORY
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_COLLECTIVIST_VICTORY
+				}
+			}
+		}
+		x = -2
+		y = 1
+		prerequisite = {
+			focus = ITA_coalition
+		}
+		mutually_exclusive = {
+			focus = ITA_socialist
+			focus = ITA_spartacist
+		}
+		relative_position_id = ITA_coalition
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Government Farms
+		id = ITA_government_farms
+		icon = GFX_focus_AUS_agriculture
+		cost = 5
+		available = {
+			has_country_flag = ITA_COLLECTIVIST_VICTORY
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_COLLECTIVIST_VICTORY
+				}
+			}
+		}
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = ITA_collectivist
+		}
+		relative_position_id = ITA_collectivist
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Clamp Down on Mafia Influence
+		id = ITA_no_more_mafia
+		icon = GFX_goal_flames_of_rebellion
+		cost = 5
+		available = {
+			has_country_flag = ITA_COLLECTIVIST_VICTORY
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_COLLECTIVIST_VICTORY
+				}
+			}
+		}
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = ITA_government_farms
+		}
+		relative_position_id = ITA_collectivist
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Abolish the Land Lords
+		id = ITA_abolish_land_lordship
+		icon = GFX_socialist_constitution
+		cost = 5
+		available = {
+			has_country_flag = ITA_COLLECTIVIST_VICTORY
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_COLLECTIVIST_VICTORY
+				}
+			}
+		}
+		x = 0
+		y = 3
+		prerequisite = {
+			focus = ITA_no_more_mafia
+		}
+		relative_position_id = ITA_collectivist
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Political Freedom
+		id = ITA_political_freedom
+		icon = GFX_focus_prc_agrarian_socialism
+		cost = 5
+		available = {
+			has_country_flag = ITA_COLLECTIVIST_VICTORY
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_COLLECTIVIST_VICTORY
+				}
+			}
+		}
+		x = 0
+		y = 4
+		prerequisite = {
+			focus = ITA_abolish_land_lordship
+		}
+		relative_position_id = ITA_collectivist
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# The Socialist
+		id = ITA_socialist
+		icon = GFX_goal_red_star_gold_wreath
+		cost = 5
+		available = {
+			has_country_flag = ITA_SOCIALIST_VICTORY
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_SOCIALIST_VICTORY
+				}
+			}
+		}
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = ITA_coalition
+		}
+		mutually_exclusive = {
+			focus = ITA_collectivist
+			focus = ITA_spartacist
+		}
+		relative_position_id = ITA_coalition
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Tackle Corruption
+		id = ITA_tackle_corruption
+		icon = GFX_focus_generic_oppression
+		cost = 5
+		available = {
+			has_country_flag = ITA_SOCIALIST_VICTORY
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_SOCIALIST_VICTORY
+				}
+			}
+		}
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = ITA_socialist
+		}
+		relative_position_id =  ITA_socialist
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Planning out Industrial Projects
+		id = ITA_industrial_projects
+		icon = GFX_goal_manage_industries
+		cost = 5
+		available = {
+			has_country_flag = ITA_SOCIALIST_VICTORY
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_SOCIALIST_VICTORY
+				}
+			}
+		}
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = ITA_tackle_corruption
+		}
+		relative_position_id = ITA_socialist
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Attract Immigration from Other Socialist States
+		id = ITA_attract_immigration
+		icon = GFX_goal_tripartite_pact
+		cost = 5
+		available = {
+			has_country_flag = ITA_SOCIALIST_VICTORY
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_SOCIALIST_VICTORY
+				}
+			}
+		}
+		x = 0
+		y = 3
+		prerequisite = {
+			focus = ITA_industrial_projects
+		}
+		relative_position_id = ITA_socialist
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Disregard Debt
+		id = ITA_disregard_debt
+		icon = GFX_goal_Communist_Discourse
+		cost = 5
+		available = {
+			has_country_flag = ITA_SOCIALIST_VICTORY
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_SOCIALIST_VICTORY
+				}
+			}
+		}
+		x = 0
+		y = 4
+		prerequisite = {
+			focus = ITA_attract_immigration
+		}
+		relative_position_id = ITA_socialist
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# The Spartacist
+		id = ITA_spartacist
+		icon = GFX_goal_red_star
+		cost = 1
+		available = {
+			has_country_flag = ITA_SPARTACIST_VICTORY
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_SPARTACIST_VICTORY
+				}
+			}
+		}
+		x = 2
+		y = 1
+		prerequisite = {
+			focus = ITA_coalition
+		}
+		mutually_exclusive = {
+			focus = ITA_socialist
+			focus = ITA_collectivist
+		}
+		relative_position_id = ITA_coalition
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Cooperation with the Germanosphere
+		id = ITA_cooperation_with_germany
+		icon = GFX_goal_renewed_militarism
+		cost = 5
+		available = {
+			has_country_flag = ITA_SPARTACIST_VICTORY
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_SPARTACIST_VICTORY
+				}
+			}
+		}
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = ITA_coalition
+		}
+		mutually_exclusive = {
+			focus = ITA_socialist
+		}
+		relative_position_id = ITA_spartacist
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+	focus = {# Agrarian Socialism
+		id = ITA_agrarian_socialism
+		icon = GFX_focus_prc_agrarian_socialism
+		cost = 5
+		available = {
+			has_country_flag = ITA_SPARTACIST_VICTORY
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_SPARTACIST_VICTORY
+				}
+			}
+		}
+		x = 2
+		y = 3
+		prerequisite = {
+			focus = ITA_cooperation_with_germany
+		}
+		relative_position_id = ITA_coalition
+		completion_reward = {
+			hidden_effect = {
+				
+			}
+		}
+	}
+
+focus = {# Encourage Charity
+id = ITA_encourage_charity
+icon = GFX_goal_ideology_radical_socialist
+cost = 5
+available = {
+	has_country_flag = ITA_SPARTACIST_VICTORY
+}
+bypass = {
+
+	}
+allow_branch = {
+	if = {
+		limit = {
+			has_country_flag = ITA_SPARTACIST_VICTORY
+		}
+	}
+}
+x = 0
+y = 1
+prerequisite = {
+	focus = ITA_agrarian_socialism
+}
+relative_position_id = ITA_agrarian_socialism
+completion_reward = {
+	hidden_effect = {
+		
+	}
+}
+}
+
+focus = {# Purging the Old Capitalists
+id = ITA_purging_capitalists
+icon = GFX_goal_step_on_skull
+cost = 5
+available = {
+	has_country_flag = ITA_SPARTACIST_VICTORY
+}
+bypass = {
+
+	}
+allow_branch = {
+	if = {
+		limit = {
+			has_country_flag = ITA_SPARTACIST_VICTORY
+		}
+	}
+}
+x = 2
+y = 5
+prerequisite = {
+	focus = ITA_encourage_charity
+}
+relative_position_id = ITA_coalition
+completion_reward = {
+	hidden_effect = {
+		
+	}
+}
+}
+
+	###########################
+	# The Futurist
+	###########################
+
+	focus = {# The Futurist
+		id = ITA_futurist
+		icon = GFX_goal_red_star_gold_wreath
+		cost = 1
+		available = {
+			has_country_flag = ITA_futurist_victory
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_futurist_victory
+				}
+			}
+		}
+		x = 7
+		y = 1
+		prerequisite = {
+			focus = ITA_elect_chairman
+		}
+		mutually_exclusive = {
+			focus = ITA_anarchist
+			focus = ITA_coalition
+		}
+		relative_position_id = ITA_elect_chairman
+		completion_reward = {
+			custom_effect_tooltip = ITA_futurist_tooltip
+			hidden_effect = {
+			}
+		}
+	}
+
+	focus = {# The Two Takers
+		id = ITA_the_two_takers
+		icon = GFX_goal_Communist_Discourse
+		cost = 3
+		available = {
+			has_country_flag = ITA_futurist_victory
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_futurist_victory
+				}
+			}
+		}
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = ITA_futurist
+		}
+		relative_position_id = ITA_futurist
+		completion_reward = {
+			custom_effect_tooltip = ITA_twotakers_tooltip
+			hidden_effect = {
+				country_event = {
+					id = ita.13
+				    days = 0
+				}
+			}
+		}
+	}
+
+	focus = {# Filippo Tommaso Clique
+		id = ITA_tommaso
+		icon = GFX_focus_generic_soviet_politics
+		cost = 1
+		available = {
+			has_country_flag = ITA_tomcli
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_tomcli
+				}
+			}
+		}
+		x = -2
+		y = 1
+		prerequisite = {
+			focus = ITA_the_two_takers
+		}
+		prerequisite = {
+			focus = ITA_mussolini
+		}
+		relative_position_id = ITA_the_two_takers
+		completion_reward = {
+			hidden_effect = {
+			}
+		}
+	}
+
+	focus = {# Benito Mussolini Clique
+		id = ITA_mussolini
+		icon = GFX_focus_generic_soviet_politics
+		cost = 1
+		available = {
+			has_country_flag = ITA_muscli
+		}
+		bypass = {
+
+			}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = ITA_muscli
+				}
+			}
+		}
+		x = 4
+		y = 1
+		prerequisite = {
+			focus = ITA_the_two_takers
+		}
+		prerequisite = {
+			focus = ITA_tommaso
+		}
+		relative_position_id = ITA_the_two_takers
+		completion_reward = {
+			hidden_effect = {
+			}
+		}
+	}
+}

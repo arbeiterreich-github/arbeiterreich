@@ -1,7 +1,0 @@
-spriteTypes = { 
-	
-	SpriteType = { 
-		name = "GFX_idea_Brazil_crown"
-		texturefile = "gfx/interface/ideas/Brazil_crown.png"
-	}
-}

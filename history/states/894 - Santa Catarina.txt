@@ -7,9 +7,6 @@ state = {
 	history = {
 		owner = EBR
 		add_core_of = EBR
-		add_claim_by = BRA
-		add_claim_by = UOB
-		
 		add_to_array = { state_victory_points = 10405 }
 
 		buildings = {
