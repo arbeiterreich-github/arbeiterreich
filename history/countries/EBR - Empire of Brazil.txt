@@ -92,12 +92,6 @@ if = {
 	}
 }
 
-declare_war_on = {
-		target = BRA 
-		type = civil_war 
-	}
-add_civil_war_target = BRA
-
 give_guarantee = URG
 add_to_array = { URG.guarantor_array = BRA }
 give_military_access = URG

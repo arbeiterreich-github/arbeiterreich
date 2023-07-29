@@ -1954,7 +1954,7 @@
  STATE_499: "Bahia"
  STATE_499_ENDONYM: "[499.Controller.GetStateName_499]"
 
- STATE_500: "Rio de Janeiro"
+ STATE_500: "Distrito Federal"
  STATE_500_ENDONYM: "[500.Controller.GetStateName_500]"
 
  STATE_501: "São Paulo"
@@ -4325,3 +4325,7 @@
  STATE_1094: "Bale"
  STATE_1094_ENDONYM: "[1094.Controller.GetStateName_1094]"
  STATE_1094_ETHIOPIAN: "Balē"
+ 
+ STATE_1095: "Rio de Janeiro"
+ STATE_1095_ENDONYM: "[1095.Controller.GetStateName_1095]"
+ 

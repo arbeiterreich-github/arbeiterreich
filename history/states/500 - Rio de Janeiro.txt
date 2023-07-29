@@ -21,7 +21,6 @@ state={
 				naval_base = 7
 
 			}
-
 		}
 		victory_points = {
 			10980 40 
@@ -32,8 +31,6 @@ state={
 	provinces={
 		10980
 	}
-	manpower = 3612000
-	buildings_max_level_factor = 1.000
+	manpower = 1612000
 	state_category = six
-	local_supplies = 0.000
 }
